@@ -1,0 +1,152 @@
+/* The Privatized AI Cold War — figure styles.
+   Namespace: .cw-*. The figure is static semantic HTML: no JavaScript,
+   no hover states, no animation. Theme is keyed to html[data-site-theme="dark"]
+   — never prefers-color-scheme, which the site's toggle would not follow. */
+
+.cw-fig {
+  --cw-us: #0072b2;
+  --cw-cn: #d55e00;
+  --cw-grid: color-mix(in oklab, var(--foreground) 16%, transparent);
+  --cw-soft: color-mix(in oklab, var(--foreground) 5%, transparent);
+  font-family: var(--font-sans);
+  color: var(--foreground);
+}
+html[data-site-theme="dark"] .cw-fig {
+  --cw-us: #6fb3e6;
+  --cw-cn: #f0905a;
+}
+
+/* ---- figure frame ------------------------------------------------------- */
+
+.post-content .cw-fig {
+  margin: 2.2rem 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--card);
+  padding: 0.9rem 1rem 0.8rem;
+}
+.cw-fig__head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.7rem;
+}
+.cw-fig__kicker {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted-foreground);
+}
+.cw-fig__title {
+  font-size: 0.98rem;
+  font-weight: 650;
+}
+.cw-fig__cap {
+  font-size: 0.83rem;
+  line-height: 1.55;
+  color: var(--muted-foreground);
+  margin-top: 0.75rem;
+  border-top: 1px solid var(--cw-soft);
+  padding-top: 0.55rem;
+}
+.cw-fig__cap p { margin: 0.25rem 0; }
+
+/* ---- shared chips ------------------------------------------------------- */
+
+.cw-chip {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 650;
+  line-height: 1.5;
+  border: 1.5px solid var(--cw-grid);
+  border-radius: 999px;
+  padding: 0 0.5rem;
+  white-space: nowrap;
+  vertical-align: 0.08em;
+}
+.cw-chip--us   { border-color: var(--cw-us); }
+.cw-chip--cn   { border-color: var(--cw-cn); }
+
+/* ---- Figure 1: the relay ------------------------------------------------ */
+
+.post-content ol.cw-relay {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: hop;
+}
+.cw-hop {
+  position: relative;
+  border: 1px solid var(--cw-soft);
+  border-left: 3px solid var(--cw-grid);
+  border-radius: calc(var(--radius) - 4px);
+  padding: 0.55rem 0.75rem 0.55rem 2.35rem;
+  margin: 0;
+  counter-increment: hop;
+}
+.cw-hop--us { border-left-color: var(--cw-us); }
+.cw-hop--cn { border-left-color: var(--cw-cn); }
+.cw-hop::before {
+  content: counter(hop);
+  position: absolute;
+  left: 0.7rem;
+  top: 0.62rem;
+  width: 1.15rem;
+  height: 1.15rem;
+  border: 1.5px solid var(--cw-grid);
+  border-radius: 50%;
+  font-size: 0.7rem;
+  font-weight: 700;
+  line-height: 1.05rem;
+  text-align: center;
+  color: var(--muted-foreground);
+}
+.cw-hop--us::before { border-color: var(--cw-us); }
+.cw-hop--cn::before { border-color: var(--cw-cn); }
+/* connector between hops: a short vertical rule in the gap */
+.cw-hop + .cw-hop { margin-top: 1.5rem; }
+.cw-hop + .cw-hop::after {
+  content: "";
+  position: absolute;
+  left: 1.25rem;
+  top: -1.55rem;
+  height: 1.5rem;
+  border-left: 2px solid var(--cw-grid);
+}
+.post-content .cw-hop p { margin: 0.2rem 0; }
+.cw-hop__cross {
+  font-size: 0.72rem;
+  font-weight: 650;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted-foreground);
+}
+.cw-hop__what { font-size: 0.88rem; line-height: 1.55; }
+.cw-hop__rule {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: var(--muted-foreground);
+}
+/* ---- site footnote fixes (long repo ids, stacked refs) ------------------ */
+
+.post-content .footnotes li { min-width: 0; overflow-wrap: anywhere; }
+.post-content .footnotes code { overflow-wrap: anywhere; }
+.post-content sup[id^="fnref"] + sup[id^="fnref"]::before {
+  content: ",";
+  font-size: 0.75em;
+  color: var(--muted-foreground);
+}
+
+/* ---- reduced motion (nothing animates anyway) --------------------------- */
+
+@media (prefers-reduced-motion: reduce) {
+  .cw-fig * { animation: none !important; transition: none !important; }
+}
+
+/* ---- print -------------------------------------------------------------- */
+
+@media print {
+  .cw-hop { break-inside: avoid; }
+}
