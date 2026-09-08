@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" width="720" height="320" role="img" aria-labelledby="title desc">
+<title id="title">Downloaded models disclose less of their training data each year</title><desc id="desc">Two lines over four periods, download-weighted. Training data disclosed and available falls from 79.3 to 58.5 to 53.5 to 39.8 percent; training data not disclosed rises from 9.8 to 23.4 to 31.6 to 43.1 percent.</desc>
+<metadata>{&quot;source&quot;: &quot;disclosure-trend.csv&quot;}</metadata>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L7,3.5 L0,7" fill="none" stroke="#6f757b" stroke-width="1.4"/></marker></defs>
+<rect width="720" height="320" fill="white"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#202428">
+<text x="12" y="27" font-size="21" font-weight="600" text-anchor="start" fill="#202428">Training-data disclosure, download-weighted share of models</text>
+<line x1="12" y1="51" x2="38" y2="51" stroke="#4b749b" stroke-width="2.2"/>
+<circle cx="25" cy="51" r="4" fill="#4b749b"/>
+<text x="46" y="56" font-size="17" font-weight="400" text-anchor="start" fill="#202428">Training data disclosed and available</text>
+<line x1="388.2" y1="51" x2="414.2" y2="51" stroke="#b7783d" stroke-width="2.2"/>
+<circle cx="401.2" cy="51" r="4" fill="#b7783d"/>
+<text x="422.2" y="56" font-size="17" font-weight="400" text-anchor="start" fill="#202428">Training data not disclosed</text>
+<line x1="66" y1="258.0" x2="696" y2="258.0" stroke="#e4e4e6" stroke-width="1"/>
+<text x="58" y="263.0" font-size="13" font-weight="400" text-anchor="end" fill="#6f757b">0%</text>
+<line x1="66" y1="213.0" x2="696" y2="213.0" stroke="#e4e4e6" stroke-width="1"/>
+<text x="58" y="218.0" font-size="13" font-weight="400" text-anchor="end" fill="#6f757b">25%</text>
+<line x1="66" y1="168.0" x2="696" y2="168.0" stroke="#e4e4e6" stroke-width="1"/>
+<text x="58" y="173.0" font-size="13" font-weight="400" text-anchor="end" fill="#6f757b">50%</text>
+<line x1="66" y1="123.0" x2="696" y2="123.0" stroke="#e4e4e6" stroke-width="1"/>
+<text x="58" y="128.0" font-size="13" font-weight="400" text-anchor="end" fill="#6f757b">75%</text>
+<line x1="66" y1="78.0" x2="696" y2="78.0" stroke="#e4e4e6" stroke-width="1"/>
+<text x="58" y="83.0" font-size="13" font-weight="400" text-anchor="end" fill="#6f757b">100%</text>
+<text x="66.0" y="280" font-size="15" font-weight="400" text-anchor="middle" fill="#202428">through 2022</text>
+<text x="276.0" y="280" font-size="15" font-weight="400" text-anchor="middle" fill="#202428">2023</text>
+<text x="486.0" y="280" font-size="15" font-weight="400" text-anchor="middle" fill="#202428">2024</text>
+<text x="696.0" y="280" font-size="15" font-weight="400" text-anchor="middle" fill="#202428">2025</text>
+<path d="M66.0 115.3 L276.0 152.7 L486.0 161.7 L696.0 186.4" fill="none" stroke="#4b749b" stroke-width="2.2"/>
+<circle cx="66.0" cy="115.3" r="4" fill="#4b749b"/>
+<text x="66.0" y="105.26000000000002" font-size="14" font-weight="400" text-anchor="middle" fill="#4b749b">79%</text>
+<circle cx="276.0" cy="152.7" r="4" fill="#4b749b"/>
+<text x="276.0" y="142.7" font-size="14" font-weight="400" text-anchor="middle" fill="#4b749b">58%</text>
+<circle cx="486.0" cy="161.7" r="4" fill="#4b749b"/>
+<text x="486.0" y="151.7" font-size="14" font-weight="400" text-anchor="middle" fill="#4b749b">54%</text>
+<circle cx="696.0" cy="186.4" r="4" fill="#4b749b"/>
+<text x="678.0" y="176.36" font-size="14" font-weight="400" text-anchor="middle" fill="#4b749b">40%</text>
+<path d="M66.0 240.4 L276.0 215.9 L486.0 201.1 L696.0 180.4" fill="none" stroke="#b7783d" stroke-width="2.2"/>
+<circle cx="66.0" cy="240.4" r="4" fill="#b7783d"/>
+<text x="66.0" y="230.36" font-size="14" font-weight="400" text-anchor="middle" fill="#b7783d">10%</text>
+<circle cx="276.0" cy="215.9" r="4" fill="#b7783d"/>
+<text x="276.0" y="236.88" font-size="14" font-weight="400" text-anchor="middle" fill="#b7783d">23%</text>
+<circle cx="486.0" cy="201.1" r="4" fill="#b7783d"/>
+<text x="486.0" y="222.12" font-size="14" font-weight="400" text-anchor="middle" fill="#b7783d">32%</text>
+<circle cx="696.0" cy="180.4" r="4" fill="#b7783d"/>
+<text x="678.0" y="201.42000000000002" font-size="14" font-weight="400" text-anchor="middle" fill="#b7783d">43%</text>
+<text x="12" y="308" font-size="14" font-weight="400" text-anchor="start" fill="#202428">Longpre et al., Economies of Open Intelligence (2025), Table 1. The last period is the study&#x27;s 2025 period.</text>
+</g></svg>

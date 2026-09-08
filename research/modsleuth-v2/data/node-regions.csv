@@ -1,0 +1,2648 @@
+node_id,kind,org_key,region
+akariasai/2wiki_rand1k,dataset,akariasai,US
+xanhho/2WikiMultihopQA,dataset,xanhho,OTHER
+4chan,dataset,4chan,UK
+ArtificialAnalysis/AA-LCR,dataset,ArtificialAnalysis,US
+ArtificialAnalysis/AA-Omniscience-Public,dataset,ArtificialAnalysis,US
+walledai/AART,dataset,walledai,OTHER
+kejian/ACL-ARC,dataset,kejian,UNTAGGED
+Yale-LILY/aeslc,dataset,Yale-LILY,UNTAGGED
+fancyzhx/ag_news,dataset,fancyzhx,UNTAGGED
+AGIEval LSAT-AR,dataset,dmayhem93,UNTAGGED
+AGIEval LSAT-LR,dataset,dmayhem93,UNTAGGED
+AGIEval LSAT-RC,dataset,dmayhem93,UNTAGGED
+AGIEval SAT-English,dataset,dmayhem93,UNTAGGED
+baber/agieval,dataset,baber,US
+lighteval/agi_eval_en,dataset,lighteval,HF
+ai2_arc/ARC-Challenge,dataset,ai2_arc,US
+lmms-lab/ai2d,dataset,lmms-lab,UNTAGGED
+yentinglin/aime_2025,dataset,yentinglin,UK
+AIME,dataset,AIME,US
+HuggingFaceH4/aime_2024,dataset,HuggingFaceH4,HF
+BytedTsinghua-SIA/AIME-2024,dataset,BytedTsinghua-SIA,CN
+MathArena/aime_2026,dataset,MathArena,OTHER
+AI-MO/aimo-validation-aime,dataset,AI-MO,EU
+math-ai/aime24,dataset,math-ai,CN
+math-ai/aime25,dataset,math-ai,CN
+mnoukhov/aime_2025_openinstruct,dataset,mnoukhov,US
+AIME 1983-2021,dataset,AIME 1983-2021,US
+MathArena/aime_2025_I,dataset,MathArena,OTHER
+simplescaling/aime24_figures,dataset,simplescaling,UNTAGGED
+simplescaling/aime24_nofigures,dataset,simplescaling,UNTAGGED
+AIME (pre-2024),dataset,AIME (pre-2024),US
+gneubig/aime-1983-2024,dataset,gneubig,UNTAGGED
+FreedomIntelligence/ALLaVA-4V,dataset,FreedomIntelligence,UNTAGGED
+AMC 10,dataset,AMC 10,US
+AMC 8,dataset,AMC 8,US
+AI-MO/aimo-validation-amc,dataset,AI-MO,EU
+AMC 12 2023,dataset,AMC 12 2023,US
+math-ai/amc23,dataset,math-ai,CN
+sentence-transformers/msmarco-roberta-base-ance-firstp,model,sentence-transformers,UNTAGGED
+ANLI,dataset,ANLI,US
+liminghao1630/API-Bank,dataset,liminghao1630,CN
+argilla/apigen-function-calling,dataset,argilla,UNTAGGED
+argilla/Synth-APIGen-v0.1,dataset,argilla,UNTAGGED
+codeparrot/apps,dataset,codeparrot,HF
+deepmind/aqua_rat,dataset,deepmind,US
+zhongwanjun/AR-LSAT,dataset,zhongwanjun,CN
+ARB,dataset,gh:TheDuckAI,US
+TheDuckAI/arb,dataset,TheDuckAI,US
+allenai/ai2_arc,dataset,allenai,US
+AI2 Reasoning Challenge,dataset,allenai,US
+fchollet/ARC-AGI,dataset,fchollet,UNTAGGED
+EleutherAI/asdiv,dataset,EleutherAI,US
+ASR Data Derived Speech-to-Text Chat Data,dataset,ASR Data Derived Speech-to-Text Chat Data,UNKNOWN
+vwxyzjn/rlvr_acecoder,dataset,vwxyzjn,US
+AceCoder V2,dataset,TIGER-Lab,OTHER
+TIGER-Lab/AceCode-87K,dataset,TIGER-Lab,OTHER
+TIGER-Lab/AceCoderV2-RLVR,dataset,TIGER-Lab,OTHER
+TIGER-Lab/AceCodeRM-7B,model,TIGER-Lab,OTHER
+TIGER-Lab/AceCodeRM-32B,model,TIGER-Lab,OTHER
+TIGER-Lab/AceCoder-Qwen2.5-Coder-7B-Ins-V1.1,model,TIGER-Lab,OTHER
+TIGER-Lab/AceCoder-Qwen2.5-Coder-7B-Ins-RM,model,TIGER-Lab,OTHER
+TIGER-Lab/AceCoder-Qwen2.5-Coder-7B-Ins-Rule,model,TIGER-Lab,OTHER
+TIGER-Lab/AceCode-V1.1-69K,dataset,TIGER-Lab,OTHER
+TIGER-Lab/AceCode-V2-122K,dataset,TIGER-Lab,OTHER
+TIGER-Lab/AceCodePair-300K,dataset,TIGER-Lab,OTHER
+AceCoder-RL-Qwen2.5-7B-Instruct,model,AceCoder-RL-Qwen2.5-7B-Instruct,OTHER
+AceCoder-RL-Qwen2.5-Coder-7B,model,AceCoder-RL-Qwen2.5-Coder-7B,OTHER
+AceMath,dataset,AceMath,US
+AceReason,dataset,AceReason,US
+nvidia/AceReason-Nemotron-7B,model,nvidia,US
+nvidia/AceReason-Nemotron-1.1-7B,model,nvidia,US
+nvidia/AceReason-1.1-SFT,dataset,nvidia,US
+nvidia/AceReason-Nemotron-14B,model,nvidia,US
+nvidia/AceReason-Math,dataset,nvidia,US
+UCLNLP/adversarial_qa,dataset,UCLNLP,UNTAGGED
+nvidia/Aegis-AI-Content-Safety-Dataset-1.0,dataset,nvidia,US
+nvidia/Aegis-AI-Content-Safety-LlamaGuard-Defensive-1.0,model,nvidia,US
+nvidia/Aegis-AI-Content-Safety-LlamaGuard-Permissive-1.0,model,nvidia,US
+nvidia/Nemotron-Content-Safety-Reasoning-Dataset,dataset,nvidia,US
+AgentFounder,model,AgentFounder,CN
+AgentFounder-30B,model,gh:Alibaba-NLP,UNTAGGED
+xlangai/AgentNet,dataset,xlangai,CN
+AgentScaler,model,gh:Alibaba-NLP,UNTAGGED
+OpenAutoCoder/Agentless-1.5,model,OpenAutoCoder,UNTAGGED
+EleutherAI/AlgebraicStack,dataset,EleutherAI,US
+tatsu-lab/alpaca,dataset,tatsu-lab,US
+tatsu-lab/alpaca-7b-wdiff,model,tatsu-lab,US
+yahma/alpaca-cleaned,dataset,yahma,UNTAGGED
+vicgalle/alpaca-gpt4,dataset,vicgalle,EU
+AlpacaEval 2,dataset,gh:tatsu-lab,US
+tatsu-lab/alpaca_eval,dataset,tatsu-lab,US
+AlpacaEval 2 LC,dataset,gh:tatsu-lab,US
+AlpacaEval 2.0,dataset,gh:tatsu-lab,US
+AlpacaEval v2,dataset,AlpacaEval v2,US
+AlpacaEval V1,dataset,gh:tatsu-lab,US
+AlpacaEval 2.0 Length Controlled,dataset,tatsu-lab,US
+AlphaCode,model,gh:google-deepmind,UNTAGGED
+AI-MO/aops,dataset,AI-MO,EU
+DeepStudentLlama/AoPS-Instruct,dataset,DeepStudentLlama,UNTAGGED
+Art of Problem Solving Community Forums,dataset,Art of Problem Solving Community Forums,US
+arXiv,dataset,arXiv,US
+lmarena-ai/arena-human-preference-140k,dataset,lmarena-ai,US
+lmarena-ai/arena-hard-auto,dataset,lmarena-ai,US
+Arena-Hard-200,dataset,Arena-Hard-200,US
+RLHFlow/ArmoRM-Llama3-8B-v0.1,model,RLHFlow,UNTAGGED
+AoPS community forums,dataset,AoPS community forums,US
+sudhanshu746/artofproblemsolving,dataset,sudhanshu746,UNTAGGED
+Artificial Analysis Intelligence Index,dataset,Artificial Analysis Intelligence Index,US
+Asta Scientific Corpus,dataset,Asta Scientific Corpus,US
+allenai/asta-bench,dataset,allenai,US
+AstaBench-ScholarQA-CS2,dataset,AstaBench-ScholarQA-CS2,US
+math-ai/AutoMathText,dataset,math-ai,CN
+mangopy/autotools,dataset,mangopy,UNKNOWN
+CohereLabs/aya_dataset,dataset,CohereLabs,OTHER
+ai2-adapt-dev/aya_dataset-reformat,dataset,ai2-adapt-dev,US
+ai2-adapt-dev/aya_dataset_converted,dataset,ai2-adapt-dev,US
+CohereLabs/aya-101,model,CohereLabs,OTHER
+bart.base,model,gh:facebookresearch,UNTAGGED
+bart.large,model,gh:facebookresearch,UNTAGGED
+bart.large.cnn,model,gh:facebookresearch,UNTAGGED
+walledai/BBQ,dataset,walledai,OTHER
+BeIR/hotpotqa,dataset,BeIR,OTHER
+BeIR/scifact,dataset,BeIR,OTHER
+BeIR/trec-covid,dataset,BeIR,OTHER
+BeIR/beir,dataset,BeIR,OTHER
+BeIR/nfcorpus,dataset,BeIR,OTHER
+BeIR/fever,dataset,BeIR,OTHER
+BeIR/climate-fever,dataset,BeIR,OTHER
+BeIR/fiqa,dataset,BeIR,OTHER
+BeIR/dbpedia-entity,dataset,BeIR,OTHER
+BeIR/cqadupstack,dataset,BeIR,OTHER
+BeIR/scidocs,dataset,BeIR,OTHER
+BeIR/arguana,dataset,BeIR,OTHER
+BeIR/trec-news,dataset,BeIR,OTHER
+BeIR/quora,dataset,BeIR,OTHER
+BeIR/nq,dataset,BeIR,OTHER
+BeIR/webis-touche2020,dataset,BeIR,OTHER
+BERT,model,google-bert,US
+google-bert/bert-large-uncased,model,google-bert,US
+google-bert/bert-base-multilingual-cased,model,google-bert,US
+google-bert/bert-base-uncased,model,google-bert,US
+BERT-Base,model,BERT-Base,US
+BERT Large,model,BERT Large,US
+google-bert/bert-base-cased,model,google-bert,US
+google-bert/bert-large-cased,model,google-bert,US
+google-bert/bert-large-uncased-whole-word-masking,model,google-bert,US
+google-bert/bert-large-cased-whole-word-masking,model,google-bert,US
+google-bert/bert-base-multilingual-uncased,model,google-bert,US
+google-bert/bert-base-chinese,model,google-bert,US
+google-bert/bert-base-german-cased,model,google-bert,US
+google/bert_uncased_L-2_H-128_A-2,model,google,US
+google/bert_uncased_L-4_H-256_A-4,model,google,US
+google/bert_uncased_L-4_H-512_A-8,model,google,US
+google/bert_uncased_L-8_H-512_A-8,model,google,US
+google-bert/bert-large-cased-whole-word-masking-finetuned-squad,model,google-bert,US
+BERT_CAT,model,gh:sebastian-hofstaetter,UNTAGGED
+BERT_DOT,model,gh:sebastian-hofstaetter,UNTAGGED
+gorilla-llm/Berkeley-Function-Calling-Leaderboard,dataset,gorilla-llm,US
+BFCL,dataset,BFCL,US
+BFCL V3,dataset,gh:ShishirPatil,UNTAGGED
+BFCL v4,dataset,gorilla-llm,US
+BFCL v2 Live,dataset,BFCL v2 Live,US
+BAAI/bge-large-en-v1.5,model,BAAI,CN
+BAAI/bge-base-en-v1.5,model,BAAI,CN
+BIG-Bench,dataset,tasksource,EU
+BIG-Bench: Conceptual Combinations,dataset,gh:google,UNTAGGED
+BIG-Bench: Conlang Translation,dataset,gh:google,UNTAGGED
+BIG-Bench: CS Algorithms,dataset,gh:google,UNTAGGED
+BIG-Bench: Dyck Languages,dataset,gh:google,UNTAGGED
+BIG-Bench: Elementary Math QA,dataset,gh:google,UNTAGGED
+BIG-Bench: Language Identification,dataset,gh:google,UNTAGGED
+BIG-Bench: Logical Deduction,dataset,gh:google,UNTAGGED
+BIG-Bench: Misconceptions,dataset,gh:google,UNTAGGED
+BIG-Bench: Novel Concepts,dataset,gh:google,UNTAGGED
+BIG-Bench: Operators,dataset,gh:google,UNTAGGED
+BIG-Bench: QA Wikidata,dataset,gh:google,UNTAGGED
+BIG-Bench: Repeat Copy Logic,dataset,gh:google,UNTAGGED
+BIG-Bench: Strange Stories,dataset,gh:google,UNTAGGED
+BIG-Bench: Strategy QA,dataset,gh:google,UNTAGGED
+BIG-Bench: Understanding Fables,dataset,gh:google,UNTAGGED
+lighteval/big_bench_hard,dataset,lighteval,HF
+lukaemon/bbh,dataset,lukaemon,UNKNOWN
+BIRD,dataset,birdsql,CN
+nyu-mll/blimp,dataset,nyu-mll,US
+BM25,model,BM25,UK
+BM25+CE,model,BM25+CE,UK
+MathArena/brumo_2025,dataset,MathArena,OTHER
+Babel,dataset,Babel,US
+chiayewken/bamboogle,dataset,chiayewken,UNTAGGED
+allenai/basic-skills,dataset,allenai,US
+BeIR/query-gen-msmarco-t5-base-v1,model,BeIR,OTHER
+PKU-Alignment/BeaverTails,dataset,PKU-Alignment,CN
+facebook/belebele,dataset,facebook,US
+bespokelabs/Bespoke-Stratos-17k,dataset,bespokelabs,US
+SynthLabsAI/Big-Math-RL-Verified,dataset,SynthLabsAI,US
+bigcode/bigcode-pii-dataset,dataset,bigcode,HF
+bigcode/bigcode-pii-dataset-training,dataset,bigcode,HF
+bigcode/pii-full-ds,dataset,bigcode,HF
+bigcode/pseudo-labeled-python-data-pii-detection-filtered,dataset,bigcode,HF
+bigcode/bigcodebench,dataset,bigcode,HF
+bigcode/bigcodebench-hard,dataset,bigcode,HF
+BigCodeBench-Instruct,dataset,BigCodeBench-Instruct,HF
+BigScience Workshop,dataset,bigscience,HF
+bigscience/roots,dataset,bigscience,HF
+BioASQ,dataset,BioASQ,EU
+BioRxiv,dataset,BioRxiv,US
+bookcorpus/bookcorpus,dataset,bookcorpus,UNTAGGED
+BookWiki,dataset,BookWiki,US
+defunct-datasets/the_pile_books3,dataset,defunct-datasets,HF
+google/boolq,dataset,google,US
+BrowseComp,dataset,gh:openai,UNTAGGED
+PALIN2018/BrowseComp-ZH,dataset,PALIN2018,UNTAGGED
+BrowseComp-VL,dataset,BrowseComp-VL,CN
+BrowseComp Chinese,dataset,Alibaba-NLP,CN
+H-D-T/Buzz-V1.2,dataset,H-D-T,UNTAGGED
+allenai/c4,dataset,allenai,US
+camel-ai/biology,dataset,camel-ai,UNTAGGED
+camel-ai/chemistry,dataset,camel-ai,UNTAGGED
+camel-ai/physics,dataset,camel-ai,UNTAGGED
+vblagoje/cc_news,dataset,vblagoje,EU
+CC-Stories,dataset,CC-Stories,US
+statmt/cc100,dataset,statmt,UNTAGGED
+CC100-XL,dataset,CC100-XL,US
+facebookresearch/cc_net,dataset,facebookresearch,US
+HuggingFaceM4/CLEVR,dataset,HuggingFaceM4,HF
+openai/clip-vit-large-patch14,model,openai,US
+laion/clip-autokeras-binary-nsfw,model,laion,UNTAGGED
+chtmp223/CLIPPER,dataset,chtmp223,UNKNOWN
+CLUECorpus2020,dataset,gh:CLUEbenchmark,UNTAGGED
+abisee/cnn_dailymail,dataset,abisee,UNTAGGED
+HuggingFaceM4/COCO,dataset,HuggingFaceM4,HF
+yerevann/coco-karpathy,dataset,yerevann,UNTAGGED
+COPA,dataset,aps,US
+naver-clova-ix/cord-v2,dataset,naver-clova-ix,UNTAGGED
+deepset/covid_qa_deepset,dataset,deepset,UNTAGGED
+mteb/cqadupstack-physics,dataset,mteb,UNTAGGED
+amydeng2000/CREAK,dataset,amydeng2000,UNTAGGED
+CS-Bench,dataset,CS-Bench,UNTAGGED
+csqa,dataset,tau,OTHER
+nyu-visionx/CV-Bench,dataset,nyu-visionx,UNTAGGED
+nvidia/cvdp-benchmark-dataset,dataset,nvidia,US
+nvidia/CantTalkAboutThis-Topic-Control-Dataset,dataset,nvidia,US
+nvidia/CantTalkAboutThis,dataset,nvidia,US
+HuggingFaceH4/capybara,dataset,HuggingFaceH4,HF
+argilla/distilabel-capybara-dpo-7k-binarized,dataset,argilla,UNTAGGED
+princeton-nlp/CharXiv,dataset,princeton-nlp,US
+lmms-lab/ChartQA,dataset,lmms-lab,UNTAGGED
+THUDM/chatglm3-6b-128k,model,THUDM,UNTAGGED
+LMSYS Chatbot Arena Conversations,dataset,lmsys,US
+jablonkagroup/ChemBench,dataset,jablonkagroup,UNTAGGED
+griffin/ChemSum,dataset,griffin,UNTAGGED
+tomg-group-umd/cinepile,dataset,tomg-group-umd,UNTAGGED
+Claude,model,Claude,US
+Anthropic/claude-3-5-sonnet,model,Anthropic,US
+Anthropic/claude-3-7-sonnet,model,Anthropic,US
+Anthropic/claude-sonnet-4,model,Anthropic,US
+Anthropic/claude-3-5-sonnet-v2,model,Anthropic,US
+Anthropic/claude-3-sonnet,model,Anthropic,US
+Anthropic/claude-3-5-sonnet-20241022,model,Anthropic,US
+Anthropic/claude-2.1,model,Anthropic,US
+allenai/coconot,dataset,allenai,US
+ai2-adapt-dev/coconot-sft-reformat,dataset,ai2-adapt-dev,US
+eriktks/conll2003,dataset,eriktks,UNTAGGED
+stanfordnlp/coqa,dataset,stanfordnlp,US
+allenai/coqa-gen2mc,dataset,allenai,US
+CoT GSM8K,dataset,CoT GSM8K,US
+CoT,dataset,CoT,US
+CoT-StrategyQA,dataset,CoT-StrategyQA,US
+CoVoST 2,dataset,facebook,US
+Code Llama,model,gh:meta-llama,UNTAGGED
+allenai/code-meta-reasoning-filtered,dataset,allenai,US
+ajibawa-2023/Code-290k-ShareGPT,dataset,ajibawa-2023,UNTAGGED
+allenai/math-meta-reasoning-filtered,dataset,allenai,US
+sahil2801/CodeAlpaca-20k,dataset,sahil2801,US
+deepmind/code_contests,dataset,deepmind,US
+Qwen/CodeElo,dataset,Qwen,CN
+codellama/CodeLlama-34b-hf,model,codellama,US
+codellama/CodeLlama-7b-hf,model,codellama,US
+codeparrot/codeparrot-clean,dataset,codeparrot,HF
+open-r1/codeforces,dataset,open-r1,HF
+MatrixStudio/Codeforces-Python-Submissions,dataset,MatrixStudio,UNTAGGED
+prithivMLmods/Coder-Stat,dataset,prithivMLmods,UNTAGGED
+mistralai/Codestral-22B-v0.1,model,mistralai,EU
+OpenAI/Codex,model,OpenAI,US
+ColBERT,model,gh:stanford-futuredata,UNTAGGED
+sebastian-hofstaetter/colbert-distilbert-margin_mse-T2-msmarco,model,sebastian-hofstaetter,UNTAGGED
+common-pile/comma_v0.1_training_dataset,dataset,common-pile,US
+bigcode/github-commits-diff,dataset,bigcode,HF
+Common Crawl,dataset,commoncrawl,US
+English Common Crawl,dataset,English Common Crawl,US
+English Common Crawl 1.1,dataset,English Common Crawl 1.1,US
+Crawl++,dataset,Crawl++,US
+Multilingual Common Crawl,dataset,Multilingual Common Crawl,US
+common-pile/common_pile,dataset,common-pile,US
+The Common Pile v0.1,dataset,common-pile,US
+Common Voice,dataset,mozilla-foundation,UNTAGGED
+tau/commonsense_qa,dataset,tau,OTHER
+CSQA MC,dataset,tau,OTHER
+Comp-Math-24-25,dataset,Comp-Math-24-25,US
+tasksource/ConTRoL-nli,dataset,tasksource,EU
+google-research-datasets/conceptual_captions,dataset,google-research-datasets,US
+facebook/contriever,model,facebook,US
+facebook/contriever-msmarco,model,facebook,US
+facebook/mcontriever,model,facebook,US
+facebook/mcontriever-msmarco,model,facebook,US
+microsoft/CoSApien,dataset,microsoft,US
+HuggingFaceTB/cosmo-1b,model,HuggingFaceTB,HF
+HuggingFaceTB/cosmopedian-1b,model,HuggingFaceTB,HF
+HuggingFaceTB/cosmo2-1.7B-1T,model,HuggingFaceTB,HF
+HuggingFaceTB/cosmo2-149M-600B-fp32,model,HuggingFaceTB,HF
+HuggingFaceTB/cosmo2-362M-600B-fp32,model,HuggingFaceTB,HF
+HuggingFaceTB/cosmopedia,dataset,HuggingFaceTB,HF
+nvidia/Cosmos-Reason1-7B,model,nvidia,US
+nvidia/Cosmos-Reason1-RL-Dataset,dataset,nvidia,US
+nvidia/Cosmos-Reason1-SFT-Dataset,dataset,nvidia,US
+allenai/cosmos_qa,dataset,allenai,US
+Court Listener,dataset,Court Listener,US
+dwadden/covidfact_entailment,dataset,dwadden,UNTAGGED
+CrossTask,dataset,gh:DmZhukov,UNTAGGED
+CRUXEval (cruxeval_input/cruxeval_output),dataset,CRUXEval (cruxeval_input,US
+DAN,dataset,TrustAIRLab,EU
+DAPO,dataset,DAPO,CN
+BytedTsinghua-SIA/DAPO-Qwen-32B,model,BytedTsinghua-SIA,CN
+BytedTsinghua-SIA/DAPO-Math-17k,dataset,BytedTsinghua-SIA,CN
+YouJiacheng/DAPO-Math-17k-dedup,dataset,YouJiacheng,UNKNOWN
+Yale-LILY/dart,dataset,Yale-LILY,UNTAGGED
+DCLM,dataset,mlfoundations,US
+mlfoundations/dclm-baseline-1.0,dataset,mlfoundations,US
+DCLM-RefinedWeb,dataset,DCLM-RefinedWeb,UNKNOWN
+mlfoundations/dclm-pool-400m-1x,dataset,mlfoundations,US
+DCLM 411M,model,gh:mlfoundations,UNTAGGED
+DCLM 1B-1x,model,gh:mlfoundations,UNTAGGED
+DCLM 1B-5x,model,gh:mlfoundations,UNTAGGED
+apple/DCLM-7B,model,apple,US
+DCLM 7B-2x,model,gh:mlfoundations,UNTAGGED
+apple/DCLM-7B-8k,model,apple,US
+mlfoundations/dclm-7b-it,model,mlfoundations,US
+TRI-ML/DCLM-1B,model,TRI-ML,UNTAGGED
+TRI-ML/DCLM-1B-IT,model,TRI-ML,UNTAGGED
+DCLM-Baseline + OpenHermes-2.5,model,gh:mlfoundations,UNTAGGED
+mlfoundations/fasttext-oh-eli5,model,mlfoundations,US
+Dolma 411M,model,gh:mlfoundations,UNTAGGED
+DCLM-Dolma 7B,model,gh:mlfoundations,UNTAGGED
+FineWeb-Edu 411M,model,gh:mlfoundations,UNTAGGED
+DCLM-FineWeb-Edu 1B-1x,model,gh:mlfoundations,UNTAGGED
+DCLM-FineWeb-Edu 1B-5x,model,gh:mlfoundations,UNTAGGED
+DCLM-FineWeb-Edu 7B-1x,model,gh:mlfoundations,UNTAGGED
+DCLM-FineWeb-Edu 7B-2x,model,gh:mlfoundations,UNTAGGED
+RPJ 411M,model,gh:mlfoundations,UNTAGGED
+DCLM-RedPajama 1B-1x,model,gh:mlfoundations,UNTAGGED
+DCLM-RedPajama 1B-5x,model,gh:mlfoundations,UNTAGGED
+DCLM-RedPajama 7B,model,gh:mlfoundations,UNTAGGED
+RW 411M,model,gh:mlfoundations,UNTAGGED
+DCLM-RefinedWeb 1B-1x,model,gh:mlfoundations,UNTAGGED
+DCLM-RefinedWeb 1B-5x,model,gh:mlfoundations,UNTAGGED
+DCLM-RefinedWeb 7B,model,gh:mlfoundations,UNTAGGED
+common-pile/doab,dataset,common-pile,US
+DOAB CC BY & CC BY-SA subset,dataset,common-pile,US
+argilla/dpo-mix-7k,dataset,argilla,UNTAGGED
+facebook/dpr-ctx_encoder-multiset-base,model,facebook,US
+sentence-transformers/facebook-dpr-question_encoder-multiset-base,model,sentence-transformers,UNTAGGED
+rl-research/DR-Tulu-8B,model,rl-research,US
+rl-research/dr-tulu-sft-data,dataset,rl-research,US
+rl-research/dr-tulu-rl-data,dataset,rl-research,US
+rl-research/DR-Tulu-SFT-8B,model,rl-research,US
+rl-research/DR-Tulu-No-RLER-8B,model,rl-research,US
+rl-research/dr-tulu-eval-data,dataset,rl-research,US
+DR-Tulu-Qwen3.5-4B-RL,model,DR-Tulu-Qwen3.5-4B-RL,US
+ucinlp/drop,dataset,ucinlp,US
+allenai/drop-gen2mc,dataset,allenai,US
+xlangai/DS-1000,dataset,xlangai,CN
+rl-research/dsqa,dataset,rl-research,US
+rl-research/genetic_diseases_qa,dataset,rl-research,US
+liarliar/Daily-Omni,dataset,liarliar,UNTAGGED
+ai2-adapt-dev/Daring-Anteater-reformat,dataset,ai2-adapt-dev,US
+nvidia/Daring-Anteater,dataset,nvidia,US
+DataProvenanceInitiative/Commercially-Verified-Licenses,dataset,DataProvenanceInitiative,UNTAGGED
+shrutisingh/dataset_recommendation_mcq_mc,dataset,shrutisingh,UNTAGGED
+shrutisingh/dataset_recommendation_mcq_sc,dataset,shrutisingh,UNTAGGED
+microsoft/deberta-v3-large,model,microsoft,US
+DeepMatcher,model,gh:anhaidgroup,US
+zwhe99/DeepMath-103K,dataset,zwhe99,UNTAGGED
+deepmind/math_dataset,dataset,deepmind,US
+DeepMind Mathematics,dataset,DeepMind Mathematics,US
+rl-research/deep_research_bench_eval,dataset,rl-research,US
+muset-ai/DeepResearch-Bench-Dataset,dataset,muset-ai,UNKNOWN
+agentica-org/DeepSWE-Preview,model,agentica-org,US
+agentica-org/DeepScaleR-Preview-Dataset,dataset,agentica-org,US
+DeepScaleR,dataset,gh:agentica-project,US
+DeepSeek-AI/DeepSeek-R1,model,DeepSeek-AI,CN
+DeepSeek-AI/DeepSeek,model,DeepSeek-AI,CN
+deepseek-ai/deepseek-llm-7b-base,model,deepseek-ai,CN
+deepseek-ai/deepseek-coder-33b-instruct,model,deepseek-ai,CN
+deepseek-ai/DeepSeek-Coder-LeetCode,dataset,deepseek-ai,CN
+davidheineman/deepseek-leetcode,dataset,davidheineman,US
+deepseek-ai/DeepSeek-OCR,model,deepseek-ai,CN
+deepseek-ai/DeepSeek-Prover-V2-671B,model,deepseek-ai,CN
+deepseek-ai/DeepSeek-Prover-V2-7B,model,deepseek-ai,CN
+deepseek-ai/DeepSeek-R1-0528,model,deepseek-ai,CN
+deepseek-ai/DeepSeek-R1-Zero,model,deepseek-ai,CN
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,model,deepseek-ai,CN
+deepseek-ai/DeepSeek-R1-Distill-Qwen-32B,model,deepseek-ai,CN
+deepseek-ai/DeepSeek-R1-Distill-Qwen-14B,model,deepseek-ai,CN
+deepseek-ai/DeepSeek-V3,model,deepseek-ai,CN
+deepseek-ai/DeepSeek-V3-0324,model,deepseek-ai,CN
+deepseek-ai/DeepSeek-V3.2,model,deepseek-ai,CN
+deepseek-ai/DeepSeek-V3.2-Exp,model,deepseek-ai,CN
+DeepSeekMath,model,gh:deepseek-ai,CN
+deepseek-ai/deepseek-math-7b-base,model,deepseek-ai,CN
+deepseek-ai/deepseek-math-7b-instruct,model,deepseek-ai,CN
+deepseek-ai/deepseek-math-7b-rl,model,deepseek-ai,CN
+Definite Pronoun Resolution,dataset,coref-data,UNTAGGED
+distilbert/distilbert-base-uncased,model,distilbert,UNTAGGED
+distilbert/distilbert-base-cased,model,distilbert,UNTAGGED
+distilbert/distilbert-base-multilingual-cased,model,distilbert,UNTAGGED
+distilbert/distilbert-base-cased-distilled-squad,model,distilbert,UNTAGGED
+distilbert/distilbert-base-uncased-distilled-squad,model,distilbert,UNTAGGED
+distilbert/distilbert-base-uncased-finetuned-sst-2-english,model,distilbert,UNTAGGED
+distilbert/distilbert-base-german-cased,model,distilbert,UNTAGGED
+distilbert/distilgpt2,model,distilbert,UNTAGGED
+Do-Anything-Now,dataset,TrustAIRLab,EU
+LibrAI/do-not-answer,dataset,LibrAI,UNTAGGED
+TrustAIRLab/in-the-wild-jailbreak-prompts,dataset,TrustAIRLab,EU
+walledai/JailbreakHub,dataset,walledai,OTHER
+kensho/DocFinQA,dataset,kensho,US
+ds4sd/DocLayNet,dataset,ds4sd,UNTAGGED
+lmms-lab/DocVQA,dataset,lmms-lab,UNTAGGED
+HuggingFaceM4/DocumentVQA,dataset,HuggingFaceM4,HF
+allenai/Dolci-Think-RL-7B,dataset,allenai,US
+allenai/Dolci-Instruct-SFT,dataset,allenai,US
+allenai/Dolci-Instruct-SFT-Tool-Use,dataset,allenai,US
+allenai/Dolci-Instruct-SFT-Tool-Use-SA,dataset,allenai,US
+allenai/Dolci-Instruct-DPO,dataset,allenai,US
+allenai/Dolci-Instruct-RL,dataset,allenai,US
+allenai/Dolci-Think-SFT-32B,dataset,allenai,US
+allenai/Dolci-Think-SFT-Python,dataset,allenai,US
+allenai/Dolci-Think-SFT-Olmo-Hybrid,dataset,allenai,US
+allenai/Dolci-Think-RL-32B,dataset,allenai,US
+allenai/Dolci-Think-RL-7B-Completions-SFT,dataset,allenai,US
+allenai/Dolci-DPO-Model-Response-Pool,dataset,allenai,US
+allenai/Dolci-Instruct-DPO-fixed,dataset,allenai,US
+geodesic-research/Dolci-Think-Precise-IF,dataset,geodesic-research,UK
+databricks/databricks-dolly-15k,dataset,databricks,UNTAGGED
+OllieStanley/oa_dolly_15k,dataset,OllieStanley,UNTAGGED
+allenai/dolma,dataset,allenai,US
+allenai/dolma3,dataset,allenai,US
+allenai/dolma3_longmino,dataset,allenai,US
+allenai/dolma3_mix-6T-1025,dataset,allenai,US
+Dolma 3 midtraining-modelnamefilter,dataset,Dolma 3 midtraining-modelnamefilter,US
+allenai/dolma3-fasttext-quality-classifier,model,allenai,US
+allenai/dolma3-fasttext-weborganizer-topic-classifier,model,allenai,US
+allenai/dolma3_dolmino_mix-100B-1025,dataset,allenai,US
+allenai/dolma3_dolmino_mix-100B-1125,dataset,allenai,US
+allenai/dolma3_dolmino_pool,dataset,allenai,US
+allenai/dolma3_dolmino_mix-10B-1025,dataset,allenai,US
+allenai/dolma3_longmino_mix-50B-1025,dataset,allenai,US
+allenai/dolma3_longmino_mix-100B-1125,dataset,allenai,US
+allenai/dolma-jigsaw-fasttext-bigrams-hatespeech,model,allenai,US
+allenai/dolma-jigsaw-fasttext-bigrams-nsfw,model,allenai,US
+Dolma3 fastText classifiers,model,Dolma3 fastText classifiers,US
+allenai/dolmino-mix-1124,dataset,allenai,US
+Dolmino 100B,dataset,Dolmino 100B,US
+Dolmino 1 Flan,dataset,Dolmino 1 Flan,US
+cognitivecomputations/dolphin-2.8-gemma-7b,model,cognitivecomputations,UNKNOWN
+cognitivecomputations/dolphin-2.8-mistral-7b-v02,model,cognitivecomputations,UNKNOWN
+cognitivecomputations/dolphin-2.9.1-llama-3-8b,model,cognitivecomputations,UNKNOWN
+cognitivecomputations/dolphin-coder,dataset,cognitivecomputations,UNKNOWN
+Dr Tulu,model,Dr Tulu,US
+DrRepair,dataset,gh:michiyasunaga,UNTAGGED
+allenai/drug-combo-extraction,dataset,allenai,US
+dualinputs2ttransformer_m,model,gh:facebookresearch,UNTAGGED
+dynamofl/DynaGuardrail,dataset,dynamofl,US
+tuetschek/e2e_nlg,dataset,tuetschek,UNTAGGED
+E2HQA,dataset,E2HQA,CN
+intfloat/e5-large,model,intfloat,US
+bigbio/pico_extraction,dataset,bigbio,UNKNOWN
+ChartFoundation/ECD-10k-Images,dataset,ChartFoundation,UNTAGGED
+yangdong/ecqa,dataset,yangdong,UNTAGGED
+Pavithree/eli5,dataset,Pavithree,UNTAGGED
+Efthymiou,dataset,Efthymiou,EU
+Zzitang/EgoProceL,dataset,Zzitang,UNTAGGED
+Enterprise PII Classification,dataset,Enterprise PII Classification,US
+EssentialAI/essential-web-v1.0,dataset,EssentialAI,US
+EssentialAI/eai-taxonomy-stem-w-dclm,dataset,EssentialAI,US
+Europarl v7,dataset,Europarl v7,UK
+EvalPlus,dataset,gh:evalplus,US
+HuggingFaceTB/everyday-conversations-llama3.1-2k,dataset,HuggingFaceTB,HF
+bigbio/evidence_inference,dataset,bigbio,UNKNOWN
+theblackcat102/evol-codealpaca-v1,dataset,theblackcat102,OTHER
+allenai/evol_codealpaca_heval_decontaminated,dataset,allenai,US
+ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered,dataset,ehartford,UNTAGGED
+Wanfq/Explore_Instruct_Rewriting_32k,dataset,Wanfq,UNTAGGED
+Muennighoff/flan,dataset,Muennighoff,US
+SirNeural/flan_v2,dataset,SirNeural,UNKNOWN
+ai2-adapt-dev/flan_v2_converted,dataset,ai2-adapt-dev,US
+FLAN 137B,model,FLAN 137B,US
+Flan 2022,dataset,Flan 2022,US
+Flan 2021,dataset,gh:google-research,UNTAGGED
+google/flan-ul2,model,google,US
+ostapeno/tulu_v2_flan_v2_subset,dataset,ostapeno,UNTAGGED
+google/fleurs,dataset,google,US
+facebook/flores,dataset,facebook,US
+FLORES-101,dataset,gsarti,UNTAGGED
+google/frames-benchmark,dataset,google,US
+tiiuae/falcon-40b,model,tiiuae,OTHER
+tiiuae/falcon-7b,model,tiiuae,OTHER
+tiiuae/falcon-7b-instruct,model,tiiuae,OTHER
+tiiuae/falcon-40b-instruct,model,tiiuae,OTHER
+tiiuae/falcon-refinedweb,dataset,tiiuae,OTHER
+lmsys/fastchat-t5-3b-v1.0,model,lmsys,US
+facebook/fastspeech2-en-ljspeech,model,facebook,US
+AngelAlita/FigStep,dataset,AngelAlita,UNTAGGED
+dreamerdeo/finqa,dataset,dreamerdeo,OTHER
+docling-project/FinTabNet_OTSL,dataset,docling-project,UNTAGGED
+HuggingFaceTB/finemath,dataset,HuggingFaceTB,HF
+FineMath ablation,model,FineMath ablation,HF
+HuggingFaceTB/finemath-classifier,model,HuggingFaceTB,HF
+HuggingFaceTB/finemath-ablation-4plus-160B,model,HuggingFaceTB,HF
+FineMath 3+,dataset,FineMath 3+,HF
+FineMath-4+,dataset,FineMath-4+,HF
+HuggingFaceTB/FineMath-Llama-3B,model,HuggingFaceTB,HF
+HuggingFaceTB/finemath-ablation-3plus-160B,model,HuggingFaceTB,HF
+HuggingFaceTB/finemath-ablation-finemath-infimath-3plus,model,HuggingFaceTB,HF
+HuggingFaceTB/finemath-ablation-finemath-infimath-4plus,model,HuggingFaceTB,HF
+argilla/FinePersonas-Synthetic-Email-Conversations,dataset,argilla,UNTAGGED
+argilla-warehouse/FinePersonas-Extra-Stuff,dataset,argilla-warehouse,UNTAGGED
+HuggingFaceFV/finevideo,dataset,HuggingFaceFV,UNTAGGED
+HuggingFaceFW/fineweb,dataset,HuggingFaceFW,HF
+HuggingFaceFW/ablation-model-c4,model,HuggingFaceFW,HF
+HuggingFaceFW/ablation-model-dolma-v1_6,model,HuggingFaceFW,HF
+HuggingFaceFW/ablation-model-fineweb-edu,model,HuggingFaceFW,HF
+HuggingFaceFW/ablation-model-fineweb-v1,model,HuggingFaceFW,HF
+HuggingFaceFW/ablation-model-redpajama2,model,HuggingFaceFW,HF
+HuggingFaceFW/ablation-model-refinedweb,model,HuggingFaceFW,HF
+HuggingFaceFW/ablation-model-slimpajama,model,HuggingFaceFW,HF
+HuggingFaceFW/ablation-model-the-pile,model,HuggingFaceFW,HF
+HuggingFaceFW/fineweb-edu-llama3-annotations,dataset,HuggingFaceFW,HF
+HuggingFaceFW/fineweb-edu,dataset,HuggingFaceFW,HF
+HuggingFaceFW/fineweb-edu-classifier,model,HuggingFaceFW,HF
+HuggingFaceFW/fineweb-2,dataset,HuggingFaceFW,HF
+Fisher English,dataset,Fisher English,US
+Flan-PaLM 540B,model,Flan-PaLM 540B,US
+google/flan-t5,model,google,US
+google/flan-t5-small,model,google,US
+google/flan-t5-base,model,google,US
+google/flan-t5-large,model,google,US
+google/flan-t5-xl,model,google,US
+google/flan-t5-xxl,model,google,US
+Flan-U-PaLM 540B,model,Flan-U-PaLM 540B,US
+Flan-cont-PaLM 62B,model,Flan-cont-PaLM 62B,US
+microsoft/Florence-2-large,model,microsoft,US
+gaia-benchmark/GAIA,dataset,gaia-benchmark,UNTAGGED
+zai-org/GLM-4.1V-9B-Thinking,model,zai-org,CN
+zai-org/GLM-4.6,model,zai-org,CN
+THUDM/chatglm3-6b,model,THUDM,UNTAGGED
+zai-org/GLM-4.5,model,zai-org,CN
+nyu-mll/glue,dataset,nyu-mll,US
+GLUE/MNLI,dataset,GLUE,UNTAGGED
+GLUE/QNLI,dataset,GLUE,UNTAGGED
+GLUE/QQP,dataset,GLUE,UNTAGGED
+GLUE/SST-2,dataset,GLUE,UNTAGGED
+GLUE/STS-B,dataset,GLUE,UNTAGGED
+GLUE/WNLI,dataset,GLUE,UNTAGGED
+GLUE/RTE,dataset,GLUE,UNTAGGED
+GLUE/CoLA,dataset,GLUE,UNTAGGED
+GLUE/MRPC,dataset,GLUE,UNTAGGED
+nvidia/gliner-PII,model,nvidia,US
+10kGNAD,dataset,community-datasets,UNTAGGED
+Idavidrein/gpqa,dataset,Idavidrein,US
+Idavidrein/gpqa:gpqa_diamond,dataset,Idavidrein,US
+Idavidrein/gpqa:gpqa_main,dataset,Idavidrein,US
+OpenAI/gpt-5,model,OpenAI,US
+OpenAI/text-davinci-003,model,OpenAI,US
+OpenAI/InstructGPT,model,OpenAI,US
+OpenAI/ChatGPT,model,OpenAI,US
+OpenAI/text-ada-001,model,OpenAI,US
+OpenAI/text-babbage-001,model,OpenAI,US
+OpenAI/text-curie-001,model,OpenAI,US
+OpenAI/text-davinci-002,model,OpenAI,US
+OpenAI/text-chat-davinci-002,model,OpenAI,US
+OpenAI/gpt-oss-20b,model,OpenAI,US
+openai-community/openai-gpt,model,openai-community,UNTAGGED
+openai-community/gpt2,model,openai-community,UNTAGGED
+OpenAI/gpt-3.5-turbo-0301,model,OpenAI,US
+OpenAI/gpt-3.5-turbo-0613,model,OpenAI,US
+OpenAI/gpt-3.5-turbo-16k-0613,model,OpenAI,US
+OpenAI/gpt-3.5-turbo-0125,model,OpenAI,US
+OpenAI/gpt-3.5-turbo,model,OpenAI,US
+OpenAI/gpt-4-turbo,model,OpenAI,US
+OpenAI/gpt-4,model,OpenAI,US
+OpenAI/gpt-4-0314,model,OpenAI,US
+OpenAI/gpt-4-0613,model,OpenAI,US
+OpenAI/gpt-4-32k-0314,model,OpenAI,US
+OpenAI/gpt-4-32k-0613,model,OpenAI,US
+OpenAI/gpt-4-0125-preview,model,OpenAI,US
+OpenAI/gpt-4-1106-preview,model,OpenAI,US
+OpenAI/gpt-4-turbo-2024-04-09,model,OpenAI,US
+OpenAI/gpt-4.1,model,OpenAI,US
+openai/gpt-4.1-mini,model,openai,US
+OpenAI/gpt-4.1-nano,model,OpenAI,US
+OpenAI/gpt-4o,model,OpenAI,US
+OpenAI/gpt-4o-mini,model,OpenAI,US
+OpenAI/gpt-4o-2024-08-06,model,OpenAI,US
+OpenAI/gpt-4o-mini-2024-07-18,model,OpenAI,US
+Nebulous/gpt4all_pruned,dataset,Nebulous,UNTAGGED
+teknium/GPTeacher-General-Instruct,dataset,teknium,US
+lmms-lab/GQA,dataset,lmms-lab,UNTAGGED
+qintongli/GSM-Plus,dataset,qintongli,UNTAGGED
+apple/GSM-Symbolic,dataset,apple,US
+openai/gsm8k,dataset,openai,US
+meta-math/GSM8K_Backward,dataset,meta-math,UNKNOWN
+MadrylAB/gsm8k-platinum,dataset,MadrylAB,UNTAGGED
+qwedsacf/grade-school-math-instructions,dataset,qwedsacf,UNTAGGED
+Alibaba-NLP/gte-large-en-v1.5,model,Alibaba-NLP,CN
+Google/gemini-3,model,Google,US
+Google/gemini-2.5-flash,model,Google,US
+Google/gemini-2.5-pro,model,Google,US
+Google/gemini-3-pro,model,Google,US
+Google/gemini-2.0-flash,model,Google,US
+Google/gemini-3-flash,model,Google,US
+Google/gemini-2.0-flash-thinking-exp,model,Google,US
+google/gemma-3-27b-it,model,google,US
+google/gemma-2b,model,google,US
+Gemma 2,model,google,US
+google/gemma-2-27b,model,google,US
+google/gemma-3-4b-pt,model,google,US
+google/gemma-3-12b-pt,model,google,US
+google/gemma-3-12b-it,model,google,US
+google/gemma-2-2b-it,model,google,US
+google/gemma-7b,model,google,US
+google/gemma-2-9b-it,model,google,US
+google/gemma-2-27b-it,model,google,US
+google/gemma-3-4b-it,model,google,US
+Gemma 3,model,google,US
+nvidia/OpenMathReasoning/genselect,dataset,nvidia,US
+allenai/general-responses-truncated-gpt-dedup-topic-filt-lb100,dataset,allenai,US
+allenai/general_responses_dev_8maxturns_truncate-9fbef8-enrejected-kwd-ftd-cn-ftd-topic-filt-lb100 (off-lattice),dataset,allenai,US
+RJT1990/GeneralThoughtArchive,dataset,RJT1990,US
+hiyouga/geometry3k,dataset,hiyouga,UNTAGGED
+deepset/germanquad,dataset,deepset,UNTAGGED
+Harvard/gigaword,dataset,Harvard,UNTAGGED
+glaiveai/glaive-code-assistant-v3,dataset,glaiveai,US
+glaiveai/glaive-function-calling-v2,dataset,glaiveai,US
+Global Regulation,dataset,Global Regulation,OTHER
+CohereLabs/Global-MMLU-Lite,dataset,CohereLabs,OTHER
+CohereForAI/Global-MMLU,dataset,CohereForAI,OTHER
+mrlbenchmarks/global-piqa-nonparallel,dataset,mrlbenchmarks,UNTAGGED
+Goedel-LM/MathOlympiadBench,dataset,Goedel-LM,US
+Goedel-LM/RL_dataset_V2,dataset,Goedel-LM,US
+Goedel-LM/SFT_dataset_v2,dataset,Goedel-LM,US
+Goedel-LM/Goedel-Formalizer-V2-32B,model,Goedel-LM,US
+Goedel-LM/Goedel-Formalizer-V2-8B,model,Goedel-LM,US
+Goedel-LM/Goedel-Prover-V2-32B,model,Goedel-LM,US
+Goedel-LM/Goedel-Prover-V2-8B,model,Goedel-LM,US
+Gopher,model,Gopher,US
+nvidia/Granary,dataset,nvidia,US
+Granite,model,ibm-granite,US
+gretelai/gretel-safety-alignment-en-v1,dataset,gretelai,US
+ServiceNow/GroundCUA,dataset,ServiceNow,UNTAGGED
+yueliu1999/GuardReasoner-8B,model,yueliu1999,OTHER
+jhu-cogsci/hans,dataset,jhu-cogsci,UNTAGGED
+CircleRadon/hc-stvg,dataset,CircleRadon,UNTAGGED
+dvilares/head_qa,dataset,dvilares,EU
+princeton-nlp/HELMET,dataset,princeton-nlp,US
+HF-ASR,dataset,spaces,UNTAGGED
+Anthropic/hh-rlhf,dataset,Anthropic,US
+HLE-VL,dataset,HLE-VL,US
+HLE-Math,dataset,cais,US
+HMMT,dataset,HMMT,US
+MathArena/hmmt_feb_2025,dataset,MathArena,OTHER
+MathArena/hmmt_feb_2024,dataset,MathArena,OTHER
+HMMT 2024-2025,dataset,HMMT 2024-2025,US
+HMMT November 2024,dataset,HMMT November 2024,US
+allenai/href,dataset,allenai,US
+hackerrank/sample-community-dataset,dataset,hackerrank,US
+pminervini/HaluEval,dataset,pminervini,UNTAGGED
+walledai/HarmBench,dataset,walledai,OTHER
+cais/HarmBench-Llama-2-13b-cls,model,cais,US
+notadib/harmful-tasks,dataset,notadib,UNKNOWN
+openai/healthbench,dataset,openai,US
+dwadden/healthver_entailment,dataset,dwadden,UNTAGGED
+Rowan/hellaswag,dataset,Rowan,US
+nvidia/HelpSteer,dataset,nvidia,US
+nvidia/HelpSteer3,dataset,nvidia,US
+nvidia/HelpSteer2-Preference,dataset,nvidia,US
+HelpSteer3-Preference,dataset,nvidia,US
+HelpSteer3-Feedback,dataset,nvidia,US
+HelpSteer3-Principle,dataset,nvidia,US
+nvidia/HelpSteer2,dataset,nvidia,US
+hendrycks/ethics,dataset,hendrycks,US
+NousResearch/Hermes-2-Pro-Llama-3-8B,model,NousResearch,UNTAGGED
+NousResearch/Hermes-2-Pro-Mistral-7B,model,NousResearch,UNTAGGED
+NousResearch/hermes-function-calling-v1,dataset,NousResearch,UNTAGGED
+HowTo100M,dataset,gh:antoine77340,UNTAGGED
+facebook/hubert-base-ls960,model,facebook,US
+facebook/hubert-large-ls960-ft,model,facebook,US
+facebook/hubert-xlarge-ls960-ft,model,facebook,US
+openai/openai_humaneval,dataset,openai,US
+Codex-Eval,dataset,Codex-Eval,US
+evalplus/humanevalplus,dataset,evalplus,US
+cais/hle,dataset,cais,US
+Scale HLE,dataset,jxcai-scale,US
+keirp/hungarian_national_hs_finals_exam,dataset,keirp,UNTAGGED
+II-Vietnam/IChO-IPhO-RL-v2-formated,dataset,II-Vietnam,OTHER
+IDCM,model,IDCM,EU
+allenai/IF_multi_constraints_upto5,dataset,allenai,US
+allenai/RLVR-IFeval,dataset,allenai,US
+IF-RLVR,dataset,allenai,US
+allenai/IFBench,dataset,allenai,US
+allenai/IFBench_test,dataset,allenai,US
+allenai/IFBench-Train,dataset,allenai,US
+IFBench-Prompt,dataset,IFBench-Prompt,US
+allenai/IFBench_multi-turn,dataset,allenai,US
+google/IFEval,dataset,google,US
+ai2-adapt-dev/ifeval_ood,dataset,ai2-adapt-dev,US
+hamishivi/IF_multi_constraints_upto5_filtered_dpo_0625_filter,dataset,hamishivi,US
+stanfordnlp/imdb,dataset,stanfordnlp,US
+MathArena/imo_2025,dataset,MathArena,OTHER
+OpenEvals/IMO-AnswerBench,dataset,OpenEvals,UNTAGGED
+infly/INF-ORM-Preference-Magnitude-80K,dataset,infly,UNTAGGED
+open-r1/ioi,dataset,open-r1,HF
+IOI 2025,dataset,IOI 2025,UNKNOWN
+ttj/sac-logos-ava1-l14-linearMSE,model,ttj,UNTAGGED
+ai4bharat/IndicHeadlineGeneration,dataset,ai4bharat,UNTAGGED
+ai4bharat/IndicWikiBio,dataset,ai4bharat,UNTAGGED
+ai4bharat/IndicXParaphrase,dataset,ai4bharat,UNTAGGED
+IndicTrans2,model,ai4bharat,UNTAGGED
+ai4bharat/IndicCopa,dataset,ai4bharat,UNTAGGED
+ai4bharat/IndicQA,dataset,ai4bharat,UNTAGGED
+ai4bharat/IndicSentiment,dataset,ai4bharat,UNTAGGED
+Divyanshu/indicxnli,dataset,Divyanshu,UNTAGGED
+Infi-MM/InfiMM-WebMath-40B,dataset,Infi-MM,CN
+InfiWebMath-3+,dataset,InfiWebMath-3+,HF
+InfiWebMath-4+,dataset,InfiWebMath-4+,HF
+BAAI/Infinity-Instruct,dataset,BAAI,CN
+BAAI/InfinityMATH,dataset,BAAI,CN
+vidore/infovqa_train,dataset,vidore,UNTAGGED
+Insertion Transformer,model,Insertion Transformer,US
+instruction-poems,dataset,checkai,UNTAGGED
+internlm/internlm-20b,model,internlm,CN
+internlm/internlm2_5-1_8b,model,internlm,CN
+internlm/internlm2_5-1_8b-chat,model,internlm,CN
+internlm/internlm2_5-7b,model,internlm,CN
+internlm/internlm2_5-7b-chat,model,internlm,CN
+internlm/internlm2_5-20b,model,internlm,CN
+internlm/internlm2_5-20b-chat,model,internlm,CN
+OpenGVLab/InternVL-Data,dataset,OpenGVLab,UNTAGGED
+OpenGVLab/MMPR,dataset,OpenGVLab,UNTAGGED
+OpenGVLab/MMPR-Tiny,dataset,OpenGVLab,UNTAGGED
+m-a-p/Inverse_IFEval,dataset,m-a-p,CN
+inverse-scaling/sig-figs,dataset,inverse-scaling,UNKNOWN
+katanaml-org/invoices-donut-data-v1,dataset,katanaml-org,UNTAGGED
+daman1209arora/jeebench,dataset,daman1209arora,UNTAGGED
+JailbreakV-28K/JailBreakV-28k,dataset,JailbreakV-28K,US
+JailbreakBench/JBB-Behaviors,dataset,JailbreakBench,UNKNOWN
+jeggers/jeopardy,dataset,jeggers,UNKNOWN
+allenai/jeopardy-gen2mc,dataset,allenai,US
+google/jigsaw_toxicity_pred,dataset,google,US
+ScalerLab/JudgeBench,dataset,ScalerLab,UNTAGGED
+bigcode/jupyter-parsed,dataset,bigcode,HF
+bigcode/jupyter-code-text-pairs,dataset,bigcode,HF
+Sangeetha/Kaggle-LLM-Science-Exam,dataset,Sangeetha,UNTAGGED
+GPUMODE/KernelBook,dataset,GPUMODE,UNKNOWN
+Moonshot/Kimi,model,Moonshot,CN
+moonshotai/Kimi-K2-Instruct,model,moonshotai,CN
+moonshotai/Kimi-K2-Thinking,model,moonshotai,CN
+moonshotai/Kimi-K2.5,model,moonshotai,CN
+moonshotai/Kimi-K2-Instruct-0905,model,moonshotai,CN
+moonshotai/Kimi-Dev-72B,model,moonshotai,CN
+Kwai-Klear/KlearReasoner-MathSub-30K,dataset,Kwai-Klear,CN
+Kwai-Klear/KlearReasoner-CodeSub-15K,dataset,Kwai-Klear,CN
+Kwai-Klear/Klear-Reasoner-8B,model,Kwai-Klear,CN
+Kwai-Klear/Klear-Reasoner-8B-SFT,model,Kwai-Klear,CN
+KodCode/KodCode-V1,dataset,KodCode,UNTAGGED
+DBQA,dataset,futurehouse,US
+futurehouse/lab-bench,dataset,futurehouse,US
+LAION,dataset,LAION,EU
+laion/relaion-coco,dataset,laion,UNTAGGED
+laion/LAION-DISCO-12M,dataset,laion,UNTAGGED
+EleutherAI/lambada_openai,dataset,EleutherAI,US
+cimec/lambada,dataset,cimec,EU
+CohereForAI/lbpp,dataset,CohereForAI,OTHER
+GAIR/lima,dataset,GAIR,CN
+GAIR/LIMO,dataset,GAIR,CN
+GAIR/LIMO-v2,model,GAIR,CN
+LJSpeech,dataset,keithito,UNTAGGED
+LLaMA-2,model,LLaMA-2,US
+lmms-lab/LLaVA-OneVision-Data,dataset,lmms-lab,UNTAGGED
+lmms-lab/LLaVA-Video-178K,dataset,lmms-lab,UNTAGGED
+lmsys/lmsys-chat-1m,dataset,lmsys,US
+lighteval/lsat_qa,dataset,lighteval,HF
+EdisonScientific/labbench2,dataset,EdisonScientific,UNTAGGED
+laboroai/Laboro-ParaCorpus,dataset,laboroai,UNTAGGED
+newfacade/LeetCodeDataset,dataset,newfacade,UNTAGGED
+LeetCode,dataset,LeetCode,US
+ibragim-bad/leetcode_solutions,dataset,ibragim-bad,UNTAGGED
+Levenshtein Transformer,model,Levenshtein Transformer,US
+Libri-Light,dataset,gh:facebookresearch,UNTAGGED
+Limaye,dataset,Limaye,OTHER
+Linformer,model,gh:facebookresearch,UNTAGGED
+pemistahl/lingua,model,pemistahl,EU
+futurehouse/litqa-v2-public-set,dataset,futurehouse,US
+LitQA2,dataset,futurehouse,US
+livecodebench/code_generation_lite,dataset,livecodebench,US
+LiveCodeBench v4,dataset,LiveCodeBench v4,US
+Skywork/LiveCodeBench,dataset,Skywork,CN
+LiveCodeBench v3,dataset,livecodebench,US
+livecodebench/code_generation,dataset,livecodebench,US
+PrimeIntellect/LiveCodeBench-v5,dataset,PrimeIntellect,US
+drproduck/livecodebench-v6,dataset,drproduck,UNTAGGED
+QAQAQAQAQ/LiveCodeBench-Pro,dataset,QAQAQAQAQ,UNKNOWN
+livecodebench/code_generation_lite@release_v5,dataset,livecodebench,US
+LiveCodeBench v6 2408-2505,dataset,LiveCodeBench v6 2408-2505,US
+LiveVQA,dataset,LiveVQA,CN
+Llama 3.1,model,Llama 3.1,US
+Llama-3,model,Llama-3,US
+meta-llama/Llama-3.1-8B,model,meta-llama,US
+meta-llama/Llama-3.1-70B,model,meta-llama,US
+meta-llama/Llama-3.3-70B-Instruct,model,meta-llama,US
+huggyllama/llama-13b,model,huggyllama,UNTAGGED
+huggyllama/llama-7b,model,huggyllama,UNTAGGED
+meta-llama/Llama-2-7b-chat-hf,model,meta-llama,US
+meta-llama/Llama-2-13b-hf,model,meta-llama,US
+meta-llama/Llama-2-13b-chat-hf,model,meta-llama,US
+meta-llama/Llama-2-70b-hf,model,meta-llama,US
+meta-llama/Llama-2-70b-chat-hf,model,meta-llama,US
+meta-llama/Meta-Llama-3-8B-Instruct,model,meta-llama,US
+meta-llama/Meta-Llama-3-70B,model,meta-llama,US
+meta-llama/Meta-Llama-3-70B-Instruct,model,meta-llama,US
+meta-llama/Llama-3.1-405B,model,meta-llama,US
+meta-llama/Llama-3.1-405B-Instruct,model,meta-llama,US
+Llama 3 70B RM,model,Llama 3 70B RM,US
+meta-llama/Llama-2-7b,model,meta-llama,US
+nvidia/Llama2-70B-SteerLM-Chat,model,nvidia,US
+meta-llama/Meta-Llama-3-8B,model,meta-llama,US
+Llama 3 70B SteerLM 2 - Daring Anteater,model,Llama 3 70B SteerLM 2 - Daring Anteater,US
+Llama 3 70B SFT - Daring Anteater,model,Llama 3 70B SFT - Daring Anteater,US
+Llama 3 70B SFT - Open Assistant,model,Llama 3 70B SFT - Open Assistant,US
+Llama 3 70B DPO w. Daring Anteater,model,Llama 3 70B DPO w. Daring Anteater,US
+Llama 3 70B Iterative DPO w. Daring Anteater,model,Llama 3 70B Iterative DPO w. Daring Anteater,US
+Llama 3 70B PPO w. Daring Anteater,model,Llama 3 70B PPO w. Daring Anteater,US
+Llama 3 70B SteerLM - Open Assistant,model,Llama 3 70B SteerLM - Open Assistant,US
+meta-llama/Llama-3.1-8B-Instruct,model,meta-llama,US
+meta-llama/Llama-3.1-70B-Instruct,model,meta-llama,US
+meta-llama/Llama-3.1-405B-Instruct-FP8,model,meta-llama,US
+meta-llama/Llama-3.2-1B,model,meta-llama,US
+meta-llama/Llama-3.2-3B,model,meta-llama,US
+Nanotron-Llama-3.2-3B,model,Nanotron-Llama-3.2-3B,HF
+meta-llama/Llama-Guard-3-8B,model,meta-llama,US
+meta-llama/LlamaGuard-7b,model,meta-llama,US
+nvidia/Llama-3.1-Nemotron-70B-Instruct,model,nvidia,US
+nvidia/Llama-3.1-Nemotron-Nano-8B-v1,model,nvidia,US
+Llama-3.3-Nemotron-70B-Feedback/Edit/Select,model,Llama-3.3-Nemotron-70B-Feedback,UNTAGGED
+nvidia/Llama-3.1-Nemotron-70B-Reward,model,nvidia,US
+nvidia/Llama-3_3-Nemotron-Super-49B-v1,model,nvidia,US
+nvidia/Llama-3_3-Nemotron-Super-49B-GenRM,model,nvidia,US
+nvidia/Llama-3.3-Nemotron-70B-Reward,model,nvidia,US
+nvidia/Llama-3.3-Nemotron-70B-Reward-Multilingual,model,nvidia,US
+nvidia/Llama-3.3-Nemotron-70B-Reward-Principle,model,nvidia,US
+nvidia/Llama-3.3-Nemotron-70B-Edit,model,nvidia,US
+nvidia/Llama-3.3-Nemotron-70B-Feedback,model,nvidia,US
+nvidia/Llama-3.3-Nemotron-70B-Select,model,nvidia,US
+Llama-Nemotron,model,Llama-Nemotron,US
+nvidia/llama-3_1-Nemotron-Ultra-253B-v1,model,nvidia,US
+nvidia/Llama-3_3-Nemotron-Super-49B-v1_5,model,nvidia,US
+nvidia/Llama-3.1-Nemotron-Nano-VL-8B-V1,model,nvidia,US
+Llama-Nemotron Reasoning Traces,dataset,nvidia,US
+nvidia/Llama-Nemotron-Post-Training-Dataset,dataset,nvidia,US
+nvidia/llama-3.1-nemotron-safety-guard-8b-v3,model,nvidia,US
+nvidia/Llama2-13B-SteerLM-RM,model,nvidia,US
+nvidia/Llama3-70B-PPO-Chat,model,nvidia,US
+nvidia/Llama3-70B-DPO-Chat,model,nvidia,US
+nvidia/Llama3-70B-SteerLM-Chat,model,nvidia,US
+nvidia/Llama3-70B-SteerLM-RM,model,nvidia,US
+EleutherAI/llemma_7b,model,EleutherAI,US
+EleutherAI/llemma_34b,model,EleutherAI,US
+EleutherAI/llemma_7b_muinstruct_camelmath,model,EleutherAI,US
+HuggingFaceM4/LocalizedNarratives,dataset,HuggingFaceM4,HF
+lucasmccabe/logiqa,dataset,lucasmccabe,US
+Logic Puzzles,dataset,Logic Puzzles,US
+THUDM/LongAlign-10k,dataset,THUDM,UNTAGGED
+THUDM/LongAlign-6B-64k-base,model,THUDM,UNTAGGED
+THUDM/LongAlign-6B-64k,model,THUDM,UNTAGGED
+THUDM/LongAlign-7B-64k-base,model,THUDM,UNTAGGED
+THUDM/LongAlign-7B-64k,model,THUDM,UNTAGGED
+THUDM/LongAlign-13B-64k-base,model,THUDM,UNTAGGED
+THUDM/LongAlign-13B-64k,model,THUDM,UNTAGGED
+Yukang/LongAlpaca-12k,dataset,Yukang,UNTAGGED
+THUDM/LongBench,dataset,THUDM,UNTAGGED
+LongBench-Chat,dataset,gh:THUDM,UNTAGGED
+THUDM/LongBench-v2,dataset,THUDM,UNTAGGED
+lmsys/longchat-7b-v1.5-32k,model,lmsys,US
+nvidia/Lyra,model,nvidia,US
+lmms-lab/M4-Instruct-Data,dataset,lmms-lab,UNTAGGED
+allenai/MADLAD-400,dataset,allenai,US
+lighteval/MATH,dataset,lighteval,HF
+EleutherAI/hendrycks_math,dataset,EleutherAI,US
+HuggingFaceH4/MATH-500,dataset,HuggingFaceH4,HF
+MATH Level 5,dataset,MATH Level 5,US
+lighteval/MATH-Hard,dataset,lighteval,HF
+MATH Train,dataset,MATH Train,US
+AI-MO/aimo-validation-math-level-4,dataset,AI-MO,EU
+AI-MO/aimo-validation-math-level-5,dataset,AI-MO,EU
+simplescaling/openaimath,dataset,simplescaling,UNTAGGED
+veds12/math-squared,dataset,veds12,UNTAGGED
+TIGER-Lab/MATH-plus,dataset,TIGER-Lab,OTHER
+mwpt5/MAWPS,dataset,mwpt5,UNTAGGED
+MAmmoTH-VL/MAmmoTH-VL-Instruct-12M,dataset,MAmmoTH-VL,UNTAGGED
+google-research-datasets/mbpp,dataset,google-research-datasets,US
+MT MBPP,dataset,MT MBPP,US
+google-research-datasets/mbpp:sanitized,dataset,google-research-datasets,US
+evalplus/mbppplus,dataset,evalplus,US
+CogComp/mc_taco,dataset,CogComp,US
+sagnikrayc/mctest,dataset,sagnikrayc,US
+hltcoe/megawika,dataset,hltcoe,UNTAGGED
+juletxara/mgsm,dataset,juletxara,EU
+MHQA,dataset,MHQA,UNKNOWN
+apple/mkqa,dataset,apple,US
+Multilingual LibriSpeech,dataset,facebook,US
+PKU-Alignment/MM-SafetyBench,dataset,PKU-Alignment,CN
+cais/mmlu,dataset,cais,US
+MMLU Humanities,dataset,MMLU Humanities,US
+MMLU Social Sciences,dataset,MMLU Social Sciences,US
+MMLU Other,dataset,MMLU Other,US
+MMLU Auxiliary Train,dataset,MMLU Auxiliary Train,US
+edinburgh-dawg/mmlu-redux,dataset,edinburgh-dawg,UK
+microsoft/MMLU-CF,dataset,microsoft,US
+TIGER-Lab/MMLU-Pro,dataset,TIGER-Lab,OTHER
+li-lab/MMLU-ProX,dataset,li-lab,OTHER
+edinburgh-dawg/mmlu-redux-2.0,dataset,edinburgh-dawg,UK
+TIGER-Lab/MMLU-STEM,dataset,TIGER-Lab,OTHER
+yubo2333/MMLongBench-Doc,dataset,yubo2333,UNTAGGED
+MMMU/MMMU,dataset,MMMU,UNTAGGED
+OpenGVLab/MMPR-v1.2,dataset,OpenGVLab,UNTAGGED
+facebook/mms-1b,model,facebook,US
+facebook/mms-1b-all,model,facebook,US
+facebook/mms-1b-fl102,model,facebook,US
+facebook/mms-1b-l1107,model,facebook,US
+facebook/mms-300m,model,facebook,US
+CaraJ/MMSearch,dataset,CaraJ,UNTAGGED
+litwell/MMTrail-20M,dataset,litwell,UNTAGGED
+MosaicML/MPT,model,MosaicML,UNTAGGED
+MPT 30B Chat,model,MPT 30B Chat,US
+mosaicml/mpt-7b-8k-chat,model,mosaicml,UNTAGGED
+openai/mrcr,dataset,openai,US
+microsoft/ms_marco,dataset,microsoft,US
+MSMARCO-Passage,dataset,MSMARCO-Passage,US
+MSMARCO-DEV,dataset,MSMARCO-DEV,US
+allenai/mslr2022,dataset,allenai,US
+microsoft/msr_sqa,dataset,microsoft,US
+lmsys/mt_bench_human_judgments,dataset,lmsys,US
+HuggingFaceH4/mt_bench_prompts,dataset,HuggingFaceH4,HF
+MT-DNN,model,gh:namisan,UNTAGGED
+MT-NewsCommentary-TAUS,dataset,MT-NewsCommentary-TAUS,US
+MT-STEM,dataset,MT-STEM,US
+Beer,dataset,gh:anhaidgroup,US
+iTunes-Amazon,dataset,gh:anhaidgroup,US
+Fodors-Zagats,dataset,gh:anhaidgroup,US
+Walmart-Amazon,dataset,gh:anhaidgroup,US
+DBLP-ACM,dataset,gh:anhaidgroup,US
+DBLP-GoogleScholar,dataset,gh:anhaidgroup,US
+ise-uiuc/Magicoder-OSS-Instruct-75K,dataset,ise-uiuc,US
+ise-uiuc/Magicoder-OSS-Instruct-75K-Instruction-Response,dataset,ise-uiuc,US
+ise-uiuc/Magicoder-Evol-Instruct-110K,dataset,ise-uiuc,US
+Magpie,dataset,Magpie-Align,UNTAGGED
+Magpie-Align/Magpie-Qwen2.5-Coder-Pro-300K-v0.1,dataset,Magpie-Align,UNTAGGED
+HuggingFaceTB/Magpie-Pro-300K-Filtered-H4,dataset,HuggingFaceTB,HF
+TIGER-Lab/Mantis-Instruct,dataset,TIGER-Lab,OTHER
+nimapourjafar/mm_mapqa,dataset,nimapourjafar,UNTAGGED
+Margin-MSE,model,gh:sebastian-hofstaetter,UNTAGGED
+sebastian-hofstaetter/distilbert-dot-margin_mse-T2-msmarco,model,sebastian-hofstaetter,UNTAGGED
+Mask-Predict,model,Mask-Predict,US
+MassiveText,dataset,MassiveText,US
+olivettigroup/annotated-materials-syntheses,dataset,olivettigroup,UNTAGGED
+MathCoder2,model,MathGenie,CN
+TIGER-Lab/MathInstruct,dataset,TIGER-Lab,OTHER
+MathOverflow,dataset,MathOverflow,US
+GAIR/MathPile,dataset,GAIR,CN
+allenai/math_qa,dataset,allenai,US
+AI4Math/MathVista,dataset,AI4Math,UNTAGGED
+MathVista testmini,dataset,MathVista testmini,US
+Multilingual-Multimodal-NLP/McEval-Instruct,dataset,Multilingual-Multimodal-NLP,UNTAGGED
+ofir408/MedConceptsQA,dataset,ofir408,OTHER
+openlifescienceai/medmcqa,dataset,openlifescienceai,UNKNOWN
+openlifescienceai/medqa,dataset,openlifescienceai,UNKNOWN
+davidheineman/medqa-en,dataset,davidheineman,US
+GBaker/MedQA-USMLE-4-options,dataset,GBaker,UNTAGGED
+LLM360/MegaMath,dataset,LLM360,OTHER
+OctoThinker/MegaMath-Web-Pro-Max,dataset,OctoThinker,CN
+LLM360/MegaMath-Llama-3.2-1B,model,LLM360,OTHER
+LLM360/MegaMath-Llama-3.2-3B,model,LLM360,OTHER
+MegaScience/MegaScience,dataset,MegaScience,CN
+MegaScience/TextbookReasoning,dataset,MegaScience,CN
+MegaScience/Llama3.1-8B-MegaScience,model,MegaScience,CN
+MegaScience/Qwen2.5-1.5B-MegaScience,model,MegaScience,CN
+MegaScience/Qwen2.5-3B-MegaScience,model,MegaScience,CN
+MegaScience/Qwen2.5-7B-MegaScience,model,MegaScience,CN
+MegaScience/Qwen3-1.7B-MegaScience,model,MegaScience,CN
+MegaScience/Qwen3-4B-MegaScience,model,MegaScience,CN
+MegaScience/Qwen3-8B-MegaScience,model,MegaScience,CN
+MegaScience/Qwen3-14B-MegaScience,model,MegaScience,CN
+MegaScience/Qwen3-30B-A3B-MegaScience,model,MegaScience,CN
+Megatron-11B,model,gh:facebookresearch,UNTAGGED
+Albertmade/memo-trap,dataset,Albertmade,OTHER
+kaggle/meta-kaggle-code,dataset,kaggle,US
+ai2-adapt-dev/metamath-qa-reformat,dataset,ai2-adapt-dev,US
+meta-math/MetaMath-70B-V1.0,model,meta-math,UNKNOWN
+meta-math/MetaMath-7B-V1.0,model,meta-math,UNKNOWN
+meta-math/MetaMath-13B-V1.0,model,meta-math,UNKNOWN
+meta-math/MetaMath-Llemma-7B,model,meta-math,UNKNOWN
+meta-math/MetaMath-Mistral-7B,model,meta-math,UNKNOWN
+meta-math/MetaMathQA,dataset,meta-math,UNKNOWN
+MetaMathQA-GSM8K,dataset,MetaMathQA-GSM8K,UK
+MetaMathQA-MATH,dataset,MetaMathQA-MATH,UK
+math-ai/minervamath,dataset,math-ai,CN
+openbmb/MiniCPM,model,openbmb,CN
+AI-MO/minif2f_test,dataset,AI-MO,EU
+MiniMaxAI/MiniMax-M1-40k,model,MiniMaxAI,CN
+MiniMaxAI/MiniMax-M1-80k,model,MiniMaxAI,CN
+MiniMaxAI/MiniMax-M2,model,MiniMaxAI,CN
+MiniMaxAI/MiniMax-M2.5,model,MiniMaxAI,CN
+nvidia/Minitron-4B-Base,model,nvidia,US
+AmazonScience/mintaka,dataset,AmazonScience,UNTAGGED
+TencentARC/MiraData,dataset,TencentARC,UNTAGGED
+mistralai/Mistral-7B-v0.1,model,mistralai,EU
+mistralai/Mistral-7B-Instruct-v0.1,model,mistralai,EU
+mistralai/Mistral-7B-Instruct-v0.2,model,mistralai,EU
+mistralai/Mistral-7B-Instruct-v0.3,model,mistralai,EU
+Mistral-7B-RL-CAI,model,Mistral-7B-RL-CAI,UNKNOWN
+Mistral-7B-SL-CAI,model,Mistral-7B-SL-CAI,UNKNOWN
+mistralai/Mistral-7B-v0.3,model,mistralai,EU
+mistralai/Mistral-Small-3.2-24B-Instruct-2506,model,mistralai,EU
+mistralai/Mistral-Small-24B-Instruct-2501,model,mistralai,EU
+mistralai/Mistral-Small-3.1-24B-Instruct-2503,model,mistralai,EU
+mistralai/Mistral-Large-Instruct-2407,model,mistralai,EU
+mistralai/Mistral-Nemo-Instruct-2407,model,mistralai,EU
+nvidia/Mistral-NeMo-12B-Instruct,model,nvidia,US
+MixEval/MixEval,dataset,MixEval,UNTAGGED
+mistralai/Mixtral-8x22B-v0.1,model,mistralai,EU
+mistralai/Mixtral-8x7B-v0.1,model,mistralai,EU
+mistralai/Mixtral-8x22B-Instruct-v0.1,model,mistralai,EU
+mistralai/Mixtral-8x7B-Instruct-v0.1,model,mistralai,EU
+open-r1/Mixture-of-Thoughts,dataset,open-r1,HF
+demelin/moral_stories,dataset,demelin,UK
+MuMath-Code,model,weihao1,UNTAGGED
+TAUR-Lab/MuSR,dataset,TAUR-Lab,UNTAGGED
+MuST-C,dataset,MuST-C,EU
+dgslibisey/MuSiQue,dataset,dgslibisey,UNTAGGED
+HuanjinYao/Mulberry-SFT,dataset,HuanjinYao,UNTAGGED
+facebook/Multi-IF,dataset,facebook,US
+virtuoussy/Multi-subject-RLVR,dataset,virtuoussy,CN
+ScaleAI/MultiChallenge,dataset,ScaleAI,US
+kejian/MultiCite-classification-gold-context,dataset,kejian,UNTAGGED
+nyu-mll/multi_nli,dataset,nyu-mll,US
+nuprl/MultiPL-E,dataset,nuprl,US
+MultiPL MBPP,dataset,MultiPL MBPP,US
+allenai/MultiPref,dataset,allenai,US
+alexandrainst/m_hellaswag,dataset,alexandrainst,EU
+Multitool Typewriter Hard,dataset,Multitool Typewriter Hard,US
+Nexusflow/MultiverseMathHard,dataset,Nexusflow,US
+nvidia/music-flamingo-hf,model,nvidia,US
+NDLTD,dataset,NDLTD,US
+NEWTON-confident-questions,dataset,NEWTONReasoning,UNTAGGED
+NEWTON-explicit-questions-bool,dataset,NEWTONReasoning,UNTAGGED
+NEWTON-explicit-questions-mc,dataset,NEWTONReasoning,UNTAGGED
+NEWTON-implicit-questions,dataset,NEWTONReasoning,UNTAGGED
+lmms-lab/NExTQA,dataset,lmms-lab,UNTAGGED
+NIH ExPorter,dataset,NIH ExPorter,US
+jiacheng-ye/nl2bash,dataset,jiacheng-ye,CN
+facebook/nllb-200-3.3B,model,facebook,US
+NLTK Words List,dataset,gh:nltk,UNKNOWN
+NVIDIA Nemotron,model,NVIDIA Nemotron,US
+ddrg/named_math_formulas,dataset,ddrg,UNTAGGED
+deepmind/narrativeqa,dataset,deepmind,US
+Super-NaturalInstructions,dataset,Muennighoff,US
+google-research-datasets/natural_questions,dataset,google-research-datasets,US
+google-research-datasets/nq_open,dataset,google-research-datasets,US
+facebook/natural_reasoning,dataset,facebook,US
+allenai/NaturalReasoning-Llama-3.1-8B-Instruct,model,allenai,US
+nvidia/instruction-data-guard,model,nvidia,US
+berkeley-nest/Nectar,dataset,berkeley-nest,UNTAGGED
+Needle-in-a-Haystack,dataset,gh:gkamradt,UNKNOWN
+nvidia/nemocurator-fineweb-nemotron-4-edu-classifier,model,nvidia,US
+nvidia/nemocurator-fineweb-mixtral-edu-classifier,model,nvidia,US
+nvidia/llama-3.1-nemoguard-8b-content-safety,model,nvidia,US
+Nemotron,model,Nemotron,US
+Nemotron Nano 2,model,nvidia,US
+nvidia/NVIDIA-Nemotron-Nano-9B-v2,model,nvidia,US
+nvidia/Nemotron-4-340B-Instruct,model,nvidia,US
+Nemotron 3 Super,model,Nemotron 3 Super,US
+Nemotron-3,model,nvidia,US
+Nemotron-2-43B,model,Nemotron-2-43B,US
+Nemotron 3 Super 120B-A12B,model,Nemotron 3 Super 120B-A12B,US
+nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16,model,nvidia,US
+Nemotron 3 Super 120B-A12B chat,model,Nemotron 3 Super 120B-A12B chat,US
+nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16,model,nvidia,US
+nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8,model,nvidia,US
+nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4,model,nvidia,US
+Nemotron 5,model,Nemotron 5,US
+nvidia/Aegis-AI-Content-Safety-Dataset-2.0,dataset,nvidia,US
+nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16,model,nvidia,US
+nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16,model,nvidia,US
+nvidia/NVIDIA-Nemotron-Nano-9B-v2-Base,model,nvidia,US
+nvidia/NVIDIA-Nemotron-Nano-12B-v2-Base,model,nvidia,US
+nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16,model,nvidia,US
+nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-FP8,model,nvidia,US
+nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-NVFP4,model,nvidia,US
+nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16,model,nvidia,US
+nvidia/NVIDIA-Nemotron-3-Nano-4B-FP8,model,nvidia,US
+nvidia/NVIDIA-Nemotron-3-Nano-4B-GGUF,model,nvidia,US
+nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8,model,nvidia,US
+nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4,model,nvidia,US
+nvidia/NVIDIA-Nemotron-Nano-12B-v2,model,nvidia,US
+NVIDIA Nemotron Nano 2,model,NVIDIA Nemotron Nano 2,US
+nvidia/Nemotron-Post-Training-Dataset-v1,dataset,nvidia,US
+Nemotron Post-training Code,dataset,Nemotron Post-training Code,US
+nvidia/Nemotron-Personas-USA,dataset,nvidia,US
+Nemotron-Pre-Training-Dataset-v2.1,dataset,Nemotron-Pre-Training-Dataset-v2.1,US
+nvidia/Nemotron-RL-knowledge-openqa,dataset,nvidia,US
+nvidia/Nemotron-RL-math-OpenMathReasoning,dataset,nvidia,US
+nvidia/Nemotron-3-Content-Safety,model,nvidia,US
+Nemotron-3-Ultra,model,Nemotron-3-Ultra,US
+Nemotron-4-340B,model,Nemotron-4-340B,US
+nvidia/Nemotron-4-340B-Base,model,nvidia,US
+nvidia/Nemotron-4-340B-Reward,model,nvidia,US
+nvidia/Nemotron-4-15B-Base,model,nvidia,US
+nvidia/Nemotron-4-15B-KD,model,nvidia,US
+Nemotron-4 340B Interm-1 Base,model,Nemotron-4 340B Interm-1 Base,US
+Nemotron-4 340B Interm-1 Instruct,model,Nemotron-4 340B Interm-1 Instruct,US
+Nemotron-4 340B Interm-2 Base,model,Nemotron-4 340B Interm-2 Base,US
+Nemotron-4 340B Interm-2 Chat,model,Nemotron-4 340B Interm-2 Chat,US
+nvidia/Nemotron-4-Mini-Hindi-4B-Base,model,nvidia,US
+nvidia/Nemotron-4-Mini-Hindi-4B-Instruct,model,nvidia,US
+nvidia/Nemotron-CC,dataset,nvidia,US
+nvidia/Nemotron-CC-v2,dataset,nvidia,US
+nvidia/Nemotron-CC-v2.1,dataset,nvidia,US
+nvidia/Nemotron-CC-Code-v1,dataset,nvidia,US
+nvidia/Nemotron-CC-Math-v1,dataset,nvidia,US
+nvidia/Nemotron-Cascade-8B,model,nvidia,US
+nvidia/Nemotron-Cascade-8B-Thinking,model,nvidia,US
+nvidia/Nemotron-Cascade-14B-Thinking,model,nvidia,US
+Nemotron-Cascade-8B-SFT,model,Nemotron-Cascade-8B-SFT,US
+Nemotron-Cascade-8B-RLHF,model,Nemotron-Cascade-8B-RLHF,US
+Nemotron-Cascade-8B-CodeRL,model,Nemotron-Cascade-8B-CodeRL,US
+Nemotron-Cascade-8B-IFRL,model,Nemotron-Cascade-8B-IFRL,US
+Nemotron-Cascade-8B-MathRL,model,Nemotron-Cascade-8B-MathRL,US
+Nemotron-Cascade-RM,model,Nemotron-Cascade-RM,US
+Nemotron-Cascade-14B-Thinking-CodeRL,model,Nemotron-Cascade-14B-Thinking-CodeRL,US
+Nemotron-Cascade-14B-Thinking-MathRL,model,Nemotron-Cascade-14B-Thinking-MathRL,US
+Nemotron-Cascade-14B-Thinking-RLHF,model,Nemotron-Cascade-14B-Thinking-RLHF,US
+Nemotron-Cascade-14B-Thinking-SFT,model,Nemotron-Cascade-14B-Thinking-SFT,US
+nvidia/Nemotron-Competitive-Programming-v1,dataset,nvidia,US
+nvidia/Nemotron-Content-Safety-Reasoning-4B,model,nvidia,US
+nvidia/Nemotron-CrossThink,dataset,nvidia,US
+nvidia/Nemotron-H-8B-Base-8K,model,nvidia,US
+nvidia/Nemotron-H-8B-Reasoning-128K,model,nvidia,US
+nvidia/Nemotron-Image-Training-v3,dataset,nvidia,US
+nvidia/Nemotron-Instruction-Following-Chat-v1,dataset,nvidia,US
+nvidia/Nemotron-MIND,dataset,nvidia,US
+nvidia/Nemotron-Math-v2,dataset,nvidia,US
+nvidia/Nemotron-Math-Proofs-v1,dataset,nvidia,US
+nvidia/Nemotron-Mini-4B-Base,model,nvidia,US
+nvidia/Nemotron-Nano-v3,model,nvidia,US
+nvidia/Nemotron-PII,dataset,nvidia,US
+nvidia/NVIDIA-Nemotron-Parse-v1.1,model,nvidia,US
+nvidia/Nemotron-Personas,dataset,nvidia,US
+nvidia/Nemotron-Post-Training-Dataset-v2,dataset,nvidia,US
+Nemotron Synth QA,dataset,Nemotron Synth QA,US
+nvidia/Nemotron-Pretraining-Code-v1,dataset,nvidia,US
+nvidia/Nemotron-Pretraining-Code-v2,dataset,nvidia,US
+nvidia/Nemotron-Pretraining-SFT-v1,dataset,nvidia,US
+nvidia/Nemotron-Pretraining-Specialized-v1,dataset,nvidia,US
+nvidia/Nemotron-Pretraining-Specialized-v1.1,dataset,nvidia,US
+nvidia/Nemotron-Pretraining-Dataset-sample,dataset,nvidia,US
+Nemotron-Pre-Training-Dataset-v1,dataset,nvidia,US
+nvidia/Nemotron-Pretraining-Long-Context-v1,dataset,nvidia,US
+nvidia/Nemotron-PrismMath,dataset,nvidia,US
+nvidia/Nemotron-RL-Super-Training-Blends,dataset,nvidia,US
+nvidia/Nemotron-RL-Identity-Following-v1,dataset,nvidia,US
+nvidia/Nemotron-RL-Instruction-Following-Adversarial-v1,dataset,nvidia,US
+nvidia/Nemotron-RL-Instruction-Following-Calendar-v2,dataset,nvidia,US
+nvidia/Nemotron-RL-Instruction-Following-MultiTurnChat-v1,dataset,nvidia,US
+nvidia/Nemotron-RL-Agentic-Conversational-Tool-Use-Pivot-v1,dataset,nvidia,US
+nvidia/Nemotron-RL-Agentic-Function-Calling-Pivot-v1,dataset,nvidia,US
+nvidia/Nemotron-RL-Agentic-SWE-Pivot-v1,dataset,nvidia,US
+nvidia/Nemotron-RL-ReasoningGym-v1,dataset,nvidia,US
+nvidia/Nemotron-RL-Safety-v1,dataset,nvidia,US
+nvidia/Nemotron-RL-agent-calendar_scheduling,dataset,nvidia,US
+nvidia/Nemotron-RL-agent-workplace_assistant,dataset,nvidia,US
+nvidia/Nemotron-RL-coding-competitive_coding,dataset,nvidia,US
+nvidia/Nemotron-RL-instruction_following,dataset,nvidia,US
+nvidia/Nemotron-RL-instruction_following-structured_outputs,dataset,nvidia,US
+nvidia/Nemotron-RL-knowledge-mcqa,dataset,nvidia,US
+nvidia/Nemotron-RL-knowledge-web_search-mcqa,dataset,nvidia,US
+nvidia/Nemotron-RL-Agentic-Conversational-Tool-Use-v1,dataset,nvidia,US
+nvidia/Llama-Nemotron-VLM-Dataset-v1,dataset,nvidia,US
+Helsinki-NLP/news_commentary,dataset,Helsinki-NLP,EU
+News Commentary v13,dataset,News Commentary v13,UK
+cornell-newsroom/newsroom,dataset,cornell-newsroom,UNTAGGED
+HuggingFaceH4/no_robots,dataset,HuggingFaceH4,HF
+nomic-ai/nomic-embed-text-v1,model,nomic-ai,UNTAGGED
+AI-MO/NuminaMath-CoT,dataset,AI-MO,EU
+AI-MO/NuminaMath-TIR,dataset,AI-MO,EU
+ai2-adapt-dev/numinamath_tir_math_decontaminated,dataset,ai2-adapt-dev,US
+AI-MO/NuminaMath-7B-CoT,model,AI-MO,EU
+AI-MO/NuminaMath-7B-TIR,model,AI-MO,EU
+AI-MO/NuminaMath-7B-TIR-GPTQ,model,AI-MO,EU
+AI-MO/NuminaMath-72B-CoT,model,AI-MO,EU
+AI-MO/NuminaMath-72B-TIR,model,AI-MO,EU
+simplescaling/numinamath_500,dataset,simplescaling,UNTAGGED
+AI-MO/NuminaMath-1.5,dataset,AI-MO,EU
+weijiezz/NuminaMath-100k,dataset,weijiezz,UNKNOWN
+ehartford/oa_leet10k,dataset,ehartford,UNTAGGED
+mx262/OCR-Reasoning,dataset,mx262,UNTAGGED
+lmms-lab/OCRBench-v2,dataset,lmms-lab,UNTAGGED
+zhangirazerbayev/ocwcourses,dataset,zhangirazerbayev,UNTAGGED
+laion/OIG,dataset,laion,UNTAGGED
+OK-VQA,dataset,OK-VQA,US
+OLMES,dataset,gh:allenai,US
+OlmoBaseEval,dataset,gh:allenai,US
+allenai/OLMo-1B,model,allenai,US
+allenai/OLMo-7B,model,allenai,US
+allenai/OLMo-7B-Instruct,model,allenai,US
+allenai/OLMo-7B-SFT,model,allenai,US
+allenai/OLMo-2-1124-7B-SFT,model,allenai,US
+allenai/OLMo-2-1124-7B-DPO,model,allenai,US
+allenai/OLMo-2-1124-13B-SFT,model,allenai,US
+allenai/OLMo-7B-0724-SFT-hf,model,allenai,US
+allenai/OLMo-1.7-7B-hf,model,allenai,US
+allenai/OLMo-7B-v1.7,model,allenai,US
+allenai/olmo-mix-1124,dataset,allenai,US
+OLMo 2 13B,model,OLMo 2 13B,US
+OLMo 2 32B,model,OLMo 2 32B,US
+OLMo 2 7B,model,OLMo 2 7B,US
+allenai/OLMo-2-0425-1B,model,allenai,US
+allenai/OLMo-2-1124-13B,model,allenai,US
+allenai/OLMo-2-1124-13B-Instruct,model,allenai,US
+allenai/OLMo-2-0425-1B-Instruct,model,allenai,US
+allenai/OLMo-2-0325-32B-Instruct,model,allenai,US
+allenai/OLMo-2-1124-7B-Instruct,model,allenai,US
+OLMo-2 Instruct,model,OLMo-2 Instruct,US
+allenai/OLMo-2-1124-7B,model,allenai,US
+allenai/OLMo-2-0325-32B,model,allenai,US
+allenai/OLMo-2-0425-1B-SFT,model,allenai,US
+allenai/olmo-2-1124-7b-preference-mix,dataset,allenai,US
+allenai/OLMo-2-0425-1B-DPO,model,allenai,US
+allenai/OLMo-2-0425-1B-RLVR1,model,allenai,US
+allenai/OLMo-2-1124-13B-DPO,model,allenai,US
+allenai/olmo-2-0425-1b-preference-mix,dataset,allenai,US
+allenai/OLMo-2-0325-32B-DPO,model,allenai,US
+allenai/OLMo-2-0325-32B-SFT,model,allenai,US
+allenai/olmo-2-1124-13b-preference-mix,dataset,allenai,US
+allenai/Olmo-3-7B-Think-DPO,model,allenai,US
+allenai/Olmo-3-32B-Think-DPO,model,allenai,US
+allenai/Olmo-3-7B-RL-Zero-Math,model,allenai,US
+allenai/Olmo-3-7B-RL-Zero-Code,model,allenai,US
+allenai/Olmo-3-7B-RL-Zero-IF,model,allenai,US
+allenai/Olmo-3-7B-RL-Zero-General,model,allenai,US
+allenai/Olmo-3-7B-RL-Zero-Mix,model,allenai,US
+allenai/Olmo-3-32B-Instruct,model,allenai,US
+allenai/Olmo-3-32B-Instruct-DPO,model,allenai,US
+allenai/Olmo-3-32B-Instruct-SFT,model,allenai,US
+allenai/Olmo-3-32B-Think-SFT,model,allenai,US
+allenai/Olmo-3-7B-Instruct-DPO,model,allenai,US
+allenai/Olmo-3-7B-Instruct-SFT,model,allenai,US
+allenai/Olmo-3-7B-Think-SFT,model,allenai,US
+OLMo 3 7B,model,OLMo 3 7B,US
+allenai/Olmo-3-7B-Instruct,model,allenai,US
+allenai/Olmo-3-7B-Think,model,allenai,US
+allenai/Olmo-3-32B-Think,model,allenai,US
+allenai/Olmo-3-1025-7B,model,allenai,US
+allenai/Olmo-3-1125-32B,model,allenai,US
+allenai/Olmo-3.1-32B-Instruct,model,allenai,US
+allenai/Olmo-3.1-32B-Instruct-SFT,model,allenai,US
+allenai/Olmo-3.1-32B-Instruct-DPO,model,allenai,US
+allenai/Olmo-3.1-32B-Think,model,allenai,US
+allenai/Olmo-3.1-7B-RL-Zero-Code,model,allenai,US
+allenai/Olmo-3.1-7B-RL-Zero-Math,model,allenai,US
+allenai/Olmo-3-1025-32B,model,allenai,US
+allenai/IF_Taxonomy-olmo32,dataset,allenai,US
+allenai/Wildchat-prefs-280824-olmo32,dataset,allenai,US
+allenai/DaringAnteater-preferences-olmo32,dataset,allenai,US
+allenai/sft_v3.9_used_off_policy_prompts-olmo32,dataset,allenai,US
+allenai/sft_v3.9_used_on_policy_prompts-olmo32,dataset,allenai,US
+allenai/Olmo-Hybrid-7B,model,allenai,US
+allenai/Olmo-Hybrid-Instruct-SFT-7B,model,allenai,US
+allenai/OLMo-Hybrid-Instruct-DPO-7B,model,allenai,US
+allenai/Olmo-Hybrid-Instruct-7B,model,allenai,US
+allenai/OLMo-3.2-Hybrid-7B-DPO,model,allenai,US
+allenai/big-reasoning-traces,dataset,allenai,US
+OLMo Mix (June 2025),dataset,OLMo Mix (June 2025),US
+OLMo Mix (September 2025),dataset,OLMo Mix (September 2025),US
+DataMix.OLMo_midtraining_mix_0625_100B,dataset,DataMix.OLMo_midtraining_mix_0625_100B,US
+allenai/tulu-3-sft-olmo-2-mixture,dataset,allenai,US
+allenai/OLMoE-1B-7B-0924,model,allenai,US
+allenai/OLMoE-1B-7B-0924-SFT,model,allenai,US
+allenai/omega-500,dataset,allenai,US
+allenai/omega-problems,dataset,allenai,US
+allenai/omega-explorative,dataset,allenai,US
+INSAIT-Institute/OPC,dataset,INSAIT-Institute,UNTAGGED
+allenai/olmo-2-hard-coded,dataset,allenai,US
+Hothan/OlympiadBench,dataset,Hothan,CN
+GAIR/OlympicArena,dataset,GAIR,CN
+open-r1/OlympicCoder-32B,model,open-r1,HF
+open-r1/OlympicCoder-7B,model,open-r1,HF
+Omega,dataset,Omega,US
+KbsdJames/Omni-MATH,dataset,KbsdJames,UNTAGGED
+hf-audio/open-asr-leaderboard,dataset,hf-audio,UNTAGGED
+Open Reasoner Zero,model,Open Reasoner Zero,CN
+Open Textbook Library,dataset,Open Textbook Library,US
+Open Textbook Library (CC BY-SA subset),dataset,Open Textbook Library (CC BY-SA subset),US
+Open-Code Reasoner,dataset,Open-Code Reasoner,US
+garage-bAInd/Open-Platypus,dataset,garage-bAInd,US
+open-r1/OpenR1-Math-Raw,dataset,open-r1,HF
+open-r1/codeforces-cots,dataset,open-r1,HF
+open-r1/OpenR1-Distill-7B,model,open-r1,HF
+Open-Reasoner-Zero/orz_math_57k_collected,dataset,Open-Reasoner-Zero,CN
+OpenAI Evals,dataset,gh:openai,UNTAGGED
+mmathys/openai-moderation-api-evaluation,dataset,mmathys,UNKNOWN
+OpenAI/omni-moderation-latest,model,OpenAI,US
+OpenAI/o1-mini,model,OpenAI,US
+OpenAssistant/oasst1,dataset,OpenAssistant,EU
+timdettmers/openassistant-guanaco,dataset,timdettmers,US
+OpenAssistant Conversations,dataset,gh:LAION-AI,EU
+OpenAssistant/falcon-40b-sft-mix-1226,model,OpenAssistant,EU
+OpenAssistant/falcon-40b-sft-top1-560,model,OpenAssistant,EU
+OpenAssistant/llama-30b-super-pretrain,model,OpenAssistant,EU
+OpenAssistant/llama_30b_oasst_latcyr_400,model,OpenAssistant,EU
+OpenAssistant/llama_30b_oasst_latcyr_1000,model,OpenAssistant,EU
+OpenAssistant/oasst-rlhf-2-llama-30b-7k-steps,model,OpenAssistant,EU
+OpenAssistant/oasst-rlhf-3-llama-30b-5k-steps,model,OpenAssistant,EU
+OpenAssistant/oasst-sft-5-llama-30b-epoch-1,model,OpenAssistant,EU
+OpenAssistant/oasst-sft-6-llama-30b,model,OpenAssistant,EU
+OpenAssistant/oasst-sft-6-llama-30b-epoch-1,model,OpenAssistant,EU
+OpenAssistant/oasst-sft-7-llama-30b,model,OpenAssistant,EU
+OpenAssistant/oasst-sft-7e2-llama-30b,model,OpenAssistant,EU
+OpenAssistant/oasst-sft-7e3-llama-30b,model,OpenAssistant,EU
+OpenAssistant/pythia-12b-sft-v8-7k-steps,model,OpenAssistant,EU
+OpenAssistant/oasst-rm-2-pythia-6.9b-epoch-1,model,OpenAssistant,EU
+andreaskoepf/oasst-rm-1-pythia-1b,model,andreaskoepf,UNTAGGED
+andreaskoepf/oasst-rm-2-pythia-1.4b-10000,model,andreaskoepf,UNTAGGED
+andreaskoepf/pythia-1.4b-gpt4all-pretrain,model,andreaskoepf,UNTAGGED
+andreaskoepf/pythia-6.9b-gpt4all-pretrain,model,andreaskoepf,UNTAGGED
+"OpenBookQA (allenai/openbookqa, off-lattice)",dataset,OpenBookQA (allenai,US
+m-a-p/CodeFeedback-Filtered-Instruction,dataset,m-a-p,CN
+nvidia/OpenCodeReasoning,dataset,nvidia,US
+nvidia/OpenCodeReasoning-2,dataset,nvidia,US
+nvidia/OpenCodeReasoning-Nemotron-1.1-7B,model,nvidia,US
+OpenCoder-LLM/opc-sft-stage2,dataset,OpenCoder-LLM,CN
+infly/OpenCoder-1.5B-Base,model,infly,UNTAGGED
+infly/OpenCoder-1.5B-Instruct,model,infly,UNTAGGED
+infly/OpenCoder-8B-Base,model,infly,UNTAGGED
+infly/OpenCoder-8B-Instruct,model,infly,UNTAGGED
+OpenCoder-LLM/opc-sft-stage1,dataset,OpenCoder-LLM,CN
+OpenCoder-LLM/OpenCoder-1.5B-Base-Checkpoints,model,OpenCoder-LLM,CN
+OpenCoder-LLM/OpenCoder-8B-Base-Checkpoints,model,OpenCoder-LLM,CN
+OpenCoder-LLM/opc-fineweb-math-corpus,dataset,OpenCoder-LLM,CN
+OpenCoder-LLM/opc-fineweb-code-corpus,dataset,OpenCoder-LLM,CN
+OpenCoder-LLM/opc-annealing-corpus,dataset,OpenCoder-LLM,CN
+All-Hands-AI/OpenHands,model,All-Hands-AI,US
+HuggingFaceTB/openhermes_filtered,dataset,HuggingFaceTB,HF
+teknium/OpenHermes-2.5,dataset,teknium,US
+nvidia/OpenMath-Nemotron-1.5B,model,nvidia,US
+nvidia/OpenMath-Nemotron-7B,model,nvidia,US
+nvidia/OpenMath-Nemotron-14B,model,nvidia,US
+nvidia/OpenMath-Nemotron-14B-Kaggle,model,nvidia,US
+nvidia/OpenMath-Nemotron-32B,model,nvidia,US
+nvidia/OpenMath2-Llama3.1-8B,model,nvidia,US
+nvidia/OpenMath2-Llama3.1-8B-nemo,model,nvidia,US
+nvidia/OpenMath2-Llama3.1-70B,model,nvidia,US
+nvidia/OpenMath2-Llama3.1-70B-nemo,model,nvidia,US
+nvidia/OpenMathInstruct-1,dataset,nvidia,US
+nvidia/OpenMathInstruct-2,dataset,nvidia,US
+ai2-adapt-dev/open_math_2_gsm8k_converted,dataset,ai2-adapt-dev,US
+nvidia/OpenMathReasoning,dataset,nvidia,US
+allenai/mid-training-OpenMathReasoning-rewrite-teacher-student-lecture-filtered,dataset,allenai,US
+Open-Orca/OpenOrca,dataset,Open-Orca,UNKNOWN
+Open-Orca/SlimOrca,dataset,Open-Orca,UNKNOWN
+open-r1/OpenR1-Math-220k,dataset,open-r1,HF
+nvidia/OpenReasoning-Nemotron-7B,model,nvidia,US
+nvidia/OpenReasoning-Nemotron-1.5B,model,nvidia,US
+nvidia/OpenReasoning-Nemotron-14B,model,nvidia,US
+nvidia/OpenReasoning-Nemotron-32B,model,nvidia,US
+nvidia/OpenScienceReasoning-2,dataset,nvidia,US
+OpenStax,dataset,OpenStax,US
+HuggingFaceTB/openstax_paragraphs,dataset,HuggingFaceTB,HF
+open-thoughts/OpenThinker-7B,model,open-thoughts,US
+open-thoughts/OpenThinker3-7B,model,open-thoughts,US
+open-thoughts/OpenThinker3-1.5B,model,open-thoughts,US
+open-thoughts/OpenThoughts-114k,dataset,open-thoughts,US
+open-thoughts/OpenThoughts2-1M,dataset,open-thoughts,US
+mlfoundations-dev/openthoughts3_science,dataset,mlfoundations-dev,US
+open-thoughts/OpenThinker-32B,model,open-thoughts,US
+open-thoughts/OpenThinker2-32B,model,open-thoughts,US
+open-thoughts/OpenThinker2-7B,model,open-thoughts,US
+open-thoughts/OpenThoughts3-1.2M,dataset,open-thoughts,US
+open-web-math/open-web-math,dataset,open-web-math,OTHER
+Skylion007/openwebtext,dataset,Skylion007,US
+defunct-datasets/the_pile_openwebtext2,dataset,defunct-datasets,HF
+KRAFTON/Orak,dataset,KRAFTON,UNTAGGED
+HuggingFaceH4/orca_dpo_pairs,dataset,HuggingFaceH4,HF
+microsoft/orca-math-word-problems-200k,dataset,microsoft,US
+microsoft/orca-agentinstruct-1M-v1,dataset,microsoft,US
+deepmind/pg19,dataset,deepmind,US
+bigcode/pii-for-code-v2,dataset,bigcode,HF
+ybisk/piqa,dataset,ybisk,US
+PMC Open Access Subset,dataset,PMC Open Access Subset,US
+openai/prm800k,dataset,openai,US
+allenai/paloma,dataset,allenai,US
+pandalla/pandalla-math-dataset-v1.0,dataset,pandalla,UNKNOWN
+Josephgflowers/Par-Four-Fineweb-Edu-Fortified-Chemistry-Physics-Astronomy-Math-Reason,dataset,Josephgflowers,UNTAGGED
+nvidia/parakeet-tdt-0.6b-v2,model,nvidia,US
+sgoel9/paul_graham_essays,dataset,sgoel9,UNTAGGED
+ptb-text-only/ptb_text_only,dataset,ptb-text-only,UNTAGGED
+lmms-lab/PerceptionTest,dataset,lmms-lab,UNTAGGED
+saumyamalik/persona-precise-if-r1-filtered-decontam,dataset,saumyamalik,US
+proj-persona/PersonaHub,dataset,proj-persona,CN
+saurabh5/tulu-3-personas-code-rlvr,dataset,saurabh5,US
+ai2-adapt-dev/personahub_math_interm_algebra_50000,dataset,ai2-adapt-dev,US
+ai2-adapt-dev/personahub_math_v5_regen_149960,dataset,ai2-adapt-dev,US
+Phi-3,model,microsoft,US
+microsoft/Phi-3-medium-4k-instruct,model,microsoft,US
+microsoft/Phi-3-small-8k-instruct,model,microsoft,US
+microsoft/Phi-4-reasoning,model,microsoft,US
+microsoft/phi-4,model,microsoft,US
+microsoft/Phi-4-mini-instruct,model,microsoft,US
+microsoft/Phi-4-reasoning-plus,model,microsoft,US
+nvidia/PhysicalAI-SpatialIntelligence-Lyra-SDG,dataset,nvidia,US
+Vikhrmodels/physics_big,dataset,Vikhrmodels,OTHER
+EleutherAI/pile,dataset,EleutherAI,US
+allenai/pixmo-cap,dataset,allenai,US
+achang/plot_qa,dataset,achang,UNTAGGED
+POLARIS-Project/Polaris-Dataset-53K,dataset,POLARIS-Project,CN
+akariasai/PopQA,dataset,akariasai,US
+proof-pile-2 (algebraic-stack/stack config),dataset,proof-pile-2 (algebraic-stack,US
+wenjiema02/ProofBench,dataset,wenjiema02,UNTAGGED
+hoskinson-center/proofnet,dataset,hoskinson-center,UNTAGGED
+allenai/prosocial-dialog,dataset,allenai,US
+ProtocolQA,dataset,futurehouse,US
+PubMed Abstracts,dataset,PubMed Abstracts,US
+ncbi/pubmed,dataset,ncbi,US
+qiaojin/PubMedQA,dataset,qiaojin,UNTAGGED
+bsmock/pubtables-1m,dataset,bsmock,UNTAGGED
+trishullab/PutnamBench,dataset,trishullab,UNTAGGED
+jacobmorrison/puzzle_data_160k,dataset,jacobmorrison,US
+EleutherAI/pythia-12b,model,EleutherAI,US
+allenai/qasper,dataset,allenai,US
+google-research-datasets/qed,dataset,google-research-datasets,US
+svakulenk0/qrecc,dataset,svakulenk0,UNTAGGED
+allenai/quac,dataset,allenai,US
+QuASC,dataset,QuASC,US
+Qwen/QwQ-32B,model,Qwen,CN
+r1-reasoning-traces,dataset,r1-reasoning-traces,US
+Qwen/Qwen1.5-32B-Chat,model,Qwen,CN
+Qwen/Qwen2-72B,model,Qwen,CN
+Qwen/Qwen2-72B-Instruct,model,Qwen,CN
+Qwen/Qwen2-VL-72B-Instruct,model,Qwen,CN
+Qwen2.5,model,Qwen,CN
+Qwen/Qwen2.5-3B,model,Qwen,CN
+Qwen/Qwen2.5-72B,model,Qwen,CN
+Qwen/Qwen2.5-3B-Instruct,model,Qwen,CN
+Qwen/Qwen2.5-72B-Instruct,model,Qwen,CN
+Qwen/Qwen2.5-32B,model,Qwen,CN
+Qwen/Qwen2.5-7B,model,Qwen,CN
+Qwen2.5 1M,model,Qwen2.5 1M,CN
+Qwen/Qwen2.5-7B-Instruct,model,Qwen,CN
+Qwen/Qwen2.5-32B-Instruct,model,Qwen,CN
+Qwen/Qwen2.5-Coder-32B-Instruct,model,Qwen,CN
+Qwen/Qwen2.5-0.5B,model,Qwen,CN
+Qwen/Qwen2.5-14B,model,Qwen,CN
+Qwen/Qwen2.5-0.5B-Instruct,model,Qwen,CN
+Qwen/Qwen2.5-14B-Instruct,model,Qwen,CN
+Qwen/Qwen2.5-32B-Instruct-AWQ,model,Qwen,CN
+Qwen/Qwen2.5-1.5B,model,Qwen,CN
+Qwen2.5-Math,model,Qwen,CN
+Qwen/Qwen2.5-1.5B-Instruct,model,Qwen,CN
+Qwen/Qwen2.5-Coder-7B,model,Qwen,CN
+Qwen/Qwen2.5-Coder-7B-Instruct,model,Qwen,CN
+Qwen/Qwen2.5-Coder-14B,model,Qwen,CN
+Qwen/Qwen2.5-Coder-14B-Instruct,model,Qwen,CN
+Qwen/Qwen2.5-Coder-32B,model,Qwen,CN
+Qwen/Qwen2.5-Math-1.5B,model,Qwen,CN
+Qwen/Qwen2.5-Math-72B-Instruct,model,Qwen,CN
+hamishivi/qwen2_5_openthoughts2,model,hamishivi,US
+Qwen/Qwen2.5-Math-RM-72B,model,Qwen,CN
+open-r1/Qwen2.5-Math-7B-RoPE-300k,model,open-r1,HF
+Qwen/Qwen2.5-Math-72B,model,Qwen,CN
+Qwen/Qwen2.5-Math-7B,model,Qwen,CN
+Qwen/Qwen2.5-Math-7B-Instruct,model,Qwen,CN
+Qwen/Qwen2.5-VL-32B-Instruct,model,Qwen,CN
+Qwen/Qwen2.5-VL-72B-Instruct,model,Qwen,CN
+Qwen3,model,Qwen,CN
+Qwen/Qwen3-0.6B,model,Qwen,CN
+Qwen/Qwen3-32B,model,Qwen,CN
+Qwen/Qwen3-1.7B,model,Qwen,CN
+Qwen/Qwen3-1.7B-Base,model,Qwen,CN
+Qwen/Qwen3-4B,model,Qwen,CN
+Qwen/Qwen3-4B-Base,model,Qwen,CN
+Qwen/Qwen3-14B,model,Qwen,CN
+Qwen/Qwen3-30B-A3B,model,Qwen,CN
+Qwen/Qwen3-8B,model,Qwen,CN
+Qwen/Qwen3-8B-Base,model,Qwen,CN
+Qwen/Qwen3-Coder-30B-A3B-Instruct,model,Qwen,CN
+Qwen/Qwen3-VL-32B-Instruct,model,Qwen,CN
+Qwen/Qwen3-235B-A22B,model,Qwen,CN
+Qwen/Qwen3-235B-A22B-Instruct-2507,model,Qwen,CN
+Qwen/Qwen3-235B-A22B-Instruct-2507-FP8,model,Qwen,CN
+Qwen/Qwen3-235B-A22B-Thinking-2507,model,Qwen,CN
+Qwen/Qwen3-30B-A3B-Instruct-2507,model,Qwen,CN
+Qwen/Qwen3-30B-A3B-Thinking-2507,model,Qwen,CN
+Qwen/Qwen3-4B-Thinking-2507,model,Qwen,CN
+Qwen/Qwen3-14B-Base,model,Qwen,CN
+Qwen/Qwen3-30B-A3B-Base,model,Qwen,CN
+Qwen/Qwen3-Coder-480B-A35B-Instruct,model,Qwen,CN
+Qwen/Qwen3-Embedding-8B,model,Qwen,CN
+Qwen/Qwen3-Embedding-0.6B,model,Qwen,CN
+nvidia/Qwen3-Nemotron-32B-GenRM-Principle,model,nvidia,US
+nvidia/Qwen3-Nemotron-235B-A22B-GenRM,model,nvidia,US
+nvidia/Qwen3-Nemotron-235B-A22B-GenRM-2603,model,nvidia,US
+Qwen/Qwen3-Next-80B-A3B-Thinking,model,Qwen,CN
+Qwen/Qwen3-Omni-30B-A3B-Instruct,model,Qwen,CN
+Qwen/Qwen3-Omni-30B-A3B-Captioner,model,Qwen,CN
+Qwen/Qwen3-VL-30B-A3B-Instruct,model,Qwen,CN
+Qwen/Qwen3-VL-30B-A3B-Thinking-FP8,model,Qwen,CN
+Qwen/Qwen3-VL-235B-A22B-Instruct,model,Qwen,CN
+Qwen/Qwen3-VL-235B-A22B-Instruct-FP8,model,Qwen,CN
+Qwen/Qwen3-VL-235B-A22B-Thinking,model,Qwen,CN
+Qwen/Qwen3-VL-235B-A22B-Thinking-FP8,model,Qwen,CN
+R2E-Gym/R2E-Gym,dataset,R2E-Gym,US
+R2E-Gym/R2E-Gym-Subset,dataset,R2E-Gym,US
+R2E-Gym/R2E-Gym-Lite,dataset,R2E-Gym,US
+R2E-Gym/R2E-Gym-V1,dataset,R2E-Gym,US
+R2E-Gym/R2E-TestgenAgent-Patches,dataset,R2E-Gym,US
+R2E-Gym/R2EGym-SFT-Trajectories,dataset,R2E-Gym,US
+R2E-Gym/R2EGym-TestingAgent-SFT-Trajectories,dataset,R2E-Gym,US
+R2E-Gym/R2EGym-Verifier-Trajectories,dataset,R2E-Gym,US
+R2E-Gym/R2EGym-32B-Agent,model,R2E-Gym,US
+R2E-Gym/R2E-TestgenAgent,model,R2E-Gym,US
+R2E-Gym/R2EGym-7B-Agent,model,R2E-Gym,US
+R2E-Gym/R2EGym-14B-Agent,model,R2E-Gym,US
+R2E-Gym/R2EGym-Verifier,model,R2E-Gym,US
+ehovy/race,dataset,ehovy,US
+nvidia/C-RADIOv4-H,model,nvidia,US
+rulins/2wiki_rlvr_no_prompt,dataset,rulins,US
+rulins/hotpotqa_rlvr_no_prompt,dataset,rulins,US
+rulins/nq_rlvr_no_prompt,dataset,rulins,US
+rulins/tqa_rlvr_no_prompt,dataset,rulins,US
+HuggingFaceM4/RAVEN,dataset,HuggingFaceM4,HF
+hamishivi/MathSub-30K,dataset,hamishivi,US
+RLHFlow/LLaMA3-iterative-DPO-final,model,RLHFlow,UNTAGGED
+allenai/RLVR-GSM,dataset,allenai,US
+allenai/RLVR-MATH,dataset,allenai,US
+allenai/rlvr_general_mix-keyword-filtered (off-lattice),dataset,allenai,US
+allenai/rlvr_general_mix-keyword-filtered-topic-chars-char-filt-topic-filtered,dataset,allenai,US
+hamishivi/rlvr_orz_math_57k_collected,dataset,hamishivi,US
+allenai/IF_multi_constraints_upto5_filtered_dpo_0625_filter-keyword-filtered-topic-char-topic-filtered,dataset,allenai,US
+allenai/RLVR-GSM-MATH-IF-Mixed-Constraints,dataset,allenai,US
+rl-rag/gpqa_diamond_rlvr_no_prompt,dataset,rl-rag,US
+rl-rag/hle_rlvr_no_prompt,dataset,rl-rag,US
+THU-KEG/RM-Bench,dataset,THU-KEG,CN
+simonjegou/ruler,dataset,simonjegou,UNKNOWN
+RULER-64K,dataset,RULER-64K,US
+RULER-128K,dataset,RULER-128K,US
+RULER-100,dataset,RULER-100,US
+RULER-100 (256K),dataset,RULER-100 (256K),US
+RULER-100 (512K),dataset,RULER-100 (512K),US
+RULER-100 1M,dataset,RULER-100 1M,US
+RULER 1M,dataset,RULER 1M,US
+anisha2102/RaR-Medicine-20k-o3-mini,dataset,anisha2102,US
+anisha2102/RaR-Science-20k-o3-mini,dataset,anisha2102,US
+ReSum,model,ReSum,CN
+ReSumTool-30B,model,gh:Alibaba-NLP,UNTAGGED
+allenai/real-toxicity-prompts,dataset,allenai,US
+togethercomputer/RedPajama-Data-1T,dataset,togethercomputer,US
+togethercomputer/RedPajama-Data-1T-Sample,dataset,togethercomputer,US
+togethercomputer/RedPajama-Data-V2,dataset,togethercomputer,US
+JailbreakV-28K/RedTeam-2K,dataset,JailbreakV-28K,US
+Ericwang/gpt-oss-distilled-redteam2k,dataset,Ericwang,UNKNOWN
+MMInstruction/RedTeamingVLM,dataset,MMInstruction,UNTAGGED
+Reddit,dataset,Reddit,US
+allenai/dolma-reddit-to-flashcards-0625,dataset,allenai,US
+reddit_to_flashcards,dataset,reddit_to_flashcards,US
+lmms-lab/RefCOCO,dataset,lmms-lab,UNTAGGED
+RefineCode,dataset,gh:OpenCoder-llm,UNTAGGED
+OpenCoder-LLM/RefineCode-code-corpus-meta,dataset,OpenCoder-LLM,CN
+SenseLLM/ReflectionSeq-GPT,dataset,SenseLLM,UNTAGGED
+allenai/related-query_gpt_pairs_filtered_lbc100,dataset,allenai,US
+allenai/repeat_gpt_pairs_filtered_lbc100,dataset,allenai,US
+allenai/repeat-truncated-gpt-dedup-topic-filt-lb100,dataset,allenai,US
+realliyifei/ResearchQA,dataset,realliyifei,US
+rl-research/researchqa_official_subset_ids,dataset,rl-research,US
+allenai/reward-bench,dataset,allenai,US
+INK-USC/riddle_sense,dataset,INK-USC,UNTAGGED
+RoBERTa,model,RoBERTa,US
+FacebookAI/roberta-large,model,FacebookAI,UNTAGGED
+FacebookAI/roberta-base,model,FacebookAI,UNTAGGED
+alisawuffles/roberta-large-wanli,model,alisawuffles,UNTAGGED
+FacebookAI/roberta-large-mnli,model,FacebookAI,UNTAGGED
+roberta.base.nopos,model,gh:facebookresearch,UNTAGGED
+distilbert/distilroberta-base,model,distilbert,UNTAGGED
+christopher/rosetta-code,dataset,christopher,UNTAGGED
+simplescaling/s1-32B,model,simplescaling,UNTAGGED
+S3D,model,S3D,US
+hails/agieval-sat-math,dataset,hails,UNTAGGED
+EricLu/SCP-116K,dataset,EricLu,CN
+SEC EDGAR,dataset,SEC EDGAR,US
+stanfordnlp/SHP,dataset,stanfordnlp,US
+amazon-agi/SIFT-50M,dataset,amazon-agi,UNTAGGED
+lighteval/siqa,dataset,lighteval,HF
+BoKelvin/SLAKE,dataset,BoKelvin,UNTAGGED
+stanfordnlp/snli,dataset,stanfordnlp,US
+allenai/soda,dataset,allenai,US
+BeIR/sparta-msmarco-distilbert-base-v1,model,BeIR,OTHER
+nvidia/SPEED-Bench,dataset,nvidia,US
+rajpurkar/squad,dataset,rajpurkar,US
+rajpurkar/squad_v2,dataset,rajpurkar,US
+allenai/squad-gen2mc,dataset,allenai,US
+RUC-AIBOX/STILL-3-Preview-RL-Data,dataset,RUC-AIBOX,UNTAGGED
+STOP,dataset,gh:facebookresearch,UNTAGGED
+ChilleD/SVAMP,dataset,ChilleD,UNTAGGED
+allenai/swag,dataset,allenai,US
+princeton-nlp/SWE-bench_Lite,dataset,princeton-nlp,US
+internlm/SWE-Fixer-Train-110K,dataset,internlm,CN
+SWE-Gym/SWE-Gym,dataset,SWE-Gym,US
+SWE-Gym/SWE-Gym-Lite,dataset,SWE-Gym,US
+SWE-Gym/Codebase-Index-Lite,dataset,SWE-Gym,US
+SWE-Gym/MoatlessTools-Agent-Verifier-Train-Data,dataset,SWE-Gym,US
+SWE-Gym/MoatlessTools-Sampled-Trajectories,dataset,SWE-Gym,US
+SWE-Gym/OpenHands-SFT-Trajectories,dataset,SWE-Gym,US
+SWE-Gym/OpenHands-Verifier-Trajectories,dataset,SWE-Gym,US
+SWE-Gym/MoatlessTools-7B-Agent,model,SWE-Gym,US
+SWE-Gym/MoatlessTools-7B-Verifier,model,SWE-Gym,US
+SWE-Gym/MoatlessTools-32B-Agent,model,SWE-Gym,US
+SWE-Gym/MoatlessTools-32B-Verifier,model,SWE-Gym,US
+SWE-Gym/OpenHands-7B-Agent,model,SWE-Gym,US
+SWE-Gym/OpenHands-14B-Agent,model,SWE-Gym,US
+SWE-Gym/OpenHands-32B-Agent,model,SWE-Gym,US
+SWE-Gym/OpenHands-32B-Verifier,model,SWE-Gym,US
+princeton-nlp/SWE-Llama-13b,model,princeton-nlp,US
+princeton-nlp/SWE-bench,dataset,princeton-nlp,US
+princeton-nlp/SWE-bench_Verified,dataset,princeton-nlp,US
+SWE-bench/SWE-bench_Multilingual,dataset,SWE-bench,US
+princeton-nlp/SWE-bench_oracle,dataset,princeton-nlp,US
+nebius/SWE-rebench,dataset,nebius,EU
+nebius/SWE-rebench-openhands-trajectories,dataset,nebius,EU
+nebius/SWE-rebench-openhands-Qwen3-235B-A22B,model,nebius,EU
+nebius/SWE-rebench-openhands-Qwen3-30B-A3B,model,nebius,EU
+SWE-bench/SWE-smith,dataset,SWE-bench,US
+PrimeIntellect/real-world-swe-problems,dataset,PrimeIntellect,US
+PrimeIntellect/stackexchange-question-answering,dataset,PrimeIntellect,US
+PrimeIntellect/synthetic-code-understanding,dataset,PrimeIntellect,US
+PrimeIntellect/SYNTHETIC-2,dataset,PrimeIntellect,US
+PrimeIntellect/SYNTHETIC-2-SFT-verified,dataset,PrimeIntellect,US
+PKU-Alignment/PKU-SafeRLHF,dataset,PKU-Alignment,CN
+vinid/safety-tuned-llamas,dataset,vinid,US
+Alibaba-NLP/SailorFog-QA,dataset,Alibaba-NLP,CN
+Alibaba-NLP/SailorFog-QA-2,dataset,Alibaba-NLP,CN
+ai4bharat/sangraha,dataset,ai4bharat,UNTAGGED
+bigcode/santacoder,model,bigcode,HF
+Scale Multi-Challenge,dataset,Scale Multi-Challenge,US
+OpenGVLab/ScaleCUA-Data,dataset,OpenGVLab,UNTAGGED
+xw27/scibench,dataset,xw27,US
+scibench-chemistry,dataset,xw27,US
+scibench-math,dataset,xw27,US
+scibench-physics,dataset,xw27,US
+allenai/scicite,dataset,allenai,US
+SciCode1/SciCode,dataset,SciCode1,US
+SciERC,dataset,SciERC,US
+OpenDFM/SciEval,dataset,OpenDFM,UNTAGGED
+allenai/scifact_entailment,dataset,allenai,US
+allenai/sciq,dataset,allenai,US
+allenai/SciRIFF,dataset,allenai,US
+allenai/SciRIFF-train-mix,dataset,allenai,US
+ai2-adapt-dev/SciRIFF-train-mix-science,dataset,ai2-adapt-dev,US
+kejian/SciReviewGen,dataset,kejian,UNTAGGED
+allenai/scitldr,dataset,allenai,US
+allenai/scitulu-7b,model,allenai,US
+allenai/scitulu-70b,model,allenai,US
+tomasg25/scientific_lay_summarisation,dataset,tomasg25,UNTAGGED
+armanc/scientific_papers,dataset,armanc,UNTAGGED
+rootsautomation/RICO-ScreenQA,dataset,rootsautomation,UNTAGGED
+vtllms/SealQA-Seal0,dataset,vtllms,UNTAGGED
+Search Arena,dataset,lmarena-ai,US
+lmarena-ai/search-arena-v1-7k,dataset,lmarena-ai,US
+lmarena-ai/search-arena-24k,dataset,lmarena-ai,US
+nogabenyoash/SecQue,dataset,nogabenyoash,UNKNOWN
+allenai/self-talk_gpt_pairs_filtered_lbc100,dataset,allenai,US
+allenai/self-talk-truncated-gpt-deduped-topic-filt-lb100 (off-lattice),dataset,allenai,US
+allenai/self-talk_gpt3.5_gpt4o_prefpairs_truncat-1848c9-agrejected-kwd-ftd-cn-ftd-topic-filt-lb100,dataset,allenai,US
+SenseMaking,dataset,gh:wangcunxiang,UNTAGGED
+stanfordnlp/sentiment140,dataset,stanfordnlp,US
+RyokoAI/ShareGPT52K,dataset,RyokoAI,UNKNOWN
+ShareGPT,dataset,ShareGPT,UNKNOWN
+anon8231489123/ShareGPT_Vicuna_unfiltered,dataset,anon8231489123,UNKNOWN
+sharegpt_20230422_clean_lang_split_identity.json,dataset,gh:lm-sys,UNTAGGED
+ShareGPT4Video/ShareGPT4Video,dataset,ShareGPT4Video,UNTAGGED
+google/siglip-base-patch16-512,model,google,US
+google/siglip-so400m-patch14-384,model,google,US
+HuggingFaceM4/siglip-so400m-14-384,model,HuggingFaceM4,HF
+BeIR/signal1m,dataset,BeIR,OTHER
+Simple Minesweeper,dataset,Simple Minesweeper,US
+Simple Sudoku,dataset,Simple Sudoku,US
+basicv8vc/SimpleQA,dataset,basicv8vc,US
+Bertievidgen/SimpleSafetyTests,dataset,Bertievidgen,US
+m-a-p/SimpleVQA,dataset,m-a-p,CN
+Single-step SWE RL for patch generation,dataset,Single-step SWE RL for patch generation,US
+siyue/SituatedQA,dataset,siyue,UNTAGGED
+Skywork/Skywork-OR1-7B,model,Skywork,CN
+Skywork/Skywork-OR1-7B-Preview,model,Skywork,CN
+Skywork/Skywork-OR1-Math-7B,model,Skywork,CN
+Skywork/Skywork-OR1-32B,model,Skywork,CN
+Skywork/Skywork-OR1-32B-Preview,model,Skywork,CN
+Skywork/Skywork-OR1-RL-Data,dataset,Skywork,CN
+Skywork/Skywork-Reward-Preference-80K-v0.1,dataset,Skywork,CN
+Skywork/Skywork-Reward-Preference-80K-v0.2,dataset,Skywork,CN
+NTT-hil-insight/SlideVQA,dataset,NTT-hil-insight,UNTAGGED
+ai2-adapt-dev/SlimOrca-reformat,dataset,ai2-adapt-dev,US
+cerebras/SlimPajama-627B,dataset,cerebras,UNTAGGED
+HuggingFaceTB/SmolLM,model,HuggingFaceTB,HF
+HuggingFaceTB/SmolLM-1.7B,model,HuggingFaceTB,HF
+HuggingFaceTB/SmolLM-360M,model,HuggingFaceTB,HF
+HuggingFaceTB/SmolLM-135M,model,HuggingFaceTB,HF
+HuggingFaceTB/SmolLM2-135M,model,HuggingFaceTB,HF
+HuggingFaceTB/SmolLM2-360M,model,HuggingFaceTB,HF
+SmolLM2-Instruct,model,SmolLM2-Instruct,HF
+HuggingFaceTB/SmolLM2-1.7B,model,HuggingFaceTB,HF
+HuggingFaceTB/SmolLM2-1.7B-Instruct,model,HuggingFaceTB,HF
+HuggingFaceTB/SmolLM2-135M-Instruct,model,HuggingFaceTB,HF
+HuggingFaceTB/SmolLM2-360M-Instruct,model,HuggingFaceTB,HF
+HuggingFaceTB/SmolLM3-3B,model,HuggingFaceTB,HF
+HuggingFaceTB/SmolLM3-3B-Base,model,HuggingFaceTB,HF
+HuggingFaceTB/SmolLM3-3B-GSM8K-SFT,model,HuggingFaceTB,HF
+HuggingFaceTB/SmolLM3-3B-ONNX,model,HuggingFaceTB,HF
+HuggingFaceTB/smoltalk,dataset,HuggingFaceTB,HF
+HuggingFaceTB/smol-smoltalk,dataset,HuggingFaceTB,HF
+HuggingFaceTB/smoltalk2,dataset,HuggingFaceTB,HF
+HuggingFaceTB/SmolVLM-Base,model,HuggingFaceTB,HF
+HuggingFaceTB/SmolVLM-Instruct,model,HuggingFaceTB,HF
+HuggingFaceTB/SmolVLM-256M-Instruct,model,HuggingFaceTB,HF
+HuggingFaceTB/SmolVLM-500M-Instruct,model,HuggingFaceTB,HF
+HuggingFaceTB/SmolVLM2-2.2B-Instruct,model,HuggingFaceTB,HF
+HuggingFaceTB/SmolVLM2-500M-Video-Instruct,model,HuggingFaceTB,HF
+HuggingFaceTB/SmolVLM2-256M-Video-Instruct,model,HuggingFaceTB,HF
+Social Chemistry 101,dataset,Social Chemistry 101,US
+tasksource/social-chemestry-101,dataset,tasksource,EU
+allenai/social_i_qa,dataset,allenai,US
+Software Heritage,dataset,Software Heritage,EU
+SpanBERT,model,gh:facebookresearch,UNTAGGED
+xlangai/spider2-lite,dataset,xlangai,CN
+Stack Exchange Data Dump,dataset,Stack Exchange Data Dump,US
+donfu/oa-stackexchange,dataset,donfu,UNTAGGED
+HuggingFaceTB/stack-edu,dataset,HuggingFaceTB,HF
+Stack Exchange,dataset,common-pile,US
+math-ai/StackMathQA,dataset,math-ai,CN
+bigcode/stackoverflow-clean,dataset,bigcode,HF
+StackOverflow,dataset,StackOverflow,US
+stanfordnlp/sst,dataset,stanfordnlp,US
+StanfordAIMI/stanford-deidentifier-base,model,StanfordAIMI,US
+StarChat,model,blog,UNTAGGED
+HuggingFaceH4/starchat-beta,model,HuggingFaceH4,HF
+HuggingFaceH4/starchat2-15b-v0.1,model,HuggingFaceH4,HF
+HuggingFaceH4/starchat2-15b-sft-v0.1,model,HuggingFaceH4,HF
+bigcode/starcoder,model,bigcode,HF
+StarCoder2,model,bigcode,HF
+bigcode/starcoder2-15b,model,bigcode,HF
+bigcode/starcoder2data,dataset,bigcode,HF
+bigcode/starcoderdata,dataset,bigcode,HF
+bigcode/starcoder2data-extras,dataset,bigcode,HF
+bigcode/starencoder,model,bigcode,HF
+bigcode/starpii,model,bigcode,HF
+bigcode/bigcode-encoder-pii-ner-v2,model,bigcode,HF
+LSDSem/story_cloze,dataset,LSDSem,UNTAGGED
+voidful/StrategyQA,dataset,voidful,UNTAGGED
+walledai/StrongREJECT,dataset,walledai,OTHER
+qylu4156/strongreject-15k-v1,dataset,qylu4156,UNKNOWN
+TIGER-Lab/StructEval,dataset,TIGER-Lab,OTHER
+openai/summarize_from_feedback,dataset,openai,US
+aps/super_glue,dataset,aps,US
+SuperGLUE: ReCoRD,dataset,aps,US
+MultiRC,dataset,aps,US
+m-a-p/SuperGPQA,dataset,m-a-p,CN
+tokyotech-llm/swallow-code,dataset,tokyotech-llm,OTHER
+tokyotech-llm/swallow-code-v0.1,dataset,tokyotech-llm,OTHER
+tokyotech-llm/swallow-math,dataset,tokyotech-llm,OTHER
+SwinDocSegmenter,model,gh:ayanban011,EU
+docling-project/SynthTabNet_OTSL,dataset,docling-project,UNTAGGED
+Synthetic Multilingual Science and Code,dataset,Synthetic Multilingual Science and Code,US
+Synthetic Offline Search MCQA (GPQA),dataset,Synthetic Offline Search MCQA (GPQA),US
+Synthetic Offline Search MCQA (HLE),dataset,Synthetic Offline Search MCQA (HLE),US
+Synthetic OpenCodeReasoning,dataset,Synthetic OpenCodeReasoning,US
+Synthetic OpenMathReasoning,dataset,Synthetic OpenMathReasoning,US
+Synthetic OpenSTEM,dataset,Synthetic OpenSTEM,US
+Synthetic QA (Papers and Books),dataset,Synthetic QA (Papers and Books),US
+Synthetic Rephrased Math,dataset,Synthetic Rephrased Math,US
+Synthetic SCP,dataset,Synthetic SCP,US
+Synthetic STEM from Qwen3-235B-A22B-Instruct-2507 and gpt-oss-120b,dataset,Synthetic STEM from Qwen3-235B-A22B-Instruct-2507 and gpt-oss-120b,US
+Synthetic STEM,dataset,Synthetic STEM,US
+Synthetic STEM (OpenStax+GSM8K),dataset,Synthetic STEM (OpenStax+GSM8K),US
+HuggingFaceH4/SystemChat,dataset,HuggingFaceH4,HF
+cognitivecomputations/SystemChat-2.0,dataset,cognitivecomputations,UNKNOWN
+T0-SF,dataset,T0-SF,HF
+T2D,dataset,T2D,EU
+T5,model,T5,US
+google-t5/t5-base,model,google-t5,UNTAGGED
+google-t5/t5-small,model,google-t5,UNTAGGED
+google-t5/t5-large,model,google-t5,UNTAGGED
+google/t5-v1_1-base,model,google,US
+google-t5/t5-3b,model,google-t5,UNTAGGED
+google-t5/t5-11b,model,google-t5,UNTAGGED
+google/t5-v1_1-small,model,google,US
+google/t5-v1_1-large,model,google,US
+google/t5-v1_1-xl,model,google,US
+google/t5-v1_1-xxl,model,google,US
+google/t5-small-lm-adapt,model,google,US
+google/t5-base-lm-adapt,model,google,US
+google/t5-large-lm-adapt,model,google,US
+google/t5-xl-lm-adapt,model,google,US
+google/t5-xxl-lm-adapt,model,google,US
+BAAI/TACO,dataset,BAAI,CN
+sentence-transformers/msmarco-distilbert-base-tas-b,model,sentence-transformers,UNTAGGED
+sebastian-hofstaetter/distilbert-dot-tas_b-b256-msmarco,model,sebastian-hofstaetter,UNTAGGED
+TAUS Translation Memory,dataset,TAUS Translation Memory,EU
+distil-whisper/tedlium-long-form,dataset,distil-whisper,HF
+TIGER-Lab/WebInstructSub,dataset,TIGER-Lab,OTHER
+TREC Robust 2004,dataset,TREC Robust 2004,US
+TREC-DL 2019,dataset,TREC-DL 2019,US
+Table-GPT,model,Table-GPT,US
+ai2-adapt-dev/Table-GPT-All-train,dataset,ai2-adapt-dev,US
+ai2-adapt-dev/table_gpt_converted,dataset,ai2-adapt-dev,US
+Table-GPT-3.5,model,Table-GPT-3.5,US
+Table-ChatGPT,model,Table-ChatGPT,US
+LipengCS/Table-GPT,dataset,LipengCS,US
+PersonalAILab/TaskCraft,dataset,PersonalAILab,CN
+TaskMaster,dataset,gh:google-research-datasets,UNTAGGED
+Taskmaster-2,dataset,gh:google-research-datasets,UNTAGGED
+Tau2-Bench Airline,dataset,gh:sierra-research,UNTAGGED
+Tau2-Bench Retail,dataset,gh:sierra-research,UNTAGGED
+Tau2-Bench Telecom,dataset,gh:sierra-research,UNTAGGED
+oa_tell_a_joke_20000,dataset,mikegarts,UNKNOWN
+laude-institute/terminal-bench,dataset,laude-institute,US
+laude-institute/terminal-bench-2.0,dataset,laude-institute,US
+lmms-lab/TextCaps,dataset,lmms-lab,UNTAGGED
+facebook/textvqa,dataset,facebook,US
+bigcode/the-stack,dataset,bigcode,HF
+bigcode/the-stack-v2,dataset,bigcode,HF
+bigcode/the-stack-v2-train-smol-ids,dataset,bigcode,HF
+bigcode/the-stack-v2-smol,dataset,bigcode,HF
+bigcode/stack-dedup-python-fns,dataset,bigcode,HF
+saurabh5/the-algorithm-python,dataset,saurabh5,US
+TIGER-Lab/TheoremQA,dataset,TIGER-Lab,OTHER
+TinyGSM/TinyGSM,dataset,TinyGSM,US
+Alibaba-NLP/Tongyi-DeepResearch-30B-A3B,model,Alibaba-NLP,CN
+Team-ACE/ToolACE,dataset,Team-ACE,CN
+OpenBMB/ToolBench,dataset,OpenBMB,CN
+Agent-Ark/Toucan-1.5M,dataset,Agent-Ark,US
+toxigen/toxigen-data,dataset,toxigen,US
+tomh/toxigen_roberta,model,tomh,US
+lmsys/toxic-chat,dataset,lmsys,US
+transfo-xl/transfo-xl-wt103,model,transfo-xl,US
+mandarjoshi/trivia_qa,dataset,mandarjoshi,US
+TrustLLM/TrustLLM-dataset,dataset,TrustLLM,US
+TrustLLM JailbreakTrigger,dataset,TrustLLM,US
+truthfulqa/truthful_qa,dataset,truthfulqa,UK
+TruthfulQA MC2,dataset,TruthfulQA MC2,UK
+allenai/tulu-3-wildguardmix,dataset,allenai,US
+allenai/tulu-3-wildjailbreak,dataset,allenai,US
+allenai/tulu-3-IF-augmented,dataset,allenai,US
+allenai/Llama-3.1-Tulu-3-70B-SFT,model,allenai,US
+allenai/tulu (reasoning_tulu_chatml_580k SFT),model,allenai,US
+allenai/tulu-2-7b,model,allenai,US
+allenai/Llama-3.1-Tulu-3-8B,model,allenai,US
+allenai/Llama-3.1-Tulu-3-8B-DPO,model,allenai,US
+allenai/Llama-3.1-Tulu-3-8B-SFT,model,allenai,US
+allenai/tulu-v1-sft-mixture,dataset,allenai,US
+Tulu 3 SFT,dataset,Tulu 3 SFT,US
+allenai/tulu-3-hard-coded,dataset,allenai,US
+allenai/codetulu-2-13b,model,allenai,US
+allenai/tulu-v2-qlora-7b,model,allenai,US
+allenai/tulu-v2-qlora-13b,model,allenai,US
+allenai/tulu-v2-qlora-70b,model,allenai,US
+allenai/tulu-7b,model,allenai,US
+Tulu 1,model,Tulu 1,US
+allenai/tulu-65b,model,allenai,US
+Tulu 2,model,Tulu 2,US
+Code Tulu 2,model,allenai,US
+CODE TÜLU 2,model,allenai,US
+allenai/tulu-2-13b,model,allenai,US
+allenai/tulu-2-70b,model,allenai,US
+allenai/tulu-2-dpo-7b,model,allenai,US
+allenai/llama-3-tulu-2-8b,model,allenai,US
+allenai/llama-3-tulu-2-dpo-8b,model,allenai,US
+allenai/llama-3.1-tulu-2-8b,model,allenai,US
+allenai/tulu-2-dpo-70b,model,allenai,US
+allenai/tulu-2-dpo-13b,model,allenai,US
+allenai/tulu-3-trustllm-jailbreaktrigger-eval,dataset,allenai,US
+Tulu 3,model,allenai,US
+allenai/llama-3.1-tulu-3-8b-preference-mixture,dataset,allenai,US
+HuggingFaceTB/reasoning_tulu_chatml_580k_all_lengths,dataset,HuggingFaceTB,HF
+Tulu 3 DPO,model,Tulu 3 DPO,US
+allenai/tulu-3-sft-mixture,dataset,allenai,US
+allenai/tulu-3-sft-personas-algebra,dataset,allenai,US
+allenai/tulu-3-sft-personas-math,dataset,allenai,US
+allenai/tulu-3-sft-personas-math-grade,dataset,allenai,US
+allenai/tulu-3-sft-personas-code,dataset,allenai,US
+allenai/tulu-3-sft-personas-instruction-following,dataset,allenai,US
+ai2-adapt-dev/tulu_v3.9_personahub_math_interm_algebra_20k,dataset,ai2-adapt-dev,US
+allenai/tulu-3-harmbench-eval,dataset,allenai,US
+allenai/tulu-3-do-anything-now-eval,dataset,allenai,US
+Tülu 3 SFT,model,Tülu 3 SFT,US
+Tülu 3 8B,model,Tülu 3 8B,US
+allenai/Llama-3.1-Tulu-3-8B-RM,model,allenai,US
+allenai/Llama-3.1-Tulu-3-70B,model,allenai,US
+allenai/Llama-3.1-Tulu-3-70B-DPO,model,allenai,US
+allenai/Llama-3.1-Tulu-3-405B,model,allenai,US
+allenai/Llama-3.1-Tulu-3-405B-SFT,model,allenai,US
+allenai/Llama-3.1-Tulu-3-405B-DPO,model,allenai,US
+allenai/Llama-3.1-Tulu-3.1-8B,model,allenai,US
+allenai/tulu-3-sft-olmo-2-mixture-0225,dataset,allenai,US
+allenai/tulu-3-sft-olmo-2-mixture-filter-datecutoff,dataset,allenai,US
+allenai/tulu-3-sft-reused-off-policy,dataset,allenai,US
+allenai/tulu-3-sft-reused-on-policy-70b,dataset,allenai,US
+allenai/tulu-3-sft-reused-on-policy-8b,dataset,allenai,US
+allenai/tulu-3-sft-prompts-ultrafeedback,dataset,allenai,US
+allenai/tulu-3-IF-augmented-on-policy-70b,dataset,allenai,US
+allenai/tulu-3-IF-augmented-on-policy-8b,dataset,allenai,US
+allenai/tulu-3-ultrafeedback-cleaned-on-policy-70b,dataset,allenai,US
+allenai/tulu-3-ultrafeedback-cleaned-on-policy-8b,dataset,allenai,US
+allenai/tulu-3-wildchat-if-on-policy-70b,dataset,allenai,US
+allenai/tulu-3-wildchat-if-on-policy-8b,dataset,allenai,US
+allenai/tulu-3-wildchat-reused-on-policy-70b,dataset,allenai,US
+allenai/tulu-3-wildchat-ultrafeedback,dataset,allenai,US
+allenai/tulu-3-wildchat-unused,dataset,allenai,US
+allenai/llama-3.1-tulu-3-405b-preference-mixture,dataset,allenai,US
+allenai/tulu-3-sft-personas-math-filtered,dataset,allenai,US
+allenai/tulu-3-sft-personas-math-grade-filtered,dataset,allenai,US
+allenai/tulu-3-pref-personas-instruction-following,dataset,allenai,US
+allenai/tulu-3-hard-coded-10x,dataset,allenai,US
+allenai/tulu-3-hardcoded-prompts,dataset,allenai,US
+allenai/tulu-3-wildchat-reused-on-policy-8b,dataset,allenai,US
+allenai/tulu-3-sft-for-olmo-3-midtraining,dataset,allenai,US
+allenai/related-query_qwen_pairs_filtered_lbc100,dataset,allenai,US
+allenai/repeat_qwen_pairs_filtered_lbc100,dataset,allenai,US
+allenai/self-talk_qwen_pairs_filtered_lbc100,dataset,allenai,US
+allenai/tulu-3-personas-math,dataset,allenai,US
+hamishivi/tulu_3_rewritten_100k,dataset,hamishivi,US
+hamishivi/tulu_3_rewritten_400k_string_f1_only_v2_nocode_all_filtered_qwen2_5_openthoughts2,dataset,hamishivi,US
+allenai/llama-3.1-tulu-3-70b-preference-mixture,dataset,allenai,US
+ai2-adapt-dev/sft_v3.9_used_off_policy,dataset,ai2-adapt-dev,US
+ai2-adapt-dev/sft_v3.9_used_on_policy_large_70b_ckpt,dataset,ai2-adapt-dev,US
+ai2-adapt-dev/sft_v3.9_used_on_policy_small_8b_ckpt,dataset,ai2-adapt-dev,US
+allenai/repeat_tulu_5maxturns_big_truncated2048_victoriagrejected-kwd-ftd-cn-ftd-topic-filt-lb100,dataset,allenai,US
+allenai/tulu-v2-sft-mixture,dataset,allenai,US
+natolambert/tulu-v2-sft-mixture-science,dataset,natolambert,US
+Tülu V2 SFT mixture,dataset,Tülu V2 SFT mixture,US
+google-research-datasets/tydiqa,dataset,google-research-datasets,US
+Tülu 2,model,allenai,US
+Tülu 3 Persona-IF,model,Tülu 3 Persona-IF,US
+Tülu 3 CoCoNot,dataset,Tülu 3 CoCoNot,US
+Tülu 3 SFT personas - Algebra,dataset,allenai,US
+Tülu 3 SFT personas - Code,dataset,allenai,US
+Tülu 3 SFT personas - Instruction Following,dataset,allenai,US
+Tülu 3 SFT personas - MATH,dataset,allenai,US
+Llama-3.1 Tülu 3 8B preference mixture,dataset,allenai,US
+Llama-3.1 Tülu 3 70B preference mixture,dataset,allenai,US
+Llama-3.1 Tülu 3 405B preference mixture,dataset,allenai,US
+U-PaLM 540B,model,U-PaLM 540B,US
+google/ul2,model,google,US
+MathArena/usamo_2025_outputs,dataset,MathArena,OTHER
+openbmb/UltraCM-13b,model,openbmb,CN
+stingning/ultrachat,dataset,stingning,CN
+HuggingFaceH4/ultrachat_200k,dataset,HuggingFaceH4,HF
+HuggingFaceTB/ultrachat_questions_about_world,dataset,HuggingFaceTB,HF
+openbmb/UltraFeedback,dataset,openbmb,CN
+ai2-adapt-dev/ultrafeedback-cleaned-regen-v3.9-70b-sft,dataset,ai2-adapt-dev,US
+ai2-adapt-dev/ultrafeedback-cleaned-regen-v3.9-8b-sft,dataset,ai2-adapt-dev,US
+HuggingFaceH4/ultrafeedback_binarized,dataset,HuggingFaceH4,HF
+allenai/ultrafeedback_binarized_cleaned,dataset,allenai,US
+openbmb/UltraInteract_sft,dataset,openbmb,CN
+openbmb/UltraLM-13b,model,openbmb,CN
+openbmb/UltraLM-65b,model,openbmb,CN
+openbmb/UltraLM-13b-PPO,model,openbmb,CN
+openbmb/UltraRM-13b,model,openbmb,CN
+UltraRM-Overall,model,UltraRM-Overall,CN
+UltraRM-UF,model,UltraRM-UF,CN
+UnifiedQA,model,gh:allenai,US
+UnFaZeD07/VALOR-32K,dataset,UnFaZeD07,UNKNOWN
+Loie/VGGSound,dataset,Loie,CN
+TIGER-Lab/VISTA-400K,dataset,TIGER-Lab,OTHER
+ys-zong/VLGuard,dataset,ys-zong,UK
+flaviagiammarino/vqa-rad,dataset,flaviagiammarino,OTHER
+lmms-lab/VQAv2,dataset,lmms-lab,UNTAGGED
+verifiable-gpt41,dataset,verifiable-gpt41,US
+verifiable-o4mini,dataset,verifiable-o4mini,US
+Vicuna-7B,model,Vicuna-7B,US
+lmsys/vicuna-7b-v1.5,model,lmsys,US
+lmsys/vicuna-13b-v1.5,model,lmsys,US
+lmsys/vicuna-33b-v1.3,model,lmsys,US
+lmsys/vicuna-13b-v1.1,model,lmsys,US
+lmsys/vicuna-7b-v1.1,model,lmsys,US
+lmsys/vicuna-7b-v1.3,model,lmsys,US
+lmsys/vicuna-13b-delta-v0,model,lmsys,US
+lmsys/vicuna-13b-v1.5-16k,model,lmsys,US
+lmsys/vicuna-7b-delta-v0,model,lmsys,US
+lmsys/vicuna-7b-v1.5-16k,model,lmsys,US
+lmsys/vicuna-13b-v1.3,model,lmsys,US
+lmms-lab/Video-MME,dataset,lmms-lab,UNTAGGED
+orrzohar/Video-STaR,dataset,orrzohar,US
+VideoCLIP,model,gh:facebookresearch,UNTAGGED
+Osilly/Vision-R1-cold,dataset,Osilly,CN
+TIGER-Lab/VisualWebInstruct,dataset,TIGER-Lab,OTHER
+MatthewCYM/VoiceBench,dataset,MatthewCYM,OTHER
+VoxLingua107,dataset,VoxLingua107,EU
+facebook/voxpopuli,dataset,facebook,US
+Mutonix/Vript,dataset,Mutonix,CN
+cais/wmdp,dataset,cais,US
+WMT,dataset,WMT,UK
+WMT 2014,dataset,wmt14,UNKNOWN
+WMT 2016,dataset,wmt16,UNKNOWN
+WMT 2014 English-German,dataset,WMT 2014 English-German,UK
+WMT News Crawl,dataset,WMT News Crawl,UK
+WMT English to French,dataset,WMT English to French,UK
+WMT English to German,dataset,WMT English to German,UK
+WMT English to Romanian,dataset,WMT English to Romanian,UK
+newstest2014,dataset,newstest2014,UK
+newstest2015,dataset,newstest2015,UK
+newstest2016,dataset,newstest2016,UK
+google/wmt24pp,dataset,google,US
+Wav2Vec2,model,Wav2Vec2,US
+facebook/wav2vec2-base,model,facebook,US
+facebook/wav2vec2-large,model,facebook,US
+facebook/wav2vec2-large-lv60,model,facebook,US
+facebook/wav2vec2-large-robust,model,facebook,US
+facebook/wav2vec2-large-xlsr-53,model,facebook,US
+Alibaba-NLP/WebDancer-32B,model,Alibaba-NLP,CN
+openai/webgpt_comparisons,dataset,openai,US
+WebInstruct,dataset,WebInstruct,OTHER
+ai2-adapt-dev/WebInstructSub-reformat,dataset,ai2-adapt-dev,US
+WebLeaper-30B-A3B,model,WebLeaper-30B-A3B,CN
+GEM/web_nlg,dataset,GEM,UNKNOWN
+WebOrganizer/TopicClassifier,model,WebOrganizer,US
+WebOrganizer,model,gh:CodeCreator,US
+Stanford/web_questions,dataset,Stanford,US
+WebResearcher,model,gh:Alibaba-NLP,UNTAGGED
+Alibaba-NLP/WebSailor,model,Alibaba-NLP,CN
+WebSailor-V2,model,gh:Alibaba-NLP,UNTAGGED
+Alibaba-NLP/WebSailor-3B,model,Alibaba-NLP,CN
+Alibaba-NLP/WebSailor-7B,model,Alibaba-NLP,CN
+Alibaba-NLP/WebSailor-32B,model,Alibaba-NLP,CN
+WebSailor-72B,model,WebSailor-72B,CN
+WebSailor-V2-30B-A3B,model,gh:Alibaba-NLP,UNTAGGED
+WebSailor-V1,model,WebSailor-V1,CN
+Alibaba-NLP/WebShaper,dataset,Alibaba-NLP,CN
+WebShaper-72B,model,WebShaper-72B,CN
+HuggingFaceM4/WebSight,dataset,HuggingFaceM4,HF
+rl-research/webwalker_test,dataset,rl-research,US
+callanwu/WebWalkerQA,dataset,callanwu,CN
+WebWatcher,model,gh:Alibaba-NLP,UNTAGGED
+Alibaba-NLP/WebWatcher-7B,model,Alibaba-NLP,CN
+Alibaba-NLP/WebWatcher-32B,model,Alibaba-NLP,CN
+WebWeaver,model,gh:Alibaba-NLP,UNTAGGED
+nvidia/When2Call,dataset,nvidia,US
+ByteDance-Seed/WideSearch,dataset,ByteDance-Seed,CN
+sedthh/cmu_wiki_qa,dataset,sedthh,EU
+michaelthwan/oa_wiki_qa_bart_10000row,dataset,michaelthwan,UNKNOWN
+WikiDialog,dataset,WikiDialog,US
+Salesforce/wikisql,dataset,Salesforce,US
+stanfordnlp/wikitablequestions,dataset,stanfordnlp,US
+WikiText-103,dataset,Salesforce,US
+Salesforce/wikitext,dataset,Salesforce,US
+wikimedia/wikibooks,dataset,wikimedia,US
+Wikidata,dataset,Wikidata,US
+Wikimedia,dataset,Wikimedia,US
+wikimedia/wikipedia,dataset,wikimedia,US
+Wikipedia & Wikibooks,dataset,Wikipedia & Wikibooks,US
+English Wikipedia,dataset,English Wikipedia,US
+Wikipedia + Toronto Book Corpus,dataset,Wikipedia + Toronto Book Corpus,US
+allenai/WildBench,dataset,allenai,US
+allenai/WildChat-1M,dataset,allenai,US
+allenai/WildChat,dataset,allenai,US
+allenai/WildChat-4.8M,dataset,allenai,US
+ai2-adapt-dev/WildChat-1M-GPT4-Only,dataset,ai2-adapt-dev,US
+ai2-adapt-dev/wildchat_gpt4_converted,dataset,ai2-adapt-dev,US
+ai2-adapt-dev/wildchat_v3.9_unused_off_policy,dataset,ai2-adapt-dev,US
+ai2-adapt-dev/wildchat_v3.9_used_on_policy_large_70b_ckpt,dataset,ai2-adapt-dev,US
+ai2-adapt-dev/wildchat_v3.9_used_on_policy_small_8b_ckpt,dataset,ai2-adapt-dev,US
+ai2-adapt-dev/WildChat-prefs-280824-uf-pipeline-regen-v3.9_small_8b_ckpt,dataset,ai2-adapt-dev,US
+ai2-adapt-dev/WildChat-prefs-280824-uf-pipeline-regen-v3.9_large_70b_ckpt,dataset,ai2-adapt-dev,US
+allenai/wildguard,model,allenai,US
+allenai/wildguardmix,dataset,allenai,US
+walledai/WildGuardTest,dataset,walledai,OTHER
+allenai/wildjailbreak,dataset,allenai,US
+WildJailbreak Test,dataset,WildJailbreak Test,US
+allenai/llama2-7b-WildJailbreak,model,allenai,US
+allenai/llama2-13b-WildJailbreak,model,allenai,US
+allenai/WildLlama-7b-user-assistant,model,allenai,US
+allenai/winogrande,dataset,allenai,US
+oskarvanderwal/winogender,dataset,oskarvanderwal,EU
+Winograd Schema Challenge,dataset,winograd_wsc,OTHER
+WizardLM-7B,model,WizardLM-7B,US
+WizardLMTeam/WizardLM-7B-V1.1,model,WizardLMTeam,US
+WizardLM-13B,model,WizardLM-13B,US
+WizardLMTeam/WizardLM-13B-V1.2,model,WizardLMTeam,US
+WizardLMTeam/WizardLM-70B-V1.0,model,WizardLMTeam,US
+WizardLMTeam/WizardLM-70B-V1.1,model,WizardLMTeam,US
+WizardLMTeam/WizardLM_evol_instruct_V2_196k,dataset,WizardLMTeam,US
+WorkBench,dataset,gh:olly-styles,UK
+honglyhly/WorldSense,dataset,honglyhly,CN
+WuDaoCorpora,dataset,WuDaoCorpora,CN
+facebook/xmod-base,model,facebook,US
+facebook/xglm-1.7B,model,facebook,US
+facebook/xglm-2.9B,model,facebook,US
+facebook/xglm-4.5B,model,facebook,US
+facebook/xglm-564M,model,facebook,US
+facebook/xglm-7.5B,model,facebook,US
+dense_13b,model,gh:facebookresearch,UNTAGGED
+csebuetnlp/xlsum,dataset,csebuetnlp,OTHER
+XLM,model,FacebookAI,UNTAGGED
+FacebookAI/xlm-roberta-base,model,FacebookAI,UNTAGGED
+FacebookAI/xlm-roberta-large,model,FacebookAI,UNTAGGED
+FacebookAI/xlm-roberta-xl,model,FacebookAI,UNTAGGED
+FacebookAI/xlm-roberta-xxl,model,FacebookAI,UNTAGGED
+XLS-R,model,XLS-R,US
+facebook/xnli,dataset,facebook,US
+walledai/xstest,dataset,walledai,OTHER
+natolambert/xstest-v2-copy,dataset,natolambert,US
+allenai/xstest-response,dataset,allenai,US
+XStoryCloze,dataset,juletxara,EU
+Muennighoff/xwinograd,dataset,Muennighoff,US
+01-ai/Yi-34B,model,01-ai,CN
+01-ai/Yi-9B,model,01-ai,CN
+01-ai/Yi-1.5-9B,model,01-ai,CN
+01-ai/Yi-34B-Chat,model,01-ai,CN
+01-ai/Yi-6B-Chat,model,01-ai,CN
+01-ai/Yi-1.5-34B,model,01-ai,CN
+WildEval/ZebraLogic,dataset,WildEval,US
+allenai/ZebraLogicBench,dataset,allenai,US
+HuggingFaceH4/zephyr-7b-beta,model,HuggingFaceH4,HF
+HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1,model,HuggingFaceH4,HF
+HuggingFaceH4/zephyr-7b-gemma-v0.1,model,HuggingFaceH4,HF
+HuggingFaceH4/zephyr-7b-gemma-sft-v0.1,model,HuggingFaceH4,HF
+HuggingFaceH4/mistral-7b-sft-beta,model,HuggingFaceH4,HF
+alignment-handbook/zephyr-7b-sft-full,model,alignment-handbook,UNTAGGED
+alignment-handbook/zephyr-7b-sft-qlora,model,alignment-handbook,UNTAGGED
+alignment-handbook/zephyr-7b-dpo-full,model,alignment-handbook,UNTAGGED
+alignment-handbook/zephyr-7b-dpo-qlora,model,alignment-handbook,UNTAGGED
+ai2-adapt-dev/WildChat-1M-Full-GPT4-Only,dataset,ai2-adapt-dev,US
+ai2-adapt-dev/coconot_converted,dataset,ai2-adapt-dev,US
+ai2-adapt-dev/daring-anteater-specialized,dataset,ai2-adapt-dev,US
+ai2-adapt-dev/oasst1_converted,dataset,ai2-adapt-dev,US
+ai2-adapt-dev/personahub_code_v2_34999,dataset,ai2-adapt-dev,US
+ai2-adapt-dev/personahub_grade_math_v1_49980,dataset,ai2-adapt-dev,US
+ai2-adapt-dev/personahub_ifdata_manual_seed_v3_29980,dataset,ai2-adapt-dev,US
+ai2-adapt-dev/processed-wildjailbreak,dataset,ai2-adapt-dev,US
+ai2-adapt-dev/synthetic-finalresp-wildguarmixtrain,dataset,ai2-adapt-dev,US
+ai2-adapt-dev/tulu_hard_coded_repeated_10,dataset,ai2-adapt-dev,US
+ai2-adapt-dev/Llama-3.1-if_taxonomy_tulu-uf-pipeline-regen-v3.9_small_8b_ckpt,dataset,ai2-adapt-dev,US
+ai2-adapt-dev/codefeedback,dataset,ai2-adapt-dev,US
+ai2-adapt-dev/evol_codealpaca,dataset,ai2-adapt-dev,US
+ai2-adapt-dev/numinamath,dataset,ai2-adapt-dev,US
+ai2-adapt-dev/rlvr,dataset,ai2-adapt-dev,US
+ai2-adapt-dev/tulu_hard_coded,dataset,ai2-adapt-dev,US
+ai2_arc/ARC-Easy,dataset,ai2_arc,US
+HuggingFaceH4/airoboros-3.2,dataset,HuggingFaceH4,HF
+ajibawa-2023/Maths-College,dataset,ajibawa-2023,UNTAGGED
+HuggingFaceH4/mistral-7b-anthropic,model,HuggingFaceH4,HF
+HuggingFaceH4/mistral-7b-grok,model,HuggingFaceH4,HF
+bigbio/anat_em,dataset,bigbio,UNKNOWN
+EleutherAI/arithmetic,dataset,EleutherAI,US
+zeroshot/arxiv-biology,dataset,zeroshot,UNKNOWN
+CohereLabs/aya_collection,dataset,CohereLabs,OTHER
+CohereLabs/aya_evaluation_suite,dataset,CohereLabs,OTHER
+CohereLabs/aya_redteaming,dataset,CohereLabs,OTHER
+Muennighoff/babi,dataset,Muennighoff,US
+Bard,model,Bard,US
+BBH-CoT,dataset,gh:suzgunmirac,US
+bigbio/bc5cdr,dataset,bigbio,UNKNOWN
+bigbio/bc7_litcovid,dataset,bigbio,UNKNOWN
+AdapterOcean/biology_dataset_standardized_unified,dataset,AdapterOcean,UNKNOWN
+bigbio/biored,dataset,bigbio,UNKNOWN
+HuggingFaceH4/cai-conversation-harmless,dataset,HuggingFaceH4,HF
+bigbio/chemdner,dataset,bigbio,UNKNOWN
+bigbio/chemprot,dataset,bigbio,UNKNOWN
+bigbio/chia,dataset,bigbio,UNKNOWN
+bigcode/commitpackft,dataset,bigcode,HF
+ghadeermobasher/CRAFT-Chem,dataset,ghadeermobasher,UNKNOWN
+data2vec 2.0,model,gh:facebookresearch,UNTAGGED
+bigbio/ddi_corpus,dataset,bigbio,UNKNOWN
+HuggingFaceH4/deita-10k-v0-sft,dataset,HuggingFaceH4,HF
+castorini/doc2query-t5-base-msmarco,model,castorini,UNTAGGED
+castorini/doc2query-t5-large-msmarco,model,castorini,UNTAGGED
+e-SNLI,dataset,esnli,UK
+futurehouse/ether0-benchmark,dataset,futurehouse,US
+fastText/lid.176,model,fastText,US
+facebookresearch/fastText,model,facebookresearch,US
+facebook/fasttext-language-identification,model,facebook,US
+bigbio/genia_term_corpus,dataset,bigbio,UNKNOWN
+glue/mrpc,dataset,glue,US
+bigbio/gnormplus,dataset,bigbio,UNKNOWN
+openai/gpt-oss-120b,model,openai,US
+HuggingFaceH4/grok-conversation-harmless,dataset,HuggingFaceH4,HF
+ai2-adapt-dev/math_ground_truth_zs,dataset,ai2-adapt-dev,US
+Asap7772/hendrycks-math-mc-llama,dataset,Asap7772,US
+OllieStanley/humaneval-mbpp-codegen-qa,dataset,OllieStanley,UNTAGGED
+OllieStanley/humaneval-mbpp-testgen-qa,dataset,OllieStanley,UNTAGGED
+ai2-adapt-dev/Llama-3.1-if_taxonomy_tulu-uf-pipeline-regen-v3.9_large_70b_ckpt,dataset,ai2-adapt-dev,US
+ILSVRC/imagenet-1k,dataset,ILSVRC,US
+HuggingFaceTB/issues-kaggle-notebooks,dataset,HuggingFaceTB,HF
+LibriSpeech,dataset,LibriSpeech,US
+bigbio/linnaeus,dataset,bigbio,UNKNOWN
+saurabh5/llama-nemotron-rlvr,dataset,saurabh5,US
+machelreid/m2d2,dataset,machelreid,OTHER
+legacy-datasets/mc4,dataset,legacy-datasets,HF
+mHuBERT Base,model,gh:facebookresearch,UNTAGGED
+google/mt5-xxl,model,google,US
+Cheukting/math-meta-reasoning-cleaned,dataset,Cheukting,UK
+bigbio/medmentions,dataset,bigbio,UNKNOWN
+cat-searcher/minif2f-lean4,dataset,cat-searcher,UNKNOWN
+mlfoundations-dev/evol_instruct,dataset,mlfoundations-dev,US
+mlfoundations-dev/camel,dataset,mlfoundations-dev,US
+mlfoundations-dev/sky-t1,model,mlfoundations-dev,US
+facebook/mlqa,dataset,facebook,US
+cross-encoder/ms-marco-MiniLM-L-6-v2,model,cross-encoder,UNTAGGED
+cross-encoder/ms-marco-electra-base,model,cross-encoder,UNTAGGED
+EleutherAI/muInstruct,dataset,EleutherAI,US
+alexfabbri/multi_news,dataset,alexfabbri,US
+intfloat/multilingual-e5-small,model,intfloat,US
+bigbio/ncbi_disease,dataset,bigbio,UNKNOWN
+bigbio/nlm_gene,dataset,bigbio,UNKNOWN
+bigbio/nlmchem,dataset,bigbio,UNKNOWN
+OpenAI/o3-mini-2025-01-31,model,OpenAI,US
+openai/o4-mini,model,openai,US
+olmOCR,model,allenai,US
+allenai/olmOCR-2-7B-1025,model,allenai,US
+allenai/olmOCR-pes2o-0225,dataset,allenai,US
+saurabh5/open-code-reasoning-rlvr,dataset,saurabh5,US
+openassistant,dataset,openassistant,EU
+ai2-adapt-dev/openmath-2-math,dataset,ai2-adapt-dev,US
+bigscience/P3,dataset,bigscience,HF
+pGSLM,model,gh:facebookresearch,UNTAGGED
+google-research-datasets/paws,dataset,google-research-datasets,US
+google-research-datasets/paws-x,dataset,google-research-datasets,US
+allenai/peS2o,dataset,allenai,US
+allenai/qasc,dataset,allenai,US
+cfahlgren1/react-code-instructions,dataset,cfahlgren1,HF
+rl-rag/bc_synthetic_v_2,dataset,rl-rag,US
+rl-rag/verifiable_synthetic_depth_one_v2_verified,dataset,rl-rag,US
+rl-rag/verifiable_synthetic_varied_depth_o3_verified,dataset,rl-rag,US
+saurabh5/rlvr_acecoder_filtered,dataset,saurabh5,US
+hamishivi/rlvr_general_mix,dataset,hamishivi,US
+hamishivi/rlvr_orz_math_57k_collected_filtered,dataset,hamishivi,US
+simplescaling/s1.1-32B,model,simplescaling,UNTAGGED
+qfq/1k_qr_bt_dm_po_steps,model,qfq,US
+simplescaling/s1K,dataset,simplescaling,UNTAGGED
+simplescaling/s1K-1.1,dataset,simplescaling,UNTAGGED
+allenai/s2orc,dataset,allenai,US
+facebook/s2t-large-librispeech-asr,model,facebook,US
+facebook/s2t-medium-librispeech-asr,model,facebook,US
+facebook/s2t-small-librispeech-asr,model,facebook,US
+saurabh5/llama-nemotron,dataset,saurabh5,US
+bigcode/self-oss-instruct-sc2-exec-filter-50k,dataset,bigcode,HF
+sentence-transformers/multi-qa-MiniLM-L6-cos-v1,model,sentence-transformers,UNTAGGED
+sentence-transformers/msmarco-distilbert-base-v3,model,sentence-transformers,UNTAGGED
+sentence-transformers/msmarco-MiniLM-L12-v3,model,sentence-transformers,UNTAGGED
+sentence-transformers/msmarco-MiniLM-L6-v3,model,sentence-transformers,UNTAGGED
+sentence-transformers/msmarco-distilbert-base-dot-prod-v3,model,sentence-transformers,UNTAGGED
+sentence-transformers/msmarco-distilbert-base-v2,model,sentence-transformers,UNTAGGED
+sentence-transformers/msmarco-distilbert-base-v4,model,sentence-transformers,UNTAGGED
+sentence-transformers/msmarco-roberta-base-v2,model,sentence-transformers,UNTAGGED
+sentence-transformers/msmarco-roberta-base-v3,model,sentence-transformers,UNTAGGED
+nvidia/sft_datablend_v1,dataset,nvidia,US
+sherlock-project/sherlock,dataset,sherlock-project,UNKNOWN
+garrethlee/simple-arithmetic-problems,dataset,garrethlee,UNKNOWN
+HuggingFaceTB/smollm-corpus,dataset,HuggingFaceTB,HF
+Snowflake/snowflake-arctic-embed-m,model,Snowflake,US
+explosion/spaCy,model,explosion,EU
+spacy/de_core_news_lg,model,spacy,EU
+spacy/en_core_web_trf,model,spacy,EU
+spacy/es_core_news_lg,model,spacy,EU
+spacy/fr_core_news_lg,model,spacy,EU
+spacy/it_core_news_lg,model,spacy,EU
+spacy/ja_core_news_trf,model,spacy,EU
+spacy/ko_core_news_lg,model,spacy,EU
+spacy/pt_core_news_lg,model,spacy,EU
+spacy/ru_core_news_lg,model,spacy,EU
+spacy/zh_core_web_trf,model,spacy,EU
+speech_text_pretrain_bart_base_stack,model,gh:facebookresearch,UNTAGGED
+bugdaryan/sql-create-context-instruction,dataset,bugdaryan,OTHER
+mlfoundations-dev/stackexchange_biology,dataset,mlfoundations-dev,US
+mlfoundations-dev/stackexchange_codegolf,dataset,mlfoundations-dev,US
+mlfoundations-dev/stackexchange_codereview,dataset,mlfoundations-dev,US
+mlfoundations-dev/stackexchange_physics,dataset,mlfoundations-dev,US
+mlfoundations-dev/stackexchange_stackoverflow,dataset,mlfoundations-dev,US
+sierra-research/tau-bench,dataset,sierra-research,US
+sierra-research/tau2-bench,dataset,sierra-research,US
+HuggingFaceH4/tau2-bench-data,dataset,HuggingFaceH4,HF
+teknium/GPT4-LLM-Cleaned,dataset,teknium,US
+OpenAI/text-embedding-3-large,model,OpenAI,US
+bigcode/the-stack-dedup,dataset,bigcode,HF
+HuggingFaceM4/the_cauldron,dataset,HuggingFaceM4,HF
+theblackcat102/pythia-1b-deduped-sft,model,theblackcat102,OTHER
+theblackcat102/pythia-3b-deduped-sft,model,theblackcat102,OTHER
+theblackcat102/pythia-12b-deduped-sft,model,theblackcat102,OTHER
+TigerResearch/tigerbot-kaggle-leetcodesolutions-en-2k,dataset,TigerResearch,CN
+nampdn-ai/tiny-codes,dataset,nampdn-ai,OTHER
+transformer_lm.wiki103.adaptive,model,gh:facebookresearch,UNTAGGED
+transformer_lm.wmt19.de,model,gh:facebookresearch,UNTAGGED
+transformer_lm.wmt19.en,model,gh:facebookresearch,UNTAGGED
+transformer_lm.wmt19.ru,model,gh:facebookresearch,UNTAGGED
+transformer_monotonic_iwslt_de_en,model,gh:facebookresearch,UNTAGGED
+transformer_monotonic_vaswani_wmt_en_de_big,model,gh:facebookresearch,UNTAGGED
+CogComp/trec,dataset,CogComp,US
+facebook/tts_transformer-en-ljspeech,model,facebook,US
+unit HiFi-GAN,model,gh:facebookresearch,UNTAGGED
+vicuna_bench,dataset,gh:lm-sys,UNTAGGED
+voyage/voyage-code-2,model,voyage,US
+mattany/wikipedia-biology,dataset,mattany,OTHER
+millawell/wikipedia_field_of_science,dataset,millawell,UNKNOWN
+Salesforce/xlam-function-calling-60k,dataset,Salesforce,US
+xbench/DeepSearch,dataset,xbench,UNTAGGED
+xbench/DeepSearch-2510,dataset,xbench,UNTAGGED
+cambridgeltl/xcopa,dataset,cambridgeltl,UK
+bigscience/xP3,dataset,bigscience,HF
+CohereLabs/xP3x,dataset,CohereLabs,OTHER
+EdinburghNLP/xsum,dataset,EdinburghNLP,UK
+0xharib/xword1,dataset,0xharib,UNKNOWN
+agentica-org/DeepCoder-Preview-Dataset,dataset,agentica-org,US
+Salesforce/APIGen-MT-5k,dataset,Salesforce,US
+crawsome/riddles,dataset,crawsome,UNKNOWN
+tokyotech-llm/Llama-3.1-Swallow-8B-v0.1,model,tokyotech-llm,OTHER
+text::epfml/FineWeb2-HQ/spa_Latn,off_lattice,text::epfml,OTHER
+text::epfml/FineWeb2-HQ/ita_Latn,off_lattice,text::epfml,OTHER
+text::epfml/FineWeb2-HQ/por_Latn,off_lattice,text::epfml,OTHER
+text::epfml/FineWeb2-HQ/rus_Cyrl,off_lattice,text::epfml,OTHER
+text::epfml/FineWeb2-HQ/jpn_Jpan,off_lattice,text::epfml,OTHER
+text::epfml/FineWeb2-HQ/vie_Latn,off_lattice,text::epfml,OTHER
+text::HuggingFaceTB/finemath/infiwebmath-3plus,off_lattice,text::HuggingFaceTB,HF
+text::HuggingFaceTB/finemath/finemath-3plus,off_lattice,text::HuggingFaceTB,HF
+text::reasoning_nochatml_17M_4k_to_32k,off_lattice,text::reasoning_nochatml_17M_4k_to_32k,US
+text::HuggingFaceTB/finemath/infiwebmath-4plus,off_lattice,text::HuggingFaceTB,HF
+text::HuggingFaceTB/finemath/finemath-4plus,off_lattice,text::HuggingFaceTB,HF
+text::HuggingFaceTB/stack-edu/python,off_lattice,text::HuggingFaceTB,HF
+text::HuggingFaceTB/stack-edu/Java,off_lattice,text::HuggingFaceTB,HF
+text::HuggingFaceTB/stack-edu/JavaScript,off_lattice,text::HuggingFaceTB,HF
+text::HuggingFaceTB/stack-edu/csharp,off_lattice,text::HuggingFaceTB,HF
+text::HuggingFaceTB/stack-edu/php,off_lattice,text::HuggingFaceTB,HF
+text::HuggingFaceTB/stack-edu/SQL,off_lattice,text::HuggingFaceTB,HF
+text::HuggingFaceTB/stack-edu/Markdown,off_lattice,text::HuggingFaceTB,HF
+text::HuggingFaceTB/smollm2-corpus,off_lattice,text::HuggingFaceTB,HF
+text::HuggingFaceTB/stack-edu/TypeScript,off_lattice,text::HuggingFaceTB,HF
+text::HuggingFaceTB/stack-edu/swift,off_lattice,text::HuggingFaceTB,HF
+text::HuggingFaceTB/stack-edu/Ruby,off_lattice,text::HuggingFaceTB,HF
+text::HuggingFaceTB/stack-edu/rust,off_lattice,text::HuggingFaceTB,HF
+text::HuggingFaceTB/stack-edu/go,off_lattice,text::HuggingFaceTB,HF
+text::HuggingFaceTB/stack-edu/Shell,off_lattice,text::HuggingFaceTB,HF
+text::HuggingFaceTB/smol-magpie-ultra,off_lattice,text::HuggingFaceTB,HF
+text::allenai/Dolci-Think-RL-7B/math-rlvr-mixture,off_lattice,text::allenai,US
+text::allenai/Dolci-Think-RL-7B/if-rlvr-mixture,off_lattice,text::allenai,US
+text::allenai/Dolci-Think-RL-7B/code-rlvr-mixture,off_lattice,text::allenai,US
+text::allenai/Dolci-Think-RL-7B/general-rlvr-mixture,off_lattice,text::allenai,US
+text::allenai/dolmino-mix-CraneMath-MegaMatt,off_lattice,text::allenai,US
+text::allenai/Dolci-Think-DPO-32B,off_lattice,text::allenai,US
+text::ASTA Scientific Corpus MCP tools,off_lattice,text::ASTA Scientific Corpus MCP tools,US
+text::nvidia/Nemotron-Pretraining-Specialized-v1/nemotron-pretraining-wiki-rewrite,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-Pretraining-Specialized-v1/Nemotron-Pretraining-InfiniByte-Reasoning,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-Pretraining-Dataset-sample/nemotron-cc-high-quality,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-Pretraining-Dataset-sample/nemotron-cc-high-quality-synthetic,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-CC-v2/Translated-Diverse-QA,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-Pretraining-Dataset-sample/nemotron-synthetic-code,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-Pretraining-Dataset-sample/nemotron-sft-code,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-Pretraining-Dataset-sample/nemotron-sft-general,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-Pretraining-Dataset-sample/nemotron-sft-math,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-Pretraining-Dataset-sample/nemotron-code-metadata,off_lattice,text::nvidia,US
+text::Synthetic OpenCodeReasoning from DeepSeek-R1-0528,off_lattice,text::Synthetic OpenCodeReasoning from DeepSeek-R1-0528,US
+text::Synthetic Multilingual Science and Code data,off_lattice,text::Synthetic Multilingual Science and Code data,US
+text::Synthetic Nemotron-Personas-USA from gpt-oss-120b and Qwen3-8B,off_lattice,text::Synthetic Nemotron-Personas-USA from gpt-oss-120b and Qwen3-8B,US
+text::nvidia/Nemotron-Instruction-Following-Chat-v2,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-Image-Training-v3/long-document-arxiv,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-Image-Training-v3/long-document-ccpdf,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-Pretraining-Specialized-v1/Nemotron-Pretraining-Math-Textbooks,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-Pretraining-Specialized-v1/nemotron-pretraining-stem-sft,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-Pretraining-Specialized-v1/Nemotron-Pretraining-Scientific-Coding,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-Pretraining-Specialized-v1/Nemotron-Pretraining-RQA,off_lattice,text::nvidia,US
+text::archive.org/details/AntonovVygodskyNikitinSankinProblemsInElementaryMathematicsForHomeStudyMir1982,off_lattice,text::archive.org,US
+"text::English Common Crawl 1.1 (NVIDIA Advanced Deep Learning Research, 10/2/2025)",off_lattice,"text::English Common Crawl 1.1 (NVIDIA Advanced Deep Learning Research, 10",US
+text::nvidia/Nemotron-Pretraining-Specialized-v1.1/nemotron-pretraining-formal-logic,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-Pretraining-Specialized-v1.1/nemotron-pretraining-economics,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-Pretraining-Specialized-v1.1/nemotron-pretraining-multiple-choice,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-Pretraining-Specialized-v1.1/nemotron-pretraining-unconditional-algorithmic,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-Pretraining-Specialized-v1.1/nemotron-pretraining-code-concepts,off_lattice,text::nvidia,US
+"text::Synthetic OpenCodeReasoning corpus seeded with nvidia/OpenCodeReasoning, generated by DeepSeek-R1 (NVIDIA private synthetic dataset, undisclosed size)",off_lattice,text::Synthetic OpenCodeReasoning corpus seeded with nvidia,US
+"text::Synthetic SCP corpus seeded with EricLu/SCP-116K, generated by DeepSeek-R1-0528 (NVIDIA private synthetic dataset, undisclosed size)",off_lattice,text::Synthetic SCP corpus seeded with EricLu,US
+text::nvidia/Nemotron-Pretraining-Economics,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-Pretraining-Multiple-Choice,off_lattice,text::nvidia,US
+text::nvidia/NVIDIA-Nemotron-3-Super-120B-A12B,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-Pretraining-Code-Concepts,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-Pretraining-Unconditional-Algorithmic,off_lattice,text::nvidia,US
+text::Synthetic SWE-Gym + R2E-Gym-Subset,off_lattice,text::Synthetic SWE-Gym + R2E-Gym-Subset,US
+text::Synthetic Offline Search MCQA GPQA,off_lattice,text::Synthetic Offline Search MCQA GPQA,US
+text::Machine Translation of STEM data using Qwen2.5-14B-Instruct,off_lattice,text::Machine Translation of STEM data using Qwen2.5-14B-Instruct,US
+text::Competitive Coding RL data from Nemotron Cascade,off_lattice,text::Competitive Coding RL data from Nemotron Cascade,US
+text::nvidia/Nemotron-Pretraining-Formal-Logic,off_lattice,text::nvidia,US
+text::rl-rag/gaia_dev,off_lattice,text::rl-rag,US
+text::allenai/Dolci-Think-SFT-7B,off_lattice,text::allenai,US
+text::allenai/llama-3.1-tulu-2-dpo-8b,off_lattice,text::allenai,US
+text::minerva_math_500,off_lattice,text::minerva_math_500,US
+"text::Olmo Hybrid [size=7B, stage=RL, track=Instruct]",off_lattice,"text::Olmo Hybrid [size=7B, stage=RL, track=Instruct]",US
+"text::MATH, GSM8K, BBH, AIME, ZebraLogic, AGIEval English, GPQA",off_lattice,"text::MATH, GSM8K, BBH, AIME, ZebraLogic, AGIEval English, GPQA",US
+text::Flan-PaLM 8b,off_lattice,text::Flan-PaLM 8b,US
+text::Open-World Memory synthesized agentic QA data,off_lattice,text::Open-World Memory synthesized agentic QA data,CN
+text::Agent trajectories from auto-constructed simulated environments,off_lattice,text::Agent trajectories from auto-constructed simulated environments,UNKNOWN
+text::automated multi-step reasoning trajectories synthesized via WebWatcher data pipeline,off_lattice,text::automated multi-step reasoning trajectories synthesized via WebWatcher data pipeline,CN
+text::Alibaba-NLP/WebShaper-32B,off_lattice,text::Alibaba-NLP,CN
+text::nvidia/HelpSteer3-Preference,off_lattice,text::nvidia,US
+text::allenai/SciRIFF/4096,off_lattice,text::allenai,US
+text::WMT24++ en->xx,off_lattice,text::WMT24++ en->xx,US
+text::free-text:Essential-Web v1.0STEM subset,off_lattice,text::free-text:Essential-Web v1.0STEM subset,US
+text::free-text:MBPP-Sanitized,off_lattice,text::free-text:MBPP-Sanitized,US
+text::free-text:WMT24++ en→xx,off_lattice,text::free-text:WMT24++ en→xx,US
+text::Round-1 candidate Dolma-3-Dolmino-Mix variant,off_lattice,text::Round-1 candidate Dolma-3-Dolmino-Mix variant,US
+"text::FineMath classifier (Lozhkov et al., 2024a) - educational-value scorer used by HuggingFaceTB/finemath",off_lattice,"text::FineMath classifier (Lozhkov et al., 2024a) - educational-value scorer used by HuggingFaceTB",HF
+text::Olmo-3-7B-Instruct-DPO checkpoint,off_lattice,text::Olmo-3-7B-Instruct-DPO checkpoint,US
+text::OLMo 2 32B SFT,off_lattice,text::OLMo 2 32B SFT,US
+text::DCLM 7B-1x,off_lattice,text::DCLM 7B-1x,UNKNOWN
+text::model trained on FineWeb-Edu at 1B-1x scale,off_lattice,text::model trained on FineWeb-Edu at 1B-1x scale,UNKNOWN
+text::DCLM ablation model trained on FineWeb-Edu 1B-5x,off_lattice,text::DCLM ablation model trained on FineWeb-Edu 1B-5x,UNKNOWN
+text::apple/DCLM-Baseline-7B,off_lattice,text::apple,US
+"text::BingQL-Unit internal Microsoft Bing query-log unit-extraction R2R benchmark of 103 transformations, not publicly released",off_lattice,"text::BingQL-Unit internal Microsoft Bing query-log unit-extraction R2R benchmark of 103 transformations, not publicly released",US
+"text::BingQL-other internal Microsoft Bing query-log R2R benchmark of 1102 transformations, not publicly released",off_lattice,"text::BingQL-other internal Microsoft Bing query-log R2R benchmark of 1102 transformations, not publicly released",US
+"text::FF-GR-Trifacta internal R2R benchmark composed of Foofah / Greedy-Refinement / Trifacta data-transformation tasks, 132 examples, not publicly released as a single artifact",off_lattice,text::FF-GR-Trifacta internal R2R benchmark composed of Foofah ,UNKNOWN
+"text::Headcase internal R2R benchmark of 88 by-example transformations, not publicly released",off_lattice,"text::Headcase internal R2R benchmark of 88 by-example transformations, not publicly released",US
+text::microsoft/Table-GPT,off_lattice,text::microsoft,US
+text::allenai/OLMo-2-0425-1B-RLVR2,off_lattice,text::allenai,US
+text::OLMo-2-1124-7B GRPO-Zero ablation,off_lattice,text::OLMo-2-1124-7B GRPO-Zero ablation,US
+text::OLMo 2 13B GRPO-Zero (ablation run),off_lattice,text::OLMo 2 13B GRPO-Zero (ablation run),US
+text::Tülu 3 Code RLVR (GRPO run from DPO checkpoint),off_lattice,text::Tülu 3 Code RLVR (GRPO run from DPO checkpoint),US
+text::Tülu 3 GRPO Code,off_lattice,text::Tülu 3 GRPO Code,US
+text::Tülu 3 GRPO (code variant),off_lattice,text::Tülu 3 GRPO (code variant),US
+text::Tülu 3 Code SFT GRPO run (open_instruct_dev revision),off_lattice,text::Tülu 3 Code SFT GRPO run (open_instruct_dev revision),US
+text::cais/mmlu (STEM split),off_lattice,text::cais,US
+text::AceReason-Nemotron coding corpus,off_lattice,text::AceReason-Nemotron coding corpus,US
+"text::Agentless / Agentless Mini (Xia et al., 2024; Wei et al., 2025)",off_lattice,text::Agentless ,US
+text::NV-Embed-Code,off_lattice,text::NV-Embed-Code,US
+text::Fu et al.Tail-10 selection heuristic,off_lattice,text::Fu et al.Tail-10 selection heuristic,UNKNOWN
+text::CCNet-BERT-Base,off_lattice,text::CCNet-BERT-Base,US
+text::CCNet-BERT-Base-CC,off_lattice,text::CCNet-BERT-Base-CC,US
+text::qq8933/AIME_1983_2024,off_lattice,text::qq8933,UNKNOWN
+"text::Llama 3.1 [size=8B, stage=Base]",off_lattice,"text::Llama 3.1 [size=8B, stage=Base]",US
+"text::Llama 3.1 [size=70B, stage=Base]",off_lattice,"text::Llama 3.1 [size=70B, stage=Base]",US
+text::omega-paper-rl-finetuned-qwen2.5-7b,off_lattice,text::omega-paper-rl-finetuned-qwen2.5-7b,US
+text::synthesized high-quality QA pairs with rejection-sampled ReAct/Context-Management trajectories (40K then 128K SFT),off_lattice,text::synthesized high-quality QA pairs with rejection-sampled ReAct,CN
+text::Alibaba-NLP/WebSailor-72B,off_lattice,text::Alibaba-NLP,CN
+text::WebSailor-30B-A3B,off_lattice,text::WebSailor-30B-A3B,CN
+text::allenai/Llama-3.1-Tulu-3-8B-IF-RLVR,off_lattice,text::allenai,US
+text::IF-RLVR fine-tuned Qwen2.5-7B-Instruct (derivative model),off_lattice,text::IF-RLVR fine-tuned Qwen2.5-7B-Instruct (derivative model),US
+text::Delta Learningpreference heuristic,off_lattice,text::Delta Learningpreference heuristic,US
+text::allenai/olmOCR-7B-0225,off_lattice,text::allenai,US
+text::CopyColors 10-way MCQA sanity check,off_lattice,text::CopyColors 10-way MCQA sanity check,US
+text::allenai/Llama-3.1-Tulu-3-8B PPO value model,off_lattice,text::allenai,US
+text::value model component of allenai/Llama-3.1-Tulu-3-70B RLVR training,off_lattice,text::value model component of allenai,US
+text::hamishivi/DAPO-Math-17k-Processed,off_lattice,text::hamishivi,US
+text::code-RLVR variant of Tülu 3 8B,off_lattice,text::code-RLVR variant of Tülu 3 8B,US
+text::Tülu 3 8B Code,off_lattice,text::Tülu 3 8B Code,US
+text::in-house Llama-2-7B prompt harmfulness classifier,off_lattice,text::in-house Llama-2-7B prompt harmfulness classifier,UNKNOWN
+text::HuggingFaceTB/finewebedu,off_lattice,text::HuggingFaceTB,HF
+text::bigcode/the-stack-v2/TypeScript,off_lattice,text::bigcode,HF
+text::bigcode/the-stack-v2/Swift,off_lattice,text::bigcode,HF
+text::bigcode/the-stack-v2/SQL,off_lattice,text::bigcode,HF
+text::bigcode/the-stack-v2/Ruby,off_lattice,text::bigcode,HF
+text::bigcode/the-stack-v2/Rust,off_lattice,text::bigcode,HF
+text::bigcode/the-stack-v2/Shell,off_lattice,text::bigcode,HF
+text::bigcode/the-stack-v2/pull-requests,off_lattice,text::bigcode,HF
+text::bigcode/the-stack-v2/kaggle,off_lattice,text::bigcode,HF
+text::bigcode/the-stack-v2/jupyter-scripts,off_lattice,text::bigcode,HF
+text::bigcode/the-stack-v2/github-issues,off_lattice,text::bigcode,HF
+text::HuggingFaceTB/stack-edu/HTML,off_lattice,text::HuggingFaceTB,HF
+text::HuggingFaceM4/Docmatix,off_lattice,text::HuggingFaceM4,HF
+text::nvidia/Nemotron-CC-v2/High-Quality,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-CC-v2/High-Quality-Synthetic,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-CC-v2/Medium-High-Quality,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-CC-v2/Medium-Quality,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-CC-v2/Diverse-QA,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-Pretraining-Code-v1/Synthetic-Code,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-Pretraining-Code-v1/Nemotron-Code-Metadata,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-CC-v2.1/Medium-High-Quality,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-CC-v2.1/Medium-Quality,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-CC-v2.1/Medium-High-Quality-Synthetic,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-CC-v2.1/High-Quality-Translated-To-English,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-CC-v2.1/High-Quality-Translated-To-English-Synthetic,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-CC-v2.1/Medium-High-Quality-Translated-To-English,off_lattice,text::nvidia,US
+text::nvidia/NVIDIA-Nemotron-Nano-1B-v2 (ablation model),off_lattice,text::nvidia,US
+text::Science Literature Instruction Mix,off_lattice,text::Science Literature Instruction Mix,US
+text::MathSub-30K filtered RLVR math subset,off_lattice,text::MathSub-30K filtered RLVR math subset,US
+text::ZebraLogic logic-puzzle benchmark,off_lattice,text::ZebraLogic logic-puzzle benchmark,US
+text::AIME 2024 competition math benchmark,off_lattice,text::AIME 2024 competition math benchmark,US
+text::IFEval-OOD instruction-following benchmark,off_lattice,text::IFEval-OOD instruction-following benchmark,US
+text::rlvr_tulu3.1_8b_DPO_grpo_fast_code,off_lattice,text::rlvr_tulu3.1_8b_DPO_grpo_fast_code,US
+text::rlvr_tulu3.1_8b_SFT_grpo_fast_code,off_lattice,text::rlvr_tulu3.1_8b_SFT_grpo_fast_code,US
+text::DataMix.OLMo_mix_0625_official,off_lattice,text::DataMix.OLMo_mix_0625_official,US
+text::DataMix.OLMo_longmino_mix_0625,off_lattice,text::DataMix.OLMo_longmino_mix_0625,US
+text::allenai/OLMo3-32B,off_lattice,text::allenai,US
+"text::Multi-Subject RLVR (virtuoussy/Multi-subject-RLVR, arXiv:2503.23829v1)",off_lattice,text::Multi-Subject RLVR (virtuoussy,CN
+text::AutoMathText (math-ai/AutoMathText) web part,off_lattice,text::AutoMathText (math-ai,CN
+text::OpenCoder fastText code-relevance classifier,off_lattice,text::OpenCoder fastText code-relevance classifier,CN
+text::OpenCoder-LLM/opc-annealing-corpus/algorithmic_corpus,off_lattice,text::OpenCoder-LLM,CN
+text::OpenCoder-LLM/opc-annealing-corpus/synthetic_code_snippet,off_lattice,text::OpenCoder-LLM,CN
+text::OpenCoder-LLM/opc-annealing-corpus/synthetic_qa (Code Textbooks),off_lattice,text::OpenCoder-LLM,CN
+text::OpenCoder-LLM/opc-sft-stage1/realuser_instruct,off_lattice,text::OpenCoder-LLM,CN
+text::OpenCoder-LLM/opc-sft-stage1/largescale_diverse_instruct,off_lattice,text::OpenCoder-LLM,CN
+text::OpenCoder-LLM/opc-sft-stage1/filtered_infinity_instruct,off_lattice,text::OpenCoder-LLM,CN
+text::OpenCoder-LLM/opc-sft-stage2/educational_instruct,off_lattice,text::OpenCoder-LLM,CN
+text::OpenCoder-LLM/opc-sft-stage2/evol_instruct,off_lattice,text::OpenCoder-LLM,CN
+text::OpenCoder-LLM/opc-sft-stage2/mceval_instruct,off_lattice,text::OpenCoder-LLM,CN
+text::OpenCoder-LLM/opc-sft-stage2/package_instruct,off_lattice,text::OpenCoder-LLM,CN
+text::ise-uiuc/Magicoder-S-DS-6.7B,off_lattice,text::ise-uiuc,US
+text::TIGER-Lab/MAmmoTH2-7B,off_lattice,text::TIGER-Lab,OTHER
+text::nvidia/Nemotron-Pretraining-Code-v2/Synthetic-Student-Teacher,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-Pretraining-Code-v2/Synthetic-Code-Review,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-Pretraining-Code-v2/Synthetic-Rewriting,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-Pretraining-Code-v2/Synthetic-Transpilation,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-Pretraining-Specialized-v1.1/synthetic-code-concepts,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-Pretraining-Specialized-v1.1/synthetic-algorithmic,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-Pretraining-Specialized-v1.1/synthetic-economics,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-Pretraining-Specialized-v1.1/synthetic-mcq,off_lattice,text::nvidia,US
+text::reasoning-gym/reasoning-gym,off_lattice,text::reasoning-gym,UNKNOWN
+text::Kaggle Suicide Detection dataset (nikhileswarkomati/suicide-watch),off_lattice,text::Kaggle Suicide Detection dataset (nikhileswarkomati,UNKNOWN
+text::nvidia/Llama3.1-AegisGuard-8B,off_lattice,text::nvidia,US
+text::off-lattice: Omega-500 benchmark,off_lattice,text::off-lattice: Omega-500 benchmark,US
+text::off-lattice: Minerva Math 500 benchmark,off_lattice,text::off-lattice: Minerva Math 500 benchmark,US
+text::off-lattice: ZebraLogic,off_lattice,text::off-lattice: ZebraLogic,US
+text::tokyotech-llm/Llama-3.1-8B-SwallowCode,off_lattice,text::tokyotech-llm,OTHER
+text::tokyotech-llm/Llama-3.1-8B-SwallowMath,off_lattice,text::tokyotech-llm,OTHER
+text::tokyotech-llm/Llama-3.1-8B-code-ablation-exp1,off_lattice,text::tokyotech-llm,OTHER
+text::SwallowMath-trained Llama-3.1-8B,off_lattice,text::SwallowMath-trained Llama-3.1-8B,OTHER
+text::nvidia/OpenMathReasoning/cot,off_lattice,text::nvidia,US
+text::nvidia/OpenMathReasoning/tir,off_lattice,text::nvidia,US
+text::Qwen3-30B-A3B fine-tuned on Nemotron-Math-v2,off_lattice,text::Qwen3-30B-A3B fine-tuned on Nemotron-Math-v2,US
+text::Qwen3-8B fine-tuned on Nemotron-Math-v2,off_lattice,text::Qwen3-8B fine-tuned on Nemotron-Math-v2,US
+text::Qwen3-8B SFT on Nemotron-Math-Proofs-v1,off_lattice,text::Qwen3-8B SFT on Nemotron-Math-Proofs-v1,US
+text::nvidia/Nemotron-Post-Training-Dataset-v1/math,off_lattice,text::nvidia,US
+text::nvidia/Nemotron-Post-Training-Dataset-v1/code,off_lattice,text::nvidia,US
+text::Mistral Small [size=24B],off_lattice,text::Mistral Small [size=24B],EU
+text::repository-level >1M-token code sequences NLL eval,off_lattice,text::repository-level >1M-token code sequences NLL eval,UNKNOWN
+"text::GPQA (Graduate-level Q&A, 0-shot CoT)",off_lattice,"text::GPQA (Graduate-level Q&A, 0-shot CoT)",US
+text::GPQA (0-shot CoT),off_lattice,text::GPQA (0-shot CoT),US
+text::allenai/OLMo-2-0325-32B-GRPO,off_lattice,text::allenai,US
+text::CRUXEval-input,off_lattice,text::CRUXEval-input,US
+text::cruxeval_output,off_lattice,text::cruxeval_output,US
+text::meta-llama/Llama-3.1-8B-Instruct fine-tuned on NaturalReasoning (third-party derivative),off_lattice,text::meta-llama,US
+text::AIME 2024 (aime:zs_cot_r1::pass_at_32_2024_deepseek),off_lattice,text::AIME 2024 (aime:zs_cot_r1::pass_at_32_2024_deepseek),US
+text::TaskCraft/Search-R1+SFT (fine-tuned variant of Qwen2.5-3B-Instruct),off_lattice,text::TaskCraft,CN
+text::facebook/mms-lid,off_lattice,text::facebook,US
+text::Wav2Vec2-finetuned-STOP,off_lattice,text::Wav2Vec2-finetuned-STOP,US
+text::HuBERT-finetuned-STOP,off_lattice,text::HuBERT-finetuned-STOP,US
+text::allenai/OLMo-2-1124-32B-Instruct,off_lattice,text::allenai,US
+text::allenai/llama-2-7b-tulu-2-coconot,off_lattice,text::allenai,US
+"text::Llama 2 [size=7B, variant=sft-t2m-coconot]",off_lattice,"text::Llama 2 [size=7B, variant=sft-t2m-coconot]",US
+text::allenai/open-instruct CoCoNot Llama-2-7b SFT variants (T2M/T2M-no-refusal/T2M+CoCoNot),off_lattice,text::allenai,US
+text::CoCoNot-fine-tuned variants of allenai/tulu-2-7b,off_lattice,text::CoCoNot-fine-tuned variants of allenai,US
+"text::Llama 2 [size=7B, variant=sft-t2m-no-refusal]",off_lattice,"text::Llama 2 [size=7B, variant=sft-t2m-no-refusal]",US
+text::BigScience Workshop Datasets,off_lattice,text::BigScience Workshop Datasets,HF
+text::Multilingual web data in 19 languages,off_lattice,text::Multilingual web data in 19 languages,US
+text::Nemotron 3 Nano SFT data bundle,off_lattice,text::Nemotron 3 Nano SFT data bundle,US
+text::BigScience Workshop tr11-176B-ml datasets,off_lattice,text::BigScience Workshop tr11-176B-ml datasets,HF
+text::TTS-Synthesized Nemotron-Nano-3 SFT Data,off_lattice,text::TTS-Synthesized Nemotron-Nano-3 SFT Data,US
+text::Linguistic Data Consortium corpus,off_lattice,text::Linguistic Data Consortium corpus,US
+text::allenai/math-meta-reasoning-cleaned,off_lattice,text::allenai,US
+text::Berkeley Function Calling Leaderboard V3— off-lattice tool-use benchmark,off_lattice,text::Berkeley Function Calling Leaderboard V3— off-lattice tool-use benchmark,US
+text::WorldPM-72B— off-lattice 72B preference-pretrained Qwen2.5,off_lattice,text::WorldPM-72B— off-lattice 72B preference-pretrained Qwen2.5,CN
+text::nvidia/Llama-Nemotron-Post-Training-Dataset/SFT,off_lattice,text::nvidia,US
+text::ShareGPT first-turn prompts,off_lattice,text::ShareGPT first-turn prompts,US
+text::allenai/OLMo-3-32B,off_lattice,text::allenai,US
+text::nvidia/NVIDIA-Nemotron-Nano-8B-v2-Reasoning,off_lattice,text::nvidia,US
+text::allenai/codetulu-2-7b,off_lattice,text::allenai,US
+text::allenai/OLMo-3-32B-Instruct (DPO variant),off_lattice,text::allenai,US
+text::TIGER-Lab/AceCoder-Qwen2.5-Coder-32B-Ins-RM,off_lattice,text::TIGER-Lab,OTHER
+text::ChatQA contextualized-QA human-annotated data,off_lattice,text::ChatQA contextualized-QA human-annotated data,US
+text::Nemotron-4 15B pretraining corpus,off_lattice,text::Nemotron-4 15B pretraining corpus,US
+text::agent trajectories from fully simulated heterogeneous environments,off_lattice,text::agent trajectories from fully simulated heterogeneous environments,CN
+text::agentic continual pre-training corpus synthesized via FAS (planning/reasoning action synthesis) and HAS (decision-making action synthesis) over open-world memory (AgentFounder internal pipeline),off_lattice,text::agentic continual pre-training corpus synthesized via FAS (planning,CN
+text::nvidia/Nemotron-Nano-2,off_lattice,text::nvidia,US
+text::Llama-Nemotron-Nano,off_lattice,text::Llama-Nemotron-Nano,US
+text::Nemotron-4 SteerLM,off_lattice,text::Nemotron-4 SteerLM,US
+text::AIME (aime 2024+2025 pass@32),off_lattice,text::AIME (aime 2024+2025 pass@32),US
+text::google-bert/bert-large-uncased-whole-word-masking-finetuned-squad,off_lattice,text::google-bert,US
+text::nvidia/PrismMath-7B,off_lattice,text::nvidia,US
+text::PrismMath-7B,off_lattice,text::PrismMath-7B,US
+text::PrismNLI-deberta-v3-large,off_lattice,text::PrismNLI-deberta-v3-large,US
+text::microsoft/deberta-v3-large fine-tuned on PrismNLI,off_lattice,text::microsoft,US
+text::nyu-mll/glue/mnli,off_lattice,text::nyu-mll,US
+"text::HelpSteer2 multi-turn 22B [family=Nemotron-3, size=22B, stage=Multi-turn-completion]",off_lattice,"text::HelpSteer2 multi-turn 22B [family=Nemotron-3, size=22B, stage=Multi-turn-completion]",US
+text::InsTag-style synthetic instruction generation pipeline,off_lattice,text::InsTag-style synthetic instruction generation pipeline,CN
+"text::Llama 3 [size=70B, stage=SteerLM, variant=Daring Anteater]",off_lattice,"text::Llama 3 [size=70B, stage=SteerLM, variant=Daring Anteater]",US
+"text::Llama 3.1 [size=70B, stage=Reward, variant=SteerLM-Regression-HelpSteer-Attributes]",off_lattice,"text::Llama 3.1 [size=70B, stage=Reward, variant=SteerLM-Regression-HelpSteer-Attributes]",US
+"text::Llama 3.1 [size=70B, stage=Reward, variant=SteerLM-Regression-Helpfulness-Only]",off_lattice,"text::Llama 3.1 [size=70B, stage=Reward, variant=SteerLM-Regression-Helpfulness-Only]",US
+"text::Llama 3.1 [size=70B, stage=Reward, variant=BT-Regular-from-scratch]",off_lattice,"text::Llama 3.1 [size=70B, stage=Reward, variant=BT-Regular-from-scratch]",US
+"text::Llama 3.1 [size=70B, stage=Reward, variant=BT-Margin-from-scratch]",off_lattice,"text::Llama 3.1 [size=70B, stage=Reward, variant=BT-Margin-from-scratch]",US
+"text::Llama 3.1 [size=70B, stage=Reward, variant=BT-Scaled-from-scratch]",off_lattice,"text::Llama 3.1 [size=70B, stage=Reward, variant=BT-Scaled-from-scratch]",US
+"text::Llama 3.1 [size=70B, stage=Reward, variant=BT-Scaled-init-HelpfulnessOnly]",off_lattice,"text::Llama 3.1 [size=70B, stage=Reward, variant=BT-Scaled-init-HelpfulnessOnly]",US
+"text::Llama 3.1 [size=70B, stage=Reward, variant=BT-Regular-init-HelpfulnessOnly]",off_lattice,"text::Llama 3.1 [size=70B, stage=Reward, variant=BT-Regular-init-HelpfulnessOnly]",US
+"text::Llama 3.1 [size=70B, stage=Reward, variant=BT-Margin-init-HelpfulnessOnly]",off_lattice,"text::Llama 3.1 [size=70B, stage=Reward, variant=BT-Margin-init-HelpfulnessOnly]",US
+text::ExPO weak-to-strong delta extrapolation,off_lattice,text::ExPO weak-to-strong delta extrapolation,CN
+"text::Llama 3.1 [size=70B, stage=Reward, variant=Pairwise-Justifier-FullJustification]",off_lattice,"text::Llama 3.1 [size=70B, stage=Reward, variant=Pairwise-Justifier-FullJustification]",US
+"text::Llama 3.1 [size=70B, stage=DPO-Regular, variant=HelpSteer2-Preference]",off_lattice,"text::Llama 3.1 [size=70B, stage=DPO-Regular, variant=HelpSteer2-Preference]",US
+"text::Llama 3.1 [size=70B, stage=PPO, variant=HelpSteer2-Preference]",off_lattice,"text::Llama 3.1 [size=70B, stage=PPO, variant=HelpSteer2-Preference]",US
+text::HelpSteer2,off_lattice,text::HelpSteer2,US
+text::MATH (Hendrycks et al.),off_lattice,text::MATH (Hendrycks et al.),US
+text::allenai/paloma-1b-baseline-c4,off_lattice,text::allenai,US
+text::allenai/paloma-1b-baseline-mc4,off_lattice,text::allenai,US
+text::Alibaba-NLP/WebShaper-72B,off_lattice,text::Alibaba-NLP,CN
+text::codex_humanevalplus,off_lattice,text::codex_humanevalplus,US
+text::MMLU CoT,off_lattice,text::MMLU CoT,US
+text::GPQA (0shot_cot qwen3-instruct),off_lattice,text::GPQA (0shot_cot qwen3-instruct),US
+text::allenai/Olmo-3-7B-Instruct-RL,off_lattice,text::allenai,US
+text::GPQA (0shot_cot hamish_zs_reasoning_deepseek),off_lattice,text::GPQA (0shot_cot hamish_zs_reasoning_deepseek),US
+text::Codex HumanEval+,off_lattice,text::Codex HumanEval+,US
+text::free-text:QwQ Reasoning Traces (subset of nvidia/OpenMathReasoning),off_lattice,text::free-text:QwQ Reasoning Traces (subset of nvidia,US
+text::DAPO RLVR recipe,off_lattice,text::DAPO RLVR recipe,CN
+text::allenai/open-instruct DAPO math fine-tune of Qwen3-4B-Base,off_lattice,text::allenai,US
+"text::FineMath ablation (finemath-3plus-only, 60B)",off_lattice,"text::FineMath ablation (finemath-3plus-only, 60B)",HF
+"text::FineMath ablation (finemath-4plus-only, 60B)",off_lattice,"text::FineMath ablation (finemath-4plus-only, 60B)",HF
+"text::FineMath ablation (infiwebmath-3plus-only, 60B)",off_lattice,"text::FineMath ablation (infiwebmath-3plus-only, 60B)",HF
+"text::FineMath ablation (infiwebmath-4plus-only, 60B)",off_lattice,"text::FineMath ablation (infiwebmath-4plus-only, 60B)",HF
+"text::FineMath ablation (infiwebmath-parent, 60B)",off_lattice,"text::FineMath ablation (infiwebmath-parent, 60B)",HF
+"text::FineMath ablation (openwebmath, 60B)",off_lattice,"text::FineMath ablation (openwebmath, 60B)",HF
+text::video-star video instruction dataset,off_lattice,text::video-star video instruction dataset,US
+text::vript long/short video caption dataset (apollo-dataset/vript),off_lattice,text::vript long,US
+text::MovieChat description QA dataset (apollo-dataset/moviechat),off_lattice,text::MovieChat description QA dataset (apollo-dataset,US
+text::HuggingFaceTB/finemath-ablation-finemath-3plus,off_lattice,text::HuggingFaceTB,HF
+text::HuggingFaceTB/finemath-ablation-finemath-4plus,off_lattice,text::HuggingFaceTB,HF
+text::HuggingFaceTB/finemath-ablation-fwedu,off_lattice,text::HuggingFaceTB,HF
+text::HuggingFaceTB/finemath-ablation-infiwebmath-3plus,off_lattice,text::HuggingFaceTB,HF
+text::HuggingFaceTB/finemath-ablation-infiwebmath-4plus,off_lattice,text::HuggingFaceTB,HF
+text::HuggingFaceTB/finemath-ablation-infiwebmath,off_lattice,text::HuggingFaceTB,HF
+text::HuggingFaceTB/finemath-ablation-owm,off_lattice,text::HuggingFaceTB,HF
+text::alpaca_eval_v3::hamish_zs_reasoning_deepseek,off_lattice,text::alpaca_eval_v3::hamish_zs_reasoning_deepseek,US
+text::livecodebench_codegeneration::tulu-thinker_deepseek_no_think_tags,off_lattice,text::livecodebench_codegeneration::tulu-thinker_deepseek_no_think_tags,US
+text::AIME 2025 (aime:zs_cot_r1::pass_at_32_2025_deepseek),off_lattice,text::AIME 2025 (aime:zs_cot_r1::pass_at_32_2025_deepseek),US
+text::ifeval_ood::tulu-thinker-deepseek,off_lattice,text::ifeval_ood::tulu-thinker-deepseek,US
+text::bbh:cot::hamish_zs_reasoning_deepseek_v2,off_lattice,text::bbh:cot::hamish_zs_reasoning_deepseek_v2,US
+text::mmlu:cot::hamish_zs_reasoning_deepseek,off_lattice,text::mmlu:cot::hamish_zs_reasoning_deepseek,US
+text::popqa::hamish_zs_reasoning_deepseek,off_lattice,text::popqa::hamish_zs_reasoning_deepseek,US
+text::mbppplus:0-shot-chat::tulu-thinker_deepseek,off_lattice,text::mbppplus:0-shot-chat::tulu-thinker_deepseek,US
+text::allenai/OLMo-2-0325-32B GRPO fine-tuned variant,off_lattice,text::allenai,US
+text::ifeval::tulu,off_lattice,text::ifeval::tulu,US
+text::RLVR/GRPO fine-tuned model based on Llama-3.1-Tulu-3-8B,off_lattice,text::RLVR,US
+"text::Aligned fine-tuned variants of Llama 3 70B (SFT w. DA, DPO w. HelpSteer2, PPO w. HelpSteer2, Iterative DPO w. DA)",off_lattice,"text::Aligned fine-tuned variants of Llama 3 70B (SFT w. DA, DPO w. HelpSteer2, PPO w. HelpSteer2, Iterative DPO w. DA)",US
+"text::Aligned fine-tuned variants of Llama 3 70B (SFT, DPO, PPO, SteerLM variants from HelpSteer2 paper)",off_lattice,"text::Aligned fine-tuned variants of Llama 3 70B (SFT, DPO, PPO, SteerLM variants from HelpSteer2 paper)",US

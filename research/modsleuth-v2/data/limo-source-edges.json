@@ -1,0 +1,154 @@
+{
+ "title": "Figure 1 candidate: the LIMO relay into Nemotron 3",
+ "verified_sources": {
+  "nvidia_card": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+  "limo_paper": "https://arxiv.org/abs/2502.03387",
+  "limo_affiliations": "Shanghai Jiao Tong University; SII-GAIR; Fudan University; Hong Kong Polytechnic University (from paper HTML, fetched 2026-09-08)"
+ },
+ "edges": [
+  {
+   "subject": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+   "subject_region": "US",
+   "relation": "trained_on",
+   "object": "GAIR/LIMO",
+   "object_region": "CN",
+   "object_org": "Shanghai Innovation Institute / Shanghai Jiao Tong University (GAIR lab)",
+   "source": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16 (training data table; fetched 2026-09-08)",
+   "excerpt": "Synthetic LIMO from DeepSeek-R1-0528 | Text | Undisclosed | LIMO | DeepSeek-R1-0528",
+   "description": "LIMO used as seed corpus rewritten by DeepSeek-R1-0528.",
+   "note": "NVIDIA regenerated LIMO solutions with DeepSeek-R1-0528 (a Chinese model) before use; the card names LIMO as the seed dataset and DeepSeek-R1-0528 as the generator."
+  },
+  {
+   "subject": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+   "subject_region": "US",
+   "relation": "trained_from",
+   "object": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+   "object_region": "US",
+   "object_org": "NVIDIA",
+   "source": "(local ModSleuth source store) storage/seeds/nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4/runs/d0fc217d-2963-4173-944a-a0c2b837f592/batch/nvidia-nemotron-3-super-technical-report.pdf",
+   "excerpt": "Base 1M Context \u2192 SFT 7M Samples 80B Tokens \u2192 RLVR Round 1",
+   "description": "SFT initializes from the Nemotron-3-Super-120B-A12B-Base-BF16 (1M-context) checkpoint and applies a two-stage SFT loss to produce the chat-stage model."
+  },
+  {
+   "subject": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+   "subject_region": "US",
+   "relation": "trained_on",
+   "object": "GAIR/LIMO",
+   "object_region": "CN",
+   "object_org": "Shanghai Innovation Institute / Shanghai Jiao Tong University (GAIR lab)",
+   "source": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+   "excerpt": "Synthetic LIMO from DeepSeek-R1-0528 | Text | Undisclosed | LIMO | DeepSeek-R1-0528",
+   "description": "Seed dataset GAIR/LIMO entered pre-training via the synthetic data row 'Synthetic LIMO from DeepSeek-R1-0528'."
+  },
+  {
+   "subject": "GAIR/LIMO",
+   "subject_region": "CN",
+   "relation": "composed_from",
+   "object": "agentica-org/DeepScaleR-Preview-Dataset",
+   "object_region": "US",
+   "object_org": "Agentica (UC Berkeley Sky Computing Lab)",
+   "source": "https://arxiv.org/abs/2502.03387",
+   "excerpt": "DeepScaleR (Luo et al., 2025), consists of approximately 40,000 unique mathematics problem-answer pairs",
+   "description": "Questions from DeepScaleR (~40k unique math problem-answer pairs) were drawn into the LIMO candidate pool, filtered for difficulty, and (with newly generated reasoning chains) ended up in the 800-example LIMO SFT dataset."
+  },
+  {
+   "subject": "GAIR/LIMO",
+   "subject_region": "CN",
+   "relation": "composed_from",
+   "object": "AIME",
+   "object_region": "US",
+   "object_org": "Mathematical Association of America",
+   "source": "https://arxiv.org/abs/2502.03387",
+   "excerpt": "AIME historical examination problems before 2024, known for its extremely challenging and integrative problems spanning multiple mathematical domains",
+   "description": "Historical AIME examination problems (pre-2024, before the AIME-2024 cutoff used for evaluation) were drawn into the LIMO candidate pool. The AIME family root is used because the source is described as 'AIME historical examination problems before 2024' rather than a specific year-tagged HF release."
+  },
+  {
+   "subject": "GAIR/LIMO",
+   "subject_region": "CN",
+   "relation": "composed_from",
+   "object": "EleutherAI/hendrycks_math",
+   "object_region": "US",
+   "object_org": "EleutherAI",
+   "source": "https://arxiv.org/abs/2502.03387",
+   "excerpt": "MATH (Hendrycks et al., 2021), encompassing various competitive mathematics problems from prestigious contests",
+   "description": "Problems from the Hendrycks MATH dataset (competitive mathematics from prestigious contests) were drawn into the LIMO candidate pool, filtered for difficulty, and contributed (with newly generated reasoning chains) to the final LIMO SFT corpus."
+  },
+  {
+   "subject": "GAIR/LIMO",
+   "subject_region": "CN",
+   "relation": "composed_from",
+   "object": "AI-MO/NuminaMath-CoT",
+   "object_region": "EU",
+   "object_org": "Project Numina",
+   "source": "https://arxiv.org/abs/2502.03387",
+   "excerpt": "NuminaMath-CoT (Li et al., 2024b), featuring meticulously annotated problems from high school to advanced competition levels",
+   "description": "Questions from NuminaMath-CoT (high-school to advanced competition problems) were drawn into the LIMO candidate pool, filtered for difficulty, and (with newly generated reasoning chains) ended up in the 800-example LIMO SFT dataset on which this model trains."
+  },
+  {
+   "subject": "GAIR/LIMO",
+   "subject_region": "CN",
+   "relation": "filtered_by",
+   "object": "Qwen/Qwen2.5-Math-7B-Instruct",
+   "object_region": "CN",
+   "object_org": "Alibaba Cloud (Qwen team)",
+   "source": "https://arxiv.org/abs/2502.03387",
+   "excerpt": "we first applied a baseline difficulty filter using a short-CoT mathematical model, Qwen2.5-Math-7B-Instruct (Yang et al., 2024). Problems that this model solved correctly within four attempts were excluded",
+   "description": "Qwen2.5-Math-7B-Instruct served as the coarse difficulty filter for LIMO data: any candidate problem it solved correctly within four attempts was excluded from downstream curation, removing trivial problems before fine-grained scoring."
+  },
+  {
+   "subject": "GAIR/LIMO",
+   "subject_region": "CN",
+   "relation": "filtered_by",
+   "object": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+   "object_region": "CN",
+   "object_org": "DeepSeek",
+   "source": "https://arxiv.org/abs/2502.03387",
+   "excerpt": "we subjected the filtered problems to a more rigorous evaluation using a stronger reasoning model, DeepSeek-R1-Distill-Qwen-32B (Guo et al., 2025). For each remaining problem, we sampled 32 solution attempts and used the empirical success rate as a difficulty indicator. Problems that were successfully solved in only 1-3 out of 32 attempts were retained",
+   "description": "DeepSeek-R1-Distill-Qwen-32B served as the fine-grained difficulty filter: 32 solution attempts per remaining problem; only problems with low empirical success rate (1-3/32) were retained, yielding the 2,125-problem LIMO-Pool."
+  },
+  {
+   "subject": "GAIR/LIMO",
+   "subject_region": "CN",
+   "relation": "generated_by",
+   "object": "DeepSeek-AI/DeepSeek-R1",
+   "object_region": "CN",
+   "object_org": "DeepSeek",
+   "source": "https://arxiv.org/abs/2502.03387",
+   "excerpt": "we employed three state-of-the-art reasoning models\u2014DeepSeek R1, DeepSeek-R1-Distill-Qwen-32B (Guo et al., 2025), and QwQ-32B (Team, 2025b)\u2014sampling multiple solutions from each",
+   "description": "DeepSeek-R1 was one of three reasoning-chain generators for LIMO: it sampled multiple candidate solutions per filtered question; the highest-scoring chain per problem (after rule-based quality scoring) was retained as the SFT solution."
+  },
+  {
+   "subject": "GAIR/LIMO",
+   "subject_region": "CN",
+   "relation": "generated_by",
+   "object": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+   "object_region": "CN",
+   "object_org": "DeepSeek",
+   "source": "https://arxiv.org/abs/2502.03387",
+   "excerpt": "we employed three state-of-the-art reasoning models\u2014DeepSeek R1, DeepSeek-R1-Distill-Qwen-32B (Guo et al., 2025), and QwQ-32B (Team, 2025b)\u2014sampling multiple solutions from each to generate diverse reasoning approaches.",
+   "description": "DeepSeek-R1-Distill-Qwen-32B was both used to filter LIMO questions for difficulty and used as one of three reasoning-chain generators; its sampled solutions competed in the rule-based scoring round before the top 800 pairs were retained."
+  },
+  {
+   "subject": "GAIR/LIMO",
+   "subject_region": "CN",
+   "relation": "generated_by",
+   "object": "Qwen/QwQ-32B",
+   "object_region": "CN",
+   "object_org": "Alibaba Cloud (Qwen team)",
+   "source": "https://arxiv.org/abs/2502.03387",
+   "excerpt": "we employed three state-of-the-art reasoning models\u2014DeepSeek R1, DeepSeek-R1-Distill-Qwen-32B (Guo et al., 2025), and QwQ-32B (Team, 2025b)",
+   "description": "QwQ-32B (Team 2025b release) was one of three reasoning-chain generators for LIMO: it sampled multiple candidate solutions per filtered question; surviving solutions were ranked by rule-based quality scoring and the top 800 pairs entered the LIMO SFT corpus."
+  },
+  {
+   "subject": "GAIR/LIMO",
+   "subject_region": "CN",
+   "relation": "trained_from",
+   "object": "Qwen/Qwen2.5-32B-Instruct",
+   "object_region": "CN",
+   "object_org": "Alibaba Cloud (Qwen team)",
+   "source": "https://arxiv.org/abs/2502.03387",
+   "excerpt": "We fine-tune Qwen2.5-32B-Instruct using supervised fine-tuning on our LIMO dataset.",
+   "description": "The LIMO 32B reasoning model is initialized from Qwen2.5-32B-Instruct and continues training via full-parameter SFT for 15 epochs at lr 5.0e-6 (cosine decay, no warmup), batch size 64, with sequences up to 16,384 tokens."
+  }
+ ]
+}

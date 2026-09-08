@@ -1,0 +1,29 @@
+# Nationality tagging rules (ModSleuth graph)
+
+Goal: for each entity, record the country where the ORGANIZATION THAT RELEASED THE ARTIFACT is headquartered. This is about the publisher of the artifact, not where its authors sit and not where its training data came from.
+
+Output ONE JSON array, written to the output path given in your task. One object per input entity, same order, with EXACTLY these fields:
+
+- "key": the input key, verbatim (org_key for organizations, id for unqualified nodes)
+- "canonical_name": the organization's proper name (e.g. "Alibaba Cloud (Qwen team)", "Allen Institute for AI", "Tokyo Institute of Technology")
+- "resolved_org": (unqualified nodes only; for organizations repeat canonical_name) the organization you attribute the artifact to
+- "entity_type": one of company | academic | nonprofit | government | individual | consortium | community | unknown
+- "hq_country": ISO 3166-1 alpha-2 code (US, CN, FR, GB, JP, CA, KR, DE, SG, ...) or "unknown"
+- "region": one of US | CN | EU | UK | OTHER | HF | UNKNOWN
+- "confidence": high | medium | low
+- "evidence_url": one URL that supports the attribution (org About page, HF org page, paper affiliation, GitHub org). Must be a real URL you actually saw. If none, "".
+- "note": <= 25 words. Say what the entity is and any ambiguity.
+
+Rules:
+1. Headquarters of the releasing organization. Subsidiaries and team namespaces roll up to the parent: Qwen, Alibaba-NLP -> Alibaba (CN). deepseek-ai, DeepSeek-AI -> DeepSeek (CN). THUDM -> Tsinghua University (CN). google-research-datasets, google-bert -> Google (US). meta-llama, facebook, FacebookAI -> Meta (US). mistralai -> Mistral AI (FR, region EU). CohereLabs -> Cohere (CA, region OTHER).
+2. Hugging Face and its namespaces (HuggingFaceTB, HuggingFaceH4, HuggingFaceFW, HuggingFaceM4, huggingface, lighteval, open-r1, smol-*) get region "HF" and hq_country "US" (registered in the US, large Paris office). Keep them separate so they can be reported on their own.
+3. Region mapping: US -> US. CN -> CN (mainland China; Hong Kong -> CN with a note). EU member states -> EU. United Kingdom -> UK. Everything else (Japan, Canada, Korea, Singapore, Switzerland, Israel, India, Australia, UAE, Taiwan, ...) -> OTHER. Unknown -> UNKNOWN.
+4. Individuals (a personal Hugging Face or GitHub account): entity_type "individual". If their affiliation is findable with reasonable effort (HF profile, GitHub profile, paper), use the affiliation's country with confidence "medium" at most. Otherwise hq_country "unknown", region "UNKNOWN". Never guess from a name.
+5. Academic labs: the university's country. Multi-institution consortia (BigCode, BigScience, EleutherAI, LAION, MLCommons, ML Foundations): entity_type "consortium" or "nonprofit"; use the legal seat if it has one (EleutherAI: US nonprofit; BigCode: HF+ServiceNow, use region HF with a note; LAION: DE), otherwise UNKNOWN.
+6. Benchmarks, corpora, and old models with no namespace (AIME, BIG-Bench, BM25, BERT-Base, Reddit, arXiv, Wikipedia): attribute to the organization that published the artifact (BIG-Bench -> Google, BERT -> Google, arXiv -> Cornell University, Reddit -> Reddit Inc., AIME -> Mathematical Association of America). For raw web sources like Common Crawl use the operating nonprofit. If it is a generic concept with no publisher (e.g. "Logic Puzzles", "Synthetic Offline Search MCQA"), look at the description and links: if it is an internal synthetic set made by the lab whose graph it sits in, attribute to that lab with confidence low; if you truly cannot tell, "unknown"/UNKNOWN.
+7. The "text::" prefix on some keys is a pipeline artifact. Strip it and treat "text::nvidia" as "nvidia".
+8. A distilled, merged, or quantized artifact belongs to whoever published it, not to its parents.
+9. Do not fabricate. A wrong confident tag is worse than UNKNOWN. Use confidence "low" whenever you relied on a single indirect clue.
+10. Spend effort in proportion to importance: entities with a larger "reach_edge_touches" or "reach_degree" value matter more. For a well-known organization (NVIDIA, OpenAI, Alibaba) a single URL is enough. Do not spend more than a few minutes on any one entity.
+
+Write valid JSON only, no markdown fences, no commentary outside the file. Verify the file parses before you finish.

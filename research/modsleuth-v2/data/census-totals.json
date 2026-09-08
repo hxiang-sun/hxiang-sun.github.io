@@ -1,0 +1,97 @@
+{
+  "graph_commit": "48dc4919",
+  "graph_date": "2026-08-25",
+  "census_date": "2026-09-08",
+  "record_cutoff": "2026-09-05",
+  "seeds": [
+    "allenai/Olmo-3-7B-Instruct",
+    "allenai/Olmo-3-7B-Think",
+    "allenai/Olmo-3-1025-7B",
+    "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+    "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+    "rl-research/DR-Tulu-8B",
+    "HuggingFaceTB/SmolLM3-3B-Base"
+  ],
+  "graph_source": "https://github.com/cal-data-audit/modsleuth-demo/tree/48dc4919",
+  "count_unit": "deduplicated documented relationship",
+  "releasing_region_definition": "Headquarters of releasing organization, with Hugging Face kept separate",
+  "whole_graph": {
+    "nodes": 2647,
+    "edges": 9110
+  },
+  "seven_seed_union": {
+    "nodes": 1004,
+    "edges": 2350
+  },
+  "model_performed_data_operations": {
+    "total": 490,
+    "china": 218,
+    "us": 216,
+    "other_unknown": 56
+  },
+  "generated_by": {
+    "total": 336,
+    "china": 173,
+    "us": 128,
+    "eu": 32,
+    "unknown": 3
+  },
+  "unknown_nodes": 37,
+  "entity_attributions": {
+    "total": 898,
+    "low_confidence": 160
+  },
+  "paper_verified_counts": {
+    "upstream_data_operations": 350,
+    "weight_lineage": 28,
+    "source": "https://arxiv.org/abs/2606.12385",
+    "locator": "Table 2",
+    "warning": "Different population; upstream data operations in the paper also include dataset composition. Do not merge these with the released-graph census."
+  },
+  "chart_rows": [
+    {
+      "role": "generated_by",
+      "label": "Generate training data",
+      "china": 173,
+      "us": 128,
+      "other_unknown": 35,
+      "total": 336,
+      "definition": "generated_by; union of the seven seed histories",
+      "basis": "Supplied nationality census FINDINGS.md, headline 1",
+      "china_percent": 51.488095238095234
+    },
+    {
+      "role": "other_model_data_operations",
+      "label": "Other model data work",
+      "china": 45,
+      "us": 88,
+      "other_unknown": 21,
+      "total": 154,
+      "definition": "filtered_by, transformed_by, embedded_by, decontaminated_against; excludes composed_from",
+      "basis": "FINDINGS.md headline 1; subtract generated_by from all model-performed data operations",
+      "china_percent": 29.22077922077922
+    },
+    {
+      "role": "weight_lineage",
+      "label": "Weight lineage",
+      "china": 12,
+      "us": 48,
+      "other_unknown": 4,
+      "total": 64,
+      "definition": "trained_from, merged_from, quantized_from",
+      "basis": "released-graph-statistics.json > all_edges > union > edges_by_role_region",
+      "china_percent": 18.75
+    },
+    {
+      "role": "training_inputs",
+      "label": "Training datasets",
+      "china": 77,
+      "us": 848,
+      "other_unknown": 215,
+      "total": 1140,
+      "definition": "trained_on",
+      "basis": "released-graph-statistics.json > all_edges > union > edges_by_role_region",
+      "china_percent": 6.754385964912281
+    }
+  ]
+}

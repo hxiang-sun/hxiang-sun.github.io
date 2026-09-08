@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 452" width="720" height="452" role="img" aria-labelledby="title desc">
+<title id="title">Chinese-released models appear most often where training data was generated</title><desc id="desc">Four rows compare releasing organizations across documented relationship types in the combined histories of seven open releases. Generated training data: China 173, United States 128, other or unknown 35, total 336. Filtered, rewrote, or embedded data: 45, 88, 21, total 154. Weight lineage: 12, 48, 4, total 64. Training datasets: 77, 848, 215, total 1,140. Counts are documented relationships, not tokens.</desc>
+<metadata>{&quot;graph_commit&quot;: &quot;48dc4919&quot;, &quot;graph_date&quot;: &quot;2026-08-25&quot;, &quot;census_date&quot;: &quot;2026-09-08&quot;, &quot;record_cutoff&quot;: &quot;2026-09-05&quot;, &quot;seeds&quot;: [&quot;allenai/Olmo-3-7B-Instruct&quot;, &quot;allenai/Olmo-3-7B-Think&quot;, &quot;allenai/Olmo-3-1025-7B&quot;, &quot;nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4&quot;, &quot;nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16&quot;, &quot;rl-research/DR-Tulu-8B&quot;, &quot;HuggingFaceTB/SmolLM3-3B-Base&quot;], &quot;graph_source&quot;: &quot;https://github.com/cal-data-audit/modsleuth-demo/tree/48dc4919&quot;, &quot;count_unit&quot;: &quot;deduplicated documented relationship&quot;, &quot;releasing_region_definition&quot;: &quot;Headquarters of releasing organization, with Hugging Face kept separate&quot;, &quot;whole_graph&quot;: {&quot;nodes&quot;: 2647, &quot;edges&quot;: 9110}, &quot;seven_seed_union&quot;: {&quot;nodes&quot;: 1004, &quot;edges&quot;: 2350}, &quot;model_performed_data_operations&quot;: {&quot;total&quot;: 490, &quot;china&quot;: 218, &quot;us&quot;: 216, &quot;other_unknown&quot;: 56}, &quot;generated_by&quot;: {&quot;total&quot;: 336, &quot;china&quot;: 173, &quot;us&quot;: 128, &quot;eu&quot;: 32, &quot;unknown&quot;: 3}, &quot;unknown_nodes&quot;: 37, &quot;entity_attributions&quot;: {&quot;total&quot;: 898, &quot;low_confidence&quot;: 160}, &quot;paper_verified_counts&quot;: {&quot;upstream_data_operations&quot;: 350, &quot;weight_lineage&quot;: 28, &quot;source&quot;: &quot;https://arxiv.org/abs/2606.12385&quot;, &quot;locator&quot;: &quot;Table 2&quot;, &quot;warning&quot;: &quot;Different population; upstream data operations in the paper also include dataset composition. Do not merge these with the released-graph census.&quot;}, &quot;chart_rows&quot;: [{&quot;role&quot;: &quot;generated_by&quot;, &quot;label&quot;: &quot;Generate training data&quot;, &quot;china&quot;: 173, &quot;us&quot;: 128, &quot;other_unknown&quot;: 35, &quot;total&quot;: 336, &quot;definition&quot;: &quot;generated_by; union of the seven seed histories&quot;, &quot;basis&quot;: &quot;Supplied nationality census FINDINGS.md, headline 1&quot;, &quot;china_percent&quot;: 51.488095238095234}, {&quot;role&quot;: &quot;other_model_data_operations&quot;, &quot;label&quot;: &quot;Other model data work&quot;, &quot;china&quot;: 45, &quot;us&quot;: 88, &quot;other_unknown&quot;: 21, &quot;total&quot;: 154, &quot;definition&quot;: &quot;filtered_by, transformed_by, embedded_by, decontaminated_against; excludes composed_from&quot;, &quot;basis&quot;: &quot;FINDINGS.md headline 1; subtract generated_by from all model-performed data operations&quot;, &quot;china_percent&quot;: 29.22077922077922}, {&quot;role&quot;: &quot;weight_lineage&quot;, &quot;label&quot;: &quot;Weight lineage&quot;, &quot;china&quot;: 12, &quot;us&quot;: 48, &quot;other_unknown&quot;: 4, &quot;total&quot;: 64, &quot;definition&quot;: &quot;trained_from, merged_from, quantized_from&quot;, &quot;basis&quot;: &quot;released-graph-statistics.json &gt; all_edges &gt; union &gt; edges_by_role_region&quot;, &quot;china_percent&quot;: 18.75}, {&quot;role&quot;: &quot;training_inputs&quot;, &quot;label&quot;: &quot;Training datasets&quot;, &quot;china&quot;: 77, &quot;us&quot;: 848, &quot;other_unknown&quot;: 215, &quot;total&quot;: 1140, &quot;definition&quot;: &quot;trained_on&quot;, &quot;basis&quot;: &quot;released-graph-statistics.json &gt; all_edges &gt; union &gt; edges_by_role_region&quot;, &quot;china_percent&quot;: 6.754385964912281}]}</metadata>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L7,3.5 L0,7" fill="none" stroke="#6f757b" stroke-width="1.4"/></marker></defs>
+<rect width="720" height="452" fill="white"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#202428">
+<text x="12" y="27" font-size="21" font-weight="600" text-anchor="start" fill="#202428">Seven releases · documented relationships, by releasing organization</text>
+<rect x="12" y="43" width="21" height="17" fill="#e6bc91" stroke="#6f757b" stroke-width=".8"/>
+<text x="41" y="59" font-size="20" font-weight="400" text-anchor="start" fill="#202428">China</text>
+<rect x="150" y="43" width="21" height="17" fill="#a9bfd5" stroke="#6f757b" stroke-width=".8"/>
+<text x="179" y="59" font-size="20" font-weight="400" text-anchor="start" fill="#202428">United States</text>
+<rect x="375" y="43" width="21" height="17" fill="#e5e5e8" stroke="#6f757b" stroke-width=".8"/>
+<text x="404" y="59" font-size="20" font-weight="400" text-anchor="start" fill="#202428">Other / unknown</text>
+<text x="12" y="96" font-size="21" font-weight="600" text-anchor="start" fill="#202428">Generated the training data · 336</text>
+<text x="708" y="96" font-size="21" font-weight="600" text-anchor="end" fill="#202428">51.5% China</text>
+<rect x="12.000" y="109" width="358.357" height="33" fill="#e6bc91" stroke="white" stroke-width="1"/>
+<text x="191.17857142857142" y="133" font-size="20" font-weight="400" text-anchor="middle" fill="#202428">173</text>
+<rect x="370.357" y="109" width="265.143" height="33" fill="#a9bfd5" stroke="white" stroke-width="1"/>
+<text x="502.92857142857144" y="133" font-size="20" font-weight="400" text-anchor="middle" fill="#202428">128</text>
+<rect x="635.500" y="109" width="72.500" height="33" fill="#e5e5e8" stroke="white" stroke-width="1"/>
+<text x="671.75" y="133" font-size="20" font-weight="400" text-anchor="middle" fill="#202428">35</text>
+<rect x="12" y="109" width="696" height="33" fill="none" stroke="#6f757b" stroke-width=".9"/>
+<text x="12" y="182" font-size="21" font-weight="600" text-anchor="start" fill="#202428">Filtered, rewrote, or embedded the data · 154</text>
+<text x="708" y="182" font-size="21" font-weight="600" text-anchor="end" fill="#202428">29.2% China</text>
+<rect x="12.000" y="195" width="203.377" height="33" fill="#e6bc91" stroke="white" stroke-width="1"/>
+<text x="113.68831168831169" y="219" font-size="20" font-weight="400" text-anchor="middle" fill="#202428">45</text>
+<rect x="215.377" y="195" width="397.714" height="33" fill="#a9bfd5" stroke="white" stroke-width="1"/>
+<text x="414.23376623376623" y="219" font-size="20" font-weight="400" text-anchor="middle" fill="#202428">88</text>
+<rect x="613.091" y="195" width="94.909" height="33" fill="#e5e5e8" stroke="white" stroke-width="1"/>
+<text x="660.5454545454546" y="219" font-size="20" font-weight="400" text-anchor="middle" fill="#202428">21</text>
+<rect x="12" y="195" width="696" height="33" fill="none" stroke="#6f757b" stroke-width=".9"/>
+<text x="12" y="268" font-size="21" font-weight="600" text-anchor="start" fill="#202428">Weight lineage · 64</text>
+<text x="708" y="268" font-size="21" font-weight="600" text-anchor="end" fill="#202428">18.8% China</text>
+<rect x="12.000" y="281" width="130.500" height="33" fill="#e6bc91" stroke="white" stroke-width="1"/>
+<text x="77.25" y="305" font-size="20" font-weight="400" text-anchor="middle" fill="#202428">12</text>
+<rect x="142.500" y="281" width="522.000" height="33" fill="#a9bfd5" stroke="white" stroke-width="1"/>
+<text x="403.5" y="305" font-size="20" font-weight="400" text-anchor="middle" fill="#202428">48</text>
+<rect x="664.500" y="281" width="43.500" height="33" fill="#e5e5e8" stroke="white" stroke-width="1"/>
+<text x="686.25" y="305" font-size="20" font-weight="400" text-anchor="middle" fill="#202428">4</text>
+<rect x="12" y="281" width="696" height="33" fill="none" stroke="#6f757b" stroke-width=".9"/>
+<text x="12" y="354" font-size="21" font-weight="600" text-anchor="start" fill="#202428">Training datasets · 1,140</text>
+<text x="708" y="354" font-size="21" font-weight="600" text-anchor="end" fill="#202428">6.8% China</text>
+<rect x="12.000" y="367" width="47.011" height="33" fill="#e6bc91" stroke="white" stroke-width="1"/>
+<text x="35.50526315789474" y="391" font-size="20" font-weight="400" text-anchor="middle" fill="#202428">77</text>
+<rect x="59.011" y="367" width="517.726" height="33" fill="#a9bfd5" stroke="white" stroke-width="1"/>
+<text x="317.87368421052633" y="391" font-size="20" font-weight="400" text-anchor="middle" fill="#202428">848</text>
+<rect x="576.737" y="367" width="131.263" height="33" fill="#e5e5e8" stroke="white" stroke-width="1"/>
+<text x="642.3684210526316" y="391" font-size="20" font-weight="400" text-anchor="middle" fill="#202428">215</text>
+<rect x="12" y="367" width="696" height="33" fill="none" stroke="#6f757b" stroke-width=".9"/>
+<text x="12" y="437" font-size="17" font-weight="400" text-anchor="start" fill="#202428">Weight lineage: initialized, merged, or quantized from a model. One relationship is one edge.</text>
+</g></svg>

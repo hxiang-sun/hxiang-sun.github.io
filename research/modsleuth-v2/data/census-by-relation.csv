@@ -1,0 +1,5 @@
+role,label,china,us,other_unknown,total,definition,basis,china_percent
+generated_by,Generate training data,173,128,35,336,generated_by; union of the seven seed histories,"Supplied nationality census FINDINGS.md, headline 1",51.488095238095234
+other_model_data_operations,Other model data work,45,88,21,154,"filtered_by, transformed_by, embedded_by, decontaminated_against; excludes composed_from",FINDINGS.md headline 1; subtract generated_by from all model-performed data operations,29.22077922077922
+weight_lineage,Weight lineage,12,48,4,64,"trained_from, merged_from, quantized_from",released-graph-statistics.json > all_edges > union > edges_by_role_region,18.75
+training_inputs,Training datasets,77,848,215,1140,trained_on,released-graph-statistics.json > all_edges > union > edges_by_role_region,6.754385964912281

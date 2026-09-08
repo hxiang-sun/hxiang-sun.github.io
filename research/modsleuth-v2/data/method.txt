@@ -1,0 +1,19 @@
+# Data behind the essay
+
+All counts in the essay come from the released ModSleuth graph, `cal-data-audit/modsleuth-demo` at commit `48dc4919` (August 25, 2026), followed forward from the seven seed releases listed in `census-totals.json`. Each artifact node was attributed to the organization that released it and that organization to its headquarters country, following `attribution-rules.txt`. The full attribution table is `entity-attributions.json`; per-node regions are in `node-regions.csv`.
+
+| File | What it holds |
+|---|---|
+| `census-by-relation.csv` | Figure 1 input: counts by relationship type and region for the seven-release union |
+| `census-family.csv` | Per-family training-role ancestors and model-performed data operations, with Chinese-released counts |
+| `census-totals.json` | Seeds, population sizes, generation and data-operation totals, and the paper's verified counts for comparison |
+| `released-graph-statistics.json` | Full census output: reach sets, ancestors by region, edges by role and region, cross-region edges, sensitivity runs |
+| `entity-attributions.json`, `node-regions.csv` | Organization and node attributions with confidence levels |
+| `attribution-rules.txt` | The tagging rules |
+| `generators-by-release.csv` | Figure 2 input: each of the 336 generation relationships with the generating model's region, release month, and edge count; release months are taken from announcements and model cards |
+| `limo-source-edges.json` | Every edge in Figure 3 with its source and quoted anchor |
+| `disclosure-trend.csv` | Figure 4 input: Longpre et al., Economies of Open Intelligence, Table 1, download-weighted shares by period |
+| `nvidia-corpus-tokens.csv`, `nvidia-corpus-calculation.json` | The twenty rows of the Nemotron-Pretraining-SFT-v1 attribution table and the 93.5 percent sum |
+| `build_figures.py` | Rebuilds all four SVGs in `../assets` from these files (Python 3, standard library) |
+
+Counts are documented relationships, each counted once in the union of the seven histories. Family counts overlap and do not sum to the union. The released graph includes edges the paper did not verify; the paper's verified set cannot be reproduced from the released files, and the verified-only subset in the per-target files is reported as a sensitivity check in `released-graph-statistics.json`. The graph was expanded from American and Hugging Face releases, so Chinese nodes are mostly unexpanded and the census cannot measure American inputs to Chinese releases; those cases in the essay are hand-traced and cited individually.

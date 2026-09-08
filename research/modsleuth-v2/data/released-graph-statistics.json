@@ -1,0 +1,6092 @@
+{
+ "all_edges": {
+  "label": "all released edges",
+  "targets": {
+   "Olmo 3 Instruct (7B)": {
+    "ancestors": 492,
+    "max_depth": 8,
+    "edges": 1048,
+    "ancestors_by_region": {
+     "US": 367,
+     "CN": 45,
+     "OTHER": 19,
+     "HF": 26,
+     "EU": 20,
+     "UNKNOWN": 13,
+     "UK": 2
+    },
+    "ancestors_by_region_kind": {
+     "US|model": 88,
+     "US|dataset": 261,
+     "CN|dataset": 20,
+     "CN|model": 24,
+     "OTHER|dataset": 19,
+     "US|off_lattice": 18,
+     "HF|dataset": 21,
+     "CN|off_lattice": 1,
+     "EU|dataset": 5,
+     "EU|model": 14,
+     "EU|off_lattice": 1,
+     "UNKNOWN|dataset": 13,
+     "HF|off_lattice": 1,
+     "HF|model": 4,
+     "UK|dataset": 2
+    },
+    "edges_by_role_region": {
+     "weight_lineage|US": 31,
+     "training_inputs|US": 349,
+     "training_inputs|CN": 25,
+     "upstream_data_ops|CN": 45,
+     "training_inputs|OTHER": 27,
+     "evaluation_ablation|US": 214,
+     "evaluation_ablation|HF": 14,
+     "evaluation_ablation|CN": 25,
+     "methods_audit|US": 39,
+     "upstream_data_ops|US": 140,
+     "training_inputs|EU": 10,
+     "methods_audit|CN": 8,
+     "upstream_data_ops|EU": 22,
+     "evaluation_ablation|UNKNOWN": 18,
+     "weight_lineage|CN": 3,
+     "evaluation_ablation|OTHER": 17,
+     "evaluation_ablation|EU": 7,
+     "training_inputs|UNKNOWN": 7,
+     "training_inputs|HF": 25,
+     "methods_audit|OTHER": 7,
+     "methods_audit|UNKNOWN": 4,
+     "upstream_data_ops|HF": 4,
+     "methods_audit|HF": 4,
+     "training_inputs|UK": 2,
+     "weight_lineage|HF": 1
+    },
+    "edges_by_relation_region": {
+     "trained_from|US": 31,
+     "trained_on|US": 349,
+     "trained_on|CN": 25,
+     "filtered_by|CN": 4,
+     "trained_on|OTHER": 27,
+     "used_for_evaluation|US": 137,
+     "used_for_evaluation|HF": 11,
+     "used_for_evaluation|CN": 17,
+     "inspired_by|US": 39,
+     "generated_by|CN": 35,
+     "generated_by|US": 75,
+     "filtered_by|US": 36,
+     "trained_on|EU": 10,
+     "inspired_by|CN": 8,
+     "generated_by|EU": 9,
+     "used_for_ablation|US": 77,
+     "used_for_ablation|UNKNOWN": 7,
+     "composed_from|US": 11,
+     "trained_from|CN": 3,
+     "transformed_by|US": 17,
+     "transformed_by|EU": 11,
+     "used_for_evaluation|UNKNOWN": 11,
+     "decontaminated_against|US": 1,
+     "used_for_evaluation|OTHER": 9,
+     "used_for_ablation|OTHER": 8,
+     "used_for_ablation|EU": 4,
+     "used_for_ablation|CN": 8,
+     "trained_on|UNKNOWN": 7,
+     "trained_on|HF": 25,
+     "inspired_by|OTHER": 7,
+     "inspired_by|UNKNOWN": 4,
+     "transformed_by|CN": 6,
+     "filtered_by|HF": 3,
+     "filtered_by|EU": 2,
+     "used_for_evaluation|EU": 3,
+     "used_for_ablation|HF": 3,
+     "inspired_by|HF": 4,
+     "trained_on|UK": 2,
+     "transformed_by|HF": 1,
+     "trained_from|HF": 1
+    },
+    "cross_border_edges": 196,
+    "cross_border_pairs": {
+     "US->CN|training_inputs": 25,
+     "US->CN|upstream_data_ops": 41,
+     "US->OTHER|training_inputs": 26,
+     "US->CN|evaluation_ablation": 23,
+     "US->EU|training_inputs": 10,
+     "US->CN|methods_audit": 7,
+     "US->EU|upstream_data_ops": 22,
+     "OTHER->CN|weight_lineage": 1,
+     "OTHER->US|upstream_data_ops": 4,
+     "OTHER->CN|upstream_data_ops": 1,
+     "OTHER->US|evaluation_ablation": 1,
+     "US->OTHER|evaluation_ablation": 17,
+     "US->EU|evaluation_ablation": 7,
+     "US->OTHER|methods_audit": 7,
+     "US->UK|training_inputs": 2,
+     "US->CN|weight_lineage": 1,
+     "CN->US|methods_audit": 1
+    },
+    "training_only_ancestors": 331,
+    "training_only_by_region": {
+     "US": 251,
+     "CN": 34,
+     "OTHER": 12,
+     "EU": 18,
+     "UNKNOWN": 4,
+     "HF": 10,
+     "UK": 2
+    },
+    "training_only_edges": 636,
+    "first_cn_ancestor_hop": 1,
+    "first_cn_training_ancestor_hop": 1,
+    "paths": {
+     "paths": 3144,
+     "paths_ge1_crossing": 695,
+     "paths_ge2_crossings": 47,
+     "paths_US_CN_US": 1,
+     "paths_CN_US_CN": 0,
+     "n_double_chains": 9
+    },
+    "chains": [
+     {
+      "path": [
+       "allenai/Olmo-3-7B-Instruct",
+       "allenai/Olmo-3-7B-Instruct-DPO",
+       "allenai/Olmo-3-7B-Instruct-SFT",
+       "allenai/Olmo-3-32B-Instruct",
+       "allenai/Olmo-3-32B-Instruct-DPO",
+       "allenai/Olmo-3-32B-Instruct-SFT",
+       "allenai/Olmo-3-32B-Think-SFT",
+       "AceCoder V2",
+       "Qwen/Qwen2.5-Coder-7B-Instruct"
+      ],
+      "edges": [
+       [
+        "allenai/Olmo-3-7B-Instruct",
+        "trained_from",
+        "allenai/Olmo-3-7B-Instruct-DPO"
+       ],
+       [
+        "allenai/Olmo-3-7B-Instruct-DPO",
+        "trained_from",
+        "allenai/Olmo-3-7B-Instruct-SFT"
+       ],
+       [
+        "allenai/Olmo-3-7B-Instruct-SFT",
+        "trained_from",
+        "allenai/Olmo-3-32B-Instruct"
+       ],
+       [
+        "allenai/Olmo-3-32B-Instruct",
+        "trained_from",
+        "allenai/Olmo-3-32B-Instruct-DPO"
+       ],
+       [
+        "allenai/Olmo-3-32B-Instruct-DPO",
+        "trained_from",
+        "allenai/Olmo-3-32B-Instruct-SFT"
+       ],
+       [
+        "allenai/Olmo-3-32B-Instruct-SFT",
+        "trained_from",
+        "allenai/Olmo-3-32B-Think-SFT"
+       ],
+       [
+        "allenai/Olmo-3-32B-Think-SFT",
+        "trained_on",
+        "AceCoder V2"
+       ],
+       [
+        "AceCoder V2",
+        "trained_from",
+        "Qwen/Qwen2.5-Coder-7B-Instruct"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "US",
+       "US",
+       "US",
+       "US",
+       "OTHER",
+       "CN"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "allenai/Olmo-3-7B-Instruct",
+       "allenai/Olmo-3-7B-Instruct-DPO",
+       "allenai/Olmo-3-7B-Instruct-SFT",
+       "allenai/Olmo-3-32B-Instruct",
+       "allenai/Olmo-3-32B-Instruct-DPO",
+       "allenai/Olmo-3-32B-Instruct-SFT",
+       "allenai/Olmo-3-32B-Think-SFT",
+       "AceCoder V2",
+       "Qwen/Qwen2.5-Coder-32B-Instruct"
+      ],
+      "edges": [
+       [
+        "allenai/Olmo-3-7B-Instruct",
+        "trained_from",
+        "allenai/Olmo-3-7B-Instruct-DPO"
+       ],
+       [
+        "allenai/Olmo-3-7B-Instruct-DPO",
+        "trained_from",
+        "allenai/Olmo-3-7B-Instruct-SFT"
+       ],
+       [
+        "allenai/Olmo-3-7B-Instruct-SFT",
+        "trained_from",
+        "allenai/Olmo-3-32B-Instruct"
+       ],
+       [
+        "allenai/Olmo-3-32B-Instruct",
+        "trained_from",
+        "allenai/Olmo-3-32B-Instruct-DPO"
+       ],
+       [
+        "allenai/Olmo-3-32B-Instruct-DPO",
+        "trained_from",
+        "allenai/Olmo-3-32B-Instruct-SFT"
+       ],
+       [
+        "allenai/Olmo-3-32B-Instruct-SFT",
+        "trained_from",
+        "allenai/Olmo-3-32B-Think-SFT"
+       ],
+       [
+        "allenai/Olmo-3-32B-Think-SFT",
+        "trained_on",
+        "AceCoder V2"
+       ],
+       [
+        "AceCoder V2",
+        "filtered_by",
+        "Qwen/Qwen2.5-Coder-32B-Instruct"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "US",
+       "US",
+       "US",
+       "US",
+       "OTHER",
+       "CN"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "allenai/Olmo-3-7B-Instruct",
+       "allenai/Olmo-3-7B-Instruct-DPO",
+       "allenai/Olmo-3-7B-Instruct-SFT",
+       "allenai/Olmo-3-32B-Instruct",
+       "allenai/Olmo-3-32B-Think-SFT",
+       "AceCoder V2",
+       "Qwen/Qwen2.5-Coder-7B-Instruct"
+      ],
+      "edges": [
+       [
+        "allenai/Olmo-3-7B-Instruct",
+        "trained_from",
+        "allenai/Olmo-3-7B-Instruct-DPO"
+       ],
+       [
+        "allenai/Olmo-3-7B-Instruct-DPO",
+        "trained_from",
+        "allenai/Olmo-3-7B-Instruct-SFT"
+       ],
+       [
+        "allenai/Olmo-3-7B-Instruct-SFT",
+        "trained_from",
+        "allenai/Olmo-3-32B-Instruct"
+       ],
+       [
+        "allenai/Olmo-3-32B-Instruct",
+        "trained_from",
+        "allenai/Olmo-3-32B-Think-SFT"
+       ],
+       [
+        "allenai/Olmo-3-32B-Think-SFT",
+        "trained_on",
+        "AceCoder V2"
+       ],
+       [
+        "AceCoder V2",
+        "trained_from",
+        "Qwen/Qwen2.5-Coder-7B-Instruct"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "US",
+       "US",
+       "OTHER",
+       "CN"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "allenai/Olmo-3-7B-Instruct",
+       "allenai/Olmo-3-7B-Instruct-DPO",
+       "allenai/Olmo-3-7B-Instruct-SFT",
+       "allenai/Olmo-3-32B-Instruct",
+       "allenai/Olmo-3-32B-Think-SFT",
+       "AceCoder V2",
+       "Qwen/Qwen2.5-Coder-32B-Instruct"
+      ],
+      "edges": [
+       [
+        "allenai/Olmo-3-7B-Instruct",
+        "trained_from",
+        "allenai/Olmo-3-7B-Instruct-DPO"
+       ],
+       [
+        "allenai/Olmo-3-7B-Instruct-DPO",
+        "trained_from",
+        "allenai/Olmo-3-7B-Instruct-SFT"
+       ],
+       [
+        "allenai/Olmo-3-7B-Instruct-SFT",
+        "trained_from",
+        "allenai/Olmo-3-32B-Instruct"
+       ],
+       [
+        "allenai/Olmo-3-32B-Instruct",
+        "trained_from",
+        "allenai/Olmo-3-32B-Think-SFT"
+       ],
+       [
+        "allenai/Olmo-3-32B-Think-SFT",
+        "trained_on",
+        "AceCoder V2"
+       ],
+       [
+        "AceCoder V2",
+        "filtered_by",
+        "Qwen/Qwen2.5-Coder-32B-Instruct"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "US",
+       "US",
+       "OTHER",
+       "CN"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "allenai/Olmo-3-7B-Instruct",
+       "allenai/Olmo-3-7B-Instruct-DPO",
+       "allenai/Olmo-3-7B-Instruct-SFT",
+       "rl-research/DR-Tulu-8B",
+       "Alibaba-NLP/WebShaper",
+       "wikimedia/wikipedia"
+      ],
+      "edges": [
+       [
+        "allenai/Olmo-3-7B-Instruct",
+        "trained_from",
+        "allenai/Olmo-3-7B-Instruct-DPO"
+       ],
+       [
+        "allenai/Olmo-3-7B-Instruct-DPO",
+        "trained_from",
+        "allenai/Olmo-3-7B-Instruct-SFT"
+       ],
+       [
+        "allenai/Olmo-3-7B-Instruct-SFT",
+        "inspired_by",
+        "rl-research/DR-Tulu-8B"
+       ],
+       [
+        "rl-research/DR-Tulu-8B",
+        "used_for_evaluation",
+        "Alibaba-NLP/WebShaper"
+       ],
+       [
+        "Alibaba-NLP/WebShaper",
+        "inspired_by",
+        "wikimedia/wikipedia"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "US",
+       "CN",
+       "US"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "allenai/Olmo-3-7B-Instruct",
+       "allenai/Olmo-3-7B-Instruct-DPO",
+       "allenai/Olmo-3-7B-Instruct-SFT",
+       "allenai/Olmo-3-7B-Think-SFT",
+       "AceCoder V2",
+       "Qwen/Qwen2.5-Coder-7B-Instruct"
+      ],
+      "edges": [
+       [
+        "allenai/Olmo-3-7B-Instruct",
+        "trained_from",
+        "allenai/Olmo-3-7B-Instruct-DPO"
+       ],
+       [
+        "allenai/Olmo-3-7B-Instruct-DPO",
+        "trained_from",
+        "allenai/Olmo-3-7B-Instruct-SFT"
+       ],
+       [
+        "allenai/Olmo-3-7B-Instruct-SFT",
+        "trained_from",
+        "allenai/Olmo-3-7B-Think-SFT"
+       ],
+       [
+        "allenai/Olmo-3-7B-Think-SFT",
+        "trained_on",
+        "AceCoder V2"
+       ],
+       [
+        "AceCoder V2",
+        "trained_from",
+        "Qwen/Qwen2.5-Coder-7B-Instruct"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "US",
+       "OTHER",
+       "CN"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "allenai/Olmo-3-7B-Instruct",
+       "allenai/Olmo-3-7B-Instruct-DPO",
+       "allenai/Olmo-3-7B-Instruct-SFT",
+       "allenai/Olmo-3-7B-Think-SFT",
+       "AceCoder V2",
+       "Qwen/Qwen2.5-Coder-32B-Instruct"
+      ],
+      "edges": [
+       [
+        "allenai/Olmo-3-7B-Instruct",
+        "trained_from",
+        "allenai/Olmo-3-7B-Instruct-DPO"
+       ],
+       [
+        "allenai/Olmo-3-7B-Instruct-DPO",
+        "trained_from",
+        "allenai/Olmo-3-7B-Instruct-SFT"
+       ],
+       [
+        "allenai/Olmo-3-7B-Instruct-SFT",
+        "trained_from",
+        "allenai/Olmo-3-7B-Think-SFT"
+       ],
+       [
+        "allenai/Olmo-3-7B-Think-SFT",
+        "trained_on",
+        "AceCoder V2"
+       ],
+       [
+        "AceCoder V2",
+        "filtered_by",
+        "Qwen/Qwen2.5-Coder-32B-Instruct"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "US",
+       "OTHER",
+       "CN"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "allenai/Olmo-3-7B-Instruct",
+       "AceCoder V2",
+       "Qwen/Qwen2.5-Coder-7B-Instruct"
+      ],
+      "edges": [
+       [
+        "allenai/Olmo-3-7B-Instruct",
+        "trained_on",
+        "AceCoder V2"
+       ],
+       [
+        "AceCoder V2",
+        "trained_from",
+        "Qwen/Qwen2.5-Coder-7B-Instruct"
+       ]
+      ],
+      "regions": [
+       "US",
+       "OTHER",
+       "CN"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "allenai/Olmo-3-7B-Instruct",
+       "AceCoder V2",
+       "Qwen/Qwen2.5-Coder-32B-Instruct"
+      ],
+      "edges": [
+       [
+        "allenai/Olmo-3-7B-Instruct",
+        "trained_on",
+        "AceCoder V2"
+       ],
+       [
+        "AceCoder V2",
+        "filtered_by",
+        "Qwen/Qwen2.5-Coder-32B-Instruct"
+       ]
+      ],
+      "regions": [
+       "US",
+       "OTHER",
+       "CN"
+      ],
+      "crossings": 2
+     }
+    ]
+   },
+   "Olmo 3 Think (7B)": {
+    "ancestors": 442,
+    "max_depth": 8,
+    "edges": 636,
+    "ancestors_by_region": {
+     "US": 311,
+     "HF": 29,
+     "UK": 2,
+     "UNKNOWN": 18,
+     "CN": 38,
+     "OTHER": 20,
+     "EU": 24
+    },
+    "ancestors_by_region_kind": {
+     "US|model": 84,
+     "US|dataset": 209,
+     "US|off_lattice": 18,
+     "HF|dataset": 22,
+     "UK|dataset": 2,
+     "UNKNOWN|dataset": 15,
+     "CN|model": 19,
+     "CN|dataset": 19,
+     "OTHER|dataset": 20,
+     "EU|dataset": 8,
+     "EU|model": 16,
+     "UNKNOWN|model": 3,
+     "HF|off_lattice": 1,
+     "HF|model": 6
+    },
+    "edges_by_role_region": {
+     "weight_lineage|US": 23,
+     "training_inputs|US": 187,
+     "evaluation_ablation|US": 133,
+     "evaluation_ablation|HF": 10,
+     "evaluation_ablation|UK": 1,
+     "evaluation_ablation|UNKNOWN": 10,
+     "training_inputs|CN": 12,
+     "training_inputs|OTHER": 11,
+     "upstream_data_ops|US": 84,
+     "upstream_data_ops|CN": 21,
+     "evaluation_ablation|CN": 15,
+     "evaluation_ablation|OTHER": 15,
+     "evaluation_ablation|EU": 7,
+     "methods_audit|CN": 4,
+     "training_inputs|EU": 6,
+     "upstream_data_ops|EU": 20,
+     "methods_audit|US": 25,
+     "weight_lineage|CN": 1,
+     "weight_lineage|EU": 2,
+     "upstream_data_ops|UNKNOWN": 3,
+     "methods_audit|OTHER": 5,
+     "training_inputs|HF": 18,
+     "methods_audit|UNKNOWN": 2,
+     "upstream_data_ops|HF": 3,
+     "training_inputs|UNKNOWN": 11,
+     "methods_audit|HF": 4,
+     "training_inputs|UK": 1,
+     "weight_lineage|HF": 2
+    },
+    "edges_by_relation_region": {
+     "trained_from|US": 23,
+     "trained_on|US": 187,
+     "used_for_evaluation|US": 87,
+     "used_for_evaluation|HF": 8,
+     "used_for_evaluation|UK": 1,
+     "used_for_evaluation|UNKNOWN": 8,
+     "trained_on|CN": 12,
+     "trained_on|OTHER": 11,
+     "transformed_by|US": 10,
+     "filtered_by|CN": 3,
+     "used_for_evaluation|CN": 11,
+     "filtered_by|US": 24,
+     "used_for_evaluation|OTHER": 10,
+     "used_for_evaluation|EU": 4,
+     "inspired_by|CN": 4,
+     "used_for_ablation|US": 46,
+     "trained_on|EU": 6,
+     "generated_by|US": 41,
+     "generated_by|EU": 8,
+     "generated_by|CN": 15,
+     "inspired_by|US": 25,
+     "used_for_ablation|CN": 4,
+     "composed_from|US": 8,
+     "trained_from|CN": 1,
+     "used_for_ablation|OTHER": 5,
+     "used_for_ablation|EU": 3,
+     "trained_from|EU": 2,
+     "generated_by|UNKNOWN": 3,
+     "inspired_by|OTHER": 5,
+     "trained_on|HF": 18,
+     "inspired_by|UNKNOWN": 2,
+     "transformed_by|CN": 3,
+     "filtered_by|HF": 2,
+     "filtered_by|EU": 1,
+     "trained_on|UNKNOWN": 11,
+     "used_for_ablation|HF": 2,
+     "inspired_by|HF": 4,
+     "trained_on|UK": 1,
+     "used_for_ablation|UNKNOWN": 2,
+     "transformed_by|EU": 11,
+     "decontaminated_against|US": 1,
+     "transformed_by|HF": 1,
+     "trained_from|HF": 2
+    },
+    "cross_border_edges": 123,
+    "cross_border_pairs": {
+     "US->UK|evaluation_ablation": 1,
+     "US->CN|training_inputs": 12,
+     "US->OTHER|training_inputs": 10,
+     "US->CN|upstream_data_ops": 20,
+     "US->CN|evaluation_ablation": 15,
+     "US->OTHER|evaluation_ablation": 15,
+     "US->EU|evaluation_ablation": 7,
+     "US->CN|methods_audit": 4,
+     "US->EU|training_inputs": 6,
+     "US->EU|upstream_data_ops": 20,
+     "OTHER->CN|weight_lineage": 1,
+     "OTHER->US|upstream_data_ops": 3,
+     "OTHER->CN|upstream_data_ops": 1,
+     "OTHER->US|evaluation_ablation": 1,
+     "US->EU|weight_lineage": 1,
+     "US->OTHER|methods_audit": 5,
+     "US->UK|training_inputs": 1
+    },
+    "training_only_ancestors": 266,
+    "training_only_by_region": {
+     "US": 201,
+     "CN": 25,
+     "OTHER": 9,
+     "EU": 16,
+     "HF": 10,
+     "UNKNOWN": 4,
+     "UK": 1
+    },
+    "training_only_edges": 341,
+    "first_cn_ancestor_hop": 1,
+    "first_cn_training_ancestor_hop": 1,
+    "paths": {
+     "paths": 2191,
+     "paths_ge1_crossing": 520,
+     "paths_ge2_crossings": 36,
+     "paths_US_CN_US": 0,
+     "paths_CN_US_CN": 0,
+     "n_double_chains": 8
+    },
+    "chains": [
+     {
+      "path": [
+       "allenai/Olmo-3-7B-Think",
+       "allenai/Olmo-3-7B-Think-DPO",
+       "allenai/Olmo-3-7B-Think-SFT",
+       "AceCoder V2",
+       "Qwen/Qwen2.5-Coder-7B-Instruct"
+      ],
+      "edges": [
+       [
+        "allenai/Olmo-3-7B-Think",
+        "filtered_by",
+        "allenai/Olmo-3-7B-Think-DPO"
+       ],
+       [
+        "allenai/Olmo-3-7B-Think-DPO",
+        "trained_from",
+        "allenai/Olmo-3-7B-Think-SFT"
+       ],
+       [
+        "allenai/Olmo-3-7B-Think-SFT",
+        "trained_on",
+        "AceCoder V2"
+       ],
+       [
+        "AceCoder V2",
+        "trained_from",
+        "Qwen/Qwen2.5-Coder-7B-Instruct"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "OTHER",
+       "CN"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "allenai/Olmo-3-7B-Think",
+       "allenai/Olmo-3-7B-Think-DPO",
+       "allenai/Olmo-3-7B-Think-SFT",
+       "AceCoder V2",
+       "Qwen/Qwen2.5-Coder-32B-Instruct"
+      ],
+      "edges": [
+       [
+        "allenai/Olmo-3-7B-Think",
+        "filtered_by",
+        "allenai/Olmo-3-7B-Think-DPO"
+       ],
+       [
+        "allenai/Olmo-3-7B-Think-DPO",
+        "trained_from",
+        "allenai/Olmo-3-7B-Think-SFT"
+       ],
+       [
+        "allenai/Olmo-3-7B-Think-SFT",
+        "trained_on",
+        "AceCoder V2"
+       ],
+       [
+        "AceCoder V2",
+        "filtered_by",
+        "Qwen/Qwen2.5-Coder-32B-Instruct"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "OTHER",
+       "CN"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "allenai/Olmo-3-7B-Think",
+       "allenai/Olmo-3-7B-Think-DPO",
+       "allenai/Olmo-3-7B-Think-SFT",
+       "AceCoder V2",
+       "Qwen/Qwen2.5-Coder-7B-Instruct"
+      ],
+      "edges": [
+       [
+        "allenai/Olmo-3-7B-Think",
+        "trained_from",
+        "allenai/Olmo-3-7B-Think-DPO"
+       ],
+       [
+        "allenai/Olmo-3-7B-Think-DPO",
+        "trained_from",
+        "allenai/Olmo-3-7B-Think-SFT"
+       ],
+       [
+        "allenai/Olmo-3-7B-Think-SFT",
+        "trained_on",
+        "AceCoder V2"
+       ],
+       [
+        "AceCoder V2",
+        "trained_from",
+        "Qwen/Qwen2.5-Coder-7B-Instruct"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "OTHER",
+       "CN"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "allenai/Olmo-3-7B-Think",
+       "allenai/Olmo-3-7B-Think-DPO",
+       "allenai/Olmo-3-7B-Think-SFT",
+       "AceCoder V2",
+       "Qwen/Qwen2.5-Coder-32B-Instruct"
+      ],
+      "edges": [
+       [
+        "allenai/Olmo-3-7B-Think",
+        "trained_from",
+        "allenai/Olmo-3-7B-Think-DPO"
+       ],
+       [
+        "allenai/Olmo-3-7B-Think-DPO",
+        "trained_from",
+        "allenai/Olmo-3-7B-Think-SFT"
+       ],
+       [
+        "allenai/Olmo-3-7B-Think-SFT",
+        "trained_on",
+        "AceCoder V2"
+       ],
+       [
+        "AceCoder V2",
+        "filtered_by",
+        "Qwen/Qwen2.5-Coder-32B-Instruct"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "OTHER",
+       "CN"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "allenai/Olmo-3-7B-Think",
+       "allenai/Olmo-3-7B-Think-SFT",
+       "AceCoder V2",
+       "Qwen/Qwen2.5-Coder-7B-Instruct"
+      ],
+      "edges": [
+       [
+        "allenai/Olmo-3-7B-Think",
+        "filtered_by",
+        "allenai/Olmo-3-7B-Think-SFT"
+       ],
+       [
+        "allenai/Olmo-3-7B-Think-SFT",
+        "trained_on",
+        "AceCoder V2"
+       ],
+       [
+        "AceCoder V2",
+        "trained_from",
+        "Qwen/Qwen2.5-Coder-7B-Instruct"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "OTHER",
+       "CN"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "allenai/Olmo-3-7B-Think",
+       "allenai/Olmo-3-7B-Think-SFT",
+       "AceCoder V2",
+       "Qwen/Qwen2.5-Coder-32B-Instruct"
+      ],
+      "edges": [
+       [
+        "allenai/Olmo-3-7B-Think",
+        "filtered_by",
+        "allenai/Olmo-3-7B-Think-SFT"
+       ],
+       [
+        "allenai/Olmo-3-7B-Think-SFT",
+        "trained_on",
+        "AceCoder V2"
+       ],
+       [
+        "AceCoder V2",
+        "filtered_by",
+        "Qwen/Qwen2.5-Coder-32B-Instruct"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "OTHER",
+       "CN"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "allenai/Olmo-3-7B-Think",
+       "AceCoder V2",
+       "Qwen/Qwen2.5-Coder-7B-Instruct"
+      ],
+      "edges": [
+       [
+        "allenai/Olmo-3-7B-Think",
+        "trained_on",
+        "AceCoder V2"
+       ],
+       [
+        "AceCoder V2",
+        "trained_from",
+        "Qwen/Qwen2.5-Coder-7B-Instruct"
+       ]
+      ],
+      "regions": [
+       "US",
+       "OTHER",
+       "CN"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "allenai/Olmo-3-7B-Think",
+       "AceCoder V2",
+       "Qwen/Qwen2.5-Coder-32B-Instruct"
+      ],
+      "edges": [
+       [
+        "allenai/Olmo-3-7B-Think",
+        "trained_on",
+        "AceCoder V2"
+       ],
+       [
+        "AceCoder V2",
+        "filtered_by",
+        "Qwen/Qwen2.5-Coder-32B-Instruct"
+       ]
+      ],
+      "regions": [
+       "US",
+       "OTHER",
+       "CN"
+      ],
+      "crossings": 2
+     }
+    ]
+   },
+   "Olmo 3 Base (7B)": {
+    "ancestors": 216,
+    "max_depth": 4,
+    "edges": 272,
+    "ancestors_by_region": {
+     "US": 146,
+     "HF": 25,
+     "CN": 14,
+     "UNKNOWN": 9,
+     "OTHER": 9,
+     "EU": 12,
+     "UK": 1
+    },
+    "ancestors_by_region_kind": {
+     "US|dataset": 100,
+     "HF|dataset": 20,
+     "US|model": 38,
+     "CN|model": 8,
+     "CN|dataset": 6,
+     "UNKNOWN|dataset": 9,
+     "OTHER|dataset": 9,
+     "HF|off_lattice": 1,
+     "HF|model": 4,
+     "EU|model": 11,
+     "EU|dataset": 1,
+     "US|off_lattice": 8,
+     "UK|dataset": 1
+    },
+    "edges_by_role_region": {
+     "training_inputs|US": 69,
+     "training_inputs|HF": 15,
+     "upstream_data_ops|CN": 6,
+     "upstream_data_ops|US": 38,
+     "evaluation_ablation|US": 63,
+     "evaluation_ablation|CN": 8,
+     "evaluation_ablation|UNKNOWN": 7,
+     "evaluation_ablation|OTHER": 8,
+     "methods_audit|OTHER": 4,
+     "methods_audit|CN": 2,
+     "methods_audit|US": 11,
+     "methods_audit|UNKNOWN": 2,
+     "training_inputs|OTHER": 4,
+     "upstream_data_ops|HF": 3,
+     "upstream_data_ops|EU": 11,
+     "training_inputs|UNKNOWN": 3,
+     "evaluation_ablation|EU": 2,
+     "evaluation_ablation|HF": 6,
+     "methods_audit|HF": 3,
+     "training_inputs|UK": 1,
+     "weight_lineage|US": 3,
+     "weight_lineage|HF": 1,
+     "training_inputs|CN": 2
+    },
+    "edges_by_relation_region": {
+     "trained_on|US": 69,
+     "trained_on|HF": 15,
+     "generated_by|CN": 4,
+     "generated_by|US": 18,
+     "used_for_evaluation|US": 38,
+     "used_for_evaluation|CN": 6,
+     "used_for_evaluation|UNKNOWN": 5,
+     "used_for_evaluation|OTHER": 4,
+     "filtered_by|US": 11,
+     "inspired_by|OTHER": 4,
+     "inspired_by|CN": 2,
+     "transformed_by|US": 7,
+     "inspired_by|US": 11,
+     "used_for_ablation|US": 25,
+     "inspired_by|UNKNOWN": 2,
+     "trained_on|OTHER": 4,
+     "transformed_by|CN": 2,
+     "filtered_by|HF": 2,
+     "filtered_by|EU": 1,
+     "composed_from|US": 1,
+     "trained_on|UNKNOWN": 3,
+     "used_for_evaluation|EU": 1,
+     "used_for_ablation|OTHER": 4,
+     "used_for_ablation|HF": 2,
+     "used_for_ablation|CN": 2,
+     "inspired_by|HF": 3,
+     "trained_on|UK": 1,
+     "trained_from|US": 3,
+     "used_for_ablation|EU": 1,
+     "used_for_ablation|UNKNOWN": 2,
+     "transformed_by|HF": 1,
+     "used_for_evaluation|HF": 4,
+     "transformed_by|EU": 10,
+     "decontaminated_against|US": 1,
+     "trained_from|HF": 1,
+     "trained_on|CN": 2
+    },
+    "cross_border_edges": 50,
+    "cross_border_pairs": {
+     "US->CN|upstream_data_ops": 6,
+     "US->CN|evaluation_ablation": 8,
+     "US->OTHER|evaluation_ablation": 8,
+     "US->OTHER|methods_audit": 4,
+     "US->CN|methods_audit": 2,
+     "US->OTHER|training_inputs": 4,
+     "US->EU|upstream_data_ops": 11,
+     "US->EU|evaluation_ablation": 2,
+     "US->UK|training_inputs": 1,
+     "OTHER->US|upstream_data_ops": 2,
+     "US->CN|training_inputs": 2
+    },
+    "training_only_ancestors": 130,
+    "training_only_by_region": {
+     "US": 95,
+     "HF": 10,
+     "CN": 7,
+     "OTHER": 4,
+     "EU": 11,
+     "UNKNOWN": 2,
+     "UK": 1
+    },
+    "training_only_edges": 144,
+    "first_cn_ancestor_hop": 1,
+    "first_cn_training_ancestor_hop": 1,
+    "paths": {
+     "paths": 297,
+     "paths_ge1_crossing": 63,
+     "paths_ge2_crossings": 5,
+     "paths_US_CN_US": 0,
+     "paths_CN_US_CN": 0,
+     "n_double_chains": 0
+    },
+    "chains": []
+   },
+   "Nemotron 3 Super": {
+    "ancestors": 519,
+    "max_depth": 5,
+    "edges": 1107,
+    "ancestors_by_region": {
+     "US": 352,
+     "CN": 76,
+     "OTHER": 17,
+     "EU": 33,
+     "UNKNOWN": 20,
+     "UK": 6,
+     "HF": 15
+    },
+    "ancestors_by_region_kind": {
+     "US|model": 72,
+     "CN|dataset": 22,
+     "US|dataset": 220,
+     "OTHER|dataset": 16,
+     "CN|model": 54,
+     "EU|model": 19,
+     "US|off_lattice": 60,
+     "UNKNOWN|dataset": 18,
+     "EU|dataset": 14,
+     "UK|dataset": 6,
+     "HF|dataset": 13,
+     "UNKNOWN|off_lattice": 2,
+     "HF|off_lattice": 1,
+     "HF|model": 1,
+     "OTHER|model": 1
+    },
+    "edges_by_role_region": {
+     "weight_lineage|US": 14,
+     "training_inputs|CN": 43,
+     "training_inputs|US": 450,
+     "training_inputs|OTHER": 19,
+     "upstream_data_ops|CN": 169,
+     "upstream_data_ops|US": 103,
+     "training_inputs|EU": 22,
+     "upstream_data_ops|EU": 37,
+     "weight_lineage|CN": 9,
+     "evaluation_ablation|OTHER": 14,
+     "evaluation_ablation|US": 97,
+     "evaluation_ablation|CN": 17,
+     "methods_audit|US": 34,
+     "training_inputs|UNKNOWN": 19,
+     "evaluation_ablation|UK": 4,
+     "training_inputs|UK": 5,
+     "training_inputs|HF": 19,
+     "methods_audit|UNKNOWN": 1,
+     "evaluation_ablation|HF": 4,
+     "methods_audit|CN": 11,
+     "evaluation_ablation|EU": 6,
+     "evaluation_ablation|UNKNOWN": 6,
+     "upstream_data_ops|HF": 2,
+     "methods_audit|OTHER": 1,
+     "methods_audit|HF": 1
+    },
+    "edges_by_relation_region": {
+     "quantized_from|US": 1,
+     "trained_from|US": 13,
+     "trained_on|CN": 43,
+     "trained_on|US": 450,
+     "trained_on|OTHER": 19,
+     "generated_by|CN": 133,
+     "generated_by|US": 65,
+     "trained_on|EU": 22,
+     "transformed_by|US": 15,
+     "transformed_by|CN": 14,
+     "generated_by|EU": 26,
+     "trained_from|CN": 9,
+     "used_for_ablation|OTHER": 5,
+     "used_for_ablation|US": 29,
+     "used_for_ablation|CN": 11,
+     "inspired_by|US": 34,
+     "trained_on|UNKNOWN": 19,
+     "filtered_by|CN": 22,
+     "filtered_by|US": 13,
+     "used_for_evaluation|OTHER": 9,
+     "used_for_evaluation|UK": 3,
+     "used_for_evaluation|US": 68,
+     "trained_on|UK": 5,
+     "trained_on|HF": 19,
+     "inspired_by|UNKNOWN": 1,
+     "decontaminated_against|US": 2,
+     "used_for_evaluation|HF": 2,
+     "used_for_evaluation|CN": 6,
+     "inspired_by|CN": 11,
+     "used_for_evaluation|EU": 5,
+     "used_for_evaluation|UNKNOWN": 5,
+     "used_for_ablation|HF": 2,
+     "filtered_by|HF": 2,
+     "composed_from|US": 7,
+     "composed_from|EU": 1,
+     "used_for_ablation|UNKNOWN": 1,
+     "transformed_by|EU": 10,
+     "used_for_ablation|EU": 1,
+     "inspired_by|OTHER": 1,
+     "used_for_ablation|UK": 1,
+     "inspired_by|HF": 1,
+     "embedded_by|US": 1
+    },
+    "cross_border_edges": 347,
+    "cross_border_pairs": {
+     "US->CN|training_inputs": 43,
+     "US->OTHER|training_inputs": 19,
+     "US->CN|upstream_data_ops": 164,
+     "US->EU|training_inputs": 22,
+     "US->EU|upstream_data_ops": 36,
+     "US->CN|weight_lineage": 8,
+     "US->OTHER|evaluation_ablation": 14,
+     "US->CN|evaluation_ablation": 9,
+     "US->UK|evaluation_ablation": 4,
+     "US->UK|training_inputs": 5,
+     "US->CN|methods_audit": 10,
+     "US->EU|evaluation_ablation": 5,
+     "CN->EU|upstream_data_ops": 1,
+     "CN->US|upstream_data_ops": 3,
+     "CN->US|evaluation_ablation": 1,
+     "EU->CN|evaluation_ablation": 1,
+     "US->OTHER|methods_audit": 1,
+     "OTHER->US|upstream_data_ops": 1
+    },
+    "training_only_ancestors": 381,
+    "training_only_by_region": {
+     "US": 259,
+     "CN": 59,
+     "OTHER": 9,
+     "EU": 28,
+     "UNKNOWN": 13,
+     "UK": 3,
+     "HF": 10
+    },
+    "training_only_edges": 698,
+    "first_cn_ancestor_hop": 1,
+    "first_cn_training_ancestor_hop": 1,
+    "paths": {
+     "paths": 17063,
+     "paths_ge1_crossing": 5239,
+     "paths_ge2_crossings": 163,
+     "paths_US_CN_US": 68,
+     "paths_CN_US_CN": 0,
+     "n_double_chains": 147
+    },
+    "chains": [
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+       "nvidia/Nemotron-RL-Instruction-Following-Adversarial-v1",
+       "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+       "nvidia/NVIDIA-Nemotron-Nano-12B-v2-Base",
+       "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+       "GAIR/LIMO",
+       "AI-MO/NuminaMath-CoT",
+       "deepseek-ai/deepseek-llm-7b-base"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+        "quantized_from",
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+        "trained_on",
+        "nvidia/Nemotron-RL-Instruction-Following-Adversarial-v1"
+       ],
+       [
+        "nvidia/Nemotron-RL-Instruction-Following-Adversarial-v1",
+        "generated_by",
+        "nvidia/NVIDIA-Nemotron-Nano-9B-v2"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+        "used_for_ablation",
+        "nvidia/NVIDIA-Nemotron-Nano-12B-v2-Base"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-Nano-12B-v2-Base",
+        "used_for_evaluation",
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "AI-MO/NuminaMath-CoT"
+       ],
+       [
+        "AI-MO/NuminaMath-CoT",
+        "used_for_ablation",
+        "deepseek-ai/deepseek-llm-7b-base"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "US",
+       "US",
+       "US",
+       "CN",
+       "EU",
+       "CN"
+      ],
+      "crossings": 3
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+       "nvidia/Nemotron-RL-Instruction-Following-Adversarial-v1",
+       "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+       "nvidia/NVIDIA-Nemotron-Nano-12B-v2-Base",
+       "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+       "GAIR/LIMO",
+       "AI-MO/NuminaMath-CoT",
+       "deepseek-ai/deepseek-llm-7b-base"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+        "quantized_from",
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+        "trained_on",
+        "nvidia/Nemotron-RL-Instruction-Following-Adversarial-v1"
+       ],
+       [
+        "nvidia/Nemotron-RL-Instruction-Following-Adversarial-v1",
+        "generated_by",
+        "nvidia/NVIDIA-Nemotron-Nano-9B-v2"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+        "trained_from",
+        "nvidia/NVIDIA-Nemotron-Nano-12B-v2-Base"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-Nano-12B-v2-Base",
+        "used_for_evaluation",
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "AI-MO/NuminaMath-CoT"
+       ],
+       [
+        "AI-MO/NuminaMath-CoT",
+        "used_for_ablation",
+        "deepseek-ai/deepseek-llm-7b-base"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "US",
+       "US",
+       "US",
+       "CN",
+       "EU",
+       "CN"
+      ],
+      "crossings": 3
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+       "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+       "nvidia/NVIDIA-Nemotron-Nano-12B-v2",
+       "nvidia/NVIDIA-Nemotron-Nano-12B-v2-Base",
+       "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+       "GAIR/LIMO",
+       "AI-MO/NuminaMath-CoT",
+       "deepseek-ai/deepseek-llm-7b-base"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+        "quantized_from",
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+        "generated_by",
+        "nvidia/NVIDIA-Nemotron-Nano-9B-v2"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+        "trained_from",
+        "nvidia/NVIDIA-Nemotron-Nano-12B-v2"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-Nano-12B-v2",
+        "trained_from",
+        "nvidia/NVIDIA-Nemotron-Nano-12B-v2-Base"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-Nano-12B-v2-Base",
+        "used_for_evaluation",
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "AI-MO/NuminaMath-CoT"
+       ],
+       [
+        "AI-MO/NuminaMath-CoT",
+        "used_for_ablation",
+        "deepseek-ai/deepseek-llm-7b-base"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "US",
+       "US",
+       "US",
+       "CN",
+       "EU",
+       "CN"
+      ],
+      "crossings": 3
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+       "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+       "nvidia/NVIDIA-Nemotron-Nano-12B-v2",
+       "nvidia/NVIDIA-Nemotron-Nano-12B-v2-Base",
+       "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+       "GAIR/LIMO",
+       "AI-MO/NuminaMath-CoT",
+       "deepseek-ai/deepseek-llm-7b-base"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+        "generated_by",
+        "nvidia/NVIDIA-Nemotron-Nano-9B-v2"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+        "trained_from",
+        "nvidia/NVIDIA-Nemotron-Nano-12B-v2"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-Nano-12B-v2",
+        "trained_from",
+        "nvidia/NVIDIA-Nemotron-Nano-12B-v2-Base"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-Nano-12B-v2-Base",
+        "used_for_evaluation",
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "AI-MO/NuminaMath-CoT"
+       ],
+       [
+        "AI-MO/NuminaMath-CoT",
+        "used_for_ablation",
+        "deepseek-ai/deepseek-llm-7b-base"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "US",
+       "US",
+       "CN",
+       "EU",
+       "CN"
+      ],
+      "crossings": 3
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+       "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+       "nvidia/NVIDIA-Nemotron-Nano-12B-v2-Base",
+       "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+       "GAIR/LIMO",
+       "AI-MO/NuminaMath-CoT",
+       "deepseek-ai/deepseek-llm-7b-base"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+        "quantized_from",
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+        "generated_by",
+        "nvidia/NVIDIA-Nemotron-Nano-9B-v2"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+        "used_for_ablation",
+        "nvidia/NVIDIA-Nemotron-Nano-12B-v2-Base"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-Nano-12B-v2-Base",
+        "used_for_evaluation",
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "AI-MO/NuminaMath-CoT"
+       ],
+       [
+        "AI-MO/NuminaMath-CoT",
+        "used_for_ablation",
+        "deepseek-ai/deepseek-llm-7b-base"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "US",
+       "US",
+       "CN",
+       "EU",
+       "CN"
+      ],
+      "crossings": 3
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+       "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+       "nvidia/NVIDIA-Nemotron-Nano-12B-v2-Base",
+       "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+       "GAIR/LIMO",
+       "AI-MO/NuminaMath-CoT",
+       "deepseek-ai/deepseek-llm-7b-base"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+        "quantized_from",
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+        "generated_by",
+        "nvidia/NVIDIA-Nemotron-Nano-9B-v2"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+        "trained_from",
+        "nvidia/NVIDIA-Nemotron-Nano-12B-v2-Base"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-Nano-12B-v2-Base",
+        "used_for_evaluation",
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "AI-MO/NuminaMath-CoT"
+       ],
+       [
+        "AI-MO/NuminaMath-CoT",
+        "used_for_ablation",
+        "deepseek-ai/deepseek-llm-7b-base"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "US",
+       "US",
+       "CN",
+       "EU",
+       "CN"
+      ],
+      "crossings": 3
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+       "nvidia/NVIDIA-Nemotron-Nano-12B-v2-Base",
+       "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+       "GAIR/LIMO",
+       "AI-MO/NuminaMath-CoT",
+       "deepseek-ai/deepseek-llm-7b-base"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+        "quantized_from",
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+        "trained_from",
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+        "inspired_by",
+        "nvidia/NVIDIA-Nemotron-Nano-12B-v2-Base"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-Nano-12B-v2-Base",
+        "used_for_evaluation",
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "AI-MO/NuminaMath-CoT"
+       ],
+       [
+        "AI-MO/NuminaMath-CoT",
+        "used_for_ablation",
+        "deepseek-ai/deepseek-llm-7b-base"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "US",
+       "US",
+       "CN",
+       "EU",
+       "CN"
+      ],
+      "crossings": 3
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+       "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+       "nvidia/NVIDIA-Nemotron-Nano-12B-v2-Base",
+       "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+       "GAIR/LIMO",
+       "AI-MO/NuminaMath-CoT",
+       "deepseek-ai/deepseek-llm-7b-base"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+        "generated_by",
+        "nvidia/NVIDIA-Nemotron-Nano-9B-v2"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+        "used_for_ablation",
+        "nvidia/NVIDIA-Nemotron-Nano-12B-v2-Base"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-Nano-12B-v2-Base",
+        "used_for_evaluation",
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "AI-MO/NuminaMath-CoT"
+       ],
+       [
+        "AI-MO/NuminaMath-CoT",
+        "used_for_ablation",
+        "deepseek-ai/deepseek-llm-7b-base"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "US",
+       "CN",
+       "EU",
+       "CN"
+      ],
+      "crossings": 3
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+       "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+       "nvidia/NVIDIA-Nemotron-Nano-12B-v2-Base",
+       "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+       "GAIR/LIMO",
+       "AI-MO/NuminaMath-CoT",
+       "deepseek-ai/deepseek-llm-7b-base"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+        "generated_by",
+        "nvidia/NVIDIA-Nemotron-Nano-9B-v2"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+        "trained_from",
+        "nvidia/NVIDIA-Nemotron-Nano-12B-v2-Base"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-Nano-12B-v2-Base",
+        "used_for_evaluation",
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "AI-MO/NuminaMath-CoT"
+       ],
+       [
+        "AI-MO/NuminaMath-CoT",
+        "used_for_ablation",
+        "deepseek-ai/deepseek-llm-7b-base"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "US",
+       "CN",
+       "EU",
+       "CN"
+      ],
+      "crossings": 3
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+       "nvidia/NVIDIA-Nemotron-Nano-12B-v2-Base",
+       "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+       "GAIR/LIMO",
+       "AI-MO/NuminaMath-CoT",
+       "deepseek-ai/deepseek-llm-7b-base"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+        "trained_from",
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+        "inspired_by",
+        "nvidia/NVIDIA-Nemotron-Nano-12B-v2-Base"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-Nano-12B-v2-Base",
+        "used_for_evaluation",
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "AI-MO/NuminaMath-CoT"
+       ],
+       [
+        "AI-MO/NuminaMath-CoT",
+        "used_for_ablation",
+        "deepseek-ai/deepseek-llm-7b-base"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "US",
+       "CN",
+       "EU",
+       "CN"
+      ],
+      "crossings": 3
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+       "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+       "GAIR/LIMO",
+       "AI-MO/NuminaMath-CoT",
+       "deepseek-ai/deepseek-llm-7b-base"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+        "quantized_from",
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+        "trained_from",
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+        "inspired_by",
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "AI-MO/NuminaMath-CoT"
+       ],
+       [
+        "AI-MO/NuminaMath-CoT",
+        "used_for_ablation",
+        "deepseek-ai/deepseek-llm-7b-base"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "US",
+       "CN",
+       "EU",
+       "CN"
+      ],
+      "crossings": 3
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+       "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+       "GAIR/LIMO",
+       "AI-MO/NuminaMath-CoT",
+       "deepseek-ai/deepseek-llm-7b-base"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+        "trained_from",
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+        "inspired_by",
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "AI-MO/NuminaMath-CoT"
+       ],
+       [
+        "AI-MO/NuminaMath-CoT",
+        "used_for_ablation",
+        "deepseek-ai/deepseek-llm-7b-base"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "CN",
+       "EU",
+       "CN"
+      ],
+      "crossings": 3
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+       "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+       "GAIR/LIMO",
+       "AI-MO/NuminaMath-CoT",
+       "deepseek-ai/deepseek-llm-7b-base"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+        "quantized_from",
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+        "inspired_by",
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "AI-MO/NuminaMath-CoT"
+       ],
+       [
+        "AI-MO/NuminaMath-CoT",
+        "used_for_ablation",
+        "deepseek-ai/deepseek-llm-7b-base"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "CN",
+       "EU",
+       "CN"
+      ],
+      "crossings": 3
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+       "GAIR/LIMO",
+       "AI-MO/NuminaMath-CoT",
+       "deepseek-ai/deepseek-llm-7b-base"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+        "quantized_from",
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+        "trained_from",
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "AI-MO/NuminaMath-CoT"
+       ],
+       [
+        "AI-MO/NuminaMath-CoT",
+        "used_for_ablation",
+        "deepseek-ai/deepseek-llm-7b-base"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "CN",
+       "EU",
+       "CN"
+      ],
+      "crossings": 3
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+       "GAIR/LIMO",
+       "AI-MO/NuminaMath-CoT",
+       "deepseek-ai/deepseek-llm-7b-base"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+        "trained_from",
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "AI-MO/NuminaMath-CoT"
+       ],
+       [
+        "AI-MO/NuminaMath-CoT",
+        "used_for_ablation",
+        "deepseek-ai/deepseek-llm-7b-base"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "CN",
+       "EU",
+       "CN"
+      ],
+      "crossings": 3
+     }
+    ]
+   },
+   "Nemotron 3 Nano Base": {
+    "ancestors": 341,
+    "max_depth": 5,
+    "edges": 532,
+    "ancestors_by_region": {
+     "US": 228,
+     "CN": 51,
+     "HF": 11,
+     "OTHER": 10,
+     "EU": 26,
+     "UNKNOWN": 10,
+     "UK": 5
+    },
+    "ancestors_by_region_kind": {
+     "US|dataset": 142,
+     "CN|dataset": 12,
+     "HF|dataset": 9,
+     "OTHER|dataset": 10,
+     "EU|dataset": 10,
+     "UNKNOWN|dataset": 9,
+     "UK|dataset": 5,
+     "US|off_lattice": 33,
+     "CN|model": 39,
+     "EU|model": 16,
+     "US|model": 53,
+     "UNKNOWN|off_lattice": 1,
+     "HF|off_lattice": 1,
+     "HF|model": 1
+    },
+    "edges_by_role_region": {
+     "training_inputs|US": 206,
+     "training_inputs|CN": 13,
+     "training_inputs|HF": 10,
+     "training_inputs|OTHER": 8,
+     "training_inputs|EU": 12,
+     "training_inputs|UNKNOWN": 7,
+     "training_inputs|UK": 2,
+     "methods_audit|US": 25,
+     "upstream_data_ops|CN": 76,
+     "upstream_data_ops|EU": 25,
+     "upstream_data_ops|US": 58,
+     "evaluation_ablation|OTHER": 6,
+     "evaluation_ablation|EU": 4,
+     "evaluation_ablation|US": 33,
+     "evaluation_ablation|UK": 3,
+     "methods_audit|CN": 10,
+     "evaluation_ablation|UNKNOWN": 3,
+     "evaluation_ablation|CN": 13,
+     "weight_lineage|US": 10,
+     "weight_lineage|CN": 3,
+     "upstream_data_ops|HF": 2,
+     "evaluation_ablation|HF": 2,
+     "methods_audit|HF": 1
+    },
+    "edges_by_relation_region": {
+     "trained_on|US": 206,
+     "trained_on|CN": 13,
+     "trained_on|HF": 10,
+     "trained_on|OTHER": 8,
+     "trained_on|EU": 12,
+     "trained_on|UNKNOWN": 7,
+     "trained_on|UK": 2,
+     "inspired_by|US": 25,
+     "generated_by|CN": 58,
+     "generated_by|EU": 14,
+     "generated_by|US": 35,
+     "transformed_by|CN": 7,
+     "used_for_evaluation|OTHER": 4,
+     "used_for_evaluation|EU": 3,
+     "used_for_evaluation|US": 20,
+     "filtered_by|CN": 11,
+     "used_for_evaluation|UK": 2,
+     "inspired_by|CN": 10,
+     "used_for_ablation|UK": 1,
+     "used_for_evaluation|UNKNOWN": 2,
+     "transformed_by|US": 7,
+     "used_for_ablation|CN": 10,
+     "used_for_ablation|EU": 1,
+     "trained_from|US": 10,
+     "filtered_by|US": 9,
+     "trained_from|CN": 3,
+     "composed_from|EU": 1,
+     "composed_from|US": 5,
+     "used_for_evaluation|CN": 3,
+     "used_for_ablation|US": 13,
+     "used_for_ablation|UNKNOWN": 1,
+     "filtered_by|HF": 2,
+     "used_for_ablation|OTHER": 2,
+     "used_for_evaluation|HF": 1,
+     "transformed_by|EU": 10,
+     "decontaminated_against|US": 1,
+     "used_for_ablation|HF": 1,
+     "inspired_by|HF": 1,
+     "embedded_by|US": 1
+    },
+    "cross_border_edges": 165,
+    "cross_border_pairs": {
+     "US->CN|training_inputs": 13,
+     "US->OTHER|training_inputs": 8,
+     "US->EU|training_inputs": 12,
+     "US->UK|training_inputs": 2,
+     "US->CN|upstream_data_ops": 71,
+     "US->EU|upstream_data_ops": 24,
+     "US->OTHER|evaluation_ablation": 6,
+     "US->EU|evaluation_ablation": 3,
+     "US->UK|evaluation_ablation": 3,
+     "US->CN|methods_audit": 9,
+     "EU->CN|evaluation_ablation": 1,
+     "OTHER->US|upstream_data_ops": 1,
+     "CN->EU|upstream_data_ops": 1,
+     "CN->US|upstream_data_ops": 3,
+     "CN->US|evaluation_ablation": 1,
+     "US->CN|weight_lineage": 2,
+     "US->CN|evaluation_ablation": 5
+    },
+    "training_only_ancestors": 206,
+    "training_only_by_region": {
+     "US": 145,
+     "CN": 30,
+     "HF": 6,
+     "OTHER": 7,
+     "EU": 11,
+     "UNKNOWN": 6,
+     "UK": 1
+    },
+    "training_only_edges": 263,
+    "first_cn_ancestor_hop": 1,
+    "first_cn_training_ancestor_hop": 1,
+    "paths": {
+     "paths": 3017,
+     "paths_ge1_crossing": 877,
+     "paths_ge2_crossings": 10,
+     "paths_US_CN_US": 4,
+     "paths_CN_US_CN": 0,
+     "n_double_chains": 9
+    },
+    "chains": [
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+       "GAIR/LIMO",
+       "AI-MO/NuminaMath-CoT",
+       "deepseek-ai/deepseek-llm-7b-base"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "AI-MO/NuminaMath-CoT"
+       ],
+       [
+        "AI-MO/NuminaMath-CoT",
+        "used_for_ablation",
+        "deepseek-ai/deepseek-llm-7b-base"
+       ]
+      ],
+      "regions": [
+       "US",
+       "CN",
+       "EU",
+       "CN"
+      ],
+      "crossings": 3
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+       "nvidia/AceReason-Nemotron-1.1-7B",
+       "AI-MO/NuminaMath-CoT",
+       "deepseek-ai/deepseek-llm-7b-base"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+        "trained_on",
+        "nvidia/AceReason-Nemotron-1.1-7B"
+       ],
+       [
+        "nvidia/AceReason-Nemotron-1.1-7B",
+        "trained_on",
+        "AI-MO/NuminaMath-CoT"
+       ],
+       [
+        "AI-MO/NuminaMath-CoT",
+        "used_for_ablation",
+        "deepseek-ai/deepseek-llm-7b-base"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "EU",
+       "CN"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+       "GAIR/LIMO",
+       "AI-MO/NuminaMath-CoT",
+       "mistralai/Mixtral-8x7B-v0.1"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "AI-MO/NuminaMath-CoT"
+       ],
+       [
+        "AI-MO/NuminaMath-CoT",
+        "used_for_ablation",
+        "mistralai/Mixtral-8x7B-v0.1"
+       ]
+      ],
+      "regions": [
+       "US",
+       "CN",
+       "EU",
+       "EU"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+       "GAIR/LIMO",
+       "AI-MO/NuminaMath-CoT"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "AI-MO/NuminaMath-CoT"
+       ]
+      ],
+      "regions": [
+       "US",
+       "CN",
+       "EU"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+       "GAIR/LIMO",
+       "agentica-org/DeepScaleR-Preview-Dataset"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "agentica-org/DeepScaleR-Preview-Dataset"
+       ]
+      ],
+      "regions": [
+       "US",
+       "CN",
+       "US"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+       "GAIR/LIMO",
+       "AIME"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "AIME"
+       ]
+      ],
+      "regions": [
+       "US",
+       "CN",
+       "US"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+       "GAIR/LIMO",
+       "EleutherAI/hendrycks_math"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "EleutherAI/hendrycks_math"
+       ]
+      ],
+      "regions": [
+       "US",
+       "CN",
+       "US"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+       "GAIR/LIMO",
+       "open-thoughts/OpenThoughts-114k"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "used_for_ablation",
+        "open-thoughts/OpenThoughts-114k"
+       ]
+      ],
+      "regions": [
+       "US",
+       "CN",
+       "US"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+       "AI-MO/NuminaMath-CoT",
+       "deepseek-ai/deepseek-llm-7b-base"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+        "trained_on",
+        "AI-MO/NuminaMath-CoT"
+       ],
+       [
+        "AI-MO/NuminaMath-CoT",
+        "used_for_ablation",
+        "deepseek-ai/deepseek-llm-7b-base"
+       ]
+      ],
+      "regions": [
+       "US",
+       "EU",
+       "CN"
+      ],
+      "crossings": 2
+     }
+    ]
+   },
+   "DR Tulu": {
+    "ancestors": 49,
+    "max_depth": 2,
+    "edges": 62,
+    "ancestors_by_region": {
+     "US": 37,
+     "UNKNOWN": 2,
+     "OTHER": 1,
+     "CN": 9
+    },
+    "ancestors_by_region_kind": {
+     "US|model": 7,
+     "US|dataset": 29,
+     "UNKNOWN|dataset": 2,
+     "OTHER|dataset": 1,
+     "CN|dataset": 5,
+     "CN|model": 4,
+     "US|off_lattice": 1
+    },
+    "edges_by_role_region": {
+     "weight_lineage|US": 1,
+     "training_inputs|US": 8,
+     "upstream_data_ops|US": 5,
+     "evaluation_ablation|US": 27,
+     "evaluation_ablation|UNKNOWN": 2,
+     "evaluation_ablation|OTHER": 1,
+     "evaluation_ablation|CN": 6,
+     "methods_audit|US": 3,
+     "training_inputs|CN": 3,
+     "weight_lineage|CN": 2,
+     "upstream_data_ops|CN": 3,
+     "methods_audit|CN": 1
+    },
+    "edges_by_relation_region": {
+     "trained_from|US": 1,
+     "trained_on|US": 8,
+     "filtered_by|US": 3,
+     "generated_by|US": 2,
+     "used_for_evaluation|US": 26,
+     "used_for_evaluation|UNKNOWN": 1,
+     "used_for_evaluation|OTHER": 1,
+     "used_for_evaluation|CN": 2,
+     "used_for_ablation|US": 1,
+     "used_for_ablation|CN": 4,
+     "inspired_by|US": 3,
+     "trained_on|CN": 3,
+     "trained_from|CN": 2,
+     "generated_by|CN": 1,
+     "transformed_by|CN": 1,
+     "filtered_by|CN": 1,
+     "inspired_by|CN": 1,
+     "used_for_ablation|UNKNOWN": 1
+    },
+    "cross_border_edges": 10,
+    "cross_border_pairs": {
+     "US->OTHER|evaluation_ablation": 1,
+     "US->CN|evaluation_ablation": 4,
+     "US->CN|training_inputs": 3,
+     "US->CN|weight_lineage": 1,
+     "CN->US|methods_audit": 1
+    },
+    "training_only_ancestors": 16,
+    "training_only_by_region": {
+     "US": 12,
+     "CN": 4
+    },
+    "training_only_edges": 18,
+    "first_cn_ancestor_hop": 1,
+    "first_cn_training_ancestor_hop": 2,
+    "paths": {
+     "paths": 73,
+     "paths_ge1_crossing": 23,
+     "paths_ge2_crossings": 1,
+     "paths_US_CN_US": 1,
+     "paths_CN_US_CN": 0,
+     "n_double_chains": 1
+    },
+    "chains": [
+     {
+      "path": [
+       "rl-research/DR-Tulu-8B",
+       "Alibaba-NLP/WebShaper",
+       "wikimedia/wikipedia"
+      ],
+      "edges": [
+       [
+        "rl-research/DR-Tulu-8B",
+        "used_for_evaluation",
+        "Alibaba-NLP/WebShaper"
+       ],
+       [
+        "Alibaba-NLP/WebShaper",
+        "inspired_by",
+        "wikimedia/wikipedia"
+       ]
+      ],
+      "regions": [
+       "US",
+       "CN",
+       "US"
+      ],
+      "crossings": 2
+     }
+    ]
+   },
+   "SmolLM3 Base": {
+    "ancestors": 83,
+    "max_depth": 3,
+    "edges": 88,
+    "ancestors_by_region": {
+     "US": 24,
+     "HF": 44,
+     "OTHER": 9,
+     "CN": 3,
+     "EU": 3
+    },
+    "ancestors_by_region_kind": {
+     "US|model": 7,
+     "HF|dataset": 14,
+     "US|dataset": 16,
+     "OTHER|off_lattice": 6,
+     "HF|off_lattice": 28,
+     "CN|dataset": 1,
+     "OTHER|dataset": 3,
+     "US|off_lattice": 1,
+     "HF|model": 2,
+     "CN|model": 2,
+     "EU|dataset": 1,
+     "EU|model": 2
+    },
+    "edges_by_role_region": {
+     "methods_audit|US": 6,
+     "training_inputs|HF": 42,
+     "training_inputs|US": 13,
+     "training_inputs|OTHER": 8,
+     "training_inputs|CN": 1,
+     "upstream_data_ops|HF": 2,
+     "methods_audit|CN": 1,
+     "evaluation_ablation|US": 4,
+     "evaluation_ablation|EU": 3,
+     "evaluation_ablation|HF": 1,
+     "upstream_data_ops|US": 3,
+     "upstream_data_ops|CN": 1,
+     "weight_lineage|US": 2,
+     "methods_audit|OTHER": 1
+    },
+    "edges_by_relation_region": {
+     "inspired_by|US": 6,
+     "trained_on|HF": 42,
+     "trained_on|US": 13,
+     "trained_on|OTHER": 8,
+     "trained_on|CN": 1,
+     "filtered_by|HF": 2,
+     "inspired_by|CN": 1,
+     "used_for_evaluation|US": 4,
+     "used_for_evaluation|EU": 1,
+     "used_for_ablation|HF": 1,
+     "transformed_by|US": 1,
+     "generated_by|CN": 1,
+     "trained_from|US": 2,
+     "generated_by|US": 2,
+     "used_for_ablation|EU": 2,
+     "inspired_by|OTHER": 1
+    },
+    "cross_border_edges": 2,
+    "cross_border_pairs": {
+     "OTHER->US|upstream_data_ops": 1,
+     "US->CN|upstream_data_ops": 1
+    },
+    "training_only_ancestors": 70,
+    "training_only_by_region": {
+     "HF": 44,
+     "US": 16,
+     "OTHER": 8,
+     "CN": 2
+    },
+    "training_only_edges": 72,
+    "first_cn_ancestor_hop": 1,
+    "first_cn_training_ancestor_hop": 1,
+    "paths": {
+     "paths": 89,
+     "paths_ge1_crossing": 2,
+     "paths_ge2_crossings": 0,
+     "paths_US_CN_US": 0,
+     "paths_CN_US_CN": 0,
+     "n_double_chains": 0
+    },
+    "chains": []
+   }
+  },
+  "families": {
+   "Olmo 3": {
+    "edges": 1256,
+    "ancestors": 576,
+    "ancestors_by_region": {
+     "US": 420,
+     "EU": 26,
+     "OTHER": 25,
+     "UNKNOWN": 20,
+     "CN": 52,
+     "HF": 30,
+     "UK": 3
+    },
+    "edges_by_role_region": {
+     "weight_lineage|US": 40,
+     "training_inputs|US": 416,
+     "training_inputs|CN": 34,
+     "upstream_data_ops|CN": 53,
+     "training_inputs|OTHER": 30,
+     "evaluation_ablation|US": 259,
+     "evaluation_ablation|HF": 17,
+     "evaluation_ablation|CN": 32,
+     "methods_audit|US": 46,
+     "upstream_data_ops|US": 156,
+     "training_inputs|EU": 13,
+     "methods_audit|CN": 9,
+     "upstream_data_ops|EU": 24,
+     "evaluation_ablation|UNKNOWN": 20,
+     "weight_lineage|CN": 3,
+     "evaluation_ablation|OTHER": 23,
+     "evaluation_ablation|EU": 9,
+     "training_inputs|UNKNOWN": 13,
+     "training_inputs|HF": 28,
+     "methods_audit|OTHER": 8,
+     "methods_audit|UNKNOWN": 4,
+     "upstream_data_ops|HF": 4,
+     "methods_audit|HF": 5,
+     "training_inputs|UK": 2,
+     "weight_lineage|HF": 2,
+     "evaluation_ablation|UK": 1,
+     "weight_lineage|EU": 2,
+     "upstream_data_ops|UNKNOWN": 3
+    }
+   },
+   "Nemotron 3": {
+    "edges": 1107,
+    "ancestors": 519,
+    "ancestors_by_region": {
+     "US": 352,
+     "UNKNOWN": 20,
+     "HF": 15,
+     "CN": 76,
+     "OTHER": 17,
+     "EU": 33,
+     "UK": 6
+    },
+    "edges_by_role_region": {
+     "weight_lineage|US": 14,
+     "training_inputs|CN": 43,
+     "training_inputs|US": 450,
+     "training_inputs|OTHER": 19,
+     "upstream_data_ops|CN": 169,
+     "upstream_data_ops|US": 103,
+     "training_inputs|EU": 22,
+     "upstream_data_ops|EU": 37,
+     "weight_lineage|CN": 9,
+     "evaluation_ablation|OTHER": 14,
+     "evaluation_ablation|US": 97,
+     "evaluation_ablation|CN": 17,
+     "methods_audit|US": 34,
+     "training_inputs|UNKNOWN": 19,
+     "evaluation_ablation|UK": 4,
+     "training_inputs|UK": 5,
+     "training_inputs|HF": 19,
+     "methods_audit|UNKNOWN": 1,
+     "evaluation_ablation|HF": 4,
+     "methods_audit|CN": 11,
+     "evaluation_ablation|EU": 6,
+     "evaluation_ablation|UNKNOWN": 6,
+     "upstream_data_ops|HF": 2,
+     "methods_audit|OTHER": 1,
+     "methods_audit|HF": 1
+    }
+   },
+   "DR Tulu": {
+    "edges": 62,
+    "ancestors": 49,
+    "ancestors_by_region": {
+     "US": 37,
+     "CN": 9,
+     "UNKNOWN": 2,
+     "OTHER": 1
+    },
+    "edges_by_role_region": {
+     "weight_lineage|US": 1,
+     "training_inputs|US": 8,
+     "upstream_data_ops|US": 5,
+     "evaluation_ablation|US": 27,
+     "evaluation_ablation|UNKNOWN": 2,
+     "evaluation_ablation|OTHER": 1,
+     "evaluation_ablation|CN": 6,
+     "methods_audit|US": 3,
+     "training_inputs|CN": 3,
+     "weight_lineage|CN": 2,
+     "upstream_data_ops|CN": 3,
+     "methods_audit|CN": 1
+    }
+   },
+   "SmolLM3": {
+    "edges": 88,
+    "ancestors": 83,
+    "ancestors_by_region": {
+     "HF": 44,
+     "OTHER": 9,
+     "US": 24,
+     "EU": 3,
+     "CN": 3
+    },
+    "edges_by_role_region": {
+     "methods_audit|US": 6,
+     "training_inputs|HF": 42,
+     "training_inputs|US": 13,
+     "training_inputs|OTHER": 8,
+     "training_inputs|CN": 1,
+     "upstream_data_ops|HF": 2,
+     "methods_audit|CN": 1,
+     "evaluation_ablation|US": 4,
+     "evaluation_ablation|EU": 3,
+     "evaluation_ablation|HF": 1,
+     "upstream_data_ops|US": 3,
+     "upstream_data_ops|CN": 1,
+     "weight_lineage|US": 2,
+     "methods_audit|OTHER": 1
+    }
+   }
+  },
+  "union": {
+   "edges": 2350,
+   "nodes": 1004,
+   "edges_by_role": {
+    "weight_lineage": 64,
+    "training_inputs": 1140,
+    "upstream_data_ops": 509,
+    "evaluation_ablation": 514,
+    "methods_audit": 123
+   },
+   "edges_by_role_region": {
+    "weight_lineage|US": 48,
+    "training_inputs|US": 848,
+    "training_inputs|CN": 77,
+    "upstream_data_ops|CN": 218,
+    "training_inputs|OTHER": 56,
+    "evaluation_ablation|US": 358,
+    "evaluation_ablation|HF": 22,
+    "evaluation_ablation|CN": 49,
+    "methods_audit|US": 82,
+    "upstream_data_ops|US": 234,
+    "training_inputs|EU": 33,
+    "methods_audit|CN": 20,
+    "upstream_data_ops|EU": 46,
+    "evaluation_ablation|UNKNOWN": 26,
+    "weight_lineage|CN": 12,
+    "evaluation_ablation|OTHER": 37,
+    "evaluation_ablation|EU": 17,
+    "training_inputs|UNKNOWN": 30,
+    "training_inputs|HF": 89,
+    "methods_audit|OTHER": 10,
+    "methods_audit|UNKNOWN": 5,
+    "upstream_data_ops|HF": 8,
+    "methods_audit|HF": 6,
+    "training_inputs|UK": 7,
+    "weight_lineage|HF": 2,
+    "evaluation_ablation|UK": 5,
+    "weight_lineage|EU": 2,
+    "upstream_data_ops|UNKNOWN": 3
+   },
+   "nodes_by_region": {
+    "UNKNOWN": 37,
+    "US": 682,
+    "OTHER": 44,
+    "HF": 77,
+    "EU": 44,
+    "CN": 112,
+    "UK": 8
+   },
+   "cross_border_edges_by_pair_role": {
+    "US->CN|training_inputs": 76,
+    "US->CN|upstream_data_ops": 209,
+    "US->OTHER|training_inputs": 47,
+    "US->CN|evaluation_ablation": 39,
+    "US->EU|training_inputs": 33,
+    "US->CN|methods_audit": 17,
+    "US->EU|upstream_data_ops": 45,
+    "OTHER->CN|weight_lineage": 1,
+    "OTHER->US|upstream_data_ops": 4,
+    "OTHER->CN|upstream_data_ops": 1,
+    "OTHER->US|evaluation_ablation": 1,
+    "US->OTHER|evaluation_ablation": 37,
+    "US->EU|evaluation_ablation": 13,
+    "US->OTHER|methods_audit": 9,
+    "US->UK|training_inputs": 7,
+    "US->CN|weight_lineage": 9,
+    "CN->US|methods_audit": 1,
+    "US->UK|evaluation_ablation": 5,
+    "US->EU|weight_lineage": 1,
+    "CN->EU|upstream_data_ops": 1,
+    "CN->US|upstream_data_ops": 3,
+    "CN->US|evaluation_ablation": 1,
+    "EU->CN|evaluation_ablation": 1
+   }
+  }
+ },
+ "training_roles_only": {
+  "label": "training-role edges only (trained_on, data ops, weight lineage)",
+  "targets": {
+   "Olmo 3 Instruct (7B)": {
+    "ancestors": 331,
+    "max_depth": 8,
+    "edges": 636,
+    "ancestors_by_region": {
+     "US": 251,
+     "CN": 34,
+     "OTHER": 12,
+     "EU": 18,
+     "UNKNOWN": 4,
+     "HF": 10,
+     "UK": 2
+    },
+    "ancestors_by_region_kind": {
+     "US|model": 78,
+     "US|dataset": 165,
+     "CN|dataset": 12,
+     "CN|model": 21,
+     "OTHER|dataset": 12,
+     "US|off_lattice": 8,
+     "CN|off_lattice": 1,
+     "EU|dataset": 3,
+     "EU|model": 14,
+     "EU|off_lattice": 1,
+     "UNKNOWN|dataset": 4,
+     "HF|dataset": 8,
+     "HF|off_lattice": 1,
+     "HF|model": 1,
+     "UK|dataset": 2
+    },
+    "edges_by_role_region": {
+     "weight_lineage|US": 29,
+     "training_inputs|US": 322,
+     "training_inputs|CN": 22,
+     "upstream_data_ops|CN": 42,
+     "training_inputs|OTHER": 26,
+     "upstream_data_ops|US": 134,
+     "training_inputs|EU": 8,
+     "upstream_data_ops|EU": 22,
+     "weight_lineage|CN": 1,
+     "training_inputs|UNKNOWN": 7,
+     "training_inputs|HF": 18,
+     "upstream_data_ops|HF": 3,
+     "training_inputs|UK": 2
+    },
+    "edges_by_relation_region": {
+     "trained_from|US": 29,
+     "trained_on|US": 322,
+     "trained_on|CN": 22,
+     "filtered_by|CN": 3,
+     "trained_on|OTHER": 26,
+     "generated_by|CN": 34,
+     "generated_by|US": 73,
+     "filtered_by|US": 32,
+     "trained_on|EU": 8,
+     "generated_by|EU": 9,
+     "composed_from|US": 11,
+     "trained_from|CN": 1,
+     "transformed_by|US": 17,
+     "transformed_by|EU": 11,
+     "decontaminated_against|US": 1,
+     "trained_on|UNKNOWN": 7,
+     "trained_on|HF": 18,
+     "transformed_by|CN": 5,
+     "filtered_by|HF": 3,
+     "filtered_by|EU": 2,
+     "trained_on|UK": 2
+    },
+    "cross_border_edges": 126,
+    "cross_border_pairs": {
+     "US->CN|training_inputs": 22,
+     "US->CN|upstream_data_ops": 41,
+     "US->OTHER|training_inputs": 25,
+     "US->EU|training_inputs": 8,
+     "US->EU|upstream_data_ops": 22,
+     "OTHER->CN|weight_lineage": 1,
+     "OTHER->US|upstream_data_ops": 4,
+     "OTHER->CN|upstream_data_ops": 1,
+     "US->UK|training_inputs": 2
+    },
+    "training_only_ancestors": 331,
+    "training_only_by_region": {
+     "US": 251,
+     "CN": 34,
+     "OTHER": 12,
+     "EU": 18,
+     "UNKNOWN": 4,
+     "HF": 10,
+     "UK": 2
+    },
+    "training_only_edges": 636,
+    "first_cn_ancestor_hop": 1,
+    "first_cn_training_ancestor_hop": 1,
+    "paths": {
+     "paths": 1462,
+     "paths_ge1_crossing": 347,
+     "paths_ge2_crossings": 23,
+     "paths_US_CN_US": 0,
+     "paths_CN_US_CN": 0,
+     "n_double_chains": 8
+    },
+    "chains": [
+     {
+      "path": [
+       "allenai/Olmo-3-7B-Instruct",
+       "allenai/Olmo-3-7B-Instruct-DPO",
+       "allenai/Olmo-3-7B-Instruct-SFT",
+       "allenai/Olmo-3-32B-Instruct",
+       "allenai/Olmo-3-32B-Instruct-DPO",
+       "allenai/Olmo-3-32B-Instruct-SFT",
+       "allenai/Olmo-3-32B-Think-SFT",
+       "AceCoder V2",
+       "Qwen/Qwen2.5-Coder-7B-Instruct"
+      ],
+      "edges": [
+       [
+        "allenai/Olmo-3-7B-Instruct",
+        "trained_from",
+        "allenai/Olmo-3-7B-Instruct-DPO"
+       ],
+       [
+        "allenai/Olmo-3-7B-Instruct-DPO",
+        "trained_from",
+        "allenai/Olmo-3-7B-Instruct-SFT"
+       ],
+       [
+        "allenai/Olmo-3-7B-Instruct-SFT",
+        "trained_from",
+        "allenai/Olmo-3-32B-Instruct"
+       ],
+       [
+        "allenai/Olmo-3-32B-Instruct",
+        "trained_from",
+        "allenai/Olmo-3-32B-Instruct-DPO"
+       ],
+       [
+        "allenai/Olmo-3-32B-Instruct-DPO",
+        "trained_from",
+        "allenai/Olmo-3-32B-Instruct-SFT"
+       ],
+       [
+        "allenai/Olmo-3-32B-Instruct-SFT",
+        "trained_from",
+        "allenai/Olmo-3-32B-Think-SFT"
+       ],
+       [
+        "allenai/Olmo-3-32B-Think-SFT",
+        "trained_on",
+        "AceCoder V2"
+       ],
+       [
+        "AceCoder V2",
+        "trained_from",
+        "Qwen/Qwen2.5-Coder-7B-Instruct"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "US",
+       "US",
+       "US",
+       "US",
+       "OTHER",
+       "CN"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "allenai/Olmo-3-7B-Instruct",
+       "allenai/Olmo-3-7B-Instruct-DPO",
+       "allenai/Olmo-3-7B-Instruct-SFT",
+       "allenai/Olmo-3-32B-Instruct",
+       "allenai/Olmo-3-32B-Instruct-DPO",
+       "allenai/Olmo-3-32B-Instruct-SFT",
+       "allenai/Olmo-3-32B-Think-SFT",
+       "AceCoder V2",
+       "Qwen/Qwen2.5-Coder-32B-Instruct"
+      ],
+      "edges": [
+       [
+        "allenai/Olmo-3-7B-Instruct",
+        "trained_from",
+        "allenai/Olmo-3-7B-Instruct-DPO"
+       ],
+       [
+        "allenai/Olmo-3-7B-Instruct-DPO",
+        "trained_from",
+        "allenai/Olmo-3-7B-Instruct-SFT"
+       ],
+       [
+        "allenai/Olmo-3-7B-Instruct-SFT",
+        "trained_from",
+        "allenai/Olmo-3-32B-Instruct"
+       ],
+       [
+        "allenai/Olmo-3-32B-Instruct",
+        "trained_from",
+        "allenai/Olmo-3-32B-Instruct-DPO"
+       ],
+       [
+        "allenai/Olmo-3-32B-Instruct-DPO",
+        "trained_from",
+        "allenai/Olmo-3-32B-Instruct-SFT"
+       ],
+       [
+        "allenai/Olmo-3-32B-Instruct-SFT",
+        "trained_from",
+        "allenai/Olmo-3-32B-Think-SFT"
+       ],
+       [
+        "allenai/Olmo-3-32B-Think-SFT",
+        "trained_on",
+        "AceCoder V2"
+       ],
+       [
+        "AceCoder V2",
+        "filtered_by",
+        "Qwen/Qwen2.5-Coder-32B-Instruct"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "US",
+       "US",
+       "US",
+       "US",
+       "OTHER",
+       "CN"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "allenai/Olmo-3-7B-Instruct",
+       "allenai/Olmo-3-7B-Instruct-DPO",
+       "allenai/Olmo-3-7B-Instruct-SFT",
+       "allenai/Olmo-3-32B-Instruct",
+       "allenai/Olmo-3-32B-Think-SFT",
+       "AceCoder V2",
+       "Qwen/Qwen2.5-Coder-7B-Instruct"
+      ],
+      "edges": [
+       [
+        "allenai/Olmo-3-7B-Instruct",
+        "trained_from",
+        "allenai/Olmo-3-7B-Instruct-DPO"
+       ],
+       [
+        "allenai/Olmo-3-7B-Instruct-DPO",
+        "trained_from",
+        "allenai/Olmo-3-7B-Instruct-SFT"
+       ],
+       [
+        "allenai/Olmo-3-7B-Instruct-SFT",
+        "trained_from",
+        "allenai/Olmo-3-32B-Instruct"
+       ],
+       [
+        "allenai/Olmo-3-32B-Instruct",
+        "trained_from",
+        "allenai/Olmo-3-32B-Think-SFT"
+       ],
+       [
+        "allenai/Olmo-3-32B-Think-SFT",
+        "trained_on",
+        "AceCoder V2"
+       ],
+       [
+        "AceCoder V2",
+        "trained_from",
+        "Qwen/Qwen2.5-Coder-7B-Instruct"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "US",
+       "US",
+       "OTHER",
+       "CN"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "allenai/Olmo-3-7B-Instruct",
+       "allenai/Olmo-3-7B-Instruct-DPO",
+       "allenai/Olmo-3-7B-Instruct-SFT",
+       "allenai/Olmo-3-32B-Instruct",
+       "allenai/Olmo-3-32B-Think-SFT",
+       "AceCoder V2",
+       "Qwen/Qwen2.5-Coder-32B-Instruct"
+      ],
+      "edges": [
+       [
+        "allenai/Olmo-3-7B-Instruct",
+        "trained_from",
+        "allenai/Olmo-3-7B-Instruct-DPO"
+       ],
+       [
+        "allenai/Olmo-3-7B-Instruct-DPO",
+        "trained_from",
+        "allenai/Olmo-3-7B-Instruct-SFT"
+       ],
+       [
+        "allenai/Olmo-3-7B-Instruct-SFT",
+        "trained_from",
+        "allenai/Olmo-3-32B-Instruct"
+       ],
+       [
+        "allenai/Olmo-3-32B-Instruct",
+        "trained_from",
+        "allenai/Olmo-3-32B-Think-SFT"
+       ],
+       [
+        "allenai/Olmo-3-32B-Think-SFT",
+        "trained_on",
+        "AceCoder V2"
+       ],
+       [
+        "AceCoder V2",
+        "filtered_by",
+        "Qwen/Qwen2.5-Coder-32B-Instruct"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "US",
+       "US",
+       "OTHER",
+       "CN"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "allenai/Olmo-3-7B-Instruct",
+       "allenai/Olmo-3-7B-Instruct-DPO",
+       "allenai/Olmo-3-7B-Instruct-SFT",
+       "allenai/Olmo-3-7B-Think-SFT",
+       "AceCoder V2",
+       "Qwen/Qwen2.5-Coder-7B-Instruct"
+      ],
+      "edges": [
+       [
+        "allenai/Olmo-3-7B-Instruct",
+        "trained_from",
+        "allenai/Olmo-3-7B-Instruct-DPO"
+       ],
+       [
+        "allenai/Olmo-3-7B-Instruct-DPO",
+        "trained_from",
+        "allenai/Olmo-3-7B-Instruct-SFT"
+       ],
+       [
+        "allenai/Olmo-3-7B-Instruct-SFT",
+        "trained_from",
+        "allenai/Olmo-3-7B-Think-SFT"
+       ],
+       [
+        "allenai/Olmo-3-7B-Think-SFT",
+        "trained_on",
+        "AceCoder V2"
+       ],
+       [
+        "AceCoder V2",
+        "trained_from",
+        "Qwen/Qwen2.5-Coder-7B-Instruct"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "US",
+       "OTHER",
+       "CN"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "allenai/Olmo-3-7B-Instruct",
+       "allenai/Olmo-3-7B-Instruct-DPO",
+       "allenai/Olmo-3-7B-Instruct-SFT",
+       "allenai/Olmo-3-7B-Think-SFT",
+       "AceCoder V2",
+       "Qwen/Qwen2.5-Coder-32B-Instruct"
+      ],
+      "edges": [
+       [
+        "allenai/Olmo-3-7B-Instruct",
+        "trained_from",
+        "allenai/Olmo-3-7B-Instruct-DPO"
+       ],
+       [
+        "allenai/Olmo-3-7B-Instruct-DPO",
+        "trained_from",
+        "allenai/Olmo-3-7B-Instruct-SFT"
+       ],
+       [
+        "allenai/Olmo-3-7B-Instruct-SFT",
+        "trained_from",
+        "allenai/Olmo-3-7B-Think-SFT"
+       ],
+       [
+        "allenai/Olmo-3-7B-Think-SFT",
+        "trained_on",
+        "AceCoder V2"
+       ],
+       [
+        "AceCoder V2",
+        "filtered_by",
+        "Qwen/Qwen2.5-Coder-32B-Instruct"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "US",
+       "OTHER",
+       "CN"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "allenai/Olmo-3-7B-Instruct",
+       "AceCoder V2",
+       "Qwen/Qwen2.5-Coder-7B-Instruct"
+      ],
+      "edges": [
+       [
+        "allenai/Olmo-3-7B-Instruct",
+        "trained_on",
+        "AceCoder V2"
+       ],
+       [
+        "AceCoder V2",
+        "trained_from",
+        "Qwen/Qwen2.5-Coder-7B-Instruct"
+       ]
+      ],
+      "regions": [
+       "US",
+       "OTHER",
+       "CN"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "allenai/Olmo-3-7B-Instruct",
+       "AceCoder V2",
+       "Qwen/Qwen2.5-Coder-32B-Instruct"
+      ],
+      "edges": [
+       [
+        "allenai/Olmo-3-7B-Instruct",
+        "trained_on",
+        "AceCoder V2"
+       ],
+       [
+        "AceCoder V2",
+        "filtered_by",
+        "Qwen/Qwen2.5-Coder-32B-Instruct"
+       ]
+      ],
+      "regions": [
+       "US",
+       "OTHER",
+       "CN"
+      ],
+      "crossings": 2
+     }
+    ]
+   },
+   "Olmo 3 Think (7B)": {
+    "ancestors": 266,
+    "max_depth": 8,
+    "edges": 341,
+    "ancestors_by_region": {
+     "US": 201,
+     "CN": 25,
+     "OTHER": 9,
+     "EU": 16,
+     "HF": 10,
+     "UNKNOWN": 4,
+     "UK": 1
+    },
+    "ancestors_by_region_kind": {
+     "US|model": 63,
+     "US|dataset": 128,
+     "US|off_lattice": 10,
+     "CN|model": 17,
+     "CN|dataset": 8,
+     "OTHER|dataset": 9,
+     "EU|dataset": 3,
+     "EU|model": 13,
+     "HF|dataset": 8,
+     "HF|off_lattice": 1,
+     "HF|model": 1,
+     "UNKNOWN|dataset": 4,
+     "UK|dataset": 1
+    },
+    "edges_by_role_region": {
+     "weight_lineage|US": 17,
+     "training_inputs|US": 163,
+     "training_inputs|CN": 10,
+     "training_inputs|OTHER": 11,
+     "upstream_data_ops|US": 79,
+     "upstream_data_ops|CN": 21,
+     "training_inputs|EU": 3,
+     "upstream_data_ops|EU": 19,
+     "weight_lineage|CN": 1,
+     "training_inputs|HF": 9,
+     "upstream_data_ops|HF": 2,
+     "training_inputs|UNKNOWN": 5,
+     "training_inputs|UK": 1
+    },
+    "edges_by_relation_region": {
+     "trained_from|US": 17,
+     "trained_on|US": 163,
+     "trained_on|CN": 10,
+     "trained_on|OTHER": 11,
+     "transformed_by|US": 10,
+     "filtered_by|CN": 3,
+     "filtered_by|US": 20,
+     "trained_on|EU": 3,
+     "generated_by|US": 40,
+     "generated_by|EU": 7,
+     "generated_by|CN": 15,
+     "composed_from|US": 8,
+     "trained_from|CN": 1,
+     "trained_on|HF": 9,
+     "transformed_by|CN": 3,
+     "filtered_by|HF": 2,
+     "filtered_by|EU": 1,
+     "trained_on|UNKNOWN": 5,
+     "trained_on|UK": 1,
+     "transformed_by|EU": 11,
+     "decontaminated_against|US": 1
+    },
+    "cross_border_edges": 68,
+    "cross_border_pairs": {
+     "US->CN|training_inputs": 10,
+     "US->OTHER|training_inputs": 10,
+     "US->CN|upstream_data_ops": 20,
+     "US->EU|training_inputs": 3,
+     "US->EU|upstream_data_ops": 19,
+     "OTHER->CN|weight_lineage": 1,
+     "OTHER->US|upstream_data_ops": 3,
+     "OTHER->CN|upstream_data_ops": 1,
+     "US->UK|training_inputs": 1
+    },
+    "training_only_ancestors": 266,
+    "training_only_by_region": {
+     "US": 201,
+     "CN": 25,
+     "OTHER": 9,
+     "EU": 16,
+     "HF": 10,
+     "UNKNOWN": 4,
+     "UK": 1
+    },
+    "training_only_edges": 341,
+    "first_cn_ancestor_hop": 1,
+    "first_cn_training_ancestor_hop": 1,
+    "paths": {
+     "paths": 1270,
+     "paths_ge1_crossing": 312,
+     "paths_ge2_crossings": 20,
+     "paths_US_CN_US": 0,
+     "paths_CN_US_CN": 0,
+     "n_double_chains": 8
+    },
+    "chains": [
+     {
+      "path": [
+       "allenai/Olmo-3-7B-Think",
+       "allenai/Olmo-3-7B-Think-DPO",
+       "allenai/Olmo-3-7B-Think-SFT",
+       "AceCoder V2",
+       "Qwen/Qwen2.5-Coder-7B-Instruct"
+      ],
+      "edges": [
+       [
+        "allenai/Olmo-3-7B-Think",
+        "filtered_by",
+        "allenai/Olmo-3-7B-Think-DPO"
+       ],
+       [
+        "allenai/Olmo-3-7B-Think-DPO",
+        "trained_from",
+        "allenai/Olmo-3-7B-Think-SFT"
+       ],
+       [
+        "allenai/Olmo-3-7B-Think-SFT",
+        "trained_on",
+        "AceCoder V2"
+       ],
+       [
+        "AceCoder V2",
+        "trained_from",
+        "Qwen/Qwen2.5-Coder-7B-Instruct"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "OTHER",
+       "CN"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "allenai/Olmo-3-7B-Think",
+       "allenai/Olmo-3-7B-Think-DPO",
+       "allenai/Olmo-3-7B-Think-SFT",
+       "AceCoder V2",
+       "Qwen/Qwen2.5-Coder-32B-Instruct"
+      ],
+      "edges": [
+       [
+        "allenai/Olmo-3-7B-Think",
+        "filtered_by",
+        "allenai/Olmo-3-7B-Think-DPO"
+       ],
+       [
+        "allenai/Olmo-3-7B-Think-DPO",
+        "trained_from",
+        "allenai/Olmo-3-7B-Think-SFT"
+       ],
+       [
+        "allenai/Olmo-3-7B-Think-SFT",
+        "trained_on",
+        "AceCoder V2"
+       ],
+       [
+        "AceCoder V2",
+        "filtered_by",
+        "Qwen/Qwen2.5-Coder-32B-Instruct"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "OTHER",
+       "CN"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "allenai/Olmo-3-7B-Think",
+       "allenai/Olmo-3-7B-Think-DPO",
+       "allenai/Olmo-3-7B-Think-SFT",
+       "AceCoder V2",
+       "Qwen/Qwen2.5-Coder-7B-Instruct"
+      ],
+      "edges": [
+       [
+        "allenai/Olmo-3-7B-Think",
+        "trained_from",
+        "allenai/Olmo-3-7B-Think-DPO"
+       ],
+       [
+        "allenai/Olmo-3-7B-Think-DPO",
+        "trained_from",
+        "allenai/Olmo-3-7B-Think-SFT"
+       ],
+       [
+        "allenai/Olmo-3-7B-Think-SFT",
+        "trained_on",
+        "AceCoder V2"
+       ],
+       [
+        "AceCoder V2",
+        "trained_from",
+        "Qwen/Qwen2.5-Coder-7B-Instruct"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "OTHER",
+       "CN"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "allenai/Olmo-3-7B-Think",
+       "allenai/Olmo-3-7B-Think-DPO",
+       "allenai/Olmo-3-7B-Think-SFT",
+       "AceCoder V2",
+       "Qwen/Qwen2.5-Coder-32B-Instruct"
+      ],
+      "edges": [
+       [
+        "allenai/Olmo-3-7B-Think",
+        "trained_from",
+        "allenai/Olmo-3-7B-Think-DPO"
+       ],
+       [
+        "allenai/Olmo-3-7B-Think-DPO",
+        "trained_from",
+        "allenai/Olmo-3-7B-Think-SFT"
+       ],
+       [
+        "allenai/Olmo-3-7B-Think-SFT",
+        "trained_on",
+        "AceCoder V2"
+       ],
+       [
+        "AceCoder V2",
+        "filtered_by",
+        "Qwen/Qwen2.5-Coder-32B-Instruct"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "OTHER",
+       "CN"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "allenai/Olmo-3-7B-Think",
+       "allenai/Olmo-3-7B-Think-SFT",
+       "AceCoder V2",
+       "Qwen/Qwen2.5-Coder-7B-Instruct"
+      ],
+      "edges": [
+       [
+        "allenai/Olmo-3-7B-Think",
+        "filtered_by",
+        "allenai/Olmo-3-7B-Think-SFT"
+       ],
+       [
+        "allenai/Olmo-3-7B-Think-SFT",
+        "trained_on",
+        "AceCoder V2"
+       ],
+       [
+        "AceCoder V2",
+        "trained_from",
+        "Qwen/Qwen2.5-Coder-7B-Instruct"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "OTHER",
+       "CN"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "allenai/Olmo-3-7B-Think",
+       "allenai/Olmo-3-7B-Think-SFT",
+       "AceCoder V2",
+       "Qwen/Qwen2.5-Coder-32B-Instruct"
+      ],
+      "edges": [
+       [
+        "allenai/Olmo-3-7B-Think",
+        "filtered_by",
+        "allenai/Olmo-3-7B-Think-SFT"
+       ],
+       [
+        "allenai/Olmo-3-7B-Think-SFT",
+        "trained_on",
+        "AceCoder V2"
+       ],
+       [
+        "AceCoder V2",
+        "filtered_by",
+        "Qwen/Qwen2.5-Coder-32B-Instruct"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "OTHER",
+       "CN"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "allenai/Olmo-3-7B-Think",
+       "AceCoder V2",
+       "Qwen/Qwen2.5-Coder-7B-Instruct"
+      ],
+      "edges": [
+       [
+        "allenai/Olmo-3-7B-Think",
+        "trained_on",
+        "AceCoder V2"
+       ],
+       [
+        "AceCoder V2",
+        "trained_from",
+        "Qwen/Qwen2.5-Coder-7B-Instruct"
+       ]
+      ],
+      "regions": [
+       "US",
+       "OTHER",
+       "CN"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "allenai/Olmo-3-7B-Think",
+       "AceCoder V2",
+       "Qwen/Qwen2.5-Coder-32B-Instruct"
+      ],
+      "edges": [
+       [
+        "allenai/Olmo-3-7B-Think",
+        "trained_on",
+        "AceCoder V2"
+       ],
+       [
+        "AceCoder V2",
+        "filtered_by",
+        "Qwen/Qwen2.5-Coder-32B-Instruct"
+       ]
+      ],
+      "regions": [
+       "US",
+       "OTHER",
+       "CN"
+      ],
+      "crossings": 2
+     }
+    ]
+   },
+   "Olmo 3 Base (7B)": {
+    "ancestors": 130,
+    "max_depth": 3,
+    "edges": 144,
+    "ancestors_by_region": {
+     "US": 95,
+     "HF": 10,
+     "CN": 7,
+     "OTHER": 4,
+     "EU": 11,
+     "UNKNOWN": 2,
+     "UK": 1
+    },
+    "ancestors_by_region_kind": {
+     "US|dataset": 56,
+     "HF|dataset": 8,
+     "US|model": 34,
+     "CN|model": 6,
+     "OTHER|dataset": 4,
+     "HF|off_lattice": 1,
+     "HF|model": 1,
+     "EU|model": 11,
+     "UNKNOWN|dataset": 2,
+     "US|off_lattice": 5,
+     "UK|dataset": 1,
+     "CN|dataset": 1
+    },
+    "edges_by_role_region": {
+     "training_inputs|US": 65,
+     "training_inputs|HF": 9,
+     "upstream_data_ops|CN": 6,
+     "upstream_data_ops|US": 38,
+     "training_inputs|OTHER": 4,
+     "upstream_data_ops|HF": 2,
+     "upstream_data_ops|EU": 11,
+     "training_inputs|UNKNOWN": 3,
+     "training_inputs|UK": 1,
+     "weight_lineage|US": 3,
+     "training_inputs|CN": 2
+    },
+    "edges_by_relation_region": {
+     "trained_on|US": 65,
+     "trained_on|HF": 9,
+     "generated_by|CN": 4,
+     "generated_by|US": 18,
+     "filtered_by|US": 11,
+     "transformed_by|US": 7,
+     "trained_on|OTHER": 4,
+     "transformed_by|CN": 2,
+     "filtered_by|HF": 2,
+     "filtered_by|EU": 1,
+     "composed_from|US": 1,
+     "trained_on|UNKNOWN": 3,
+     "trained_on|UK": 1,
+     "trained_from|US": 3,
+     "transformed_by|EU": 10,
+     "decontaminated_against|US": 1,
+     "trained_on|CN": 2
+    },
+    "cross_border_edges": 26,
+    "cross_border_pairs": {
+     "US->CN|upstream_data_ops": 6,
+     "US->OTHER|training_inputs": 4,
+     "US->EU|upstream_data_ops": 11,
+     "US->UK|training_inputs": 1,
+     "OTHER->US|upstream_data_ops": 2,
+     "US->CN|training_inputs": 2
+    },
+    "training_only_ancestors": 130,
+    "training_only_by_region": {
+     "US": 95,
+     "HF": 10,
+     "CN": 7,
+     "OTHER": 4,
+     "EU": 11,
+     "UNKNOWN": 2,
+     "UK": 1
+    },
+    "training_only_edges": 144,
+    "first_cn_ancestor_hop": 1,
+    "first_cn_training_ancestor_hop": 1,
+    "paths": {
+     "paths": 166,
+     "paths_ge1_crossing": 36,
+     "paths_ge2_crossings": 2,
+     "paths_US_CN_US": 0,
+     "paths_CN_US_CN": 0,
+     "n_double_chains": 0
+    },
+    "chains": []
+   },
+   "Nemotron 3 Super": {
+    "ancestors": 381,
+    "max_depth": 4,
+    "edges": 698,
+    "ancestors_by_region": {
+     "US": 259,
+     "CN": 59,
+     "OTHER": 9,
+     "EU": 28,
+     "UNKNOWN": 13,
+     "UK": 3,
+     "HF": 10
+    },
+    "ancestors_by_region_kind": {
+     "US|model": 55,
+     "CN|dataset": 14,
+     "US|dataset": 159,
+     "OTHER|dataset": 9,
+     "CN|model": 45,
+     "EU|model": 19,
+     "US|off_lattice": 45,
+     "UNKNOWN|dataset": 12,
+     "EU|dataset": 9,
+     "UK|dataset": 3,
+     "HF|dataset": 8,
+     "UNKNOWN|off_lattice": 1,
+     "HF|off_lattice": 1,
+     "HF|model": 1
+    },
+    "edges_by_role_region": {
+     "weight_lineage|US": 13,
+     "training_inputs|CN": 33,
+     "training_inputs|US": 324,
+     "training_inputs|OTHER": 12,
+     "upstream_data_ops|CN": 139,
+     "upstream_data_ops|US": 91,
+     "training_inputs|EU": 13,
+     "upstream_data_ops|EU": 33,
+     "weight_lineage|CN": 7,
+     "training_inputs|UNKNOWN": 15,
+     "training_inputs|UK": 4,
+     "training_inputs|HF": 12,
+     "upstream_data_ops|HF": 2
+    },
+    "edges_by_relation_region": {
+     "quantized_from|US": 1,
+     "trained_from|US": 12,
+     "trained_on|CN": 33,
+     "trained_on|US": 324,
+     "trained_on|OTHER": 12,
+     "generated_by|CN": 111,
+     "generated_by|US": 60,
+     "trained_on|EU": 13,
+     "transformed_by|US": 13,
+     "transformed_by|CN": 11,
+     "generated_by|EU": 22,
+     "trained_from|CN": 7,
+     "trained_on|UNKNOWN": 15,
+     "filtered_by|CN": 17,
+     "filtered_by|US": 10,
+     "trained_on|UK": 4,
+     "trained_on|HF": 12,
+     "decontaminated_against|US": 2,
+     "filtered_by|HF": 2,
+     "composed_from|US": 5,
+     "composed_from|EU": 1,
+     "transformed_by|EU": 10,
+     "embedded_by|US": 1
+    },
+    "cross_border_edges": 239,
+    "cross_border_pairs": {
+     "US->CN|training_inputs": 33,
+     "US->OTHER|training_inputs": 12,
+     "US->CN|upstream_data_ops": 134,
+     "US->EU|training_inputs": 13,
+     "US->EU|upstream_data_ops": 32,
+     "US->CN|weight_lineage": 6,
+     "US->UK|training_inputs": 4,
+     "CN->EU|upstream_data_ops": 1,
+     "CN->US|upstream_data_ops": 3,
+     "OTHER->US|upstream_data_ops": 1
+    },
+    "training_only_ancestors": 381,
+    "training_only_by_region": {
+     "US": 259,
+     "CN": 59,
+     "OTHER": 9,
+     "EU": 28,
+     "UNKNOWN": 13,
+     "UK": 3,
+     "HF": 10
+    },
+    "training_only_edges": 698,
+    "first_cn_ancestor_hop": 1,
+    "first_cn_training_ancestor_hop": 1,
+    "paths": {
+     "paths": 3089,
+     "paths_ge1_crossing": 887,
+     "paths_ge2_crossings": 14,
+     "paths_US_CN_US": 9,
+     "paths_CN_US_CN": 0,
+     "n_double_chains": 12
+    },
+    "chains": [
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+       "GAIR/LIMO",
+       "AI-MO/NuminaMath-CoT"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+        "quantized_from",
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+        "trained_from",
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "AI-MO/NuminaMath-CoT"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "CN",
+       "EU"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+       "GAIR/LIMO",
+       "agentica-org/DeepScaleR-Preview-Dataset"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+        "quantized_from",
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+        "trained_from",
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "agentica-org/DeepScaleR-Preview-Dataset"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "CN",
+       "US"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+       "GAIR/LIMO",
+       "AIME"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+        "quantized_from",
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+        "trained_from",
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "AIME"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "CN",
+       "US"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+       "GAIR/LIMO",
+       "EleutherAI/hendrycks_math"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+        "quantized_from",
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+        "trained_from",
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "EleutherAI/hendrycks_math"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "US",
+       "CN",
+       "US"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+       "GAIR/LIMO",
+       "AI-MO/NuminaMath-CoT"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+        "trained_from",
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "AI-MO/NuminaMath-CoT"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "CN",
+       "EU"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+       "GAIR/LIMO",
+       "agentica-org/DeepScaleR-Preview-Dataset"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+        "trained_from",
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "agentica-org/DeepScaleR-Preview-Dataset"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "CN",
+       "US"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+       "GAIR/LIMO",
+       "AIME"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+        "trained_from",
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "AIME"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "CN",
+       "US"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+       "GAIR/LIMO",
+       "EleutherAI/hendrycks_math"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+        "trained_from",
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "EleutherAI/hendrycks_math"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "CN",
+       "US"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+       "GAIR/LIMO",
+       "AI-MO/NuminaMath-CoT"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+        "quantized_from",
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "AI-MO/NuminaMath-CoT"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "CN",
+       "EU"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+       "GAIR/LIMO",
+       "agentica-org/DeepScaleR-Preview-Dataset"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+        "quantized_from",
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "agentica-org/DeepScaleR-Preview-Dataset"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "CN",
+       "US"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+       "GAIR/LIMO",
+       "AIME"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+        "quantized_from",
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "AIME"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "CN",
+       "US"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+       "GAIR/LIMO",
+       "EleutherAI/hendrycks_math"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+        "quantized_from",
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "EleutherAI/hendrycks_math"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "CN",
+       "US"
+      ],
+      "crossings": 2
+     }
+    ]
+   },
+   "Nemotron 3 Nano Base": {
+    "ancestors": 206,
+    "max_depth": 6,
+    "edges": 263,
+    "ancestors_by_region": {
+     "US": 145,
+     "CN": 30,
+     "HF": 6,
+     "OTHER": 7,
+     "EU": 11,
+     "UNKNOWN": 6,
+     "UK": 1
+    },
+    "ancestors_by_region_kind": {
+     "US|dataset": 102,
+     "CN|dataset": 7,
+     "HF|dataset": 5,
+     "OTHER|dataset": 7,
+     "EU|dataset": 6,
+     "UNKNOWN|dataset": 6,
+     "UK|dataset": 1,
+     "US|off_lattice": 25,
+     "CN|model": 23,
+     "EU|model": 5,
+     "US|model": 18,
+     "HF|off_lattice": 1
+    },
+    "edges_by_role_region": {
+     "training_inputs|US": 137,
+     "training_inputs|CN": 11,
+     "training_inputs|HF": 7,
+     "training_inputs|OTHER": 8,
+     "training_inputs|EU": 8,
+     "training_inputs|UNKNOWN": 6,
+     "training_inputs|UK": 1,
+     "upstream_data_ops|CN": 41,
+     "upstream_data_ops|EU": 11,
+     "upstream_data_ops|US": 26,
+     "weight_lineage|US": 5,
+     "weight_lineage|CN": 2
+    },
+    "edges_by_relation_region": {
+     "trained_on|US": 137,
+     "trained_on|CN": 11,
+     "trained_on|HF": 7,
+     "trained_on|OTHER": 8,
+     "trained_on|EU": 8,
+     "trained_on|UNKNOWN": 6,
+     "trained_on|UK": 1,
+     "generated_by|CN": 30,
+     "generated_by|EU": 10,
+     "generated_by|US": 16,
+     "transformed_by|CN": 4,
+     "filtered_by|CN": 7,
+     "transformed_by|US": 4,
+     "trained_from|US": 5,
+     "filtered_by|US": 3,
+     "trained_from|CN": 2,
+     "composed_from|EU": 1,
+     "composed_from|US": 3
+    },
+    "cross_border_edges": 80,
+    "cross_border_pairs": {
+     "US->CN|training_inputs": 11,
+     "US->OTHER|training_inputs": 8,
+     "US->EU|training_inputs": 8,
+     "US->UK|training_inputs": 1,
+     "US->CN|upstream_data_ops": 36,
+     "US->EU|upstream_data_ops": 10,
+     "OTHER->US|upstream_data_ops": 1,
+     "CN->EU|upstream_data_ops": 1,
+     "CN->US|upstream_data_ops": 3,
+     "US->CN|weight_lineage": 1
+    },
+    "training_only_ancestors": 206,
+    "training_only_by_region": {
+     "US": 145,
+     "CN": 30,
+     "HF": 6,
+     "OTHER": 7,
+     "EU": 11,
+     "UNKNOWN": 6,
+     "UK": 1
+    },
+    "training_only_edges": 263,
+    "first_cn_ancestor_hop": 1,
+    "first_cn_training_ancestor_hop": 1,
+    "paths": {
+     "paths": 324,
+     "paths_ge1_crossing": 102,
+     "paths_ge2_crossings": 5,
+     "paths_US_CN_US": 3,
+     "paths_CN_US_CN": 0,
+     "n_double_chains": 4
+    },
+    "chains": [
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+       "GAIR/LIMO",
+       "AI-MO/NuminaMath-CoT"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "AI-MO/NuminaMath-CoT"
+       ]
+      ],
+      "regions": [
+       "US",
+       "CN",
+       "EU"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+       "GAIR/LIMO",
+       "agentica-org/DeepScaleR-Preview-Dataset"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "agentica-org/DeepScaleR-Preview-Dataset"
+       ]
+      ],
+      "regions": [
+       "US",
+       "CN",
+       "US"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+       "GAIR/LIMO",
+       "AIME"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "AIME"
+       ]
+      ],
+      "regions": [
+       "US",
+       "CN",
+       "US"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+       "GAIR/LIMO",
+       "EleutherAI/hendrycks_math"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "EleutherAI/hendrycks_math"
+       ]
+      ],
+      "regions": [
+       "US",
+       "CN",
+       "US"
+      ],
+      "crossings": 2
+     }
+    ]
+   },
+   "DR Tulu": {
+    "ancestors": 16,
+    "max_depth": 2,
+    "edges": 18,
+    "ancestors_by_region": {
+     "US": 12,
+     "CN": 4
+    },
+    "ancestors_by_region_kind": {
+     "US|model": 4,
+     "US|dataset": 8,
+     "CN|dataset": 3,
+     "CN|model": 1
+    },
+    "edges_by_role_region": {
+     "weight_lineage|US": 1,
+     "training_inputs|US": 8,
+     "upstream_data_ops|US": 5,
+     "training_inputs|CN": 3,
+     "weight_lineage|CN": 1
+    },
+    "edges_by_relation_region": {
+     "trained_from|US": 1,
+     "trained_on|US": 8,
+     "filtered_by|US": 3,
+     "generated_by|US": 2,
+     "trained_on|CN": 3,
+     "trained_from|CN": 1
+    },
+    "cross_border_edges": 4,
+    "cross_border_pairs": {
+     "US->CN|training_inputs": 3,
+     "US->CN|weight_lineage": 1
+    },
+    "training_only_ancestors": 16,
+    "training_only_by_region": {
+     "US": 12,
+     "CN": 4
+    },
+    "training_only_edges": 18,
+    "first_cn_ancestor_hop": 2,
+    "first_cn_training_ancestor_hop": 2,
+    "paths": {
+     "paths": 18,
+     "paths_ge1_crossing": 4,
+     "paths_ge2_crossings": 0,
+     "paths_US_CN_US": 0,
+     "paths_CN_US_CN": 0,
+     "n_double_chains": 0
+    },
+    "chains": []
+   },
+   "SmolLM3 Base": {
+    "ancestors": 70,
+    "max_depth": 2,
+    "edges": 72,
+    "ancestors_by_region": {
+     "HF": 44,
+     "US": 16,
+     "OTHER": 8,
+     "CN": 2
+    },
+    "ancestors_by_region_kind": {
+     "HF|dataset": 14,
+     "US|dataset": 10,
+     "OTHER|off_lattice": 6,
+     "HF|off_lattice": 28,
+     "CN|dataset": 1,
+     "OTHER|dataset": 2,
+     "US|off_lattice": 1,
+     "HF|model": 2,
+     "US|model": 5,
+     "CN|model": 1
+    },
+    "edges_by_role_region": {
+     "training_inputs|HF": 42,
+     "training_inputs|US": 13,
+     "training_inputs|OTHER": 8,
+     "training_inputs|CN": 1,
+     "upstream_data_ops|HF": 2,
+     "upstream_data_ops|US": 3,
+     "upstream_data_ops|CN": 1,
+     "weight_lineage|US": 2
+    },
+    "edges_by_relation_region": {
+     "trained_on|HF": 42,
+     "trained_on|US": 13,
+     "trained_on|OTHER": 8,
+     "trained_on|CN": 1,
+     "filtered_by|HF": 2,
+     "transformed_by|US": 1,
+     "generated_by|CN": 1,
+     "trained_from|US": 2,
+     "generated_by|US": 2
+    },
+    "cross_border_edges": 2,
+    "cross_border_pairs": {
+     "OTHER->US|upstream_data_ops": 1,
+     "US->CN|upstream_data_ops": 1
+    },
+    "training_only_ancestors": 70,
+    "training_only_by_region": {
+     "HF": 44,
+     "US": 16,
+     "OTHER": 8,
+     "CN": 2
+    },
+    "training_only_edges": 72,
+    "first_cn_ancestor_hop": 1,
+    "first_cn_training_ancestor_hop": 1,
+    "paths": {
+     "paths": 72,
+     "paths_ge1_crossing": 2,
+     "paths_ge2_crossings": 0,
+     "paths_US_CN_US": 0,
+     "paths_CN_US_CN": 0,
+     "n_double_chains": 0
+    },
+    "chains": []
+   }
+  },
+  "families": {
+   "Olmo 3": {
+    "edges": 719,
+    "ancestors": 347,
+    "ancestors_by_region": {
+     "US": 265,
+     "EU": 18,
+     "CN": 36,
+     "UNKNOWN": 4,
+     "OTHER": 12,
+     "HF": 10,
+     "UK": 2
+    },
+    "edges_by_role_region": {
+     "weight_lineage|US": 33,
+     "training_inputs|US": 370,
+     "training_inputs|CN": 29,
+     "upstream_data_ops|CN": 50,
+     "training_inputs|OTHER": 29,
+     "upstream_data_ops|US": 145,
+     "training_inputs|EU": 9,
+     "upstream_data_ops|EU": 23,
+     "weight_lineage|CN": 1,
+     "training_inputs|UNKNOWN": 7,
+     "training_inputs|HF": 18,
+     "upstream_data_ops|HF": 3,
+     "training_inputs|UK": 2
+    }
+   },
+   "Nemotron 3": {
+    "edges": 877,
+    "ancestors": 413,
+    "ancestors_by_region": {
+     "US": 287,
+     "UNKNOWN": 14,
+     "CN": 59,
+     "EU": 29,
+     "HF": 11,
+     "OTHER": 10,
+     "UK": 3
+    },
+    "edges_by_role_region": {
+     "weight_lineage|US": 13,
+     "training_inputs|CN": 43,
+     "training_inputs|US": 435,
+     "training_inputs|OTHER": 19,
+     "upstream_data_ops|CN": 161,
+     "upstream_data_ops|US": 97,
+     "training_inputs|EU": 20,
+     "upstream_data_ops|EU": 36,
+     "weight_lineage|CN": 8,
+     "training_inputs|UNKNOWN": 19,
+     "training_inputs|UK": 5,
+     "training_inputs|HF": 19,
+     "upstream_data_ops|HF": 2
+    }
+   },
+   "DR Tulu": {
+    "edges": 18,
+    "ancestors": 16,
+    "ancestors_by_region": {
+     "US": 12,
+     "CN": 4
+    },
+    "edges_by_role_region": {
+     "weight_lineage|US": 1,
+     "training_inputs|US": 8,
+     "upstream_data_ops|US": 5,
+     "training_inputs|CN": 3,
+     "weight_lineage|CN": 1
+    }
+   },
+   "SmolLM3": {
+    "edges": 72,
+    "ancestors": 70,
+    "ancestors_by_region": {
+     "HF": 44,
+     "OTHER": 8,
+     "US": 16,
+     "CN": 2
+    },
+    "edges_by_role_region": {
+     "training_inputs|HF": 42,
+     "training_inputs|US": 13,
+     "training_inputs|OTHER": 8,
+     "training_inputs|CN": 1,
+     "upstream_data_ops|HF": 2,
+     "upstream_data_ops|US": 3,
+     "upstream_data_ops|CN": 1,
+     "weight_lineage|US": 2
+    }
+   }
+  },
+  "union": {
+   "edges": 1596,
+   "nodes": 718,
+   "edges_by_role": {
+    "weight_lineage": 52,
+    "training_inputs": 1064,
+    "upstream_data_ops": 480
+   },
+   "edges_by_role_region": {
+    "weight_lineage|US": 42,
+    "training_inputs|US": 796,
+    "training_inputs|CN": 75,
+    "upstream_data_ops|CN": 207,
+    "training_inputs|OTHER": 55,
+    "upstream_data_ops|US": 222,
+    "training_inputs|EU": 28,
+    "upstream_data_ops|EU": 44,
+    "weight_lineage|CN": 10,
+    "training_inputs|UNKNOWN": 24,
+    "training_inputs|HF": 79,
+    "upstream_data_ops|HF": 7,
+    "training_inputs|UK": 7
+   },
+   "nodes_by_region": {
+    "US": 496,
+    "UNKNOWN": 16,
+    "HF": 58,
+    "OTHER": 25,
+    "CN": 84,
+    "EU": 34,
+    "UK": 5
+   },
+   "cross_border_edges_by_pair_role": {
+    "US->CN|training_inputs": 74,
+    "US->CN|upstream_data_ops": 201,
+    "US->OTHER|training_inputs": 46,
+    "US->EU|training_inputs": 28,
+    "US->EU|upstream_data_ops": 43,
+    "OTHER->CN|weight_lineage": 1,
+    "OTHER->US|upstream_data_ops": 4,
+    "OTHER->CN|upstream_data_ops": 1,
+    "US->UK|training_inputs": 7,
+    "US->CN|weight_lineage": 8,
+    "CN->EU|upstream_data_ops": 1,
+    "CN->US|upstream_data_ops": 3
+   }
+  }
+ },
+ "training_roles_verified": {
+  "label": "training-role edges, verified subset",
+  "targets": {
+   "Olmo 3 32B Base (verified run)": {
+    "ancestors": 95,
+    "max_depth": 3,
+    "edges": 101,
+    "ancestors_by_region": {
+     "US": 71,
+     "CN": 8,
+     "HF": 9,
+     "OTHER": 4,
+     "EU": 1,
+     "UNKNOWN": 2
+    },
+    "ancestors_by_region_kind": {
+     "US|dataset": 51,
+     "US|model": 20,
+     "CN|model": 7,
+     "HF|dataset": 8,
+     "CN|dataset": 1,
+     "OTHER|dataset": 4,
+     "HF|model": 1,
+     "EU|model": 1,
+     "UNKNOWN|dataset": 2
+    },
+    "edges_by_role_region": {
+     "training_inputs|US": 51,
+     "upstream_data_ops|CN": 7,
+     "upstream_data_ops|US": 22,
+     "training_inputs|HF": 8,
+     "training_inputs|CN": 3,
+     "training_inputs|OTHER": 4,
+     "upstream_data_ops|HF": 1,
+     "upstream_data_ops|EU": 1,
+     "training_inputs|UNKNOWN": 2,
+     "weight_lineage|US": 2
+    },
+    "edges_by_relation_region": {
+     "trained_on|US": 51,
+     "generated_by|CN": 5,
+     "generated_by|US": 5,
+     "filtered_by|US": 10,
+     "trained_on|HF": 8,
+     "transformed_by|US": 6,
+     "trained_on|CN": 3,
+     "trained_on|OTHER": 4,
+     "transformed_by|CN": 2,
+     "filtered_by|HF": 1,
+     "filtered_by|EU": 1,
+     "composed_from|US": 1,
+     "trained_on|UNKNOWN": 2,
+     "trained_from|US": 2
+    },
+    "cross_border_edges": 15,
+    "cross_border_pairs": {
+     "US->CN|upstream_data_ops": 7,
+     "US->CN|training_inputs": 3,
+     "US->OTHER|training_inputs": 4,
+     "US->EU|upstream_data_ops": 1
+    },
+    "training_only_ancestors": 95,
+    "training_only_by_region": {
+     "US": 71,
+     "CN": 8,
+     "HF": 9,
+     "OTHER": 4,
+     "EU": 1,
+     "UNKNOWN": 2
+    },
+    "training_only_edges": 101,
+    "first_cn_ancestor_hop": 1,
+    "first_cn_training_ancestor_hop": 1,
+    "paths": {
+     "paths": 101,
+     "paths_ge1_crossing": 15,
+     "paths_ge2_crossings": 0,
+     "paths_US_CN_US": 0,
+     "paths_CN_US_CN": 0,
+     "n_double_chains": 0
+    },
+    "chains": []
+   },
+   "Nemotron 3 Super": {
+    "ancestors": 268,
+    "max_depth": 4,
+    "edges": 331,
+    "ancestors_by_region": {
+     "US": 165,
+     "CN": 55,
+     "OTHER": 9,
+     "EU": 17,
+     "UNKNOWN": 11,
+     "UK": 3,
+     "HF": 8
+    },
+    "ancestors_by_region_kind": {
+     "US|model": 37,
+     "CN|dataset": 12,
+     "US|dataset": 128,
+     "OTHER|dataset": 9,
+     "CN|model": 43,
+     "EU|model": 9,
+     "UNKNOWN|dataset": 11,
+     "EU|dataset": 8,
+     "UK|dataset": 3,
+     "HF|dataset": 7,
+     "HF|model": 1
+    },
+    "edges_by_role_region": {
+     "weight_lineage|US": 8,
+     "training_inputs|CN": 25,
+     "training_inputs|US": 172,
+     "training_inputs|OTHER": 11,
+     "upstream_data_ops|CN": 39,
+     "upstream_data_ops|US": 30,
+     "training_inputs|EU": 12,
+     "upstream_data_ops|EU": 8,
+     "weight_lineage|CN": 1,
+     "training_inputs|UNKNOWN": 12,
+     "training_inputs|UK": 4,
+     "training_inputs|HF": 8,
+     "upstream_data_ops|HF": 1
+    },
+    "edges_by_relation_region": {
+     "quantized_from|US": 1,
+     "trained_from|US": 7,
+     "trained_on|CN": 25,
+     "trained_on|US": 172,
+     "trained_on|OTHER": 11,
+     "generated_by|CN": 33,
+     "generated_by|US": 18,
+     "trained_on|EU": 12,
+     "transformed_by|US": 3,
+     "transformed_by|CN": 3,
+     "generated_by|EU": 8,
+     "trained_from|CN": 1,
+     "trained_on|UNKNOWN": 12,
+     "filtered_by|CN": 3,
+     "filtered_by|US": 6,
+     "trained_on|UK": 4,
+     "trained_on|HF": 8,
+     "decontaminated_against|US": 1,
+     "filtered_by|HF": 1,
+     "composed_from|US": 1,
+     "embedded_by|US": 1
+    },
+    "cross_border_edges": 100,
+    "cross_border_pairs": {
+     "US->CN|training_inputs": 25,
+     "US->OTHER|training_inputs": 11,
+     "US->CN|upstream_data_ops": 38,
+     "US->EU|training_inputs": 12,
+     "US->EU|upstream_data_ops": 8,
+     "US->CN|weight_lineage": 1,
+     "US->UK|training_inputs": 4,
+     "CN->US|upstream_data_ops": 1
+    },
+    "training_only_ancestors": 268,
+    "training_only_by_region": {
+     "US": 165,
+     "CN": 55,
+     "OTHER": 9,
+     "EU": 17,
+     "UNKNOWN": 11,
+     "UK": 3,
+     "HF": 8
+    },
+    "training_only_edges": 331,
+    "first_cn_ancestor_hop": 1,
+    "first_cn_training_ancestor_hop": 1,
+    "paths": {
+     "paths": 333,
+     "paths_ge1_crossing": 103,
+     "paths_ge2_crossings": 2,
+     "paths_US_CN_US": 2,
+     "paths_CN_US_CN": 0,
+     "n_double_chains": 2
+    },
+    "chains": [
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+       "GAIR/LIMO",
+       "agentica-org/DeepScaleR-Preview-Dataset"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+        "trained_from",
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "agentica-org/DeepScaleR-Preview-Dataset"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "CN",
+       "US"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+       "GAIR/LIMO",
+       "agentica-org/DeepScaleR-Preview-Dataset"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+        "quantized_from",
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "agentica-org/DeepScaleR-Preview-Dataset"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "CN",
+       "US"
+      ],
+      "crossings": 2
+     }
+    ]
+   },
+   "DR Tulu": {
+    "ancestors": 14,
+    "max_depth": 2,
+    "edges": 15,
+    "ancestors_by_region": {
+     "US": 12,
+     "CN": 2
+    },
+    "ancestors_by_region_kind": {
+     "US|model": 4,
+     "US|dataset": 8,
+     "CN|dataset": 2
+    },
+    "edges_by_role_region": {
+     "weight_lineage|US": 1,
+     "training_inputs|US": 7,
+     "upstream_data_ops|US": 5,
+     "training_inputs|CN": 2
+    },
+    "edges_by_relation_region": {
+     "trained_from|US": 1,
+     "trained_on|US": 7,
+     "filtered_by|US": 3,
+     "generated_by|US": 2,
+     "trained_on|CN": 2
+    },
+    "cross_border_edges": 2,
+    "cross_border_pairs": {
+     "US->CN|training_inputs": 2
+    },
+    "training_only_ancestors": 14,
+    "training_only_by_region": {
+     "US": 12,
+     "CN": 2
+    },
+    "training_only_edges": 15,
+    "first_cn_ancestor_hop": 2,
+    "first_cn_training_ancestor_hop": 2,
+    "paths": {
+     "paths": 15,
+     "paths_ge1_crossing": 2,
+     "paths_ge2_crossings": 0,
+     "paths_US_CN_US": 0,
+     "paths_CN_US_CN": 0,
+     "n_double_chains": 0
+    },
+    "chains": []
+   },
+   "SmolLM3 (3B)": {
+    "ancestors": 52,
+    "max_depth": 3,
+    "edges": 54,
+    "ancestors_by_region": {
+     "HF": 19,
+     "US": 24,
+     "CN": 4,
+     "OTHER": 3,
+     "UNTAGGED": 2
+    },
+    "ancestors_by_region_kind": {
+     "HF|model": 3,
+     "US|dataset": 20,
+     "CN|model": 3,
+     "HF|dataset": 16,
+     "OTHER|dataset": 3,
+     "UNTAGGED|dataset": 2,
+     "CN|dataset": 1,
+     "US|model": 4
+    },
+    "edges_by_role_region": {
+     "weight_lineage|HF": 1,
+     "training_inputs|US": 17,
+     "training_inputs|CN": 4,
+     "training_inputs|HF": 16,
+     "training_inputs|OTHER": 3,
+     "training_inputs|UNTAGGED": 2,
+     "upstream_data_ops|HF": 2,
+     "upstream_data_ops|US": 7,
+     "weight_lineage|US": 2
+    },
+    "edges_by_relation_region": {
+     "trained_from|HF": 1,
+     "trained_on|US": 17,
+     "trained_on|CN": 4,
+     "trained_on|HF": 16,
+     "trained_on|OTHER": 3,
+     "trained_on|UNTAGGED": 2,
+     "filtered_by|HF": 2,
+     "composed_from|US": 5,
+     "trained_from|US": 2,
+     "generated_by|US": 2
+    },
+    "cross_border_edges": 0,
+    "cross_border_pairs": {},
+    "training_only_ancestors": 52,
+    "training_only_by_region": {
+     "HF": 19,
+     "US": 24,
+     "CN": 4,
+     "OTHER": 3,
+     "UNTAGGED": 2
+    },
+    "training_only_edges": 54,
+    "first_cn_ancestor_hop": 1,
+    "first_cn_training_ancestor_hop": 1,
+    "paths": {
+     "paths": 54,
+     "paths_ge1_crossing": 0,
+     "paths_ge2_crossings": 0,
+     "paths_US_CN_US": 0,
+     "paths_CN_US_CN": 0,
+     "n_double_chains": 0
+    },
+    "chains": []
+   }
+  },
+  "families": {
+   "Olmo 3": {
+    "edges": 101,
+    "ancestors": 95,
+    "ancestors_by_region": {
+     "US": 71,
+     "OTHER": 4,
+     "CN": 8,
+     "HF": 9,
+     "EU": 1,
+     "UNKNOWN": 2
+    },
+    "edges_by_role_region": {
+     "training_inputs|US": 51,
+     "upstream_data_ops|CN": 7,
+     "upstream_data_ops|US": 22,
+     "training_inputs|HF": 8,
+     "training_inputs|CN": 3,
+     "training_inputs|OTHER": 4,
+     "upstream_data_ops|HF": 1,
+     "upstream_data_ops|EU": 1,
+     "training_inputs|UNKNOWN": 2,
+     "weight_lineage|US": 2
+    }
+   },
+   "Nemotron 3": {
+    "edges": 331,
+    "ancestors": 268,
+    "ancestors_by_region": {
+     "UNKNOWN": 11,
+     "CN": 55,
+     "OTHER": 9,
+     "US": 165,
+     "EU": 17,
+     "HF": 8,
+     "UK": 3
+    },
+    "edges_by_role_region": {
+     "weight_lineage|US": 8,
+     "training_inputs|CN": 25,
+     "training_inputs|US": 172,
+     "training_inputs|OTHER": 11,
+     "upstream_data_ops|CN": 39,
+     "upstream_data_ops|US": 30,
+     "training_inputs|EU": 12,
+     "upstream_data_ops|EU": 8,
+     "weight_lineage|CN": 1,
+     "training_inputs|UNKNOWN": 12,
+     "training_inputs|UK": 4,
+     "training_inputs|HF": 8,
+     "upstream_data_ops|HF": 1
+    }
+   },
+   "DR Tulu": {
+    "edges": 15,
+    "ancestors": 14,
+    "ancestors_by_region": {
+     "US": 12,
+     "CN": 2
+    },
+    "edges_by_role_region": {
+     "weight_lineage|US": 1,
+     "training_inputs|US": 7,
+     "upstream_data_ops|US": 5,
+     "training_inputs|CN": 2
+    }
+   },
+   "SmolLM3": {
+    "edges": 54,
+    "ancestors": 52,
+    "ancestors_by_region": {
+     "US": 24,
+     "HF": 19,
+     "OTHER": 3,
+     "CN": 4,
+     "UNTAGGED": 2
+    },
+    "edges_by_role_region": {
+     "weight_lineage|HF": 1,
+     "training_inputs|US": 17,
+     "training_inputs|CN": 4,
+     "training_inputs|HF": 16,
+     "training_inputs|OTHER": 3,
+     "training_inputs|UNTAGGED": 2,
+     "upstream_data_ops|HF": 2,
+     "upstream_data_ops|US": 7,
+     "weight_lineage|US": 2
+    }
+   }
+  },
+  "union": {
+   "edges": 495,
+   "nodes": 390,
+   "edges_by_role": {
+    "training_inputs": 361,
+    "upstream_data_ops": 121,
+    "weight_lineage": 13
+   },
+   "edges_by_role_region": {
+    "training_inputs|US": 245,
+    "upstream_data_ops|CN": 46,
+    "upstream_data_ops|US": 62,
+    "training_inputs|HF": 32,
+    "training_inputs|CN": 34,
+    "training_inputs|OTHER": 18,
+    "upstream_data_ops|HF": 4,
+    "upstream_data_ops|EU": 9,
+    "training_inputs|UNKNOWN": 14,
+    "weight_lineage|US": 11,
+    "training_inputs|EU": 12,
+    "weight_lineage|CN": 1,
+    "training_inputs|UK": 4,
+    "weight_lineage|HF": 1,
+    "training_inputs|UNTAGGED": 2
+   },
+   "nodes_by_region": {
+    "UNKNOWN": 13,
+    "CN": 62,
+    "OTHER": 12,
+    "US": 250,
+    "HF": 30,
+    "EU": 18,
+    "UK": 3,
+    "UNTAGGED": 2
+   },
+   "cross_border_edges_by_pair_role": {
+    "US->CN|upstream_data_ops": 45,
+    "US->CN|training_inputs": 30,
+    "US->OTHER|training_inputs": 15,
+    "US->EU|upstream_data_ops": 9,
+    "US->EU|training_inputs": 12,
+    "US->CN|weight_lineage": 1,
+    "US->UK|training_inputs": 4,
+    "CN->US|upstream_data_ops": 1
+   }
+  }
+ },
+ "verified_only": {
+  "label": "edges marked verified in per-target files (4 seeds with verdict coverage)",
+  "targets": {
+   "Olmo 3 32B Base (verified run)": {
+    "ancestors": 203,
+    "max_depth": 4,
+    "edges": 235,
+    "ancestors_by_region": {
+     "US": 146,
+     "CN": 13,
+     "OTHER": 10,
+     "HF": 22,
+     "UNKNOWN": 8,
+     "EU": 3,
+     "UK": 1
+    },
+    "ancestors_by_region_kind": {
+     "US|dataset": 118,
+     "US|model": 28,
+     "CN|model": 8,
+     "OTHER|dataset": 10,
+     "CN|dataset": 5,
+     "HF|dataset": 18,
+     "UNKNOWN|dataset": 8,
+     "EU|dataset": 2,
+     "HF|model": 4,
+     "EU|model": 1,
+     "UK|dataset": 1
+    },
+    "edges_by_role_region": {
+     "training_inputs|US": 73,
+     "upstream_data_ops|CN": 7,
+     "evaluation_ablation|US": 52,
+     "upstream_data_ops|US": 28,
+     "methods_audit|OTHER": 3,
+     "methods_audit|CN": 3,
+     "training_inputs|HF": 15,
+     "evaluation_ablation|CN": 4,
+     "evaluation_ablation|OTHER": 8,
+     "evaluation_ablation|UNKNOWN": 6,
+     "training_inputs|CN": 3,
+     "training_inputs|OTHER": 4,
+     "methods_audit|US": 10,
+     "methods_audit|UNKNOWN": 2,
+     "evaluation_ablation|EU": 2,
+     "upstream_data_ops|HF": 2,
+     "upstream_data_ops|EU": 1,
+     "training_inputs|UNKNOWN": 2,
+     "evaluation_ablation|HF": 3,
+     "methods_audit|HF": 1,
+     "weight_lineage|US": 3,
+     "training_inputs|UK": 1,
+     "training_inputs|EU": 1,
+     "weight_lineage|HF": 1
+    },
+    "edges_by_relation_region": {
+     "trained_on|US": 73,
+     "generated_by|CN": 5,
+     "used_for_evaluation|US": 30,
+     "generated_by|US": 6,
+     "filtered_by|US": 10,
+     "inspired_by|OTHER": 3,
+     "inspired_by|CN": 3,
+     "trained_on|HF": 15,
+     "transformed_by|US": 6,
+     "used_for_evaluation|CN": 2,
+     "used_for_evaluation|OTHER": 5,
+     "used_for_evaluation|UNKNOWN": 3,
+     "trained_on|CN": 3,
+     "trained_on|OTHER": 4,
+     "inspired_by|US": 10,
+     "used_for_ablation|US": 22,
+     "inspired_by|UNKNOWN": 2,
+     "transformed_by|CN": 2,
+     "used_for_evaluation|EU": 1,
+     "filtered_by|HF": 1,
+     "filtered_by|EU": 1,
+     "composed_from|US": 6,
+     "trained_on|UNKNOWN": 2,
+     "used_for_ablation|CN": 2,
+     "used_for_ablation|HF": 1,
+     "used_for_ablation|OTHER": 3,
+     "inspired_by|HF": 1,
+     "used_for_ablation|UNKNOWN": 3,
+     "used_for_ablation|EU": 1,
+     "trained_from|US": 3,
+     "transformed_by|HF": 1,
+     "trained_on|UK": 1,
+     "trained_on|EU": 1,
+     "trained_from|HF": 1,
+     "used_for_evaluation|HF": 2
+    },
+    "cross_border_edges": 37,
+    "cross_border_pairs": {
+     "US->CN|upstream_data_ops": 7,
+     "US->OTHER|methods_audit": 3,
+     "US->CN|methods_audit": 3,
+     "US->CN|evaluation_ablation": 4,
+     "US->OTHER|evaluation_ablation": 8,
+     "US->CN|training_inputs": 3,
+     "US->OTHER|training_inputs": 4,
+     "US->EU|evaluation_ablation": 2,
+     "US->EU|upstream_data_ops": 1,
+     "US->UK|training_inputs": 1,
+     "US->EU|training_inputs": 1
+    },
+    "training_only_ancestors": 95,
+    "training_only_by_region": {
+     "US": 71,
+     "CN": 8,
+     "HF": 9,
+     "OTHER": 4,
+     "EU": 1,
+     "UNKNOWN": 2
+    },
+    "training_only_edges": 101,
+    "first_cn_ancestor_hop": 1,
+    "first_cn_training_ancestor_hop": 1,
+    "paths": {
+     "paths": 235,
+     "paths_ge1_crossing": 37,
+     "paths_ge2_crossings": 0,
+     "paths_US_CN_US": 0,
+     "paths_CN_US_CN": 0,
+     "n_double_chains": 0
+    },
+    "chains": []
+   },
+   "Nemotron 3 Super": {
+    "ancestors": 384,
+    "max_depth": 5,
+    "edges": 475,
+    "ancestors_by_region": {
+     "US": 240,
+     "CN": 71,
+     "OTHER": 16,
+     "EU": 21,
+     "UNKNOWN": 17,
+     "UK": 6,
+     "HF": 13
+    },
+    "ancestors_by_region_kind": {
+     "US|model": 54,
+     "CN|dataset": 20,
+     "US|dataset": 186,
+     "OTHER|dataset": 16,
+     "CN|model": 51,
+     "EU|model": 9,
+     "UNKNOWN|dataset": 17,
+     "EU|dataset": 12,
+     "UK|dataset": 6,
+     "HF|dataset": 12,
+     "HF|model": 1
+    },
+    "edges_by_role_region": {
+     "weight_lineage|US": 9,
+     "training_inputs|CN": 25,
+     "training_inputs|US": 184,
+     "training_inputs|OTHER": 12,
+     "upstream_data_ops|CN": 39,
+     "upstream_data_ops|US": 30,
+     "training_inputs|EU": 15,
+     "upstream_data_ops|EU": 8,
+     "weight_lineage|CN": 1,
+     "evaluation_ablation|OTHER": 6,
+     "evaluation_ablation|US": 67,
+     "evaluation_ablation|CN": 9,
+     "methods_audit|US": 21,
+     "training_inputs|UNKNOWN": 13,
+     "evaluation_ablation|UK": 3,
+     "training_inputs|UK": 4,
+     "training_inputs|HF": 9,
+     "methods_audit|UNKNOWN": 1,
+     "evaluation_ablation|HF": 3,
+     "evaluation_ablation|EU": 2,
+     "evaluation_ablation|UNKNOWN": 5,
+     "methods_audit|CN": 7,
+     "upstream_data_ops|HF": 1,
+     "methods_audit|HF": 1
+    },
+    "edges_by_relation_region": {
+     "quantized_from|US": 1,
+     "trained_from|US": 8,
+     "trained_on|CN": 25,
+     "trained_on|US": 184,
+     "trained_on|OTHER": 12,
+     "generated_by|CN": 33,
+     "generated_by|US": 18,
+     "trained_on|EU": 15,
+     "transformed_by|US": 3,
+     "transformed_by|CN": 3,
+     "generated_by|EU": 8,
+     "trained_from|CN": 1,
+     "used_for_ablation|OTHER": 1,
+     "used_for_ablation|US": 19,
+     "used_for_ablation|CN": 5,
+     "inspired_by|US": 21,
+     "trained_on|UNKNOWN": 13,
+     "filtered_by|CN": 3,
+     "filtered_by|US": 6,
+     "used_for_evaluation|UK": 2,
+     "used_for_evaluation|OTHER": 5,
+     "used_for_evaluation|US": 48,
+     "trained_on|UK": 4,
+     "trained_on|HF": 9,
+     "inspired_by|UNKNOWN": 1,
+     "decontaminated_against|US": 1,
+     "used_for_evaluation|HF": 2,
+     "used_for_evaluation|CN": 4,
+     "used_for_evaluation|EU": 2,
+     "used_for_evaluation|UNKNOWN": 4,
+     "used_for_ablation|HF": 1,
+     "inspired_by|CN": 7,
+     "filtered_by|HF": 1,
+     "composed_from|US": 1,
+     "used_for_ablation|UNKNOWN": 1,
+     "used_for_ablation|UK": 1,
+     "inspired_by|HF": 1,
+     "embedded_by|US": 1
+    },
+    "cross_border_edges": 127,
+    "cross_border_pairs": {
+     "US->CN|training_inputs": 25,
+     "US->OTHER|training_inputs": 12,
+     "US->CN|upstream_data_ops": 38,
+     "US->EU|training_inputs": 15,
+     "US->EU|upstream_data_ops": 8,
+     "US->CN|weight_lineage": 1,
+     "US->OTHER|evaluation_ablation": 6,
+     "US->CN|evaluation_ablation": 5,
+     "US->UK|evaluation_ablation": 3,
+     "US->UK|training_inputs": 4,
+     "US->EU|evaluation_ablation": 2,
+     "US->CN|methods_audit": 6,
+     "CN->US|upstream_data_ops": 1,
+     "CN->US|evaluation_ablation": 1
+    },
+    "training_only_ancestors": 268,
+    "training_only_by_region": {
+     "US": 165,
+     "CN": 55,
+     "OTHER": 9,
+     "EU": 17,
+     "UNKNOWN": 11,
+     "UK": 3,
+     "HF": 8
+    },
+    "training_only_edges": 331,
+    "first_cn_ancestor_hop": 1,
+    "first_cn_training_ancestor_hop": 1,
+    "paths": {
+     "paths": 536,
+     "paths_ge1_crossing": 162,
+     "paths_ge2_crossings": 4,
+     "paths_US_CN_US": 4,
+     "paths_CN_US_CN": 0,
+     "n_double_chains": 4
+    },
+    "chains": [
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+       "GAIR/LIMO",
+       "agentica-org/DeepScaleR-Preview-Dataset"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+        "trained_from",
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "agentica-org/DeepScaleR-Preview-Dataset"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "CN",
+       "US"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+       "GAIR/LIMO",
+       "open-thoughts/OpenThoughts-114k"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+        "trained_from",
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "used_for_ablation",
+        "open-thoughts/OpenThoughts-114k"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "CN",
+       "US"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+       "GAIR/LIMO",
+       "agentica-org/DeepScaleR-Preview-Dataset"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+        "quantized_from",
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "composed_from",
+        "agentica-org/DeepScaleR-Preview-Dataset"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "CN",
+       "US"
+      ],
+      "crossings": 2
+     },
+     {
+      "path": [
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+       "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+       "GAIR/LIMO",
+       "open-thoughts/OpenThoughts-114k"
+      ],
+      "edges": [
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+        "quantized_from",
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16"
+       ],
+       [
+        "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+        "trained_on",
+        "GAIR/LIMO"
+       ],
+       [
+        "GAIR/LIMO",
+        "used_for_ablation",
+        "open-thoughts/OpenThoughts-114k"
+       ]
+      ],
+      "regions": [
+       "US",
+       "US",
+       "CN",
+       "US"
+      ],
+      "crossings": 2
+     }
+    ]
+   },
+   "DR Tulu": {
+    "ancestors": 47,
+    "max_depth": 2,
+    "edges": 54,
+    "ancestors_by_region": {
+     "US": 36,
+     "OTHER": 1,
+     "CN": 9,
+     "UNKNOWN": 1
+    },
+    "ancestors_by_region_kind": {
+     "US|model": 7,
+     "US|dataset": 29,
+     "OTHER|dataset": 1,
+     "CN|dataset": 5,
+     "CN|model": 4,
+     "UNKNOWN|dataset": 1
+    },
+    "edges_by_role_region": {
+     "weight_lineage|US": 1,
+     "training_inputs|US": 7,
+     "upstream_data_ops|US": 5,
+     "evaluation_ablation|US": 26,
+     "evaluation_ablation|OTHER": 1,
+     "evaluation_ablation|CN": 4,
+     "methods_audit|US": 3,
+     "training_inputs|CN": 2,
+     "upstream_data_ops|CN": 3,
+     "methods_audit|CN": 1,
+     "evaluation_ablation|UNKNOWN": 1
+    },
+    "edges_by_relation_region": {
+     "trained_from|US": 1,
+     "trained_on|US": 7,
+     "filtered_by|US": 3,
+     "generated_by|US": 2,
+     "used_for_evaluation|US": 25,
+     "used_for_evaluation|OTHER": 1,
+     "used_for_evaluation|CN": 2,
+     "used_for_ablation|US": 1,
+     "used_for_ablation|CN": 2,
+     "inspired_by|US": 3,
+     "trained_on|CN": 2,
+     "generated_by|CN": 1,
+     "transformed_by|CN": 1,
+     "filtered_by|CN": 1,
+     "inspired_by|CN": 1,
+     "used_for_ablation|UNKNOWN": 1
+    },
+    "cross_border_edges": 7,
+    "cross_border_pairs": {
+     "US->OTHER|evaluation_ablation": 1,
+     "US->CN|evaluation_ablation": 3,
+     "US->CN|training_inputs": 2,
+     "CN->US|methods_audit": 1
+    },
+    "training_only_ancestors": 14,
+    "training_only_by_region": {
+     "US": 12,
+     "CN": 2
+    },
+    "training_only_edges": 15,
+    "first_cn_ancestor_hop": 1,
+    "first_cn_training_ancestor_hop": 2,
+    "paths": {
+     "paths": 61,
+     "paths_ge1_crossing": 15,
+     "paths_ge2_crossings": 1,
+     "paths_US_CN_US": 1,
+     "paths_CN_US_CN": 0,
+     "n_double_chains": 1
+    },
+    "chains": [
+     {
+      "path": [
+       "rl-research/DR-Tulu-8B",
+       "Alibaba-NLP/WebShaper",
+       "wikimedia/wikipedia"
+      ],
+      "edges": [
+       [
+        "rl-research/DR-Tulu-8B",
+        "used_for_evaluation",
+        "Alibaba-NLP/WebShaper"
+       ],
+       [
+        "Alibaba-NLP/WebShaper",
+        "inspired_by",
+        "wikimedia/wikipedia"
+       ]
+      ],
+      "regions": [
+       "US",
+       "CN",
+       "US"
+      ],
+      "crossings": 2
+     }
+    ]
+   },
+   "SmolLM3 (3B)": {
+    "ancestors": 68,
+    "max_depth": 3,
+    "edges": 71,
+    "ancestors_by_region": {
+     "OTHER": 4,
+     "UNTAGGED": 4,
+     "CN": 6,
+     "HF": 19,
+     "US": 32,
+     "EU": 3
+    },
+    "ancestors_by_region_kind": {
+     "OTHER|dataset": 4,
+     "UNTAGGED|dataset": 4,
+     "CN|model": 5,
+     "HF|model": 3,
+     "US|dataset": 26,
+     "HF|dataset": 16,
+     "US|model": 6,
+     "CN|dataset": 1,
+     "EU|dataset": 1,
+     "EU|model": 2
+    },
+    "edges_by_role_region": {
+     "evaluation_ablation|OTHER": 1,
+     "evaluation_ablation|UNTAGGED": 2,
+     "methods_audit|CN": 2,
+     "weight_lineage|HF": 1,
+     "training_inputs|US": 17,
+     "training_inputs|CN": 4,
+     "training_inputs|HF": 16,
+     "training_inputs|OTHER": 3,
+     "training_inputs|UNTAGGED": 2,
+     "methods_audit|US": 3,
+     "evaluation_ablation|US": 5,
+     "upstream_data_ops|HF": 2,
+     "evaluation_ablation|EU": 3,
+     "evaluation_ablation|HF": 1,
+     "upstream_data_ops|US": 7,
+     "weight_lineage|US": 2
+    },
+    "edges_by_relation_region": {
+     "used_for_evaluation|OTHER": 1,
+     "used_for_evaluation|UNTAGGED": 2,
+     "inspired_by|CN": 2,
+     "trained_from|HF": 1,
+     "trained_on|US": 17,
+     "trained_on|CN": 4,
+     "trained_on|HF": 16,
+     "trained_on|OTHER": 3,
+     "trained_on|UNTAGGED": 2,
+     "inspired_by|US": 3,
+     "used_for_evaluation|US": 5,
+     "filtered_by|HF": 2,
+     "used_for_evaluation|EU": 1,
+     "used_for_ablation|HF": 1,
+     "composed_from|US": 5,
+     "trained_from|US": 2,
+     "generated_by|US": 2,
+     "used_for_ablation|EU": 2
+    },
+    "cross_border_edges": 0,
+    "cross_border_pairs": {},
+    "training_only_ancestors": 52,
+    "training_only_by_region": {
+     "HF": 19,
+     "US": 24,
+     "CN": 4,
+     "OTHER": 3,
+     "UNTAGGED": 2
+    },
+    "training_only_edges": 54,
+    "first_cn_ancestor_hop": 1,
+    "first_cn_training_ancestor_hop": 1,
+    "paths": {
+     "paths": 71,
+     "paths_ge1_crossing": 0,
+     "paths_ge2_crossings": 0,
+     "paths_US_CN_US": 0,
+     "paths_CN_US_CN": 0,
+     "n_double_chains": 0
+    },
+    "chains": []
+   }
+  },
+  "families": {
+   "Olmo 3": {
+    "edges": 235,
+    "ancestors": 203,
+    "ancestors_by_region": {
+     "US": 146,
+     "HF": 22,
+     "EU": 3,
+     "CN": 13,
+     "OTHER": 10,
+     "UNKNOWN": 8,
+     "UK": 1
+    },
+    "edges_by_role_region": {
+     "training_inputs|US": 73,
+     "upstream_data_ops|CN": 7,
+     "evaluation_ablation|US": 52,
+     "upstream_data_ops|US": 28,
+     "methods_audit|OTHER": 3,
+     "methods_audit|CN": 3,
+     "training_inputs|HF": 15,
+     "evaluation_ablation|CN": 4,
+     "evaluation_ablation|OTHER": 8,
+     "evaluation_ablation|UNKNOWN": 6,
+     "training_inputs|CN": 3,
+     "training_inputs|OTHER": 4,
+     "methods_audit|US": 10,
+     "methods_audit|UNKNOWN": 2,
+     "evaluation_ablation|EU": 2,
+     "upstream_data_ops|HF": 2,
+     "upstream_data_ops|EU": 1,
+     "training_inputs|UNKNOWN": 2,
+     "evaluation_ablation|HF": 3,
+     "methods_audit|HF": 1,
+     "weight_lineage|US": 3,
+     "training_inputs|UK": 1,
+     "training_inputs|EU": 1,
+     "weight_lineage|HF": 1
+    }
+   },
+   "Nemotron 3": {
+    "edges": 475,
+    "ancestors": 384,
+    "ancestors_by_region": {
+     "UNKNOWN": 17,
+     "CN": 71,
+     "OTHER": 16,
+     "US": 240,
+     "EU": 21,
+     "HF": 13,
+     "UK": 6
+    },
+    "edges_by_role_region": {
+     "weight_lineage|US": 9,
+     "training_inputs|CN": 25,
+     "training_inputs|US": 184,
+     "training_inputs|OTHER": 12,
+     "upstream_data_ops|CN": 39,
+     "upstream_data_ops|US": 30,
+     "training_inputs|EU": 15,
+     "upstream_data_ops|EU": 8,
+     "weight_lineage|CN": 1,
+     "evaluation_ablation|OTHER": 6,
+     "evaluation_ablation|US": 67,
+     "evaluation_ablation|CN": 9,
+     "methods_audit|US": 21,
+     "training_inputs|UNKNOWN": 13,
+     "evaluation_ablation|UK": 3,
+     "training_inputs|UK": 4,
+     "training_inputs|HF": 9,
+     "methods_audit|UNKNOWN": 1,
+     "evaluation_ablation|HF": 3,
+     "evaluation_ablation|EU": 2,
+     "evaluation_ablation|UNKNOWN": 5,
+     "methods_audit|CN": 7,
+     "upstream_data_ops|HF": 1,
+     "methods_audit|HF": 1
+    }
+   },
+   "DR Tulu": {
+    "edges": 54,
+    "ancestors": 47,
+    "ancestors_by_region": {
+     "US": 36,
+     "CN": 9,
+     "UNKNOWN": 1,
+     "OTHER": 1
+    },
+    "edges_by_role_region": {
+     "weight_lineage|US": 1,
+     "training_inputs|US": 7,
+     "upstream_data_ops|US": 5,
+     "evaluation_ablation|US": 26,
+     "evaluation_ablation|OTHER": 1,
+     "evaluation_ablation|CN": 4,
+     "methods_audit|US": 3,
+     "training_inputs|CN": 2,
+     "upstream_data_ops|CN": 3,
+     "methods_audit|CN": 1,
+     "evaluation_ablation|UNKNOWN": 1
+    }
+   },
+   "SmolLM3": {
+    "edges": 71,
+    "ancestors": 68,
+    "ancestors_by_region": {
+     "US": 32,
+     "HF": 19,
+     "OTHER": 4,
+     "EU": 3,
+     "CN": 6,
+     "UNTAGGED": 4
+    },
+    "edges_by_role_region": {
+     "evaluation_ablation|OTHER": 1,
+     "evaluation_ablation|UNTAGGED": 2,
+     "methods_audit|CN": 2,
+     "weight_lineage|HF": 1,
+     "training_inputs|US": 17,
+     "training_inputs|CN": 4,
+     "training_inputs|HF": 16,
+     "training_inputs|OTHER": 3,
+     "training_inputs|UNTAGGED": 2,
+     "methods_audit|US": 3,
+     "evaluation_ablation|US": 5,
+     "upstream_data_ops|HF": 2,
+     "evaluation_ablation|EU": 3,
+     "evaluation_ablation|HF": 1,
+     "upstream_data_ops|US": 7,
+     "weight_lineage|US": 2
+    }
+   }
+  },
+  "union": {
+   "edges": 824,
+   "nodes": 620,
+   "edges_by_role": {
+    "training_inputs": 410,
+    "upstream_data_ops": 126,
+    "evaluation_ablation": 214,
+    "methods_audit": 58,
+    "weight_lineage": 16
+   },
+   "edges_by_role_region": {
+    "training_inputs|US": 279,
+    "upstream_data_ops|CN": 49,
+    "evaluation_ablation|US": 150,
+    "upstream_data_ops|US": 63,
+    "methods_audit|OTHER": 3,
+    "methods_audit|CN": 13,
+    "training_inputs|HF": 40,
+    "evaluation_ablation|CN": 17,
+    "evaluation_ablation|OTHER": 16,
+    "evaluation_ablation|UNKNOWN": 12,
+    "training_inputs|CN": 34,
+    "training_inputs|OTHER": 19,
+    "methods_audit|US": 37,
+    "methods_audit|UNKNOWN": 3,
+    "evaluation_ablation|EU": 7,
+    "upstream_data_ops|HF": 5,
+    "upstream_data_ops|EU": 9,
+    "training_inputs|UNKNOWN": 15,
+    "evaluation_ablation|HF": 7,
+    "methods_audit|HF": 2,
+    "weight_lineage|US": 13,
+    "training_inputs|UK": 5,
+    "training_inputs|EU": 16,
+    "weight_lineage|HF": 2,
+    "weight_lineage|CN": 1,
+    "evaluation_ablation|UK": 3,
+    "evaluation_ablation|UNTAGGED": 2,
+    "training_inputs|UNTAGGED": 2
+   },
+   "nodes_by_region": {
+    "UNKNOWN": 25,
+    "US": 403,
+    "EU": 25,
+    "OTHER": 25,
+    "CN": 85,
+    "HF": 46,
+    "UNTAGGED": 4,
+    "UK": 7
+   },
+   "cross_border_edges_by_pair_role": {
+    "US->CN|upstream_data_ops": 45,
+    "US->OTHER|methods_audit": 3,
+    "US->CN|methods_audit": 9,
+    "US->CN|evaluation_ablation": 12,
+    "US->OTHER|evaluation_ablation": 15,
+    "US->CN|training_inputs": 30,
+    "US->OTHER|training_inputs": 16,
+    "US->EU|evaluation_ablation": 4,
+    "US->EU|upstream_data_ops": 9,
+    "US->UK|training_inputs": 5,
+    "US->EU|training_inputs": 16,
+    "US->CN|weight_lineage": 1,
+    "US->UK|evaluation_ablation": 3,
+    "CN->US|upstream_data_ops": 1,
+    "CN->US|evaluation_ablation": 1,
+    "CN->US|methods_audit": 1
+   }
+  }
+ }
+}

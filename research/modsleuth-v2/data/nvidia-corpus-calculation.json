@@ -1,0 +1,15 @@
+{
+  "unit": "billion tokens as displayed in the attribution table",
+  "groups": {
+    "DeepSeek": "166.2",
+    "Mistral": "17.6311",
+    "NVIDIA": "4.1",
+    "No LLM": "0.0039",
+    "Qwen": "148.6189"
+  },
+  "total": "336.5539",
+  "deepseek_plus_qwen": "314.8189",
+  "share_percent": "93.54189626089610014918858465",
+  "scope": "One named corpus, Nemotron-Pretraining-SFT-v1. Not all NVIDIA training data.",
+  "duplicate_policy": "Repeated labels kept as separate table rows; R1-Distill-Qwen attributed once to DeepSeek."
+}
